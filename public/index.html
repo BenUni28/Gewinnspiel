@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gewinnspiele</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="bg-grid"></div>
+  <div class="bg-glow"></div>
+
+  <header>
+    <div class="container header-inner">
+      <a class="logo" href="/">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>
+        Gewinnspiele
+      </a>
+      <div class="header-right">
+        <span id="live-dot"></span>
+        <span id="live-label">Live</span>
+        <span id="active-count-badge"></span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+
+      <div class="hero">
+        <h1>Aktuelle<br /><span class="gradient-text">Gewinnspiele</span></h1>
+        <p>Nur laufende Verlosungen · Kostenlos teilnehmen</p>
+      </div>
+
+      <div class="controls">
+        <div class="search-wrap">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          <input type="search" id="search" placeholder="Suchen…" autocomplete="off" spellcheck="false" />
+        </div>
+        <div class="cats" id="cats">
+          <button class="cat active" data-cat="alle">Alle</button>
+          <button class="cat" data-cat="reise">Reise</button>
+          <button class="cat" data-cat="bargeld">Bargeld</button>
+          <button class="cat" data-cat="auto">Auto</button>
+          <button class="cat" data-cat="handy">Technik</button>
+          <button class="cat" data-cat="gutschein">Gutschein</button>
+          <button class="cat" data-cat="sport">Sport</button>
+          <button class="cat" data-cat="mode">Mode</button>
+          <button class="cat" data-cat="haus">Haus</button>
+          <button class="cat" data-cat="beauty">Beauty</button>
+          <button class="cat" data-cat="lebensmittel">Lebensmittel</button>
+        </div>
+      </div>
+
+      <div class="grid" id="grid"></div>
+      <p class="empty hidden" id="empty">Keine Gewinnspiele gefunden.</p>
+
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

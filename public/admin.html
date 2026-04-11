@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin – Gewinnspiele</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #07070f; --surface: rgba(255,255,255,0.04); --surface-h: rgba(255,255,255,0.07);
+      --border: rgba(255,255,255,0.08); --border-h: rgba(99,179,237,0.4);
+      --text: #f0f0f5; --muted: rgba(240,240,245,0.42);
+      --accent: #63b3ed; --accent2: #b794f4; --red: #fc8181; --green: #68d391;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg); color: var(--text); min-height: 100vh;
+      background-image:
+        linear-gradient(rgba(99,179,237,0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(99,179,237,0.03) 1px, transparent 1px);
+      background-size: 48px 48px;
+    }
+    header {
+      background: rgba(7,7,15,0.85); backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border); padding: 14px 24px;
+      display: flex; align-items: center; justify-content: space-between;
+      position: sticky; top: 0; z-index: 10;
+    }
+    .logo { font-size: 1rem; font-weight: 700; display: flex; align-items: center; gap: 8px; }
+    .logo span { color: var(--accent); }
+    .back { font-size: 0.82rem; color: var(--muted); text-decoration: none; }
+    .back:hover { color: var(--accent); }
+    main { max-width: 860px; margin: 0 auto; padding: 36px 20px 80px; }
+    h1 { font-size: 1.5rem; font-weight: 800; margin-bottom: 32px; letter-spacing: -0.02em; }
+    h2 { font-size: 0.85rem; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase;
+         color: var(--accent); margin-bottom: 16px; }
+
+    .card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 14px; padding: 24px; margin-bottom: 20px;
+    }
+
+    /* Key input */
+    .key-row { display: flex; gap: 10px; }
+    .key-row input { flex: 1; }
+    .key-status { font-size: 0.78rem; margin-top: 6px; color: var(--muted); }
+
+    /* Form grid */
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    label { display: block; font-size: 0.78rem; color: var(--muted);
+            margin-bottom: 5px; margin-top: 14px; }
+    label:first-child { margin-top: 0; }
+    input, select, textarea {
+      width: 100%; padding: 9px 12px;
+      background: var(--surface-h); border: 1px solid var(--border);
+      border-radius: 8px; color: var(--text);
+      font-size: 0.88rem; font-family: inherit; outline: none;
+      transition: border-color 0.15s;
+    }
+    input:focus, select:focus, textarea:focus { border-color: var(--border-h); }
+    textarea { resize: vertical; min-height: 76px; }
+    select option { background: #1a1a2e; }
+
+    /* Buttons */
+    .btn {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 9px 20px; border-radius: 8px; border: 1px solid;
+      font-size: 0.86rem; font-weight: 600; font-family: inherit;
+      cursor: pointer; transition: all 0.15s; margin-top: 18px;
+    }
+    .btn-primary {
+      background: rgba(99,179,237,0.12); color: var(--accent);
+      border-color: rgba(99,179,237,0.35);
+    }
+    .btn-primary:hover { background: rgba(99,179,237,0.22); border-color: rgba(99,179,237,0.6); }
+    .btn-danger {
+      background: rgba(252,129,129,0.1); color: var(--red);
+      border-color: rgba(252,129,129,0.3);
+    }
+    .btn-danger:hover { background: rgba(252,129,129,0.2); }
+
+    .msg { margin-top: 10px; font-size: 0.82rem; min-height: 18px; }
+    .ok  { color: var(--green); }
+    .err { color: var(--red); }
+
+    /* Contest table */
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.83rem; }
+    th { text-align: left; padding: 8px 10px; color: var(--muted);
+         font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em;
+         border-bottom: 1px solid var(--border); }
+    td { padding: 10px 10px; border-bottom: 1px solid rgba(255,255,255,0.04); vertical-align: middle; }
+    tr:hover td { background: var(--surface-h); }
+    .badge { font-size: 0.68rem; padding: 2px 7px; border-radius: 20px; font-weight: 600; }
+    .badge-real { background: rgba(104,211,145,0.15); color: var(--green); border: 1px solid rgba(104,211,145,0.3); }
+    .badge-demo { background: var(--surface); color: var(--muted); border: 1px solid var(--border); }
+    .badge-off  { background: rgba(252,129,129,0.1); color: var(--red); border: 1px solid rgba(252,129,129,0.25); }
+    .deact-btn {
+      background: none; border: 1px solid rgba(252,129,129,0.3); color: var(--red);
+      border-radius: 6px; padding: 3px 10px; font-size: 0.75rem; cursor: pointer;
+      font-family: inherit; transition: all 0.15s;
+    }
+    .deact-btn:hover { background: rgba(252,129,129,0.1); }
+    .load-row { text-align: center; color: var(--muted); padding: 24px; }
+
+    @media (max-width: 600px) { .grid-2 { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo"><span>⚙</span> Admin Panel</div>
+  <a class="back" href="/">← Zur Website</a>
+</header>
+
+<main>
+  <h1>Gewinnspiele verwalten</h1>
+
+  <!-- API Key -->
+  <div class="card">
+    <h2>API-Schlüssel</h2>
+    <div class="key-row">
+      <input type="password" id="apiKey" placeholder="ADMIN_KEY eingeben…" />
+    </div>
+    <p class="key-status" id="key-status">Schlüssel nicht gesetzt.</p>
+  </div>
+
+  <!-- Add contest -->
+  <div class="card">
+    <h2>Neues Gewinnspiel</h2>
+    <label>Titel *</label>
+    <input id="f-title" type="text" placeholder="z.B. iPhone 17 Pro gewinnen" />
+
+    <div class="grid-2">
+      <div>
+        <label>Kategorie *</label>
+        <select id="f-cat">
+          <option value="reise">Reise</option>
+          <option value="bargeld">Bargeld</option>
+          <option value="auto">Auto</option>
+          <option value="handy">Technik</option>
+          <option value="gutschein">Gutschein</option>
+          <option value="sport">Sport</option>
+          <option value="mode">Mode</option>
+          <option value="haus">Haus</option>
+          <option value="beauty">Beauty</option>
+          <option value="lebensmittel">Lebensmittel</option>
+        </select>
+      </div>
+      <div>
+        <label>Emoji-Icon</label>
+        <input id="f-icon" type="text" value="🎁" />
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div>
+        <label>Sponsor *</label>
+        <input id="f-sponsor" type="text" placeholder="z.B. MediaMarkt" />
+      </div>
+      <div>
+        <label>Teilnahmeschluss *</label>
+        <input id="f-deadline" type="date" />
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div>
+        <label>Gewinnwert in € (leer = kostenfrei)</label>
+        <input id="f-value" type="number" min="0" step="0.01" placeholder="z.B. 999" />
+      </div>
+      <div>
+        <label>Typ</label>
+        <select id="f-real">
+          <option value="0">Demo</option>
+          <option value="1">Echt (ECHT-Badge)</option>
+        </select>
+      </div>
+    </div>
+
+    <label>Beschreibung</label>
+    <textarea id="f-desc" placeholder="Kurze Beschreibung des Gewinnspiels…"></textarea>
+
+    <label>Teilnahme-URL</label>
+    <input id="f-url" type="url" placeholder="https://…" />
+
+    <button class="btn btn-primary" onclick="addContest()">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+      Hinzufügen
+    </button>
+    <div class="msg" id="add-msg"></div>
+  </div>
+
+  <!-- Contest list -->
+  <div class="card">
+    <h2>Alle Gewinnspiele</h2>
+    <button class="btn btn-primary" style="margin-top:0;margin-bottom:16px" onclick="loadContests()">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-.49-4.6"/></svg>
+      Liste laden
+    </button>
+    <div class="table-wrap">
+      <table id="contest-table">
+        <thead>
+          <tr>
+            <th>ID</th><th>Titel</th><th>Kat.</th><th>Deadline</th><th>Typ</th><th>Status</th><th></th>
+          </tr>
+        </thead>
+        <tbody id="table-body">
+          <tr><td class="load-row" colspan="7">Auf „Liste laden" klicken.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</main>
+
+<script>
+  const $ = id => document.getElementById(id);
+
+  function getKey() {
+    const k = $('apiKey').value.trim();
+    if (k) {
+      $('key-status').textContent = '✓ Schlüssel gesetzt';
+      $('key-status').style.color = 'var(--green)';
+    }
+    return k;
+  }
+
+  $('apiKey').addEventListener('input', () => {
+    const k = $('apiKey').value.trim();
+    $('key-status').textContent = k ? '✓ Schlüssel gesetzt' : 'Schlüssel nicht gesetzt.';
+    $('key-status').style.color = k ? 'var(--green)' : 'var(--muted)';
+  });
+
+  function showMsg(id, text, ok) {
+    const el = $(id);
+    el.textContent = text;
+    el.className = 'msg ' + (ok ? 'ok' : 'err');
+  }
+
+  async function addContest() {
+    const v = $('f-value').value;
+    const body = {
+      title:       $('f-title').value,
+      cat:         $('f-cat').value,
+      icon:        $('f-icon').value || '🎁',
+      sponsor:     $('f-sponsor').value,
+      deadline:    $('f-deadline').value,
+      value_eur:   v !== '' ? parseFloat(v) : null,
+      is_real:     parseInt($('f-real').value),
+      description: $('f-desc').value,
+      url:         $('f-url').value || '#',
+    };
+    try {
+      const res = await fetch('/api/admin/contests', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + getKey() },
+        body: JSON.stringify(body),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || res.status);
+      showMsg('add-msg', '✓ Erstellt mit ID ' + data.id, true);
+    } catch (e) {
+      showMsg('add-msg', '✗ ' + e.message, false);
+    }
+  }
+
+  async function loadContests() {
+    const tbody = $('table-body');
+    tbody.innerHTML = '<tr><td class="load-row" colspan="7">Laden…</td></tr>';
+    try {
+      const res = await fetch('/api/admin/contests', {
+        headers: { 'Authorization': 'Bearer ' + getKey() },
+      });
+      const list = await res.json();
+      if (!res.ok) throw new Error(list.error || res.status);
+
+      tbody.innerHTML = list.map(c => `
+        <tr>
+          <td style="color:var(--muted)">#${c.id}</td>
+          <td style="max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${c.icon} ${c.title}</td>
+          <td style="color:var(--muted)">${c.cat}</td>
+          <td style="color:var(--muted)">${c.deadline}</td>
+          <td><span class="badge ${c.is_real ? 'badge-real' : 'badge-demo'}">${c.is_real ? 'Echt' : 'Demo'}</span></td>
+          <td><span class="badge ${c.active ? '' : 'badge-off'}">${c.active ? 'Aktiv' : 'Inaktiv'}</span></td>
+          <td>${c.active ? `<button class="deact-btn" onclick="deactivate(${c.id}, this)">Deakt.</button>` : '–'}</td>
+        </tr>
+      `).join('');
+    } catch (e) {
+      tbody.innerHTML = `<tr><td class="load-row err" colspan="7">✗ ${e.message}</td></tr>`;
+    }
+  }
+
+  async function deactivate(id, btn) {
+    btn.disabled = true; btn.textContent = '…';
+    try {
+      const res = await fetch('/api/admin/contests/' + id, {
+        method: 'DELETE',
+        headers: { 'Authorization': 'Bearer ' + getKey() },
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error);
+      loadContests();
+    } catch (e) {
+      btn.disabled = false; btn.textContent = 'Deakt.';
+      alert('Fehler: ' + e.message);
+    }
+  }
+</script>
+</body>
+</html>
