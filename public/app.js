@@ -17,6 +17,35 @@ function daysLabel(days) {
   return 'bis ' + fmtDate(new Date(today.getTime() + days * 86400000).toISOString().split('T')[0]);
 }
 
+// ── Favorites card ─────────────────────────────────────────────────────────
+function makeFavCard(c) {
+  const days   = daysLeft(c.deadline);
+  const urgent = days <= 7;
+  const clock  = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>`;
+  const hasUrl = c.url && c.url !== '#';
+
+  const el = document.createElement('div');
+  el.className = 'fav-card';
+  el.innerHTML = `
+    <span class="fav-badge">★ Favorit</span>
+    <div class="fav-top">
+      <div class="fav-emoji">${c.icon}</div>
+      <div class="fav-head">
+        <div class="fav-cat">${CATS[c.cat] || c.cat}</div>
+        <div class="fav-title">${c.title}</div>
+      </div>
+    </div>
+    <div class="fav-row">
+      <span class="fav-value">${fmtVal(c.value_eur)}</span>
+      <span class="fav-days${urgent ? ' urgent' : ''}">${clock}${daysLabel(days)}</span>
+    </div>
+    ${hasUrl
+      ? `<a class="btn-fav" href="${c.url}" target="_blank" rel="noopener noreferrer">Jetzt teilnehmen →</a>`
+      : `<button class="btn-fav">Jetzt teilnehmen →</button>`}
+  `;
+  return el;
+}
+
 // ── State ──────────────────────────────────────────────────────────────────
 let activeCat = 'alle', searchQ = '', totalActive = 0;
 
@@ -74,6 +103,32 @@ function makeCard(c) {
   return el;
 }
 
+// ── Render Favorites ───────────────────────────────────────────────────────
+async function renderFavorites() {
+  const grid    = document.getElementById('favorites-grid');
+  const section = document.getElementById('favorites-section');
+  if (!grid) return;
+
+  // Fetch all real contests (no filter) for favorites
+  const res = await fetch('/api/contests');
+  if (!res.ok) return;
+  const all = await res.json();
+
+  // Favoriten: echt + direkte URL + sortiert nach Deadline
+  const favs = all
+    .filter(c => c.is_real && c.url && c.url !== '#')
+    .sort((a, b) => new Date(a.deadline) - new Date(b.deadline))
+    .slice(0, 4);
+
+  if (favs.length === 0) {
+    section.classList.add('hidden');
+    return;
+  }
+
+  grid.innerHTML = '';
+  favs.forEach(c => grid.appendChild(makeFavCard(c)));
+}
+
 // ── Render ─────────────────────────────────────────────────────────────────
 async function render() {
   const grid  = document.getElementById('grid');
@@ -120,4 +175,5 @@ document.getElementById('search').addEventListener('input', e => {
   timer = setTimeout(() => { searchQ = e.target.value.trim(); render(); }, 180);
 });
 
+renderFavorites();
 render();
