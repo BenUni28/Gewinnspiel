@@ -1,1 +1,112 @@
-[]
+[
+  {
+    "title": "Einfach-Sparsam April-Gewinnspiel: 3x Rossmann-Gutschein à 100 €",
+    "cat": "gutschein",
+    "value_eur": 300,
+    "icon": "🎫",
+    "deadline": "2026-04-30",
+    "sponsor": "Einfach-Sparsam.de",
+    "description": "Gewinne einen von 3 Rossmann-Gutscheinen im Wert von je 100 €. Täglich teilnehmen erlaubt!",
+    "url": "https://www.einfach-sparsam.de/gewinnspiele/es/rossmann-gutscheine-gewinnspiel-april-2026",
+    "is_real": 1
+  },
+  {
+    "title": "ADAC Gewinnspiel: 20 Reisegutscheine im Wert von je 500 €",
+    "cat": "reise",
+    "value_eur": 500,
+    "icon": "✈️",
+    "deadline": "2026-12-14",
+    "sponsor": "ADAC",
+    "description": "Jetzt beim ADAC-Gewinnspiel mitmachen und einen von 20 Reisegutscheinen im Wert von je 500 € gewinnen.",
+    "url": "https://www.gewinnspielwelt.de/gewinnspiel/adac-gewinnspiel/",
+    "is_real": 1
+  },
+  {
+    "title": "Motorola x MediaMarkt/Saturn: FIFA WM 2026 Reise nach New York",
+    "cat": "reise",
+    "value_eur": 3000,
+    "icon": "✈️",
+    "deadline": "2026-04-30",
+    "sponsor": "Motorola",
+    "description": "Gewinne eine Reise für 2 nach New York/New Jersey zum Spiel Deutschland vs. Ecuador bei der FIFA WM 2026.",
+    "url": "https://www.motorola.com/de/de/contest/mediamarkt-saturn-gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "Lidl Frühlings-Gewinnspiel 2026",
+    "cat": "gutschein",
+    "value_eur": 1000,
+    "icon": "🎫",
+    "deadline": "2026-05-24",
+    "sponsor": "Lidl",
+    "description": "Beim Lidl Frühlings-Gewinnspiel von April bis Mai 2026 tolle Preise gewinnen. Kostenlose Teilnahme online.",
+    "url": "https://www.lidl.de/c/lidl-gewinnspiele/s10019702",
+    "is_real": 1
+  },
+  {
+    "title": "Aktion Mensch Lotterie: Apple iPad + AirPods gewinnen",
+    "cat": "handy",
+    "value_eur": 500,
+    "icon": "📱",
+    "deadline": "2026-04-19",
+    "sponsor": "Aktion Mensch e.V.",
+    "description": "Bis 19.04. ein Glücks-Los kaufen und ein Gratis-Los erhalten. Apple iPad inkl. AirPods (~500 €) zu gewinnen.",
+    "url": "https://www.aktion-mensch.de/lotterie/",
+    "is_real": 1
+  },
+  {
+    "title": "Japan-Reise gewinnen: Zwei Wochen Tokio & Kyoto für 2 Personen",
+    "cat": "reise",
+    "value_eur": 10000,
+    "icon": "✈️",
+    "deadline": "2026-04-30",
+    "sponsor": "Gewinnspielwelt",
+    "description": "Traumreise nach Japan für 2 Personen im Wert von 10.000 € gewinnen. Kostenlose Online-Teilnahme.",
+    "url": "https://www.gewinnspielwelt.de/gewinnspiel/gewinne-eine-japan-reise/",
+    "is_real": 1
+  },
+  {
+    "title": "REWE Reisen Gewinnspiel: Traumurlaub gewinnen",
+    "cat": "reise",
+    "value_eur": 2000,
+    "icon": "✈️",
+    "deadline": "2026-06-30",
+    "sponsor": "REWE Reisen",
+    "description": "Jetzt beim REWE Reisen Gewinnspiel mitmachen und eine Traumreise gewinnen. Kostenlose Teilnahme.",
+    "url": "https://www.rewe-reisen.de/gewinnspiel.html",
+    "is_real": 1
+  },
+  {
+    "title": "Penny Reisen Gewinnspiel: Urlaub gewinnen",
+    "cat": "reise",
+    "value_eur": 2000,
+    "icon": "✈️",
+    "deadline": "2026-05-31",
+    "sponsor": "Penny Reisen",
+    "description": "Beim Penny Reisen Gewinnspiel eine Urlaubsreise gewinnen. Einfach online teilnehmen und mit Glück verreisen.",
+    "url": "https://www.penny-reisen.de/gewinnspiel.html",
+    "is_real": 1
+  },
+  {
+    "title": "Lufthansa City Center: Kreuzfahrt gewinnen – Schiff des Jahres 2026",
+    "cat": "reise",
+    "value_eur": 3000,
+    "icon": "✈️",
+    "deadline": "2026-08-31",
+    "sponsor": "Lufthansa City Center",
+    "description": "Abstimmen für das Schiff des Jahres 2026 und eine Kreuzfahrt auf einem der Top-3-Schiffe gewinnen.",
+    "url": "https://lufthansa-city-center.com/de/urlaub/reisearten/schiff-des-jahres/",
+    "is_real": 1
+  },
+  {
+    "title": "TUI myJackpot-Reise: Traumurlaub weltweit gewinnen",
+    "cat": "reise",
+    "value_eur": 5000,
+    "icon": "✈️",
+    "deadline": "2026-06-30",
+    "sponsor": "TUI",
+    "description": "Mit der myTUI Jackpot-Reise einen Traumurlaub weltweit gewinnen. Kostenlose Teilnahme für alle.",
+    "url": "https://www.tui.com/jackpotreise/",
+    "is_real": 1
+  }
+]
