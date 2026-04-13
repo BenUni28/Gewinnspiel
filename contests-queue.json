@@ -99,14 +99,80 @@
     "is_real": 1
   },
   {
-    "title": "TUI myJackpot-Reise: Traumurlaub weltweit gewinnen",
+    "title": "Nintendo Switch 2 Gewinnspiel April 2026",
+    "cat": "handy",
+    "value_eur": 450,
+    "icon": "🎮",
+    "deadline": "2026-04-30",
+    "sponsor": "Einfach-Sparsam.de",
+    "description": "Täglich beim April-Gewinnspiel mitmachen und eine Nintendo Switch 2 Konsole im Wert von ca. 450 € gewinnen.",
+    "url": "https://www.einfach-sparsam.de/gewinnspiele/es/nintendo-switch-2-gewinnspiel-april-2026",
+    "is_real": 1
+  },
+  {
+    "title": "AIDA Monatsgewinnspiel: Kreuzfahrtgutschein 3.500 € gewinnen",
     "cat": "reise",
-    "value_eur": 5000,
-    "icon": "✈️",
-    "deadline": "2026-06-30",
-    "sponsor": "TUI",
-    "description": "Mit der myTUI Jackpot-Reise einen Traumurlaub weltweit gewinnen. Kostenlose Teilnahme für alle.",
-    "url": "https://www.tui.com/jackpotreise/",
+    "value_eur": 3500,
+    "icon": "🚢",
+    "deadline": "2026-04-30",
+    "sponsor": "AIDA Cruises",
+    "description": "Jetzt beim AIDA Monatsgewinnspiel mitmachen und einen Reisegutschein nach Nordeuropa im Wert von 3.500 € gewinnen.",
+    "url": "https://aida.de/buchung/aktionen/gewinnspiele/monatsgewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "1.000 € Bargeld gewinnen – Einfach-Sparsam April-Gewinnspiel",
+    "cat": "bargeld",
+    "value_eur": 1000,
+    "icon": "💰",
+    "deadline": "2026-04-30",
+    "sponsor": "Einfach-Sparsam.de",
+    "description": "Täglich mitmachen und 1.000 € Bargeld gewinnen. Auslosung am 4. Mai 2026. Bis zu 30-fache Gewinnchance.",
+    "url": "https://www.einfach-sparsam.de/gewinnspiele/es/1000-euro-bargeld-gewinnspiel-april-2026",
+    "is_real": 1
+  },
+  {
+    "title": "Riese & Müller E-Bike Gewinnspiel: 2 × 4.000 € E-Bike",
+    "cat": "sport",
+    "value_eur": 4000,
+    "icon": "🚴",
+    "deadline": "2026-04-30",
+    "sponsor": "Riese & Müller / Gewinnspielwelt",
+    "description": "Gewinne eines von 2 Premium-E-Bikes von Riese & Müller im Wert von je 4.000 €. Kostenlose Teilnahme.",
+    "url": "https://www.gewinnspielwelt.de/gewinnspiel/gewinnspiel-um-ein-von-2-e-bike-von-riese-mueller-im-wert-von-je-4-000-euro/",
+    "is_real": 1
+  },
+  {
+    "title": "engbers Gewinnspiel: 4 × E-Bike Coboc Iseo (je 3.999 €)",
+    "cat": "sport",
+    "value_eur": 3999,
+    "icon": "🚴",
+    "deadline": "2026-05-16",
+    "sponsor": "engbers / Coboc",
+    "description": "Mitmachen und eines von 4 E-Bikes Coboc Iseo im Wert von je 3.999 € gewinnen. Teilnahmeschluss 16. Mai.",
+    "url": "https://www.engbers.com/landingpage/gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "dm-drogerie markt: 100 × Beauty-Goodie-Bag gewinnen",
+    "cat": "beauty",
+    "value_eur": 50,
+    "icon": "💄",
+    "deadline": "2026-04-27",
+    "sponsor": "dm-drogerie markt",
+    "description": "100 Beauty-Goodie-Bags voller Lieblingsprodukte gewinnen. Kostenlose Teilnahme bis 27. April 2026.",
+    "url": "https://www.einfach-sparsam.de/gewinnspiele/dm-drogerie-markt-1-von-100-goodie-bags-voller-beauty-lieblinge",
+    "is_real": 1
+  },
+  {
+    "title": "winario: Täglich Bargeld gewinnen – bis 10.000 € Tagesgewinne",
+    "cat": "bargeld",
+    "value_eur": 10000,
+    "icon": "💰",
+    "deadline": "2026-04-30",
+    "sponsor": "winario (RTL/VOX)",
+    "description": "Kostenlos bei RTL/VOX-Gewinnspielen mitmachen und täglich Bargeld bis 10.000 € gewinnen.",
+    "url": "https://www.winario.de/gewinnspiele/geldgewinne",
     "is_real": 1
   }
 ]
