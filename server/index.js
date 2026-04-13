@@ -10,6 +10,9 @@ const path       = require('path');
 
 const app = express();
 
+// Trust Railway's reverse proxy so rate-limit can read the real client IP
+app.set('trust proxy', 1);
+
 // ── Security ──────────────────────────────────────────────────────────────
 app.use(helmet({
   contentSecurityPolicy: {
@@ -17,7 +20,7 @@ app.use(helmet({
       defaultSrc: ["'self'"],
       scriptSrc:  ["'self'"],
       styleSrc:   ["'self'", "'unsafe-inline'"],
-      imgSrc:     ["'self'", 'data:'],
+      imgSrc:     ["'self'", 'data:', 'https://images.unsplash.com'],
       connectSrc: ["'self'"],
     },
   },
