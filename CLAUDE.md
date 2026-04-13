@@ -105,7 +105,7 @@ Ein Eintrag darf in die Queue (`contests-queue.json`) NUR wenn:
 
 - `app.set('trust proxy', 1)` ist gesetzt — nötig wegen Railway's Load Balancer (X-Forwarded-For)
 - Ohne `trust proxy` wirft `express-rate-limit` einen `ERR_ERL_UNEXPECTED_X_FORWARDED_FOR` Fehler
-- Umgebungsvariablen in Railway: `PORT` (auto), `ADMIN_PASSWORD`
+- Umgebungsvariablen in Railway: `PORT` (auto), `ADMIN_KEY`
 
 ---
 
@@ -128,4 +128,5 @@ Der Agent:
 
 - Erreichbar unter `/admin.html`
 - Passwort in `.env` → `ADMIN_PASSWORD`
+- Passwort: `.env` → `ADMIN_KEY=...` (nicht ADMIN_PASSWORD!)
 - Funktionen: Gewinnspiele aktivieren/deaktivieren, neue hinzufügen, löschen
