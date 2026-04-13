@@ -6,6 +6,20 @@ const CATS = {
   haus: 'Haus', beauty: 'Beauty', lebensmittel: 'Lebensmittel',
 };
 
+// Category header images (Unsplash, free to use)
+const CAT_IMAGES = {
+  reise:       'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=480&h=180&fit=crop&auto=format&q=75',
+  bargeld:     'https://images.unsplash.com/photo-1580519542036-c47de6196ba5?w=480&h=180&fit=crop&auto=format&q=75',
+  auto:        'https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=480&h=180&fit=crop&auto=format&q=75',
+  handy:       'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=480&h=180&fit=crop&auto=format&q=75',
+  gutschein:   'https://images.unsplash.com/photo-1513885535751-8b9238bd345a?w=480&h=180&fit=crop&auto=format&q=75',
+  sport:       'https://images.unsplash.com/photo-1571333250630-f0230c320b6d?w=480&h=180&fit=crop&auto=format&q=75',
+  mode:        'https://images.unsplash.com/photo-1445205170230-053b83016050?w=480&h=180&fit=crop&auto=format&q=75',
+  haus:        'https://images.unsplash.com/photo-1484154218962-a197022b5858?w=480&h=180&fit=crop&auto=format&q=75',
+  beauty:      'https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=480&h=180&fit=crop&auto=format&q=75',
+  lebensmittel:'https://images.unsplash.com/photo-1506484381205-f7945653044d?w=480&h=180&fit=crop&auto=format&q=75',
+};
+
 const today = new Date(); today.setHours(0, 0, 0, 0);
 const daysLeft = d => Math.ceil((new Date(d) - today) / 86400000);
 const fmtDate  = d => new Date(d).toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' });
@@ -23,13 +37,16 @@ function makeFavCard(c) {
   const urgent = days <= 7;
   const clock  = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>`;
   const hasUrl = c.url && c.url !== '#';
+  const img    = CAT_IMAGES[c.cat] || CAT_IMAGES['gutschein'];
 
   const el = document.createElement('div');
   el.className = 'fav-card';
   el.innerHTML = `
     <span class="fav-badge">★ Favorit</span>
+    <div class="card-img-wrap">
+      <img class="card-img" src="${img}" alt="${CATS[c.cat] || c.cat}" loading="lazy" />
+    </div>
     <div class="fav-top">
-      <div class="fav-emoji">${c.icon}</div>
       <div class="fav-head">
         <div class="fav-cat">${CATS[c.cat] || c.cat}</div>
         <div class="fav-title">${c.title}</div>
@@ -67,6 +84,7 @@ function makeCard(c) {
   const days   = daysLeft(c.deadline);
   const urgent = days <= 7;
   const clock  = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>`;
+  const img    = CAT_IMAGES[c.cat] || CAT_IMAGES['gutschein'];
 
   const el  = document.createElement('article');
   el.className = 'card' + (c.is_real ? ' is-real' : '');
@@ -77,8 +95,10 @@ function makeCard(c) {
     : `<button class="btn-go">Jetzt teilnehmen →</button>`;
 
   el.innerHTML = `
+    <div class="card-img-wrap">
+      <img class="card-img" src="${img}" alt="${CATS[c.cat] || c.cat}" loading="lazy" />
+    </div>
     <div class="card-top">
-      <div class="card-emoji">${c.icon}</div>
       <div class="card-head">
         <div class="card-cat">${CATS[c.cat] || c.cat}</div>
         <div class="card-title">${c.title}</div>
@@ -112,7 +132,6 @@ async function renderFavorites() {
   const section = document.getElementById('favorites-section');
   if (!grid) return;
 
-  // Fetch all real contests (no filter) for favorites
   const res = await fetch('/api/contests');
   if (!res.ok) return;
   const all = await res.json();
@@ -131,7 +150,7 @@ async function renderFavorites() {
       }
       return new Date(a.deadline) - new Date(b.deadline);
     })
-    .slice(0, 4);
+    .slice(0, 3);
 
   if (favs.length === 0) {
     section.classList.add('hidden');
