@@ -166,14 +166,55 @@ const SEED = [
   },
 ];
 
+const INSERT_STMT = db.prepare(`
+  INSERT INTO contests (title, cat, value_eur, icon, deadline, sponsor, description, url, is_real)
+  VALUES (@title, @cat, @value_eur, @icon, @deadline, @sponsor, @description, @url, @is_real)
+`);
+const titleExists = db.prepare('SELECT COUNT(*) AS n FROM contests WHERE title = ?');
+
+// ── Initial seed (only when DB is empty) ─────────────────────────────────
 const count = db.prepare('SELECT COUNT(*) AS n FROM contests').get().n;
 if (count === 0) {
-  const insert = db.prepare(`
-    INSERT INTO contests (title, cat, value_eur, icon, deadline, sponsor, description, url, is_real)
-    VALUES (@title, @cat, @value_eur, @icon, @deadline, @sponsor, @description, @url, @is_real)
-  `);
-  db.transaction(rows => rows.forEach(r => insert.run(r)))(SEED);
+  db.transaction(rows => rows.forEach(r => INSERT_STMT.run(r)))(SEED);
   console.log(`DB seeded with ${SEED.length} contests.`);
+}
+
+// ── Auto-deactivate expired contests on every startup ─────────────────────
+const expired = db.prepare(
+  "UPDATE contests SET active = 0 WHERE active = 1 AND deadline < strftime('%Y-%m-%d','now')"
+).run();
+if (expired.changes > 0) console.log(`Auto-deactivated ${expired.changes} expired contest(s).`);
+
+// ── Import queue from repo (written by scheduled agent) ───────────────────
+const QUEUE_FILE = path.join(__dirname, '..', 'contests-queue.json');
+if (fs.existsSync(QUEUE_FILE)) {
+  try {
+    const queue = JSON.parse(fs.readFileSync(QUEUE_FILE, 'utf8'));
+    if (Array.isArray(queue) && queue.length > 0) {
+      let added = 0;
+      db.transaction(() => {
+        for (const item of queue) {
+          if (!item.title || !item.cat || !item.deadline) continue;
+          if (titleExists.get(item.title).n > 0) continue; // skip duplicates
+          INSERT_STMT.run({
+            title:       item.title,
+            cat:         item.cat,
+            value_eur:   item.value_eur ?? null,
+            icon:        item.icon || '🎁',
+            deadline:    item.deadline,
+            sponsor:     item.sponsor || '',
+            description: item.description || '',
+            url:         item.url || '#',
+            is_real:     item.is_real ? 1 : 0,
+          });
+          added++;
+        }
+      })();
+      if (added > 0) console.log(`Imported ${added} new contest(s) from queue.`);
+    }
+  } catch (e) {
+    console.error('Queue import error:', e.message);
+  }
 }
 
 module.exports = db;
