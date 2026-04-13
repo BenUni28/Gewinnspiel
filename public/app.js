@@ -35,9 +35,12 @@ function makeFavCard(c) {
         <div class="fav-title">${c.title}</div>
       </div>
     </div>
-    <div class="fav-row">
-      <span class="fav-value">${fmtVal(c.value_eur)}</span>
-      <span class="fav-days${urgent ? ' urgent' : ''}">${clock}${daysLabel(days)}</span>
+    <div class="fav-body">
+      <div class="fav-row">
+        <span class="fav-value">${fmtVal(c.value_eur)}</span>
+        <span class="fav-days${urgent ? ' urgent' : ''}">${clock}${daysLabel(days)}</span>
+      </div>
+      <div class="fav-sponsor">${c.sponsor}</div>
     </div>
     ${hasUrl
       ? `<a class="btn-fav" href="${c.url}" target="_blank" rel="noopener noreferrer">Jetzt teilnehmen →</a>`
@@ -114,10 +117,20 @@ async function renderFavorites() {
   if (!res.ok) return;
   const all = await res.json();
 
-  // Favoriten: echt + direkte URL + sortiert nach Deadline
+  // Favoriten: echt + direkte URL, priorisiert nach Tech/Haushalt-Kategorien
+  const FAV_PRIORITY = ['handy', 'sport', 'haus', 'beauty', 'lebensmittel'];
   const favs = all
     .filter(c => c.is_real && c.url && c.url !== '#')
-    .sort((a, b) => new Date(a.deadline) - new Date(b.deadline))
+    .sort((a, b) => {
+      const pa = FAV_PRIORITY.indexOf(a.cat);
+      const pb = FAV_PRIORITY.indexOf(b.cat);
+      if (pa !== pb) {
+        if (pa === -1) return 1;
+        if (pb === -1) return -1;
+        return pa - pb;
+      }
+      return new Date(a.deadline) - new Date(b.deadline);
+    })
     .slice(0, 4);
 
   if (favs.length === 0) {
