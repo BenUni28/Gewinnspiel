@@ -16,9 +16,17 @@ function requireAdmin(req, res, next) {
 
 router.use(requireAdmin);
 
-// GET /api/admin/contests — list all (incl. inactive)
+// GET /api/admin/contests — list all (incl. inactive), sorted by priority
 router.get('/contests', (_req, res) => {
-  res.json(db.prepare('SELECT * FROM contests ORDER BY id DESC').all());
+  res.json(db.prepare(`
+    SELECT * FROM contests
+    ORDER BY
+      CASE WHEN is_favorite = 1 AND active = 1 THEN 0
+           WHEN active = 1                      THEN 1
+           ELSE                                      2
+      END ASC,
+      deadline ASC
+  `).all());
 });
 
 // POST /api/admin/contests — create
