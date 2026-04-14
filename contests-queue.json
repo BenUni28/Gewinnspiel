@@ -198,5 +198,17 @@
     "url": "https://aktion-mensch-newsletter.de/?cid=21368&wid=14734&sid=141223&swid=&tid=&optin_t=&optin=&la=",
     "is_real": 1,
     "is_favorite": 1
+  },
+  {
+    "title": "Runner's World Frühjahrs-Gewinnspiel: 2 × 250 € gewinnen",
+    "cat": "sport",
+    "value_eur": 500,
+    "icon": "🏃",
+    "deadline": "2026-04-24",
+    "sponsor": "Runner's World",
+    "description": "2 × 250 € Bargeld gewinnen – für Laufschuhe, Sportuhr oder Startgebühren. Kostenlose Teilnahme bis 24.04.",
+    "url": "https://www.runnersworld.de/news/runners-world-fruehjahrs-gewinnspiel-250-euro/",
+    "is_real": 1,
+    "is_favorite": 1
   }
 ]
