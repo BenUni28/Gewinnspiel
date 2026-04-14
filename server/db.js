@@ -181,7 +181,7 @@ const titleExists = db.prepare('SELECT COUNT(*) AS n FROM contests WHERE title =
 // ── Initial seed (only when DB is empty) ─────────────────────────────────
 const count = db.prepare('SELECT COUNT(*) AS n FROM contests').get().n;
 if (count === 0) {
-  db.transaction(rows => rows.forEach(r => INSERT_STMT.run(r)))(SEED);
+  db.transaction(rows => rows.forEach(r => INSERT_STMT.run({ is_favorite: 0, ...r })))(SEED);
   console.log(`DB seeded with ${SEED.length} contests.`);
 }
 
