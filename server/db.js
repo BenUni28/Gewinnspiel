@@ -173,8 +173,8 @@ const SEED = [
 ];
 
 const INSERT_STMT = db.prepare(`
-  INSERT INTO contests (title, cat, value_eur, icon, deadline, sponsor, description, url, is_real)
-  VALUES (@title, @cat, @value_eur, @icon, @deadline, @sponsor, @description, @url, @is_real)
+  INSERT INTO contests (title, cat, value_eur, icon, deadline, sponsor, description, url, is_real, is_favorite)
+  VALUES (@title, @cat, @value_eur, @icon, @deadline, @sponsor, @description, @url, @is_real, @is_favorite)
 `);
 const titleExists = db.prepare('SELECT COUNT(*) AS n FROM contests WHERE title = ?');
 

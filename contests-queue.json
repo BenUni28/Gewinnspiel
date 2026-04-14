@@ -174,5 +174,29 @@
     "description": "Kostenlos bei RTL/VOX-Gewinnspielen mitmachen und täglich Bargeld bis 10.000 € gewinnen.",
     "url": "https://www.winario.de/gewinnspiele/geldgewinne",
     "is_real": 1
+  },
+  {
+    "title": "Momcozy KleanPal Pro zu gewinnen",
+    "cat": "haus",
+    "value_eur": 369.99,
+    "icon": "🍼",
+    "deadline": "2026-05-03",
+    "sponsor": "Momcozy / gesundheit.com",
+    "description": "Vollautomatisches 3-in-1 Babyflaschenpflegesystem (Waschen, Sterilisieren, Trocknen) gewinnen. Kostenlose Teilnahme.",
+    "url": "https://www.gesundheit.com/gewinnspiele/momcozy-kleanpal-pro-zu-gewinnen",
+    "is_real": 1,
+    "is_favorite": 1
+  },
+  {
+    "title": "Aktion Mensch Newsletter: Apple iPad + AirPods gewinnen",
+    "cat": "handy",
+    "value_eur": 500,
+    "icon": "📱",
+    "deadline": "2026-04-30",
+    "sponsor": "Aktion Mensch e.V.",
+    "description": "Newsletter abonnieren und Apple iPad + AirPods (ca. 500 €) gewinnen. Unterstützt soziale Inklusionsprojekte.",
+    "url": "https://aktion-mensch-newsletter.de/?cid=21368&wid=14734&sid=141223&swid=&tid=&optin_t=&optin=&la=",
+    "is_real": 1,
+    "is_favorite": 1
   }
 ]
