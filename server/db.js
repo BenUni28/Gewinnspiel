@@ -4,37 +4,6 @@ const Database = require('better-sqlite3');
 const path = require('path');
 const fs = require('fs');
 
-const DATA_DIR = path.join(__dirname, '..', 'data');
-if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
-
-const db = new Database(path.join(DATA_DIR, 'contests.db'));
-
-db.pragma('journal_mode = WAL');
-db.pragma('foreign_keys = ON');
-
-db.exec(`
-  CREATE TABLE IF NOT EXISTS contests (
-    id          INTEGER PRIMARY KEY AUTOINCREMENT,
-    title       TEXT    NOT NULL,
-    cat         TEXT    NOT NULL,
-    value_eur   REAL,
-    icon        TEXT    NOT NULL DEFAULT '🎁',
-    deadline    TEXT    NOT NULL,
-    sponsor     TEXT    NOT NULL,
-    description TEXT    NOT NULL DEFAULT '',
-    url         TEXT    NOT NULL DEFAULT '#',
-    is_real     INTEGER NOT NULL DEFAULT 0,
-    is_favorite INTEGER NOT NULL DEFAULT 0,
-    active      INTEGER NOT NULL DEFAULT 1,
-    created_at  TEXT    NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%SZ','now'))
-  )
-`);
-
-// Add is_favorite to existing DBs that were created before this column existed
-try {
-  db.exec('ALTER TABLE contests ADD COLUMN is_favorite INTEGER NOT NULL DEFAULT 0');
-} catch (_) { /* column already exists */ }
-
 const SEED = [
   // ── Echte Gewinnspiele (April 2026, Quelle: gewinnspiele-markt.de) ──────
   {
@@ -172,62 +141,113 @@ const SEED = [
   },
 ];
 
-const INSERT_STMT = db.prepare(`
-  INSERT INTO contests (title, cat, value_eur, icon, deadline, sponsor, description, url, is_real, is_favorite)
-  VALUES (@title, @cat, @value_eur, @icon, @deadline, @sponsor, @description, @url, @is_real, @is_favorite)
-`);
-const titleExists = db.prepare('SELECT COUNT(*) AS n FROM contests WHERE title = ?');
+/**
+ * Create and initialise a SQLite database.
+ * @param {string} dbPath  - file path or ':memory:'
+ * @param {object} opts
+ * @param {string|null} opts.queueFile - path to contests-queue.json (null = skip)
+ * @param {Array}       opts.seed      - seed rows (defaults to SEED constant)
+ */
+function createDb(dbPath, { queueFile = null, seed = SEED } = {}) {
+  const db = new Database(dbPath);
 
-// ── Initial seed (only when DB is empty) ─────────────────────────────────
-const count = db.prepare('SELECT COUNT(*) AS n FROM contests').get().n;
-if (count === 0) {
-  db.transaction(rows => rows.forEach(r => INSERT_STMT.run({ is_favorite: 0, ...r })))(SEED);
-  console.log(`DB seeded with ${SEED.length} contests.`);
+  db.pragma('journal_mode = WAL');
+  db.pragma('foreign_keys = ON');
+
+  db.exec(`
+    CREATE TABLE IF NOT EXISTS contests (
+      id          INTEGER PRIMARY KEY AUTOINCREMENT,
+      title       TEXT    NOT NULL,
+      cat         TEXT    NOT NULL,
+      value_eur   REAL,
+      icon        TEXT    NOT NULL DEFAULT '🎁',
+      deadline    TEXT    NOT NULL,
+      sponsor     TEXT    NOT NULL,
+      description TEXT    NOT NULL DEFAULT '',
+      url         TEXT    NOT NULL DEFAULT '#',
+      is_real     INTEGER NOT NULL DEFAULT 0,
+      is_favorite INTEGER NOT NULL DEFAULT 0,
+      active      INTEGER NOT NULL DEFAULT 1,
+      created_at  TEXT    NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%SZ','now'))
+    )
+  `);
+
+  // Add is_favorite to existing DBs created before this column existed
+  try {
+    db.exec('ALTER TABLE contests ADD COLUMN is_favorite INTEGER NOT NULL DEFAULT 0');
+  } catch (_) { /* column already exists */ }
+
+  const INSERT_STMT = db.prepare(`
+    INSERT INTO contests (title, cat, value_eur, icon, deadline, sponsor, description, url, is_real, is_favorite)
+    VALUES (@title, @cat, @value_eur, @icon, @deadline, @sponsor, @description, @url, @is_real, @is_favorite)
+  `);
+  const titleExists = db.prepare('SELECT COUNT(*) AS n FROM contests WHERE title = ?');
+
+  // ── Initial seed (only when DB is empty) ───────────────────────────────
+  const count = db.prepare('SELECT COUNT(*) AS n FROM contests').get().n;
+  if (count === 0 && seed.length > 0) {
+    // Apply safe defaults so partial rows (e.g. in tests) don't throw
+    db.transaction(rows => rows.forEach(r => INSERT_STMT.run({
+      icon: '🎁', description: '', url: '#', value_eur: null, is_favorite: 0, ...r,
+    })))(seed);
+  }
+
+  // ── Auto-deactivate expired contests ───────────────────────────────────
+  db.prepare(
+    "UPDATE contests SET active = 0 WHERE active = 1 AND deadline < strftime('%Y-%m-%d','now')"
+  ).run();
+
+  // ── Deactivate all demo entries (is_real = 0) ──────────────────────────
+  db.prepare(
+    'UPDATE contests SET active = 0, is_favorite = 0 WHERE is_real = 0 AND active = 1'
+  ).run();
+
+  // ── Import queue ───────────────────────────────────────────────────────
+  if (queueFile && fs.existsSync(queueFile)) {
+    try {
+      const queue = JSON.parse(fs.readFileSync(queueFile, 'utf8'));
+      if (Array.isArray(queue) && queue.length > 0) {
+        let added = 0;
+        db.transaction(() => {
+          for (const item of queue) {
+            if (!item.title || !item.cat || !item.deadline) continue;
+            if (titleExists.get(item.title).n > 0) continue;
+            INSERT_STMT.run({
+              title:       item.title,
+              cat:         item.cat,
+              value_eur:   item.value_eur ?? null,
+              icon:        item.icon || '🎁',
+              deadline:    item.deadline,
+              sponsor:     item.sponsor || '',
+              description: item.description || '',
+              url:         item.url || '#',
+              is_real:     item.is_real ? 1 : 0,
+              is_favorite: item.is_favorite ? 1 : 0,
+            });
+            added++;
+          }
+        })();
+        if (added > 0) console.log(`Imported ${added} new contest(s) from queue.`);
+      }
+    } catch (e) {
+      console.error('Queue import error:', e.message);
+    }
+  }
+
+  return db;
 }
 
-// ── Auto-deactivate expired contests on every startup ─────────────────────
-const expired = db.prepare(
-  "UPDATE contests SET active = 0 WHERE active = 1 AND deadline < strftime('%Y-%m-%d','now')"
-).run();
-if (expired.changes > 0) console.log(`Auto-deactivated ${expired.changes} expired contest(s).`);
+// ── Production singleton ────────────────────────────────────────────────────
+const DATA_DIR = path.join(__dirname, '..', 'data');
+if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
 
-// ── Deactivate all demo entries (is_real = 0) — only show real contests ────
-const demos = db.prepare(
-  "UPDATE contests SET active = 0, is_favorite = 0 WHERE is_real = 0 AND active = 1"
-).run();
-if (demos.changes > 0) console.log(`Deactivated ${demos.changes} demo contest(s).`);
+const db = createDb(path.join(DATA_DIR, 'contests.db'), {
+  queueFile: path.join(__dirname, '..', 'contests-queue.json'),
+});
 
-// ── Import queue from repo (written by scheduled agent) ───────────────────
-const QUEUE_FILE = path.join(__dirname, '..', 'contests-queue.json');
-if (fs.existsSync(QUEUE_FILE)) {
-  try {
-    const queue = JSON.parse(fs.readFileSync(QUEUE_FILE, 'utf8'));
-    if (Array.isArray(queue) && queue.length > 0) {
-      let added = 0;
-      db.transaction(() => {
-        for (const item of queue) {
-          if (!item.title || !item.cat || !item.deadline) continue;
-          if (titleExists.get(item.title).n > 0) continue; // skip duplicates
-          INSERT_STMT.run({
-            title:       item.title,
-            cat:         item.cat,
-            value_eur:   item.value_eur ?? null,
-            icon:        item.icon || '🎁',
-            deadline:    item.deadline,
-            sponsor:     item.sponsor || '',
-            description: item.description || '',
-            url:         item.url || '#',
-            is_real:     item.is_real ? 1 : 0,
-            is_favorite: item.is_favorite ? 1 : 0,
-          });
-          added++;
-        }
-      })();
-      if (added > 0) console.log(`Imported ${added} new contest(s) from queue.`);
-    }
-  } catch (e) {
-    console.error('Queue import error:', e.message);
-  }
+if (db.prepare('SELECT COUNT(*) AS n FROM contests').get().n === SEED.length) {
+  // Only log seed count on first start (approximate check)
 }
 
 module.exports = db;
+module.exports.createDb = createDb;
