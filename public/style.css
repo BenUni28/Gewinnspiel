@@ -84,7 +84,16 @@ header {
 /* ── Hero ── */
 main { padding: 52px 0 80px; }
 
-.hero { margin-bottom: 44px; }
+/* ── Hero row (heading + participations side by side) ── */
+.hero-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  align-items: start;
+  margin-bottom: 44px;
+}
+
+.hero { /* left column — no extra margin needed, hero-row handles it */ }
 
 .hero-eyebrow {
   display: inline-flex; align-items: center; gap: 8px;
@@ -410,8 +419,29 @@ main { padding: 52px 0 80px; }
 }
 .part-header-link:hover { border-color: var(--border-h); color: var(--accent); }
 
-/* ── Participation section ── */
-.part-section { margin-bottom: 0; }
+/* ── Participation section (right column of hero-row) ── */
+.part-section {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-height: 340px;
+  overflow-y: auto;
+}
+
+.part-section-header {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 0.85rem; font-weight: 600; color: var(--text);
+}
+
+.part-section-sub {
+  font-size: 0.72rem; color: var(--muted);
+  margin-top: -6px;
+}
+
 .part-count-badge {
   display: inline-flex; align-items: center; justify-content: center;
   min-width: 20px; height: 20px; padding: 0 6px;
@@ -504,6 +534,7 @@ main { padding: 52px 0 80px; }
 
 @media (max-width: 780px) {
   .favorites-grid { grid-template-columns: 1fr; }
+  .hero-row { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 600px) {
