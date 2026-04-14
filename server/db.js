@@ -218,6 +218,7 @@ if (fs.existsSync(QUEUE_FILE)) {
             description: item.description || '',
             url:         item.url || '#',
             is_real:     item.is_real ? 1 : 0,
+            is_favorite: item.is_favorite ? 1 : 0,
           });
           added++;
         }
