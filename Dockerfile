@@ -7,6 +7,7 @@ RUN npm ci --omit=dev
 
 COPY server/ ./server/
 COPY public/ ./public/
+COPY contests-queue.json ./
 
 RUN mkdir -p /app/data
 
