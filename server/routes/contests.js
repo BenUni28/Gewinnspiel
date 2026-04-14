@@ -11,7 +11,7 @@ router.get('/', (req, res) => {
 
   let sql = `
     SELECT id, title, cat, value_eur, icon, deadline,
-           sponsor, description, url, is_real, created_at
+           sponsor, description, url, is_real, is_favorite, created_at
     FROM contests
     WHERE active = 1
       AND deadline >= ?

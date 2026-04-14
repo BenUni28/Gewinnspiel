@@ -24,10 +24,16 @@ db.exec(`
     description TEXT    NOT NULL DEFAULT '',
     url         TEXT    NOT NULL DEFAULT '#',
     is_real     INTEGER NOT NULL DEFAULT 0,
+    is_favorite INTEGER NOT NULL DEFAULT 0,
     active      INTEGER NOT NULL DEFAULT 1,
     created_at  TEXT    NOT NULL DEFAULT (strftime('%Y-%m-%dT%H:%M:%SZ','now'))
   )
 `);
+
+// Add is_favorite to existing DBs that were created before this column existed
+try {
+  db.exec('ALTER TABLE contests ADD COLUMN is_favorite INTEGER NOT NULL DEFAULT 0');
+} catch (_) { /* column already exists */ }
 
 const SEED = [
   // ── Echte Gewinnspiele (April 2026, Quelle: gewinnspiele-markt.de) ──────

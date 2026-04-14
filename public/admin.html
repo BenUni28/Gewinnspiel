@@ -103,6 +103,15 @@
     .deact-btn:hover { background: rgba(252,129,129,0.1); }
     .load-row { text-align: center; color: var(--muted); padding: 24px; }
 
+    .fav-btn {
+      background: none; border: 1px solid var(--border); border-radius: 6px;
+      padding: 3px 10px; font-size: 1rem; cursor: pointer;
+      color: var(--muted); font-family: inherit; transition: all 0.15s;
+    }
+    .fav-btn:hover:not(:disabled) { border-color: gold; color: gold; }
+    .fav-btn.fav-on { border-color: gold; color: gold; background: rgba(255,215,0,0.08); }
+    .fav-btn:disabled { opacity: 0.35; cursor: not-allowed; }
+
     @media (max-width: 600px) { .grid-2 { grid-template-columns: 1fr; } }
   </style>
 </head>
@@ -184,6 +193,11 @@
     <label>Teilnahme-URL</label>
     <input id="f-url" type="url" placeholder="https://…" />
 
+    <label style="margin-top:16px;display:flex;align-items:center;gap:8px;cursor:pointer;">
+      <input type="checkbox" id="f-favorite" style="width:auto;accent-color:var(--accent);" />
+      Als Favorit anzeigen <span style="color:var(--muted);font-size:0.75rem;">(max. 3)</span>
+    </label>
+
     <button class="btn btn-primary" id="btn-add">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
       Hinzufügen
@@ -202,7 +216,7 @@
       <table id="contest-table">
         <thead>
           <tr>
-            <th>ID</th><th>Titel</th><th>Kat.</th><th>Deadline</th><th>Typ</th><th>Status</th><th></th>
+            <th>ID</th><th>Titel</th><th>Kat.</th><th>Deadline</th><th>Typ</th><th>Status</th><th>Fav.</th><th></th>
           </tr>
         </thead>
         <tbody id="table-body">

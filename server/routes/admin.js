@@ -23,15 +23,20 @@ router.get('/contests', (_req, res) => {
 
 // POST /api/admin/contests — create
 router.post('/contests', (req, res) => {
-  const { title, cat, value_eur, icon, deadline, sponsor, description, url, is_real } = req.body;
+  const { title, cat, value_eur, icon, deadline, sponsor, description, url, is_real, is_favorite } = req.body;
 
   if (!title || !cat || !deadline || !sponsor) {
     return res.status(400).json({ error: 'title, cat, deadline, sponsor are required' });
   }
 
+  if (is_favorite) {
+    const count = db.prepare('SELECT COUNT(*) AS n FROM contests WHERE is_favorite = 1 AND active = 1').get().n;
+    if (count >= 3) return res.status(400).json({ error: 'Maximal 3 Favoriten erlaubt.' });
+  }
+
   const info = db.prepare(`
-    INSERT INTO contests (title, cat, value_eur, icon, deadline, sponsor, description, url, is_real)
-    VALUES (@title, @cat, @value_eur, @icon, @deadline, @sponsor, @description, @url, @is_real)
+    INSERT INTO contests (title, cat, value_eur, icon, deadline, sponsor, description, url, is_real, is_favorite)
+    VALUES (@title, @cat, @value_eur, @icon, @deadline, @sponsor, @description, @url, @is_real, @is_favorite)
   `).run({
     title,
     cat,
@@ -42,9 +47,27 @@ router.post('/contests', (req, res) => {
     description: description || '',
     url: url || '#',
     is_real: is_real ? 1 : 0,
+    is_favorite: is_favorite ? 1 : 0,
   });
 
   res.status(201).json({ id: info.lastInsertRowid });
+});
+
+// PATCH /api/admin/contests/:id/favorite — toggle favorite (max 3)
+router.patch('/contests/:id/favorite', (req, res) => {
+  const id = parseInt(req.params.id, 10);
+  if (!Number.isInteger(id)) return res.status(400).json({ error: 'Invalid id' });
+
+  const { is_favorite } = req.body;
+
+  if (is_favorite) {
+    const count = db.prepare('SELECT COUNT(*) AS n FROM contests WHERE is_favorite = 1 AND active = 1').get().n;
+    if (count >= 3) return res.status(400).json({ error: 'Maximal 3 Favoriten erlaubt.' });
+  }
+
+  const info = db.prepare('UPDATE contests SET is_favorite = ? WHERE id = ?').run(is_favorite ? 1 : 0, id);
+  if (info.changes === 0) return res.status(404).json({ error: 'Not found' });
+  res.json({ id, is_favorite: is_favorite ? 1 : 0 });
 });
 
 // PUT /api/admin/contests/:id — full update

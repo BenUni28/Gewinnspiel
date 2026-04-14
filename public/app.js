@@ -136,21 +136,8 @@ async function renderFavorites() {
   if (!res.ok) return;
   const all = await res.json();
 
-  // Favoriten: echt + direkte URL, priorisiert nach Tech/Haushalt-Kategorien
-  const FAV_PRIORITY = ['handy', 'sport', 'haus', 'beauty', 'lebensmittel'];
-  const favs = all
-    .filter(c => c.is_real && c.url && c.url !== '#')
-    .sort((a, b) => {
-      const pa = FAV_PRIORITY.indexOf(a.cat);
-      const pb = FAV_PRIORITY.indexOf(b.cat);
-      if (pa !== pb) {
-        if (pa === -1) return 1;
-        if (pb === -1) return -1;
-        return pa - pb;
-      }
-      return new Date(a.deadline) - new Date(b.deadline);
-    })
-    .slice(0, 3);
+  // Favoriten: manuell im Admin-Panel markiert (is_favorite = 1)
+  const favs = all.filter(c => c.is_favorite);
 
   if (favs.length === 0) {
     section.classList.add('hidden');
