@@ -191,6 +191,12 @@ const expired = db.prepare(
 ).run();
 if (expired.changes > 0) console.log(`Auto-deactivated ${expired.changes} expired contest(s).`);
 
+// ── Deactivate all demo entries (is_real = 0) — only show real contests ────
+const demos = db.prepare(
+  "UPDATE contests SET active = 0, is_favorite = 0 WHERE is_real = 0 AND active = 1"
+).run();
+if (demos.changes > 0) console.log(`Deactivated ${demos.changes} demo contest(s).`);
+
 // ── Import queue from repo (written by scheduled agent) ───────────────────
 const QUEUE_FILE = path.join(__dirname, '..', 'contests-queue.json');
 if (fs.existsSync(QUEUE_FILE)) {

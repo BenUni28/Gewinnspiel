@@ -14,6 +14,7 @@ router.get('/', (req, res) => {
            sponsor, description, url, is_real, is_favorite, created_at
     FROM contests
     WHERE active = 1
+      AND is_real = 1
       AND deadline >= ?
   `;
   const params = [today];
