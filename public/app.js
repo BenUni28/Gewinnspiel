@@ -31,6 +31,49 @@ function daysLabel(days) {
   return 'bis ' + fmtDate(new Date(today.getTime() + days * 86400000).toISOString().split('T')[0]);
 }
 
+// ── Participations (localStorage) ──────────────────────────────────────────
+const LS_KEY = 'gw_participations';
+
+function loadParticipations() {
+  try { return JSON.parse(localStorage.getItem(LS_KEY)) || []; }
+  catch { return []; }
+}
+
+function saveParticipation(c) {
+  const list = loadParticipations();
+  if (list.some(p => p.id === c.id)) return;
+  list.push({ id: c.id, title: c.title, cat: c.cat, deadline: c.deadline,
+              sponsor: c.sponsor, url: c.url || '#', joinedAt: new Date().toISOString() });
+  localStorage.setItem(LS_KEY, JSON.stringify(list));
+}
+
+function removeParticipation(id) {
+  const list = loadParticipations().filter(p => p.id !== id);
+  localStorage.setItem(LS_KEY, JSON.stringify(list));
+  renderParticipations();
+  const btn = document.querySelector(`.part-btn[data-id="${id}"]`);
+  if (btn) setPartBtnState(btn, false);
+  updatePartBadge();
+}
+
+function hasParticipated(id) {
+  return loadParticipations().some(p => p.id === id);
+}
+
+function setPartBtnState(btn, joined) {
+  btn.textContent = joined ? 'Teilgenommen ✓' : '+ Teilgenommen';
+  btn.classList.toggle('joined', joined);
+}
+
+function updatePartBadge() {
+  const n    = loadParticipations().length;
+  const link = document.getElementById('part-header-link');
+  const cnt  = document.getElementById('part-header-count');
+  if (!link || !cnt) return;
+  cnt.textContent = n;
+  link.classList.toggle('hidden', n === 0);
+}
+
 // ── Favorites card ─────────────────────────────────────────────────────────
 function makeFavCard(c) {
   const days   = daysLeft(c.deadline);
@@ -123,6 +166,23 @@ function makeCard(c) {
     });
   }
 
+  // Participation button
+  const partBtn = document.createElement('button');
+  partBtn.className = 'part-btn';
+  partBtn.dataset.id = c.id;
+  setPartBtnState(partBtn, hasParticipated(c.id));
+  partBtn.addEventListener('click', () => {
+    if (hasParticipated(c.id)) {
+      removeParticipation(c.id);
+    } else {
+      saveParticipation(c);
+      setPartBtnState(partBtn, true);
+      renderParticipations();
+      updatePartBadge();
+    }
+  });
+  el.appendChild(partBtn);
+
   return el;
 }
 
@@ -146,6 +206,56 @@ async function renderFavorites() {
 
   grid.innerHTML = '';
   favs.forEach(c => grid.appendChild(makeFavCard(c)));
+}
+
+// ── Render Participations ──────────────────────────────────────────────────
+function renderParticipations() {
+  const section = document.getElementById('part-section');
+  const grid    = document.getElementById('part-grid');
+  const badge   = document.getElementById('part-count-badge');
+  if (!section || !grid) return;
+
+  const list = loadParticipations();
+  if (list.length === 0) { section.classList.add('hidden'); return; }
+
+  section.classList.remove('hidden');
+  if (badge) badge.textContent = list.length;
+
+  // Upcoming soonest first, expired (days < 0) at bottom
+  const sorted = list
+    .map(p => ({ ...p, _days: daysLeft(p.deadline) }))
+    .sort((a, b) => {
+      const aExp = a._days < 0, bExp = b._days < 0;
+      if (aExp !== bExp) return aExp ? 1 : -1;
+      return aExp ? b._days - a._days : a._days - b._days;
+    });
+
+  grid.innerHTML = '';
+  sorted.forEach(p => {
+    const expired = p._days < 0;
+    const urgent  = !expired && p._days <= 7;
+    const dText   = expired
+      ? `Auslosung war am ${fmtDate(p.deadline)}`
+      : (p._days <= 7
+          ? `Noch ${p._days} Tag${p._days === 1 ? '' : 'e'} · ${fmtDate(p.deadline)}`
+          : `bis ${fmtDate(p.deadline)}`);
+
+    const card = document.createElement('div');
+    card.className = 'part-card' + (expired ? ' expired' : '');
+    card.innerHTML = `
+      <div class="part-card-main">
+        <div class="part-card-title">${p.title}</div>
+        <div class="part-card-meta">
+          <span class="part-card-days${urgent ? ' urgent' : ''}">${dText}</span>
+          <span class="part-card-sponsor">${p.sponsor}</span>
+        </div>
+        ${expired ? '<div class="unsubscribe-hint">📧 Auslosung vorbei — Newsletter abbestellen?</div>' : ''}
+      </div>
+      <button class="part-remove" data-id="${p.id}" aria-label="Entfernen">×</button>
+    `;
+    card.querySelector('.part-remove').addEventListener('click', () => removeParticipation(p.id));
+    grid.appendChild(card);
+  });
 }
 
 // ── Render ─────────────────────────────────────────────────────────────────
@@ -194,5 +304,7 @@ document.getElementById('search').addEventListener('input', e => {
   timer = setTimeout(() => { searchQ = e.target.value.trim(); render(); }, 180);
 });
 
+renderParticipations();
 renderFavorites();
 render();
+updatePartBadge();

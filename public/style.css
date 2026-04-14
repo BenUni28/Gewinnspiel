@@ -400,6 +400,76 @@ main { padding: 52px 0 80px; }
   color: var(--accent);
 }
 
+/* ── Participation header badge ── */
+.part-header-link {
+  display: flex; align-items: center; gap: 5px;
+  font-size: 0.78rem; color: var(--muted); text-decoration: none;
+  padding: 2px 10px; background: var(--surface);
+  border: 1px solid var(--border); border-radius: 20px;
+  transition: border-color 0.18s, color 0.18s;
+}
+.part-header-link:hover { border-color: var(--border-h); color: var(--accent); }
+
+/* ── Participation section ── */
+.part-section { margin-bottom: 0; }
+.part-count-badge {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 20px; height: 20px; padding: 0 6px;
+  background: rgba(104,211,145,0.15); border: 1px solid rgba(104,211,145,0.35);
+  border-radius: 20px; font-size: 0.7rem; font-weight: 700; color: var(--green);
+}
+.part-grid { display: flex; flex-direction: column; gap: 8px; }
+
+/* ── Participation card ── */
+.part-card {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 10px; padding: 14px 16px;
+  transition: border-color 0.18s, box-shadow 0.18s;
+}
+.part-card:hover { border-color: var(--border-h); box-shadow: 0 2px 12px rgba(0,0,0,.3); }
+.part-card.expired { opacity: 0.6; border-color: rgba(255,255,255,0.05); }
+.part-card-main { display: flex; flex-direction: column; gap: 4px; min-width: 0; flex: 1; }
+.part-card-title {
+  font-size: 0.9rem; font-weight: 600; color: var(--text);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.part-card-meta { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.part-card-days { font-size: 0.75rem; color: var(--muted); }
+.part-card-days.urgent { color: var(--red); font-weight: 600; }
+.part-card-sponsor { font-size: 0.72rem; color: var(--muted); }
+.unsubscribe-hint { font-size: 0.75rem; color: var(--accent2); margin-top: 4px; opacity: 0.85; }
+
+/* ── Remove button ── */
+.part-remove {
+  flex-shrink: 0; width: 28px; height: 28px;
+  display: flex; align-items: center; justify-content: center;
+  background: transparent; border: 1px solid var(--border); border-radius: 6px;
+  color: var(--muted); font-size: 1.1rem; cursor: pointer; font-family: inherit;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+}
+.part-remove:hover {
+  border-color: rgba(252,129,129,0.4); color: var(--red); background: rgba(252,129,129,0.08);
+}
+
+/* ── "Teilgenommen" button on contest card ── */
+.part-btn {
+  display: block; width: calc(100% - 36px); margin: 0 18px 18px;
+  padding: 7px 10px; background: transparent;
+  border: 1px solid var(--border); border-radius: 8px;
+  color: var(--muted); font-size: 0.8rem; font-weight: 500;
+  font-family: inherit; cursor: pointer; text-align: center;
+  transition: all 0.18s;
+}
+.part-btn:hover { border-color: rgba(104,211,145,0.4); color: var(--green); background: rgba(104,211,145,0.06); }
+.part-btn.joined { border-color: rgba(104,211,145,0.45); color: var(--green); background: rgba(104,211,145,0.1); }
+.part-btn.joined:hover { border-color: rgba(252,129,129,0.4); color: var(--red); background: rgba(252,129,129,0.08); }
+
+@media (max-width: 600px) {
+  .part-card-title { font-size: 0.84rem; }
+  .part-btn { font-size: 0.76rem; padding: 6px 8px; }
+}
+
 /* ── Site Info Footer ── */
 .site-info {
   border-top: 1px solid var(--border);

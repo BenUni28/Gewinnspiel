@@ -1,16 +1,5 @@
 [
   {
-    "title": "Einfach-Sparsam April-Gewinnspiel: 3x Rossmann-Gutschein à 100 €",
-    "cat": "gutschein",
-    "value_eur": 300,
-    "icon": "🎫",
-    "deadline": "2026-04-30",
-    "sponsor": "Einfach-Sparsam.de",
-    "description": "Gewinne einen von 3 Rossmann-Gutscheinen im Wert von je 100 €. Täglich teilnehmen erlaubt!",
-    "url": "https://www.einfach-sparsam.de/gewinnspiele/es/rossmann-gutscheine-gewinnspiel-april-2026",
-    "is_real": 1
-  },
-  {
     "title": "ADAC Gewinnspiel: 20 Reisegutscheine im Wert von je 500 €",
     "cat": "reise",
     "value_eur": 500,
@@ -41,17 +30,6 @@
     "sponsor": "Lidl",
     "description": "Beim Lidl Frühlings-Gewinnspiel von April bis Mai 2026 tolle Preise gewinnen. Kostenlose Teilnahme online.",
     "url": "https://www.lidl.de/c/lidl-gewinnspiele/s10019702",
-    "is_real": 1
-  },
-  {
-    "title": "Aktion Mensch Lotterie: Apple iPad + AirPods gewinnen",
-    "cat": "handy",
-    "value_eur": 500,
-    "icon": "📱",
-    "deadline": "2026-04-19",
-    "sponsor": "Aktion Mensch e.V.",
-    "description": "Bis 19.04. ein Glücks-Los kaufen und ein Gratis-Los erhalten. Apple iPad inkl. AirPods (~500 €) zu gewinnen.",
-    "url": "https://www.aktion-mensch.de/lotterie/",
     "is_real": 1
   },
   {
@@ -99,17 +77,6 @@
     "is_real": 1
   },
   {
-    "title": "Nintendo Switch 2 Gewinnspiel April 2026",
-    "cat": "handy",
-    "value_eur": 450,
-    "icon": "🎮",
-    "deadline": "2026-04-30",
-    "sponsor": "Einfach-Sparsam.de",
-    "description": "Täglich beim April-Gewinnspiel mitmachen und eine Nintendo Switch 2 Konsole im Wert von ca. 450 € gewinnen.",
-    "url": "https://www.einfach-sparsam.de/gewinnspiele/es/nintendo-switch-2-gewinnspiel-april-2026",
-    "is_real": 1
-  },
-  {
     "title": "AIDA Monatsgewinnspiel: Kreuzfahrtgutschein 3.500 € gewinnen",
     "cat": "reise",
     "value_eur": 3500,
@@ -118,17 +85,6 @@
     "sponsor": "AIDA Cruises",
     "description": "Jetzt beim AIDA Monatsgewinnspiel mitmachen und einen Reisegutschein nach Nordeuropa im Wert von 3.500 € gewinnen.",
     "url": "https://aida.de/buchung/aktionen/gewinnspiele/monatsgewinnspiel",
-    "is_real": 1
-  },
-  {
-    "title": "1.000 € Bargeld gewinnen – Einfach-Sparsam April-Gewinnspiel",
-    "cat": "bargeld",
-    "value_eur": 1000,
-    "icon": "💰",
-    "deadline": "2026-04-30",
-    "sponsor": "Einfach-Sparsam.de",
-    "description": "Täglich mitmachen und 1.000 € Bargeld gewinnen. Auslosung am 4. Mai 2026. Bis zu 30-fache Gewinnchance.",
-    "url": "https://www.einfach-sparsam.de/gewinnspiele/es/1000-euro-bargeld-gewinnspiel-april-2026",
     "is_real": 1
   },
   {
@@ -151,17 +107,6 @@
     "sponsor": "engbers / Coboc",
     "description": "Mitmachen und eines von 4 E-Bikes Coboc Iseo im Wert von je 3.999 € gewinnen. Teilnahmeschluss 16. Mai.",
     "url": "https://www.engbers.com/landingpage/gewinnspiel",
-    "is_real": 1
-  },
-  {
-    "title": "dm-drogerie markt: 100 × Beauty-Goodie-Bag gewinnen",
-    "cat": "beauty",
-    "value_eur": 50,
-    "icon": "💄",
-    "deadline": "2026-04-27",
-    "sponsor": "dm-drogerie markt",
-    "description": "100 Beauty-Goodie-Bags voller Lieblingsprodukte gewinnen. Kostenlose Teilnahme bis 27. April 2026.",
-    "url": "https://www.einfach-sparsam.de/gewinnspiele/dm-drogerie-markt-1-von-100-goodie-bags-voller-beauty-lieblinge",
     "is_real": 1
   },
   {

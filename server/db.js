@@ -203,6 +203,12 @@ function createDb(dbPath, { queueFile = null, seed = SEED } = {}) {
   ).run();
 
   // ── Import queue ───────────────────────────────────────────────────────
+  // Domains blocked because they aggregate third-party contests rather than
+  // linking directly to the contest organiser's own website.
+  const BLOCKED_URL_PREFIXES = [
+    'https://www.einfach-sparsam.de',
+  ];
+
   if (queueFile && fs.existsSync(queueFile)) {
     try {
       const queue = JSON.parse(fs.readFileSync(queueFile, 'utf8'));
@@ -212,6 +218,7 @@ function createDb(dbPath, { queueFile = null, seed = SEED } = {}) {
           for (const item of queue) {
             if (!item.title || !item.cat || !item.deadline) continue;
             if (titleExists.get(item.title).n > 0) continue;
+            if (item.url && BLOCKED_URL_PREFIXES.some(p => item.url.startsWith(p))) continue;
             INSERT_STMT.run({
               title:       item.title,
               cat:         item.cat,

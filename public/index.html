@@ -23,6 +23,9 @@
       <div class="header-right">
         <span id="live-dot"></span>
         <span id="live-label">Live</span>
+        <a id="part-header-link" href="#part-section" class="part-header-link hidden">
+          📋 <span id="part-header-count"></span>
+        </a>
         <span id="active-count-badge"></span>
       </div>
     </div>
@@ -36,6 +39,16 @@
         <h1>Hilf deinem<br /><span class="gradient-text">Glück.</span></h1>
         <p class="hero-sub">Aktuelle Gewinnspiele aus Deutschland · kostenlos · direkt verlinkt</p>
       </div>
+
+      <!-- Meine Teilnahmen -->
+      <section class="part-section hidden" id="part-section">
+        <div class="section-label">
+          📋 Meine Teilnahmen
+          <span id="part-count-badge" class="part-count-badge"></span>
+          <span class="section-sub">Lokal gespeichert · nur auf diesem Gerät</span>
+        </div>
+        <div class="part-grid" id="part-grid"></div>
+      </section>
 
       <!-- Favoriten -->
       <section class="favorites-section" id="favorites-section">

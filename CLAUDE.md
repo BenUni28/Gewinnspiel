@@ -86,6 +86,11 @@ Ein Eintrag darf in die Queue (`contests-queue.json`) NUR wenn:
 | ✅ Seriös | Bekannter Veranstalter oder etabliertes Portal |
 | ❌ Kaufzwang | z.B. Los kaufen (Postcode Lotterie) → NICHT aufnehmen |
 | ❌ Pflichtmitgliedschaft | Bezahlte Mitgliedschaft erforderlich → NICHT aufnehmen |
+| ❌ Drittanbieter-Aggregatoren | URL darf NICHT von einer fremden Gewinnspiel-Seite stammen — nur direkte URLs des Veranstalters |
+
+### Geblockte Domains (Queue-Import)
+URLs mit diesen Präfixen werden beim Import automatisch übersprungen (`server/db.js` → `BLOCKED_URL_PREFIXES`):
+- `https://www.einfach-sparsam.de` — Drittanbieter-Aggregator, nicht der direkte Veranstalter
 
 ---
 
