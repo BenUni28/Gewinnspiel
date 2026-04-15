@@ -106,6 +106,23 @@ function makeFavCard(c) {
       ? `<a class="btn-fav" href="${c.url}" target="_blank" rel="noopener noreferrer">Jetzt teilnehmen →</a>`
       : `<button class="btn-fav">Jetzt teilnehmen →</button>`}
   `;
+
+  const partBtn = document.createElement('button');
+  partBtn.className = 'part-btn';
+  partBtn.dataset.id = c.id;
+  setPartBtnState(partBtn, hasParticipated(c.id));
+  partBtn.addEventListener('click', () => {
+    if (hasParticipated(c.id)) {
+      removeParticipation(c.id);
+    } else {
+      saveParticipation(c);
+      setPartBtnState(partBtn, true);
+      renderParticipations();
+      updatePartBadge();
+    }
+  });
+  el.appendChild(partBtn);
+
   return el;
 }
 
@@ -245,11 +262,7 @@ function renderParticipations() {
     card.innerHTML = `
       <div class="part-card-main">
         <div class="part-card-title">${p.title}</div>
-        <div class="part-card-meta">
-          <span class="part-card-days${urgent ? ' urgent' : ''}">${dText}</span>
-          <span class="part-card-sponsor">${p.sponsor}</span>
-        </div>
-        ${expired ? '<div class="unsubscribe-hint">📧 Auslosung vorbei — Newsletter abbestellen?</div>' : ''}
+        <div class="part-card-deadline${urgent ? ' urgent' : expired ? ' expired-date' : ''}">${dText}</div>
       </div>
       <button class="part-remove" data-id="${p.id}" aria-label="Entfernen">×</button>
     `;

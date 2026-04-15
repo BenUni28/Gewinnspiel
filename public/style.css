@@ -464,11 +464,13 @@ main { padding: 52px 0 80px; }
   font-size: 0.9rem; font-weight: 600; color: var(--text);
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
-.part-card-meta { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
-.part-card-days { font-size: 0.75rem; color: var(--muted); }
-.part-card-days.urgent { color: var(--red); font-weight: 600; }
-.part-card-sponsor { font-size: 0.72rem; color: var(--muted); }
-.unsubscribe-hint { font-size: 0.75rem; color: var(--accent2); margin-top: 4px; opacity: 0.85; }
+.part-card-deadline {
+  font-size: 0.82rem; font-weight: 700;
+  color: var(--accent);
+  margin-top: 3px;
+}
+.part-card-deadline.urgent { color: var(--red); }
+.part-card-deadline.expired-date { color: var(--muted); font-weight: 500; }
 
 /* ── Remove button ── */
 .part-remove {
