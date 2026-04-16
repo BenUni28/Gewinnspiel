@@ -31,6 +31,24 @@ function daysLabel(days) {
   return 'bis ' + fmtDate(new Date(today.getTime() + days * 86400000).toISOString().split('T')[0]);
 }
 
+// ── Profile (localStorage) ──────────────────────────────────────────────────
+const PROFILE_KEY = 'gw_profile';
+
+function loadProfile() {
+  try { return JSON.parse(localStorage.getItem(PROFILE_KEY)) || {}; }
+  catch { return {}; }
+}
+
+function saveProfile(data) {
+  localStorage.setItem(PROFILE_KEY, JSON.stringify(data));
+}
+
+function buildBookmarklet(p) {
+  const esc = s => (s || '').replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+  const code = `(function(){var d={vorname:'${esc(p.vorname)}',nachname:'${esc(p.nachname)}',email:'${esc(p.email)}',ort:'${esc(p.ort)}',plz:'${esc(p.plz)}',geb:'${esc(p.geburtsdatum)}'};var filled=[],missed=[];function tryFill(sel,val,label){if(!val)return;var el=null;for(var s of sel){el=document.querySelector(s);if(el)break;}if(el){el.value=val;el.dispatchEvent(new Event('input',{bubbles:true}));el.dispatchEvent(new Event('change',{bubbles:true}));filled.push(label);}else{missed.push(label);}}tryFill(['input[type=email]','input[name*=email i]','input[id*=email i]','input[placeholder*=mail i]'],d.email,'E-Mail');tryFill(['input[name*=vorname i]','input[name*=firstname i]','input[name*=fname i]','input[placeholder*=Vorname i]','input[autocomplete=given-name]'],d.vorname,'Vorname');tryFill(['input[name*=nachname i]','input[name*=lastname i]','input[name*=lname i]','input[placeholder*=Nachname i]','input[autocomplete=family-name]'],d.nachname,'Nachname');tryFill(['input[name*=ort i]','input[name*=city i]','input[name*=stadt i]','input[placeholder*=Ort i]','input[placeholder*=Stadt i]','input[autocomplete=address-level2]'],d.ort,'Wohnort');tryFill(['input[name*=plz i]','input[name*=zip i]','input[name*=postal i]','input[placeholder*=PLZ i]','input[autocomplete=postal-code]'],d.plz,'PLZ');tryFill(['input[name*=geburts i]','input[name*=bday i]','input[name*=dob i]','input[type=date]','input[autocomplete=bday]'],d.geb,'Geburtsdatum');var box=document.createElement('div');box.style='position:fixed;top:16px;right:16px;z-index:2147483647;background:#07070f;border:1px solid rgba(99,179,237,0.45);border-radius:12px;padding:16px 20px;color:#f0f0f5;font-family:sans-serif;font-size:13px;max-width:280px;box-shadow:0 8px 32px rgba(0,0,0,.6)';box.innerHTML='<strong style=color:#63b3ed>Gewinnspiele AutoFill<\\/strong><br>';if(filled.length)box.innerHTML+='<span style=color:#68d391>✓ '+filled.join(', ')+'<\\/span><br>';if(missed.length)box.innerHTML+='<span style=color:#fc8181>✗ Nicht gefunden: '+missed.join(', ')+'<\\/span><br>';if(!filled.length&&!missed.length)box.innerHTML+='<span style=color:#fc8181>Keine passenden Felder gefunden<\\/span><br>';box.innerHTML+='<small style=color:rgba(240,240,245,0.4)>Schließt in 8 Sek.<\\/small>';var x=document.createElement('button');x.textContent='×';x.style='position:absolute;top:6px;right:10px;background:none;border:none;color:#f0f0f5;font-size:18px;cursor:pointer';x.onclick=function(){box.remove()};box.appendChild(x);document.body.appendChild(box);setTimeout(function(){box.remove()},8000);})();`;
+  return 'javascript:' + encodeURIComponent(code);
+}
+
 // ── Participations (localStorage) ──────────────────────────────────────────
 const LS_KEY = 'gw_participations';
 
@@ -317,7 +335,68 @@ document.getElementById('search').addEventListener('input', e => {
   timer = setTimeout(() => { searchQ = e.target.value.trim(); render(); }, 180);
 });
 
+// ── Profile modal ───────────────────────────────────────────────────────────
+function openProfileModal() {
+  const p = loadProfile();
+  document.getElementById('pf-vorname').value      = p.vorname      || '';
+  document.getElementById('pf-nachname').value     = p.nachname     || '';
+  document.getElementById('pf-email').value        = p.email        || '';
+  document.getElementById('pf-ort').value          = p.ort          || '';
+  document.getElementById('pf-plz').value          = p.plz          || '';
+  document.getElementById('pf-geb').value          = p.geburtsdatum || '';
+  updateBookmarkletLink();
+  document.getElementById('profile-modal').classList.remove('hidden');
+  document.getElementById('profile-modal-backdrop').classList.remove('hidden');
+}
+
+function closeProfileModal() {
+  document.getElementById('profile-modal').classList.add('hidden');
+  document.getElementById('profile-modal-backdrop').classList.add('hidden');
+}
+
+function saveProfileForm() {
+  const p = {
+    vorname:      document.getElementById('pf-vorname').value.trim(),
+    nachname:     document.getElementById('pf-nachname').value.trim(),
+    email:        document.getElementById('pf-email').value.trim(),
+    ort:          document.getElementById('pf-ort').value.trim(),
+    plz:          document.getElementById('pf-plz').value.trim(),
+    geburtsdatum: document.getElementById('pf-geb').value.trim(),
+  };
+  saveProfile(p);
+  updateBookmarkletLink();
+  updateProfileBadge();
+  const btn = document.getElementById('pf-save-btn');
+  btn.textContent = 'Gespeichert ✓';
+  setTimeout(() => { btn.textContent = 'Speichern'; }, 2000);
+}
+
+function updateBookmarkletLink() {
+  const p    = loadProfile();
+  const link = document.getElementById('pf-bookmarklet');
+  if (!link) return;
+  link.href = buildBookmarklet(p);
+  const warn = document.getElementById('pf-bm-warn');
+  if (warn) warn.classList.toggle('hidden', !!(p.vorname && p.email));
+}
+
+function updateProfileBadge() {
+  const p   = loadProfile();
+  const btn = document.getElementById('profile-btn');
+  if (!btn) return;
+  btn.classList.toggle('has-profile', !!(p.email));
+}
+
+// ── Profile event wiring ────────────────────────────────────────────────────
+document.getElementById('profile-btn').addEventListener('click', openProfileModal);
+document.getElementById('profile-modal-close').addEventListener('click', closeProfileModal);
+document.getElementById('profile-modal-backdrop').addEventListener('click', closeProfileModal);
+document.getElementById('pf-save-btn').addEventListener('click', saveProfileForm);
+['pf-vorname','pf-nachname','pf-email','pf-ort','pf-plz','pf-geb']
+  .forEach(id => document.getElementById(id).addEventListener('input', updateBookmarkletLink));
+
 renderParticipations();
 renderFavorites();
 render();
 updatePartBadge();
+updateProfileBadge();

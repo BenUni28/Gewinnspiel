@@ -26,6 +26,10 @@
         <a id="part-header-link" href="#part-section" class="part-header-link hidden">
           📋 <span id="part-header-count"></span>
         </a>
+        <button id="profile-btn" class="profile-btn" title="Mein Profil">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+          Profil
+        </button>
         <span id="active-count-badge"></span>
       </div>
     </div>
@@ -116,6 +120,50 @@
       </div>
     </div>
   </footer>
+
+  <!-- Profile Modal -->
+  <div id="profile-modal-backdrop" class="modal-backdrop hidden"></div>
+  <div id="profile-modal" class="modal hidden">
+    <div class="modal-header">
+      <span class="modal-title">👤 Mein Profil</span>
+      <button id="profile-modal-close" class="modal-close">×</button>
+    </div>
+    <p class="modal-sub">Deine Daten werden nur lokal auf diesem Gerät gespeichert.</p>
+    <div class="pf-form">
+      <div class="pf-row">
+        <label for="pf-vorname">Vorname *</label>
+        <input id="pf-vorname" type="text" autocomplete="given-name" placeholder="Max" />
+      </div>
+      <div class="pf-row">
+        <label for="pf-nachname">Nachname *</label>
+        <input id="pf-nachname" type="text" autocomplete="family-name" placeholder="Muster" />
+      </div>
+      <div class="pf-row">
+        <label for="pf-email">E-Mail *</label>
+        <input id="pf-email" type="email" autocomplete="email" placeholder="max@muster.de" />
+      </div>
+      <div class="pf-row">
+        <label for="pf-ort">Wohnort *</label>
+        <input id="pf-ort" type="text" autocomplete="address-level2" placeholder="Berlin" />
+      </div>
+      <div class="pf-row">
+        <label for="pf-plz">PLZ <span class="pf-opt">(optional)</span></label>
+        <input id="pf-plz" type="text" autocomplete="postal-code" placeholder="10115" />
+      </div>
+      <div class="pf-row">
+        <label for="pf-geb">Geburtsdatum <span class="pf-opt">(optional)</span></label>
+        <input id="pf-geb" type="date" autocomplete="bday" />
+      </div>
+      <button id="pf-save-btn" class="pf-save">Speichern</button>
+    </div>
+    <div class="pf-bookmarklet-section">
+      <div class="pf-bm-title">🔖 AutoFill-Lesezeichen</div>
+      <p class="pf-bm-desc">Dieses Lesezeichen in die Browser-Lesezeichenleiste ziehen. Auf einer Gewinnspiel-Seite klicken → Felder werden automatisch ausgefüllt.</p>
+      <p id="pf-bm-warn" class="pf-bm-warn">⚠ Bitte zuerst Vorname und E-Mail speichern.</p>
+      <a id="pf-bookmarklet" href="#" class="pf-bm-link">⚡ AutoFill ziehen</a>
+      <p class="pf-bm-hint">Nach einer Profiländerung: Lesezeichen erneut in die Leiste ziehen.</p>
+    </div>
+  </div>
 
   <script src="app.js"></script>
 </body>
