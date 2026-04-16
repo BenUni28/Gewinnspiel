@@ -252,9 +252,5 @@ const db = createDb(path.join(DATA_DIR, 'contests.db'), {
   queueFile: path.join(__dirname, '..', 'contests-queue.json'),
 });
 
-if (db.prepare('SELECT COUNT(*) AS n FROM contests').get().n === SEED.length) {
-  // Only log seed count on first start (approximate check)
-}
-
 module.exports = db;
 module.exports.createDb = createDb;

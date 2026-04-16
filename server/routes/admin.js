@@ -5,6 +5,8 @@ const { Router } = require('express');
 module.exports = function adminRouter(db) {
   const router = Router();
 
+  // ── Helpers ───────────────────────────────────────────────────────────────
+
   function requireAdmin(req, res, next) {
     const header = req.headers['authorization'] || '';
     const token = header.startsWith('Bearer ') ? header.slice(7) : null;
@@ -12,6 +14,25 @@ module.exports = function adminRouter(db) {
       return res.status(401).json({ error: 'Unauthorized' });
     }
     next();
+  }
+
+  function parseId(params) {
+    const id = parseInt(params.id, 10);
+    return Number.isInteger(id) ? id : null;
+  }
+
+  const activeFavCount = () =>
+    db.prepare('SELECT COUNT(*) AS n FROM contests WHERE is_favorite = 1 AND active = 1').get().n;
+
+  function normaliseContest(body) {
+    return {
+      value_eur:   body.value_eur ?? null,
+      icon:        body.icon || '🎁',
+      description: body.description || '',
+      url:         body.url || '#',
+      is_real:     body.is_real ? 1 : 0,
+      is_favorite: body.is_favorite ? 1 : 0,
+    };
   }
 
   router.use(requireAdmin);
@@ -31,46 +52,33 @@ module.exports = function adminRouter(db) {
 
   // POST /api/admin/contests — create
   router.post('/contests', (req, res) => {
-    const { title, cat, value_eur, icon, deadline, sponsor, description, url, is_real, is_favorite } = req.body;
+    const { title, cat, deadline, sponsor } = req.body;
 
     if (!title || !cat || !deadline || !sponsor) {
       return res.status(400).json({ error: 'title, cat, deadline, sponsor are required' });
     }
 
-    if (is_favorite) {
-      const count = db.prepare('SELECT COUNT(*) AS n FROM contests WHERE is_favorite = 1 AND active = 1').get().n;
-      if (count >= 3) return res.status(400).json({ error: 'Maximal 3 Favoriten erlaubt.' });
+    if (req.body.is_favorite && activeFavCount() >= 3) {
+      return res.status(400).json({ error: 'Maximal 3 Favoriten erlaubt.' });
     }
 
     const info = db.prepare(`
       INSERT INTO contests (title, cat, value_eur, icon, deadline, sponsor, description, url, is_real, is_favorite)
       VALUES (@title, @cat, @value_eur, @icon, @deadline, @sponsor, @description, @url, @is_real, @is_favorite)
-    `).run({
-      title,
-      cat,
-      value_eur: value_eur ?? null,
-      icon: icon || '🎁',
-      deadline,
-      sponsor,
-      description: description || '',
-      url: url || '#',
-      is_real: is_real ? 1 : 0,
-      is_favorite: is_favorite ? 1 : 0,
-    });
+    `).run({ title, cat, deadline, sponsor, ...normaliseContest(req.body) });
 
     res.status(201).json({ id: info.lastInsertRowid });
   });
 
   // PATCH /api/admin/contests/:id/favorite — toggle favorite (max 3)
   router.patch('/contests/:id/favorite', (req, res) => {
-    const id = parseInt(req.params.id, 10);
-    if (!Number.isInteger(id)) return res.status(400).json({ error: 'Invalid id' });
+    const id = parseId(req.params);
+    if (id === null) return res.status(400).json({ error: 'Invalid id' });
 
     const { is_favorite } = req.body;
 
-    if (is_favorite) {
-      const count = db.prepare('SELECT COUNT(*) AS n FROM contests WHERE is_favorite = 1 AND active = 1').get().n;
-      if (count >= 3) return res.status(400).json({ error: 'Maximal 3 Favoriten erlaubt.' });
+    if (is_favorite && activeFavCount() >= 3) {
+      return res.status(400).json({ error: 'Maximal 3 Favoriten erlaubt.' });
     }
 
     const info = db.prepare('UPDATE contests SET is_favorite = ? WHERE id = ?').run(is_favorite ? 1 : 0, id);
@@ -80,10 +88,10 @@ module.exports = function adminRouter(db) {
 
   // PUT /api/admin/contests/:id — full update
   router.put('/contests/:id', (req, res) => {
-    const id = parseInt(req.params.id, 10);
-    if (!Number.isInteger(id)) return res.status(400).json({ error: 'Invalid id' });
+    const id = parseId(req.params);
+    if (id === null) return res.status(400).json({ error: 'Invalid id' });
 
-    const { title, cat, value_eur, icon, deadline, sponsor, description, url, is_real, active } = req.body;
+    const { title, cat, deadline, sponsor, active } = req.body;
 
     const info = db.prepare(`
       UPDATE contests
@@ -92,13 +100,8 @@ module.exports = function adminRouter(db) {
           url=@url, is_real=@is_real, active=@active
       WHERE id=@id
     `).run({
-      id, title, cat,
-      value_eur: value_eur ?? null,
-      icon: icon || '🎁',
-      deadline, sponsor,
-      description: description || '',
-      url: url || '#',
-      is_real: is_real ? 1 : 0,
+      id, title, cat, deadline, sponsor,
+      ...normaliseContest(req.body),
       active: active !== undefined ? (active ? 1 : 0) : 1,
     });
 
@@ -108,12 +111,11 @@ module.exports = function adminRouter(db) {
 
   // DELETE /api/admin/contests/:id — soft-delete
   router.delete('/contests/:id', (req, res) => {
-    const id = parseInt(req.params.id, 10);
-    if (!Number.isInteger(id)) return res.status(400).json({ error: 'Invalid id' });
+    const id = parseId(req.params);
+    if (id === null) return res.status(400).json({ error: 'Invalid id' });
 
     const info = db.prepare('UPDATE contests SET active = 0 WHERE id = ?').run(id);
     if (info.changes === 0) return res.status(404).json({ error: 'Not found' });
-
     res.json({ deactivated: id });
   });
 

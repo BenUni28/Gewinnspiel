@@ -145,6 +145,25 @@ function updateNotifBtn() {
             : 'Erinnerungen aktivieren';
 }
 
+// ── Shared participation button ────────────────────────────────────────────
+function makePartBtn(c) {
+  const btn = document.createElement('button');
+  btn.className = 'part-btn';
+  btn.dataset.id = c.id;
+  setPartBtnState(btn, hasParticipated(c.id));
+  btn.addEventListener('click', () => {
+    if (hasParticipated(c.id)) {
+      removeParticipation(c.id);
+    } else {
+      saveParticipation(c);
+      setPartBtnState(btn, true);
+      renderParticipations();
+      updatePartBadge();
+    }
+  });
+  return btn;
+}
+
 // ── Favorites card ─────────────────────────────────────────────────────────
 function makeFavCard(c) {
   const days   = daysLeft(c.deadline);
@@ -178,22 +197,7 @@ function makeFavCard(c) {
       : `<button class="btn-fav">Jetzt teilnehmen →</button>`}
   `;
 
-  const partBtn = document.createElement('button');
-  partBtn.className = 'part-btn';
-  partBtn.dataset.id = c.id;
-  setPartBtnState(partBtn, hasParticipated(c.id));
-  partBtn.addEventListener('click', () => {
-    if (hasParticipated(c.id)) {
-      removeParticipation(c.id);
-    } else {
-      saveParticipation(c);
-      setPartBtnState(partBtn, true);
-      renderParticipations();
-      updatePartBadge();
-    }
-  });
-  el.appendChild(partBtn);
-
+  el.appendChild(makePartBtn(c));
   return el;
 }
 
@@ -254,23 +258,7 @@ function makeCard(c) {
     });
   }
 
-  // Participation button
-  const partBtn = document.createElement('button');
-  partBtn.className = 'part-btn';
-  partBtn.dataset.id = c.id;
-  setPartBtnState(partBtn, hasParticipated(c.id));
-  partBtn.addEventListener('click', () => {
-    if (hasParticipated(c.id)) {
-      removeParticipation(c.id);
-    } else {
-      saveParticipation(c);
-      setPartBtnState(partBtn, true);
-      renderParticipations();
-      updatePartBadge();
-    }
-  });
-  el.appendChild(partBtn);
-
+  el.appendChild(makePartBtn(c));
   return el;
 }
 
@@ -322,11 +310,10 @@ function renderParticipations() {
   sorted.forEach(p => {
     const expired = p._days < 0;
     const urgent  = !expired && p._days <= 7;
-    const dText   = expired
-      ? `Auslosung war am ${fmtDate(p.deadline)}`
-      : (p._days <= 7
-          ? `Noch ${p._days} Tag${p._days === 1 ? '' : 'e'} · ${fmtDate(p.deadline)}`
-          : `bis ${fmtDate(p.deadline)}`);
+    let dText;
+    if (expired)     dText = `Auslosung war am ${fmtDate(p.deadline)}`;
+    else if (urgent) dText = `Noch ${p._days} Tag${p._days === 1 ? '' : 'e'} · ${fmtDate(p.deadline)}`;
+    else             dText = `bis ${fmtDate(p.deadline)}`;
 
     const card = document.createElement('div');
     card.className = 'part-card' + (expired ? ' expired' : '');
@@ -373,9 +360,10 @@ async function render() {
 }
 
 // ── Events ─────────────────────────────────────────────────────────────────
-document.querySelectorAll('.cat').forEach(btn => {
+const catBtns = document.querySelectorAll('.cat');
+catBtns.forEach(btn => {
   btn.addEventListener('click', () => {
-    document.querySelectorAll('.cat').forEach(b => b.classList.remove('active'));
+    catBtns.forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     activeCat = btn.dataset.cat;
     render();
