@@ -92,6 +92,59 @@ function updatePartBadge() {
   link.classList.toggle('hidden', n === 0);
 }
 
+// ── Deadline notifications ─────────────────────────────────────────────────
+const NOTIF_KEY = 'gw_notified';
+
+async function requestNotificationPermission() {
+  if (!('Notification' in window)) return false;
+  if (Notification.permission === 'granted') return true;
+  if (Notification.permission === 'denied') return false;
+  const result = await Notification.requestPermission();
+  updateNotifBtn();
+  if (result === 'granted') checkDeadlineNotifications();
+  return result === 'granted';
+}
+
+function checkDeadlineNotifications() {
+  if (!('Notification' in window) || Notification.permission !== 'granted') return;
+  const list    = loadParticipations();
+  const todayStr = new Date().toISOString().split('T')[0];
+  let notified;
+  try { notified = JSON.parse(localStorage.getItem(NOTIF_KEY)) || {}; }
+  catch { notified = {}; }
+
+  list.forEach(p => {
+    const d = daysLeft(p.deadline);
+    if (d < 0 || d > 3) return;
+    const key = `${p.id}_${todayStr}`;
+    if (notified[key]) return;
+    const label = d === 0 ? 'läuft heute ab!'
+                : d === 1 ? 'läuft morgen ab!'
+                : `läuft in ${d} Tagen ab!`;
+    new Notification('🏆 Gewinnspiel ' + label, { body: p.title, tag: String(p.id) });
+    notified[key] = true;
+  });
+
+  // clean entries older than 7 days
+  const cutoff = new Date(Date.now() - 7 * 86400000).toISOString().split('T')[0];
+  Object.keys(notified).forEach(k => { if ((k.split('_')[1] || '') < cutoff) delete notified[k]; });
+  localStorage.setItem(NOTIF_KEY, JSON.stringify(notified));
+}
+
+function updateNotifBtn() {
+  const btn = document.getElementById('notif-btn');
+  if (!btn) return;
+  const state = !('Notification' in window)      ? 'unsupported'
+              : Notification.permission === 'granted' ? 'granted'
+              : Notification.permission === 'denied'  ? 'denied'
+              : 'default';
+  btn.dataset.state = state;
+  btn.title = state === 'granted'     ? 'Erinnerungen aktiv'
+            : state === 'denied'      ? 'Benachrichtigungen blockiert (Browser-Einstellungen)'
+            : state === 'unsupported' ? 'Benachrichtigungen werden nicht unterstützt'
+            : 'Erinnerungen aktivieren';
+}
+
 // ── Favorites card ─────────────────────────────────────────────────────────
 function makeFavCard(c) {
   const days   = daysLeft(c.deadline);
@@ -394,6 +447,10 @@ document.getElementById('profile-modal-backdrop').addEventListener('click', clos
 document.getElementById('pf-save-btn').addEventListener('click', saveProfileForm);
 ['pf-vorname','pf-nachname','pf-email','pf-ort','pf-plz','pf-geb']
   .forEach(id => document.getElementById(id).addEventListener('input', updateBookmarkletLink));
+
+document.getElementById('notif-btn').addEventListener('click', requestNotificationPermission);
+updateNotifBtn();
+checkDeadlineNotifications();
 
 renderParticipations();
 renderFavorites();

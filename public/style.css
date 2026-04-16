@@ -442,6 +442,17 @@ main { padding: 52px 0 80px; }
   margin-top: -6px;
 }
 
+/* ── Notification bell button ── */
+.notif-btn {
+  margin-left: auto; background: none; border: none;
+  font-size: 0.9rem; cursor: pointer; opacity: 0.45;
+  transition: opacity 0.18s; padding: 2px 4px; line-height: 1;
+}
+.notif-btn:hover { opacity: 0.9; }
+.notif-btn[data-state="granted"] { opacity: 1; }
+.notif-btn[data-state="denied"]  { opacity: 0.25; cursor: not-allowed; }
+.notif-btn[data-state="unsupported"] { display: none; }
+
 .part-count-badge {
   display: inline-flex; align-items: center; justify-content: center;
   min-width: 20px; height: 20px; padding: 0 6px;
