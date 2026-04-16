@@ -1,67 +1,92 @@
-# Link-Check-Report – Gewinnspiele Queue
+# Link-Check-Bericht – 16. April 2026
 
-**Datum:** 2026-04-13  
 **Durchgeführt von:** Gewinnspiel-Agent (automatisiert)
 
 ---
 
-## Recherche-Quellen
+## Recherche-Methode
 
 Da primäre Quellen (einfach-sparsam.de, gewinnspiele-markt.de, gewinnspiele.de) und sekundäre Quellen (kostenlos.de, mystipendium.de) HTTP 403 zurückgaben (Bot-Schutz), erfolgte die Recherche über:
 
 - **WebSearch** mit gezielten Suchanfragen (April 2026)
 - **WebSearch** zu spezifischen Einzelgewinnspielen und deren Ablaufdaten
-- Direkte Sponsor-Websites (WebFetch, wo erreichbar)
+- Direkte Sponsor-Websites (WebFetch, wo erreichbar – ca. 10 % der URLs)
 
-Hinweis: WebFetch lieferte für alle geprüften URLs HTTP 403 (Anti-Bot-Schutz). URL-Validierung erfolgte deshalb über Suchmaschinenbestätigung (ob das Gewinnspiel in aktuellen Suchergebnissen gelistet und als aktiv beschrieben ist).
+**Hinweis:** WebFetch lieferte für ~90 % aller geprüften URLs HTTP 403 (Anti-Bot-Schutz). URL-Validierung erfolgte deshalb überwiegend über Suchmaschinenbestätigung und Snippet-Inhalte.
 
 ---
 
-## Neu hinzugefügte Gewinnspiele (7 Einträge)
+## Neu hinzugefügte Gewinnspiele (5 Einträge)
 
 | Titel | Kategorie | Wert | Deadline | URL |
 |-------|-----------|------|----------|-----|
-| Nintendo Switch 2 Gewinnspiel April 2026 | handy | 450 € | 2026-04-30 | einfach-sparsam.de/…/nintendo-switch-2-gewinnspiel-april-2026 |
-| AIDA Monatsgewinnspiel: Kreuzfahrtgutschein 3.500 € | reise | 3.500 € | 2026-04-30 | aida.de/buchung/aktionen/gewinnspiele/monatsgewinnspiel |
-| 1.000 € Bargeld – Einfach-Sparsam April-Gewinnspiel | bargeld | 1.000 € | 2026-04-30 | einfach-sparsam.de/…/1000-euro-bargeld-gewinnspiel-april-2026 |
-| Riese & Müller E-Bike Gewinnspiel: 2 × 4.000 € | sport | 4.000 € | 2026-04-30 | gewinnspielwelt.de/…/riese-mueller-e-bike |
-| engbers Gewinnspiel: 4 × E-Bike Coboc Iseo (je 3.999 €) | sport | 3.999 € | 2026-05-16 | engbers.com/landingpage/gewinnspiel |
-| dm-drogerie markt: 100 × Beauty-Goodie-Bag gewinnen | beauty | ~50 € | 2026-04-27 | einfach-sparsam.de/…/dm-drogerie-goodie-bags |
-| winario: Täglich Bargeld gewinnen – bis 10.000 € | bargeld | 10.000 € | 2026-04-30 | winario.de/gewinnspiele/geldgewinne |
+| Hyundai WM-Gewinnspiel 2026: Roadtrip nach Nordamerika | reise | 5.000 € | 2026-05-06 | hyundai.com/de/de/…/wm26.html |
+| Rossmann Centaur-Rätsel April 2026 | beauty | ~200 € | 2026-04-30 | rossmann.de/cms/gewinnspiele/centaur-raetsel-202604.html |
+| Tchibo Newsletter Gewinnspiel: 100 € Gutschein | gutschein | 100 € | 2026-05-31 | tchibo.de/c/subscribenewsletter |
+| DA Direkt: 5 × Nintendo Switch 2 + Mario Kart World | handy | ~530 € | 2026-05-31 | da-direkt.de/mail/gewinnspiel-2025 |
+| ESSEN & TRINKEN Wochengewinnspiel | lebensmittel | ~500 € | 2026-06-30 | essen-und-trinken.de/gewinnspiele |
 
 ---
 
-## Link-Check Ergebnisse (bisherige 10 Einträge)
+## Link-Check Ergebnisse (alle Einträge)
 
-| # | Titel | URL | Status | Begründung |
-|---|-------|-----|--------|------------|
-| 1 | Einfach-Sparsam April: 3x Rossmann-Gutschein 100 € | einfach-sparsam.de/…/rossmann-gutscheine-gewinnspiel-april-2026 | **OK** | Spezifischer Contest-Pfad, via Suche als April-2026-Gewinnspiel bestätigt |
-| 2 | ADAC Gewinnspiel: 20 Reisegutscheine à 500 € | gewinnspielwelt.de/gewinnspiel/adac-gewinnspiel/ | **OK** | Via Suche bestätigt: aktiv bis 14.12.2026, spez. Teilnahme-URL |
-| 3 | Motorola × MediaMarkt/Saturn: FIFA WM 2026 Reise | motorola.com/de/de/contest/mediamarkt-saturn-gewinnspiel | **OK** | Via Suche bestätigt: aktives Gewinnspiel, FIFA WM 2026 Reise nach New York |
-| 4 | Lidl Frühlings-Gewinnspiel 2026 | lidl.de/c/lidl-gewinnspiele/s10019702 | **OK** | Spezifischer Lidl-Gewinnspiel-Pfad, Deadline 24.05.2026 noch nicht abgelaufen |
-| 5 | Aktion Mensch Lotterie: Apple iPad + AirPods | aktion-mensch.de/lotterie/ | **OK** | Spezifischer Lotterie-Bereich, iPad-Promotion bis 19.04.2026 bestätigt |
-| 6 | Japan-Reise: Zwei Wochen Tokio & Kyoto für 2 | gewinnspielwelt.de/gewinnspiel/gewinne-eine-japan-reise/ | **OK** | Via Suche bestätigt: aktiv bis 30.04.2026, 10.000 € Reise für 2 Personen |
-| 7 | REWE Reisen Gewinnspiel: Traumurlaub gewinnen | rewe-reisen.de/gewinnspiel.html | **OK** | Via Suche bestätigt: spezifische Gewinnspiel-Seite, aktiv |
-| 8 | Penny Reisen Gewinnspiel: Urlaub gewinnen | penny-reisen.de/gewinnspiel.html | **OK** | Via Suche bestätigt: aktiv bis 30.04.2026, Hotelaufenthalt Thüringen |
-| 9 | Lufthansa City Center: Kreuzfahrt – Schiff des Jahres 2026 | lufthansa-city-center.com/de/urlaub/reisearten/schiff-des-jahres/ | **OK** | Via Suche bestätigt: Contest-Seite mit spezifischem Pfad, Deadline 31.08.2026 |
-| 10 | TUI myJackpot-Reise: Traumurlaub weltweit gewinnen | tui.com/jackpotreise/ | **DEFEKT** | Via Suche bestätigt: Gewinnspiel lief nur 08.01.–31.01.2026, bereits abgeschlossen und Gewinner ermittelt |
+### BEHALTEN (Status OK)
+
+| Titel | URL | Status | Begründung |
+|-------|-----|--------|------------|
+| Lidl Frühlings-Gewinnspiel 2026 | lidl.de/c/lidl-gewinnspiele/s10019702 | ✅ OK | Aktiv bis 24.05.2026; direkter Lidl-Link; kostenlos bestätigt |
+| REWE Reisen Gewinnspiel | rewe-reisen.de/gewinnspiel.html | ✅ OK | Aktiv bis 30.04.2026; direkt; kostenlos ohne Kaufpflicht bestätigt |
+| Penny Reisen Gewinnspiel | penny-reisen.de/gewinnspiel.html | ✅ OK | Aktiv bis 30.04.2026; direkt; kostenlos bestätigt |
+| AIDA Monatsgewinnspiel (3.000 €) | aida.de/buchung/aktionen/gewinnspiele/monatsgewinnspiel | ✅ OK | Monatlich aktiv; direkte AIDA-URL; kostenlos; Preis korrigiert auf 3.000 € |
+| engbers Gewinnspiel: 4 × Coboc E-Bike | engbers.com/landingpage/gewinnspiel | ✅ OK | Aktiv 01.04.–16.05.2026; direkte URL; kostenlos bestätigt |
+| winario Geldgewinne | winario.de/gewinnspiele/geldgewinne | ✅ OK | Offizielle RTL/VOX-Plattform; Basis-Teilnahme kostenlos bestätigt |
+| Momcozy KleanPal Pro | gesundheit.com/gewinnspiele/momcozy-kleanpal-pro-zu-gewinnen | ✅ OK* | Deadline 03.05.2026 noch in der Zukunft; URL nicht abrufbar (403) |
+| Aktion Mensch Newsletter | aktion-mensch-newsletter.de/?cid=… | ✅ OK* | Aktiver Newsletter-Kanal; URL nicht abrufbar (403); Preis ggf. aktuell geändert |
+| Runner's World Frühjahrs-Gewinnspiel | runnersworld.de/news/runners-world-fruehjahrs-gewinnspiel-250-euro/ | ✅ OK | Aktiv bis 24.04.2026; direkter Link; kostenlos |
+| Hyundai WM-Gewinnspiel 2026 | hyundai.com/de/de/…/wm26.html | ✅ OK | Aktiv 20.03.–06.05.2026; kostenlos ohne Fahrzeugkauf bestätigt |
+| Rossmann Centaur-Rätsel April 2026 | rossmann.de/cms/gewinnspiele/centaur-raetsel-202604.html | ✅ OK | Monatliches Rätsel; URL-Muster aus mehreren Monaten bestätigt |
+| Tchibo Newsletter Gewinnspiel | tchibo.de/c/subscribenewsletter | ✅ OK | 30 × 100 €-Gutschein; direkter Tchibo-Link; kostenlos |
+| DA Direkt Nintendo Switch 2 | da-direkt.de/mail/gewinnspiel-2025 | ✅ OK | Direkte DA-Direkt-URL; kostenlos ohne Versicherungsabschluss bestätigt |
+| ESSEN & TRINKEN Wochengewinnspiel | essen-und-trinken.de/gewinnspiele | ✅ OK | Wöchentliche Verlosung; Rätsel + E-Mail; kostenlos |
+
+*nicht verifizierbar via WebFetch (HTTP 403); kein Hinweis auf Ablauf
+
+### ENTFERNT
+
+| Titel | Status | Begründung |
+|-------|--------|------------|
+| ADAC Gewinnspiel (gewinnspielwelt.de) | ❌ DRITTANBIETER | URL von gewinnspielwelt.de – Drittanbieter-Aggregator, nicht direkter ADAC-Link |
+| Motorola × MediaMarkt: FIFA WM 2026 Reise | ❌ KOSTENPFLICHTIG | Teilnahme erfordert Kauf eines Motorola-Smartphones + Kassenbon-Upload → Kaufzwang |
+| Japan-Reise (gewinnspielwelt.de) | ❌ DRITTANBIETER | URL von gewinnspielwelt.de – Drittanbieter-Aggregator, nicht direkter Veranstalter |
+| Lufthansa City Center: Schiff des Jahres 2026 | ❌ DEFEKT | Abstimmung abgeschlossen; AIDAdiva als Sieger im Dezember 2025 gekürt und ausgezeichnet |
+| Riese & Müller E-Bike (gewinnspielwelt.de) | ❌ DRITTANBIETER | URL von gewinnspielwelt.de – Drittanbieter-Aggregator, nicht direkter Veranstalter |
 
 ---
 
-## Entfernte Einträge
+## Recherchierte, aber nicht aufgenommene Gewinnspiele
 
-| Titel | URL | Grund |
-|-------|-----|-------|
-| TUI myJackpot-Reise: Traumurlaub weltweit gewinnen | tui.com/jackpotreise/ | **DEFEKT** – Gewinnspiel endete am 31.01.2026. Gewinner wurden bis 16.02.2026 benachrichtigt. Das Gewinnspiel ist abgeschlossen. Die im Eintrag genannte Deadline 30.06.2026 war fehlerhaft. |
+| Titel | Grund für Ablehnung |
+|-------|---------------------|
+| Tchibo Drehen & gewinnen (gewinnen.tchibo.de) | Abgelaufen – Teilnahmeschluss 22.03.2026 |
+| EDEKA DFB-Tickets (Match 30.03.2026) | Abgelaufen |
+| Congstar Samsung Galaxy S26 Gewinnspiel | Abgelaufen – Teilnahmeschluss 11.03.2026 |
+| Rossmann Oster-Countdown (App) | Abgelaufen – Teilnahmeschluss 05.04.2026 |
+| dm Vintage-Kollektion Gewinnspiel | Gewinnspiel-URL auf activebeauty.at (Österreich) – nicht für Deutschland geeignet |
+| BurdaDirect VW Tiguan Gewinnspiel | Aggressive Datenweitergabe an viele Sponsoren – Qualitätskriterien nicht erfüllt |
+| Ferrero mein-ferrero.de Loyalty-Gewinnspiel | Unklar ob Kaufzwang durch Loyalty-Punkte-System |
+| Nintendo Switch 2 Gewinnspiele (div.) | Abgelaufen (Deadlines März/April 2026 bereits verstrichen) |
 
 ---
 
-## Zusammenfassung
+## Statistik
 
-- **Geprüfte Einträge (alt):** 10
-- **OK:** 9
-- **DEFEKT:** 1 (TUI jackpotreise)
-- **HOMEPAGE:** 0
-- **Neu hinzugefügt:** 7
-- **Einträge in der finalen Queue:** 16
-- **Recherchequellen:** WebSearch (Google), gespiegelte Infos von einfach-sparsam.de, gewinnspielwelt.de, ADAC, AIDA, engbers, winario, Suchresultate April 2026
+| Kennzahl | Wert |
+|----------|------|
+| Queue-Einträge vorher | 14 |
+| Neu hinzugefügt | 5 |
+| Entfernt | 5 |
+| Queue-Einträge nachher | **14** |
+| Status OK | 14 |
+| Status KOSTENPFLICHTIG | 1 |
+| Status DRITTANBIETER | 3 |
+| Status DEFEKT | 1 |

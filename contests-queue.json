@@ -1,27 +1,5 @@
 [
   {
-    "title": "ADAC Gewinnspiel: 20 Reisegutscheine im Wert von je 500 €",
-    "cat": "reise",
-    "value_eur": 500,
-    "icon": "✈️",
-    "deadline": "2026-12-14",
-    "sponsor": "ADAC",
-    "description": "Jetzt beim ADAC-Gewinnspiel mitmachen und einen von 20 Reisegutscheinen im Wert von je 500 € gewinnen.",
-    "url": "https://www.gewinnspielwelt.de/gewinnspiel/adac-gewinnspiel/",
-    "is_real": 1
-  },
-  {
-    "title": "Motorola x MediaMarkt/Saturn: FIFA WM 2026 Reise nach New York",
-    "cat": "reise",
-    "value_eur": 3000,
-    "icon": "✈️",
-    "deadline": "2026-04-30",
-    "sponsor": "Motorola",
-    "description": "Gewinne eine Reise für 2 nach New York/New Jersey zum Spiel Deutschland vs. Ecuador bei der FIFA WM 2026.",
-    "url": "https://www.motorola.com/de/de/contest/mediamarkt-saturn-gewinnspiel",
-    "is_real": 1
-  },
-  {
     "title": "Lidl Frühlings-Gewinnspiel 2026",
     "cat": "gutschein",
     "value_eur": 1000,
@@ -33,24 +11,13 @@
     "is_real": 1
   },
   {
-    "title": "Japan-Reise gewinnen: Zwei Wochen Tokio & Kyoto für 2 Personen",
-    "cat": "reise",
-    "value_eur": 10000,
-    "icon": "✈️",
-    "deadline": "2026-04-30",
-    "sponsor": "Gewinnspielwelt",
-    "description": "Traumreise nach Japan für 2 Personen im Wert von 10.000 € gewinnen. Kostenlose Online-Teilnahme.",
-    "url": "https://www.gewinnspielwelt.de/gewinnspiel/gewinne-eine-japan-reise/",
-    "is_real": 1
-  },
-  {
     "title": "REWE Reisen Gewinnspiel: Traumurlaub gewinnen",
     "cat": "reise",
     "value_eur": 2000,
     "icon": "✈️",
-    "deadline": "2026-06-30",
+    "deadline": "2026-04-30",
     "sponsor": "REWE Reisen",
-    "description": "Jetzt beim REWE Reisen Gewinnspiel mitmachen und eine Traumreise gewinnen. Kostenlose Teilnahme.",
+    "description": "Jetzt beim REWE Reisen Gewinnspiel mitmachen und eine Traumreise gewinnen. Kostenlose Teilnahme – kein Kauf erforderlich.",
     "url": "https://www.rewe-reisen.de/gewinnspiel.html",
     "is_real": 1
   },
@@ -59,43 +26,21 @@
     "cat": "reise",
     "value_eur": 2000,
     "icon": "✈️",
-    "deadline": "2026-05-31",
+    "deadline": "2026-04-30",
     "sponsor": "Penny Reisen",
-    "description": "Beim Penny Reisen Gewinnspiel eine Urlaubsreise gewinnen. Einfach online teilnehmen und mit Glück verreisen.",
+    "description": "Beim Penny Reisen Gewinnspiel eine Urlaubsreise gewinnen. Einfach online teilnehmen und mit Glück verreisen. Kostenlos.",
     "url": "https://www.penny-reisen.de/gewinnspiel.html",
     "is_real": 1
   },
   {
-    "title": "Lufthansa City Center: Kreuzfahrt gewinnen – Schiff des Jahres 2026",
+    "title": "AIDA Monatsgewinnspiel: Kreuzfahrtgutschein 3.000 € gewinnen",
     "cat": "reise",
     "value_eur": 3000,
-    "icon": "✈️",
-    "deadline": "2026-08-31",
-    "sponsor": "Lufthansa City Center",
-    "description": "Abstimmen für das Schiff des Jahres 2026 und eine Kreuzfahrt auf einem der Top-3-Schiffe gewinnen.",
-    "url": "https://lufthansa-city-center.com/de/urlaub/reisearten/schiff-des-jahres/",
-    "is_real": 1
-  },
-  {
-    "title": "AIDA Monatsgewinnspiel: Kreuzfahrtgutschein 3.500 € gewinnen",
-    "cat": "reise",
-    "value_eur": 3500,
     "icon": "🚢",
     "deadline": "2026-04-30",
     "sponsor": "AIDA Cruises",
-    "description": "Jetzt beim AIDA Monatsgewinnspiel mitmachen und einen Reisegutschein nach Nordeuropa im Wert von 3.500 € gewinnen.",
+    "description": "Jetzt beim AIDA Monatsgewinnspiel mitmachen und einen AIDA Reisegutschein im Wert von 3.000 € gewinnen. Kostenlose Teilnahme.",
     "url": "https://aida.de/buchung/aktionen/gewinnspiele/monatsgewinnspiel",
-    "is_real": 1
-  },
-  {
-    "title": "Riese & Müller E-Bike Gewinnspiel: 2 × 4.000 € E-Bike",
-    "cat": "sport",
-    "value_eur": 4000,
-    "icon": "🚴",
-    "deadline": "2026-04-30",
-    "sponsor": "Riese & Müller / Gewinnspielwelt",
-    "description": "Gewinne eines von 2 Premium-E-Bikes von Riese & Müller im Wert von je 4.000 €. Kostenlose Teilnahme.",
-    "url": "https://www.gewinnspielwelt.de/gewinnspiel/gewinnspiel-um-ein-von-2-e-bike-von-riese-mueller-im-wert-von-je-4-000-euro/",
     "is_real": 1
   },
   {
@@ -155,5 +100,60 @@
     "url": "https://www.runnersworld.de/news/runners-world-fruehjahrs-gewinnspiel-250-euro/",
     "is_real": 1,
     "is_favorite": 1
+  },
+  {
+    "title": "Hyundai WM-Gewinnspiel 2026: Roadtrip nach Nordamerika",
+    "cat": "reise",
+    "value_eur": 5000,
+    "icon": "🏆",
+    "deadline": "2026-05-06",
+    "sponsor": "Hyundai Motor Deutschland",
+    "description": "Gewinne eines von 2 WM-Reisepaketen zur FIFA WM 2026 – Flug Frankfurt nach Toronto, Hotel und Roadtrip inklusive. Kostenlos.",
+    "url": "https://www.hyundai.com/de/de/hyundai-welt/sponsoring-und-events/wm26.html",
+    "is_real": 1
+  },
+  {
+    "title": "Rossmann Centaur-Rätsel April 2026",
+    "cat": "beauty",
+    "value_eur": 200,
+    "icon": "💄",
+    "deadline": "2026-04-30",
+    "sponsor": "Rossmann",
+    "description": "Löse das monatliche Rätsel im Rossmann Centaur-Magazin und gewinne attraktive Rossmann-Preise. Kostenlose Online-Teilnahme.",
+    "url": "https://www.rossmann.de/cms/gewinnspiele/centaur-raetsel-202604.html",
+    "is_real": 1
+  },
+  {
+    "title": "Tchibo Newsletter Gewinnspiel: 100 € Gutschein gewinnen",
+    "cat": "gutschein",
+    "value_eur": 100,
+    "icon": "☕",
+    "deadline": "2026-05-31",
+    "sponsor": "Tchibo",
+    "description": "Tchibo Newsletter abonnieren und einen von 30 Gutscheinen im Wert von je 100 € gewinnen. Kostenlose Teilnahme per E-Mail.",
+    "url": "https://www.tchibo.de/c/subscribenewsletter",
+    "is_real": 1
+  },
+  {
+    "title": "DA Direkt: 5 × Nintendo Switch 2 + Mario Kart World gewinnen",
+    "cat": "handy",
+    "value_eur": 530,
+    "icon": "🎮",
+    "deadline": "2026-05-31",
+    "sponsor": "DA Direkt Versicherung",
+    "description": "5 × Nintendo Switch 2 inkl. Mario Kart World (je >500 €) oder 20 × 100 € Amazon-Gutschein gewinnen. Kostenlose Teilnahme per E-Mail.",
+    "url": "https://www.da-direkt.de/mail/gewinnspiel-2025",
+    "is_real": 1
+  },
+  {
+    "title": "ESSEN & TRINKEN Wochengewinnspiel: Küche & Lifestyle gewinnen",
+    "cat": "lebensmittel",
+    "value_eur": 500,
+    "icon": "🍽️",
+    "deadline": "2026-06-30",
+    "sponsor": "ESSEN & TRINKEN (Gruner+Jahr / RTL)",
+    "description": "Wöchentlich Preise rund um Küche, Genuss und Lifestyle gewinnen. Rätsel lösen, Formular ausfüllen – kostenlose Teilnahme.",
+    "url": "https://www.essen-und-trinken.de/gewinnspiele",
+    "is_real": 1
   }
 ]
