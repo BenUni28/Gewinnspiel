@@ -495,6 +495,18 @@ main { padding: 52px 0 80px; }
   border-color: rgba(252,129,129,0.4); color: var(--red); background: rgba(252,129,129,0.08);
 }
 
+/* ── Click-to-scroll: part-card acts as a link ── */
+.part-card { cursor: pointer; }
+.part-card:hover .part-card-title { color: var(--accent); }
+
+/* ── Card highlight after scroll-to ── */
+@keyframes card-flash {
+  0%   { box-shadow: 0 0 0 0   rgba(99,179,237,0.7); }
+  40%  { box-shadow: 0 0 0 8px rgba(99,179,237,0.25); }
+  100% { box-shadow: 0 0 0 0   rgba(99,179,237,0); }
+}
+.card-highlight { animation: card-flash 1.4s ease-out forwards; }
+
 /* ── "Teilgenommen" button on contest card ── */
 .part-btn {
   display: block; width: calc(100% - 36px); margin: 0 18px 18px;

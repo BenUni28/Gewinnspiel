@@ -223,6 +223,7 @@ function makeCard(c) {
 
   const el  = document.createElement('article');
   el.className = 'card' + (c.is_real ? ' is-real' : '');
+  el.id = 'card-' + c.id;
 
   const hasUrl = c.url && c.url !== '#';
   const btn    = hasUrl
@@ -284,6 +285,16 @@ async function renderFavorites() {
   favs.forEach(c => grid.appendChild(makeFavCard(c)));
 }
 
+// ── Scroll to card in grid ────────────────────────────────────────────────
+function scrollToCard(id) {
+  const el = document.getElementById('card-' + id);
+  if (!el) return false;
+  el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  el.classList.add('card-highlight');
+  setTimeout(() => el.classList.remove('card-highlight'), 1400);
+  return true;
+}
+
 // ── Render Participations ──────────────────────────────────────────────────
 function renderParticipations() {
   const section = document.getElementById('part-section');
@@ -325,6 +336,17 @@ function renderParticipations() {
       <button class="part-remove" data-id="${p.id}" aria-label="Entfernen">×</button>
     `;
     card.querySelector('.part-remove').addEventListener('click', () => removeParticipation(p.id));
+    card.addEventListener('click', e => {
+      if (e.target.closest('.part-remove')) return;
+      if (!scrollToCard(p.id)) {
+        // Card filtered out — reset to show all, then scroll
+        activeCat = 'alle';
+        searchQ = '';
+        catBtns.forEach(b => b.classList.toggle('active', b.dataset.cat === 'alle'));
+        document.getElementById('search').value = '';
+        render().then(() => scrollToCard(p.id));
+      }
+    });
     grid.appendChild(card);
   });
 }
