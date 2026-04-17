@@ -1,0 +1,25 @@
+{
+  "name": "Gewinnspiele",
+  "short_name": "Gewinnspiele",
+  "description": "Aktuelle Gewinnspiele aus Deutschland – kostenlos & direkt verlinkt",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#07070f",
+  "theme_color": "#07070f",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

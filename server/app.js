@@ -22,6 +22,8 @@ function createApp(db) {
         fontSrc:    ["'self'", 'https://fonts.gstatic.com'],
         imgSrc:     ["'self'", 'data:', 'https://images.unsplash.com'],
         connectSrc: ["'self'"],
+        workerSrc:  ["'self'"],
+        manifestSrc: ["'self'"],
       },
     },
   }));
