@@ -291,7 +291,7 @@ function scrollToCard(id) {
   if (!el) return false;
   el.scrollIntoView({ behavior: 'smooth', block: 'center' });
   el.classList.add('card-highlight');
-  setTimeout(() => el.classList.remove('card-highlight'), 1400);
+  setTimeout(() => el.classList.remove('card-highlight'), 2000);
   return true;
 }
 
