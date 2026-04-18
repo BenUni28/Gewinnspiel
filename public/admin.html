@@ -30,7 +30,7 @@
     .logo span { color: var(--accent); }
     .back { font-size: 0.82rem; color: var(--muted); text-decoration: none; }
     .back:hover { color: var(--accent); }
-    main { max-width: 860px; margin: 0 auto; padding: 36px 20px 80px; }
+    main { max-width: 1100px; margin: 0 auto; padding: 36px 20px 80px; }
     h1 { font-size: 1.5rem; font-weight: 800; margin-bottom: 32px; letter-spacing: -0.02em; }
     h2 { font-size: 0.85rem; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase;
          color: var(--accent); margin-bottom: 16px; }
@@ -113,6 +113,37 @@
     .fav-btn:disabled { opacity: 0.35; cursor: not-allowed; }
 
     @media (max-width: 600px) { .grid-2 { grid-template-columns: 1fr; } }
+
+    /* Edit button */
+    .edit-btn {
+      background: none; border: 1px solid rgba(99,179,237,0.25); color: var(--accent);
+      border-radius: 6px; padding: 3px 10px; font-size: 0.75rem; cursor: pointer;
+      font-family: inherit; transition: all 0.15s; margin-right: 4px;
+    }
+    .edit-btn:hover { background: rgba(99,179,237,0.1); border-color: rgba(99,179,237,0.5); }
+
+    /* Edit modal */
+    .modal-backdrop {
+      position: fixed; inset: 0; background: rgba(0,0,0,0.7);
+      backdrop-filter: blur(4px); z-index: 100;
+    }
+    .modal {
+      position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%);
+      z-index: 101; width: min(640px, 94vw); max-height: 90vh; overflow-y: auto;
+      background: #0e0e1a; border: 1px solid var(--border-h);
+      border-radius: 16px; padding: 28px;
+      box-shadow: 0 24px 64px rgba(0,0,0,.7);
+    }
+    .modal-header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .modal-title { font-size: 1rem; font-weight: 700; }
+    .modal-close {
+      background: none; border: none; color: var(--muted);
+      font-size: 1.5rem; cursor: pointer; line-height: 1; font-family: inherit;
+    }
+    .modal-close:hover { color: var(--text); }
   </style>
 </head>
 <body>
@@ -216,7 +247,7 @@
       <table id="contest-table">
         <thead>
           <tr>
-            <th>ID</th><th>Titel</th><th>Kat.</th><th>Deadline</th><th>Typ</th><th>Status</th><th>Fav.</th><th></th>
+            <th>ID</th><th>Titel</th><th>Kat.</th><th>Deadline</th><th>Typ</th><th>Status</th><th>Fav.</th><th>Aktionen</th>
           </tr>
         </thead>
         <tbody id="table-body">
@@ -226,6 +257,85 @@
     </div>
   </div>
 </main>
+
+<!-- Edit Modal -->
+<div id="edit-backdrop" class="modal-backdrop" style="display:none"></div>
+<div id="edit-modal" class="modal" style="display:none">
+  <div class="modal-header">
+    <span class="modal-title">✏️ Gewinnspiel bearbeiten</span>
+    <button id="edit-close" class="modal-close">×</button>
+  </div>
+  <form id="edit-form">
+    <input type="hidden" id="e-id" />
+
+    <label>Titel *</label>
+    <input id="e-title" type="text" />
+
+    <div class="grid-2">
+      <div>
+        <label>Kategorie *</label>
+        <select id="e-cat">
+          <option value="reise">Reise</option>
+          <option value="bargeld">Bargeld</option>
+          <option value="auto">Auto</option>
+          <option value="handy">Technik</option>
+          <option value="gutschein">Gutschein</option>
+          <option value="sport">Sport</option>
+          <option value="mode">Mode</option>
+          <option value="haus">Haus</option>
+          <option value="beauty">Beauty</option>
+          <option value="lebensmittel">Lebensmittel</option>
+        </select>
+      </div>
+      <div>
+        <label>Emoji-Icon</label>
+        <input id="e-icon" type="text" />
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div>
+        <label>Sponsor *</label>
+        <input id="e-sponsor" type="text" />
+      </div>
+      <div>
+        <label>Teilnahmeschluss *</label>
+        <input id="e-deadline" type="date" />
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div>
+        <label>Gewinnwert in € (leer = kostenfrei)</label>
+        <input id="e-value" type="number" min="0" step="0.01" />
+      </div>
+      <div>
+        <label>Typ</label>
+        <select id="e-real">
+          <option value="0">Demo</option>
+          <option value="1">Echt (ECHT-Badge)</option>
+        </select>
+      </div>
+    </div>
+
+    <label>Beschreibung</label>
+    <textarea id="e-desc"></textarea>
+
+    <label>Teilnahme-URL</label>
+    <input id="e-url" type="url" />
+
+    <label style="margin-top:16px;display:flex;align-items:center;gap:8px;cursor:pointer;">
+      <input type="checkbox" id="e-active" style="width:auto;accent-color:var(--accent);" />
+      Aktiv (deaktiviert = wird auf der Website nicht angezeigt)
+    </label>
+
+    <div style="display:flex;gap:10px;margin-top:18px;">
+      <button type="submit" class="btn btn-primary" id="e-save-btn">Speichern</button>
+      <button type="button" class="btn" id="e-cancel-btn" style="border-color:var(--border);color:var(--muted);margin-top:0">Abbrechen</button>
+    </div>
+    <div class="msg" id="edit-msg"></div>
+  </form>
+</div>
 
 <script src="admin.js"></script>
 </body>
