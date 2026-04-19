@@ -1,16 +1,5 @@
 [
   {
-    "title": "Lidl Frühlings-Gewinnspiel 2026",
-    "cat": "gutschein",
-    "value_eur": 1000,
-    "icon": "🎫",
-    "deadline": "2026-05-24",
-    "sponsor": "Lidl",
-    "description": "Beim Lidl Frühlings-Gewinnspiel von April bis Mai 2026 tolle Preise gewinnen. Kostenlose Teilnahme online.",
-    "url": "https://www.lidl.de/c/lidl-gewinnspiele/s10019702",
-    "is_real": 1
-  },
-  {
     "title": "REWE Reisen Gewinnspiel: Traumurlaub gewinnen",
     "cat": "reise",
     "value_eur": 2000,
@@ -154,6 +143,61 @@
     "sponsor": "ESSEN & TRINKEN (Gruner+Jahr / RTL)",
     "description": "Wöchentlich Preise rund um Küche, Genuss und Lifestyle gewinnen. Rätsel lösen, Formular ausfüllen – kostenlose Teilnahme.",
     "url": "https://www.essen-und-trinken.de/gewinnspiele",
+    "is_real": 1
+  },
+  {
+    "title": "Volkswagen Anpfiff zum Gewinn: VW T-Roc & WM-Tickets 2026",
+    "cat": "auto",
+    "value_eur": 30000,
+    "icon": "🚗",
+    "deadline": "2026-07-31",
+    "sponsor": "Volkswagen Deutschland",
+    "description": "VW T-Roc, FIFA WM-Tickets, Erlebnisreisen & DFB-Merchandise gewinnen. Kostenlose Teilnahme mit kostenlosem VW ID Konto.",
+    "url": "https://www.volkswagen.de/de/angebote-und-produkte/anpfiff-zum-gewinn.html",
+    "is_real": 1
+  },
+  {
+    "title": "OPUS Fashion: 300 € Modegutschein gewinnen",
+    "cat": "mode",
+    "value_eur": 300,
+    "icon": "👗",
+    "deadline": "2026-04-28",
+    "sponsor": "OPUS Fashion",
+    "description": "Newsletter anmelden, Frage beantworten und 300 € OPUS Fashion Gutschein gewinnen. Kostenlose Teilnahme bis 28. April.",
+    "url": "https://de.opus-fashion.com/de/gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "Bonita: 9-tägige Luxus-Rheinkreuzfahrt für 2 gewinnen",
+    "cat": "reise",
+    "value_eur": 3500,
+    "icon": "🛳️",
+    "deadline": "2026-05-31",
+    "sponsor": "Bonita / Thurgau Travel",
+    "description": "9 Tage Rheinkreuzfahrt auf MS Thurgau Gold für 2 – Vollpension, Getränke & Ausflüge inklusive. Kostenlose Teilnahme online oder im Store.",
+    "url": "https://www.bonita.de/de/de/gewinnspiel-thurgau-travel",
+    "is_real": 1
+  },
+  {
+    "title": "ADAC Newsletter: 20 × 500 € Reisegutscheine gewinnen",
+    "cat": "reise",
+    "value_eur": 500,
+    "icon": "🗺️",
+    "deadline": "2026-12-14",
+    "sponsor": "ADAC",
+    "description": "ADAC Newsletter abonnieren und einen von 20 Reisegutscheinen im Wert von je 500 € gewinnen. Kostenlose Newsletter-Anmeldung.",
+    "url": "https://www.adac.de/der-adac/newsletter/abonnement/",
+    "is_real": 1
+  },
+  {
+    "title": "dm × MaxiNutrition: 5 Nächte Wellness-Hotel gewinnen",
+    "cat": "beauty",
+    "value_eur": 1500,
+    "icon": "🏨",
+    "deadline": "2026-05-11",
+    "sponsor": "dm / MaxiNutrition",
+    "description": "Frage beantworten und 5 Nächte im 5-Sterne Sport- & Wellnesshotel im Bayerischen Wald für 2 gewinnen. Kostenlos mit dm-Konto.",
+    "url": "https://www.dm.de/neu/gewinnspiele",
     "is_real": 1
   }
 ]
