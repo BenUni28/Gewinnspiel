@@ -28,7 +28,7 @@ async function addContest() {
   const body = {
     title:       $('f-title').value,
     cat:         $('f-cat').value,
-    icon:        $('f-icon').value || '🎁',
+    icon:        '🎁',
     sponsor:     $('f-sponsor').value,
     deadline:    $('f-deadline').value,
     value_eur:   v !== '' ? parseFloat(v) : null,
@@ -157,8 +157,9 @@ async function loadContests() {
            </button>`
         : '–';
 
+      const searchText = `${c.title} ${c.sponsor} ${c.cat}`.toLowerCase().replace(/"/g, '');
       return `
-        <tr${!c.active ? ' class="row-inactive"' : ''}>
+        <tr${!c.active ? ' class="row-inactive"' : ''} data-search="${searchText}">
           <td style="color:var(--muted)">#${c.id}</td>
           <td style="max-width:300px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${c.icon} ${c.title}</td>
           <td style="color:var(--muted)">${c.cat}</td>
@@ -176,6 +177,7 @@ async function loadContests() {
 
     const inactiveCount = list.filter(c => !c.active).length;
     $('inactive-count').textContent = inactiveCount ? `${inactiveCount} inaktiv` : '';
+    applySearch();
 
     tbody.querySelectorAll('.fav-btn').forEach(btn => {
       btn.addEventListener('click', () => toggleFavorite(parseInt(btn.dataset.id), parseInt(btn.dataset.fav), btn));
@@ -206,6 +208,15 @@ async function deactivate(id, btn) {
     alert('Fehler: ' + e.message);
   }
 }
+
+// ── List search ────────────────────────────────────────────────────────────
+function applySearch() {
+  const term = $('list-search').value.trim().toLowerCase();
+  document.querySelectorAll('#table-body tr[data-search]').forEach(row => {
+    row.style.display = (!term || row.dataset.search.includes(term)) ? '' : 'none';
+  });
+}
+$('list-search').addEventListener('input', applySearch);
 
 // ── Hide-inactive toggle ────────────────────────────────────────────────────
 $('btn-hide-inactive').addEventListener('click', () => {

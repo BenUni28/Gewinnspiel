@@ -46,6 +46,7 @@ module.exports = function adminRouter(db) {
              WHEN active = 1                      THEN 1
              ELSE                                      2
         END ASC,
+        cat ASC,
         deadline ASC
     `).all());
   });

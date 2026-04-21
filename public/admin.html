@@ -176,27 +176,19 @@
     <label>Titel *</label>
     <input id="f-title" type="text" placeholder="z.B. iPhone 17 Pro gewinnen" />
 
-    <div class="grid-2">
-      <div>
-        <label>Kategorie *</label>
-        <select id="f-cat">
-          <option value="reise">Reise</option>
-          <option value="bargeld">Bargeld</option>
-          <option value="auto">Auto</option>
-          <option value="handy">Technik</option>
-          <option value="gutschein">Gutschein</option>
-          <option value="sport">Sport</option>
-          <option value="mode">Mode</option>
-          <option value="haus">Haus</option>
-          <option value="beauty">Beauty</option>
-          <option value="lebensmittel">Lebensmittel</option>
-        </select>
-      </div>
-      <div>
-        <label>Emoji-Icon</label>
-        <input id="f-icon" type="text" value="🎁" />
-      </div>
-    </div>
+    <label>Kategorie *</label>
+    <select id="f-cat">
+      <option value="reise">Reise</option>
+      <option value="bargeld">Bargeld</option>
+      <option value="auto">Auto</option>
+      <option value="handy">Technik</option>
+      <option value="gutschein">Gutschein</option>
+      <option value="sport">Sport</option>
+      <option value="mode">Mode</option>
+      <option value="haus">Haus</option>
+      <option value="beauty">Beauty</option>
+      <option value="lebensmittel">Lebensmittel</option>
+    </select>
 
     <div class="grid-2">
       <div>
@@ -254,6 +246,8 @@
         <span id="hide-label">Inaktive ausblenden</span>
       </button>
       <span id="inactive-count" style="font-size:0.78rem;color:var(--muted)"></span>
+      <input type="search" id="list-search" placeholder="Suchen nach Titel, Sponsor, Kategorie…"
+             style="flex:1;min-width:180px;margin-top:0;padding:8px 12px" />
     </div>
     <div class="table-wrap">
       <table id="contest-table">
@@ -279,31 +273,24 @@
   </div>
   <form id="edit-form">
     <input type="hidden" id="e-id" />
+    <input type="hidden" id="e-icon" />
 
     <label>Titel *</label>
     <input id="e-title" type="text" />
 
-    <div class="grid-2">
-      <div>
-        <label>Kategorie *</label>
-        <select id="e-cat">
-          <option value="reise">Reise</option>
-          <option value="bargeld">Bargeld</option>
-          <option value="auto">Auto</option>
-          <option value="handy">Technik</option>
-          <option value="gutschein">Gutschein</option>
-          <option value="sport">Sport</option>
-          <option value="mode">Mode</option>
-          <option value="haus">Haus</option>
-          <option value="beauty">Beauty</option>
-          <option value="lebensmittel">Lebensmittel</option>
-        </select>
-      </div>
-      <div>
-        <label>Emoji-Icon</label>
-        <input id="e-icon" type="text" />
-      </div>
-    </div>
+    <label>Kategorie *</label>
+    <select id="e-cat">
+      <option value="reise">Reise</option>
+      <option value="bargeld">Bargeld</option>
+      <option value="auto">Auto</option>
+      <option value="handy">Technik</option>
+      <option value="gutschein">Gutschein</option>
+      <option value="sport">Sport</option>
+      <option value="mode">Mode</option>
+      <option value="haus">Haus</option>
+      <option value="beauty">Beauty</option>
+      <option value="lebensmittel">Lebensmittel</option>
+    </select>
 
     <div class="grid-2">
       <div>
