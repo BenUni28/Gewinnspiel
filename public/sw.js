@@ -1,6 +1,6 @@
 'use strict';
 
-const CACHE = 'gw-v1';
+const CACHE = 'gw-v2';
 const PRECACHE = ['/', '/style.css', '/app.js', '/manifest.json', '/icons/icon.svg'];
 
 // Install: cache static shell immediately
@@ -22,6 +22,10 @@ self.addEventListener('activate', e => {
 self.addEventListener('fetch', e => {
   const { request } = e;
   const url = new URL(request.url);
+
+  // Skip cross-origin requests (Unsplash images, Google Fonts, etc.) —
+  // the browser's own HTTP cache handles these correctly.
+  if (url.origin !== self.location.origin) return;
 
   // API calls: always network-first; fall back to empty list so UI doesn't break
   if (url.pathname.startsWith('/api/')) {
