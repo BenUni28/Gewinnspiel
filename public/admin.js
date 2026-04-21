@@ -158,7 +158,7 @@ async function loadContests() {
         : '–';
 
       return `
-        <tr>
+        <tr${!c.active ? ' class="row-inactive"' : ''}>
           <td style="color:var(--muted)">#${c.id}</td>
           <td style="max-width:300px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${c.icon} ${c.title}</td>
           <td style="color:var(--muted)">${c.cat}</td>
@@ -173,6 +173,9 @@ async function loadContests() {
         </tr>
       `;
     }).join('');
+
+    const inactiveCount = list.filter(c => !c.active).length;
+    $('inactive-count').textContent = inactiveCount ? `${inactiveCount} inaktiv` : '';
 
     tbody.querySelectorAll('.fav-btn').forEach(btn => {
       btn.addEventListener('click', () => toggleFavorite(parseInt(btn.dataset.id), parseInt(btn.dataset.fav), btn));
@@ -203,6 +206,13 @@ async function deactivate(id, btn) {
     alert('Fehler: ' + e.message);
   }
 }
+
+// ── Hide-inactive toggle ────────────────────────────────────────────────────
+$('btn-hide-inactive').addEventListener('click', () => {
+  const hiding = $('contest-table').classList.toggle('hide-inactive');
+  $('btn-hide-inactive').classList.toggle('active', hiding);
+  $('hide-label').textContent = hiding ? 'Inaktive einblenden' : 'Inaktive ausblenden';
+});
 
 document.getElementById('btn-add').addEventListener('click', addContest);
 document.getElementById('btn-load').addEventListener('click', loadContests);
