@@ -486,7 +486,24 @@ document.getElementById('pf-save-btn').addEventListener('click', saveProfileForm
 document.getElementById('notif-btn').addEventListener('click', requestNotificationPermission);
 
 document.getElementById('part-collapse-btn').addEventListener('click', () => {
-  document.getElementById('part-section').classList.toggle('collapsed');
+  const section = document.getElementById('part-section');
+  const isCollapsed = section.classList.contains('collapsed');
+
+  if (isCollapsed) {
+    section.classList.remove('collapsed');
+    section.classList.add('expanding');
+    document.querySelectorAll('#part-grid .part-card').forEach((card, i) => {
+      card.style.animationDelay = (i * 70) + 'ms';
+    });
+    setTimeout(() => {
+      section.classList.remove('expanding');
+      document.querySelectorAll('#part-grid .part-card').forEach(card => {
+        card.style.animationDelay = '';
+      });
+    }, 700);
+  } else {
+    section.classList.add('collapsed');
+  }
 });
 updateNotifBtn();
 checkDeadlineNotifications();
