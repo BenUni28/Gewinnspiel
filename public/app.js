@@ -391,6 +391,8 @@ async function render() {
     totalActive = list.length;
     const badge = document.getElementById('active-count-badge');
     if (badge) badge.textContent = totalActive + ' aktiv';
+    const heroCount = document.getElementById('hero-contest-count');
+    if (heroCount) heroCount.textContent = list.length;
   }
 
   grid.innerHTML = '';
@@ -464,14 +466,14 @@ function updateBookmarkletLink() {
 }
 
 function updateProfileBadge() {
-  const p   = loadProfile();
-  const btn = document.getElementById('profile-btn');
-  if (!btn) return;
-  btn.classList.toggle('has-profile', !!(p.email));
+  const p = loadProfile();
+  document.querySelectorAll('.profile-btn').forEach(btn => {
+    btn.classList.toggle('has-profile', !!(p.email));
+  });
 }
 
 // ── Profile event wiring ────────────────────────────────────────────────────
-document.getElementById('profile-btn').addEventListener('click', openProfileModal);
+document.querySelectorAll('.profile-btn').forEach(btn => btn.addEventListener('click', openProfileModal));
 document.getElementById('profile-modal-close').addEventListener('click', closeProfileModal);
 document.getElementById('profile-modal-backdrop').addEventListener('click', closeProfileModal);
 document.getElementById('pf-save-btn').addEventListener('click', saveProfileForm);

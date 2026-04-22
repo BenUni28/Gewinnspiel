@@ -6,7 +6,7 @@
   <title>Gewinnspiele</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
   <link rel="manifest" href="/manifest.json" />
   <meta name="theme-color" content="#07070f" />
@@ -43,26 +43,72 @@
   </header>
 
   <main>
-    <div class="container">
 
-      <div class="hero-row">
-        <div class="hero">
-          <p class="hero-eyebrow">Alle 3 Tage aktualisiert &amp; geprüft</p>
-          <h1>Hilf deinem<br /><span class="gradient-text">Glück.</span></h1>
-          <p class="hero-sub">Aktuelle Gewinnspiele aus Deutschland · kostenlos · direkt verlinkt</p>
+    <div class="hero">
+
+      <!-- Hintergrund-Orbs (animierte Lichtflecken) -->
+      <div class="hero-orb hero-orb-1"></div>
+      <div class="hero-orb hero-orb-2"></div>
+
+      <!-- Sterne-SVG -->
+      <svg class="hero-stars" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="5%"  cy="20%" r="1.2" fill="white" opacity="0.2"/>
+        <circle cx="20%" cy="8%"  r="0.8" fill="white" opacity="0.15"/>
+        <circle cx="45%" cy="15%" r="1.5" fill="white" opacity="0.22"/>
+        <circle cx="70%" cy="10%" r="1"   fill="white" opacity="0.18"/>
+        <circle cx="88%" cy="25%" r="1.3" fill="white" opacity="0.2"/>
+        <circle cx="95%" cy="60%" r="0.9" fill="white" opacity="0.15"/>
+        <circle cx="12%" cy="70%" r="1"   fill="white" opacity="0.12"/>
+        <circle cx="55%" cy="80%" r="1.4" fill="white" opacity="0.2"/>
+      </svg>
+
+      <!-- Inhalt -->
+      <div class="hero-content">
+        <p class="hero-eyebrow">✦ Alle 3 Tage aktualisiert &amp; geprüft ✦</p>
+
+        <h1>Hilf deinem<br>
+          <span class="gradient-text">Glück.</span>
+        </h1>
+
+        <p class="hero-sub">
+          Aktuelle Gewinnspiele aus Deutschland · kostenlos · direkt verlinkt
+        </p>
+
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <span class="hero-stat-num" id="hero-contest-count">—</span>
+            <span class="hero-stat-lbl">Aktive Spiele</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-num">€0</span>
+            <span class="hero-stat-lbl">Kosten</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat-num">3d</span>
+            <span class="hero-stat-lbl">Update-Zyklus</span>
+          </div>
         </div>
 
-        <!-- Meine Teilnahmen -->
-        <section class="part-section hidden" id="part-section">
-          <div class="part-section-header">
-            <span>📋 Meine Teilnahmen</span>
-            <span id="part-count-badge" class="part-count-badge"></span>
-            <button id="notif-btn" class="notif-btn" title="Erinnerungen aktivieren">🔔</button>
-          </div>
-          <p class="part-section-sub">Lokal gespeichert · nur auf diesem Gerät</p>
-          <div class="part-grid" id="part-grid"></div>
-        </section>
+        <div class="hero-cta">
+          <a href="#grid" class="btn-hero-primary">Jetzt gewinnen</a>
+          <button class="btn-hero-secondary profile-btn">AutoFill einrichten</button>
+        </div>
       </div>
+
+    </div>
+
+    <div class="container">
+
+      <!-- Meine Teilnahmen -->
+      <section class="part-section hidden" id="part-section">
+        <div class="part-section-header">
+          <span>📋 Meine Teilnahmen</span>
+          <span id="part-count-badge" class="part-count-badge"></span>
+          <button id="notif-btn" class="notif-btn" title="Erinnerungen aktivieren">🔔</button>
+        </div>
+        <p class="part-section-sub">Lokal gespeichert · nur auf diesem Gerät</p>
+        <div class="part-grid" id="part-grid"></div>
+      </section>
 
       <!-- Favoriten -->
       <section class="favorites-section" id="favorites-section">
