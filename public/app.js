@@ -145,6 +145,24 @@ function updateNotifBtn() {
             : 'Erinnerungen aktivieren';
 }
 
+// ── Sponsor logo badge ─────────────────────────────────────────────────────
+function addSponsorLogo(container, url, sponsor) {
+  if (!url || url === '#') return;
+  let hostname;
+  try { hostname = new URL(url).hostname.replace(/^www\./, ''); } catch { return; }
+
+  const wrap = document.createElement('div');
+  wrap.className = 'sponsor-logo-wrap';
+  const img = document.createElement('img');
+  img.src = 'https://logo.clearbit.com/' + hostname;
+  img.alt = sponsor;
+  img.className = 'sponsor-logo';
+  img.loading = 'lazy';
+  img.addEventListener('error', () => wrap.remove());
+  wrap.appendChild(img);
+  container.appendChild(wrap);
+}
+
 // ── Shared participation button ────────────────────────────────────────────
 function makePartBtn(c) {
   const btn = document.createElement('button');
@@ -197,6 +215,7 @@ function makeFavCard(c) {
       : `<button class="btn-fav">Jetzt teilnehmen →</button>`}
   `;
 
+  addSponsorLogo(el.querySelector('.card-img-wrap'), c.url, c.sponsor);
   el.appendChild(makePartBtn(c));
   return el;
 }
@@ -259,6 +278,7 @@ function makeCard(c) {
     });
   }
 
+  addSponsorLogo(el.querySelector('.card-img-wrap'), c.url, c.sponsor);
   el.appendChild(makePartBtn(c));
   return el;
 }
