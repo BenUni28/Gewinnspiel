@@ -35,7 +35,7 @@
         </a>
         <button id="profile-btn" class="profile-btn" title="Mein Profil">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
-          Profil
+          <span>Profil</span>
         </button>
         <span id="active-count-badge"></span>
       </div>
@@ -90,7 +90,7 @@
         </div>
 
         <div class="hero-cta">
-          <a href="#grid" class="btn-hero-primary">Jetzt gewinnen</a>
+          <a href="#favorites-section" class="btn-hero-primary">Jetzt gewinnen</a>
           <button class="btn-hero-secondary profile-btn">AutoFill einrichten</button>
         </div>
       </div>
@@ -102,12 +102,17 @@
       <!-- Meine Teilnahmen -->
       <section class="part-section hidden" id="part-section">
         <div class="part-section-header">
-          <span>📋 Meine Teilnahmen</span>
-          <span id="part-count-badge" class="part-count-badge"></span>
+          <button id="part-collapse-btn" class="part-collapse-btn" title="Ein-/Ausblenden">
+            <span>📋 Meine Teilnahmen</span>
+            <span id="part-count-badge" class="part-count-badge"></span>
+            <svg class="part-collapse-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
           <button id="notif-btn" class="notif-btn" title="Erinnerungen aktivieren">🔔</button>
         </div>
-        <p class="part-section-sub">Lokal gespeichert · nur auf diesem Gerät</p>
-        <div class="part-grid" id="part-grid"></div>
+        <div id="part-body">
+          <p class="part-section-sub">Lokal gespeichert · nur auf diesem Gerät</p>
+          <div class="part-grid" id="part-grid"></div>
+        </div>
       </section>
 
       <!-- Favoriten -->

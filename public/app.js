@@ -484,6 +484,10 @@ document.getElementById('pf-save-btn').addEventListener('click', saveProfileForm
   .forEach(id => document.getElementById(id).addEventListener('input', updateBookmarkletLink));
 
 document.getElementById('notif-btn').addEventListener('click', requestNotificationPermission);
+
+document.getElementById('part-collapse-btn').addEventListener('click', () => {
+  document.getElementById('part-section').classList.toggle('collapsed');
+});
 updateNotifBtn();
 checkDeadlineNotifications();
 
