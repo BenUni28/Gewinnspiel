@@ -199,5 +199,49 @@
     "description": "Frage beantworten und 5 Nächte im 5-Sterne Sport- & Wellnesshotel im Bayerischen Wald für 2 gewinnen. Kostenlos mit dm-Konto.",
     "url": "https://www.dm.de/neu/gewinnspiele",
     "is_real": 1
+  },
+  {
+    "title": "Esso Bonus Newsletter: Monatliche Reise nach Kapstadt gewinnen",
+    "cat": "reise",
+    "value_eur": 3000,
+    "icon": "✈️",
+    "deadline": "2026-06-30",
+    "sponsor": "Esso",
+    "description": "Esso Bonus Newsletter abonnieren und monatlich eine 5-Nächte-Reise nach Kapstadt (4-Sterne-Hotel + Flüge) für 2 Personen gewinnen.",
+    "url": "https://www.esso.de/de-de/newsletter",
+    "is_real": 1
+  },
+  {
+    "title": "Ferrero Newsletter: Monatliche Verlosung bis August 2026",
+    "cat": "haus",
+    "value_eur": 1200,
+    "icon": "☕",
+    "deadline": "2026-08-31",
+    "sponsor": "Ferrero Deutschland",
+    "description": "Ferrero Newsletter abonnieren und monatlich bei Sonderverlosungen mitmachen – z. B. De'Longhi Kaffeevollautomaten. Kostenlose Teilnahme.",
+    "url": "https://gewinnspiel.mein-ferrero.de/loyalty-gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "Lufthansa City Center: Schiff des Jahres 2026 wählen & Kreuzfahrt gewinnen",
+    "cat": "reise",
+    "value_eur": 3000,
+    "icon": "🚢",
+    "deadline": "2026-08-31",
+    "sponsor": "Lufthansa City Center",
+    "description": "Dein Lieblingsschiff 2026 wählen und eine Kreuzfahrt gewinnen – kostenlose Abstimmung, kein Kauf erforderlich. Einsendeschluss 31.08.2026.",
+    "url": "https://lufthansa-city-center.com/de/urlaub/reisearten/schiff-des-jahres/",
+    "is_real": 1
+  },
+  {
+    "title": "dm & Garnier: 5-Tage-Reise nach Marrakesch (2.500 €) gewinnen",
+    "cat": "beauty",
+    "value_eur": 2500,
+    "icon": "💄",
+    "deadline": "2026-05-31",
+    "sponsor": "dm drogeriemarkt / Garnier",
+    "description": "Kostenlos teilnehmen und eine 5-Tage-Reise nach Marrakesch für 2 Personen im 5-Sterne-Hotel Tigmiza + Garnier Beauty-Paket gewinnen.",
+    "url": "https://www.dm.de/pflege-und-duft/gewinnspiel-garnier-skin-active-c1218520.html",
+    "is_real": 1
   }
 ]

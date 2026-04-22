@@ -1,4 +1,4 @@
-# Link-Check-Bericht – 19. April 2026
+# Link-Check-Bericht – 22. April 2026
 
 **Durchgeführt von:** Gewinnspiel-Agent (automatisiert)
 
@@ -6,69 +6,77 @@
 
 ## Recherche-Methode
 
-Da primäre Quellen (gewinnspiele-markt.de, gewinnspiele.de) und sekundäre Quellen (kostenlos.de, mystipendium.de, sparwelt.de etc.) HTTP 403 zurückgaben, erfolgte die Recherche über:
+Primäre Quellen (einfach-sparsam.de, gewinnspiele-markt.de, gewinnspiele.de, kostenlos.de, mystipendium.de) gaben alle HTTP 403 zurück (Bot-Schutz). Recherche erfolgte über:
 
 - **WebSearch** mit gezielten Suchanfragen (April/Mai 2026)
 - **WebSearch** zu spezifischen Einzelgewinnspielen und deren Ablaufdaten
-- Direkte Sponsor-Websites (WebFetch, wo erreichbar – ca. 5 % der URLs, alle anderen 403)
+- Direkte Sponsor-Websites via WebFetch (ebenfalls überwiegend 403)
 
-**Hinweis:** WebFetch lieferte für ~95 % aller geprüften URLs HTTP 403 (Anti-Bot-Schutz). URL-Validierung erfolgte deshalb überwiegend über Suchmaschinenbestätigung und Snippet-Inhalte.
+**Hinweis:** WebFetch lieferte für ~98% aller URLs HTTP 403 (Anti-Bot-Schutz). URL-Validierung erfolgte überwiegend über Suchmaschinenbestätigung und Snippet-Inhalte.
 
 ---
 
-## Neu hinzugefügte Gewinnspiele (5 Einträge)
+## Neu hinzugefügte Gewinnspiele (4 Einträge, Sitzung 22.04.2026)
 
 | Titel | Kategorie | Wert | Deadline | URL |
 |-------|-----------|------|----------|-----|
-| Volkswagen Anpfiff zum Gewinn: VW T-Roc & WM-Tickets 2026 | auto | 30.000 € | 2026-07-31 | volkswagen.de/de/angebote-und-produkte/anpfiff-zum-gewinn.html |
-| OPUS Fashion: 300 € Modegutschein gewinnen | mode | 300 € | 2026-04-28 | de.opus-fashion.com/de/gewinnspiel |
-| Bonita: 9-tägige Luxus-Rheinkreuzfahrt für 2 gewinnen | reise | ~3.500 € | 2026-05-31 | bonita.de/de/de/gewinnspiel-thurgau-travel |
-| ADAC Newsletter: 20 × 500 € Reisegutscheine gewinnen | reise | 500 € | 2026-12-14 | adac.de/der-adac/newsletter/abonnement/ |
-| dm × MaxiNutrition: 5 Nächte Wellness-Hotel gewinnen | beauty | ~1.500 € | 2026-05-11 | dm.de/neu/gewinnspiele |
+| Esso Bonus Newsletter: Monatliche Reise nach Kapstadt gewinnen | reise | 3.000 € | 2026-06-30 | esso.de/de-de/newsletter |
+| Ferrero Newsletter: Monatliche Verlosung bis August 2026 | haus | 1.200 € | 2026-08-31 | gewinnspiel.mein-ferrero.de/loyalty-gewinnspiel |
+| Lufthansa City Center: Schiff des Jahres 2026 wählen & Kreuzfahrt gewinnen | reise | 3.000 € | 2026-08-31 | lufthansa-city-center.com/de/urlaub/reisearten/schiff-des-jahres/ |
+| dm & Garnier: 5-Tage-Reise nach Marrakesch (2.500 E) gewinnen | beauty | 2.500 € | 2026-05-31 | dm.de/pflege-und-duft/gewinnspiel-garnier-skin-active-c1218520.html |
 
-**Neue Kategorien erschlossen:** `auto` (vorher leer), `mode` (vorher leer)
+**Hinweis zu Lufthansa City Center:** Im Bericht vom 16.04.2026 als DEFEKT markiert (Abstimmung abgeschlossen). Aktuelle Recherche: Die Wahl zum Schiff des Jahres 2026 laeuft noch bis 31.08.2026 - der AIDAdiva-Sieg bezog sich auf den 2025-Wettbewerb. Neu aufgenommen.
 
----
+**Hinweis zu Ferrero:** Im Bericht vom 16.04.2026 ausgeschlossen (moeglicher Kaufzwang durch Loyalty-Punkte). Aktuelle Recherche bestaetigt: reine Newsletter-Anmeldung genuegt, Laufzeit 01.09.2025 bis 31.08.2026 explizit bestaetigt.
 
-## Link-Check Ergebnisse (alle 14 Bestandseinträge)
-
-### BEHALTEN (Status OK) – 13 Einträge
-
-| Titel | URL | Status | Begründung |
-|-------|-----|--------|------------|
-| REWE Reisen Gewinnspiel | rewe-reisen.de/gewinnspiel.html | ✅ OK | Aktiv bis 30.04.2026; Wellnessurlaub; direkte URL; kostenlos bestätigt |
-| Penny Reisen Gewinnspiel | penny-reisen.de/gewinnspiel.html | ✅ OK | Aktiv; 4-tägiger Harzhotel-Aufenthalt; direkter Pfad; kostenlos |
-| AIDA Monatsgewinnspiel | aida.de/buchung/aktionen/gewinnspiele/monatsgewinnspiel | ✅ OK | Aktiv bis 30.04.2026; 3.000 € Gutschein; direkte AIDA-URL; kostenlos |
-| engbers E-Bike Coboc | engbers.com/landingpage/gewinnspiel | ✅ OK | Aktiv 01.04.–16.05.2026; 4 × Coboc Iseo je 3.999 €; direkt; kostenlos |
-| winario Geldgewinne | winario.de/gewinnspiele/geldgewinne | ✅ OK | Aktiv; RTL/VOX-Plattform; tägliche Geldgewinne; Basis-Teilnahme kostenlos |
-| Momcozy KleanPal Pro | gesundheit.com/gewinnspiele/momcozy-kleanpal-pro-zu-gewinnen | ✅ OK* | Deadline 03.05.2026 noch in der Zukunft; spezifischer Pfad; 403 nicht abrufbar |
-| Aktion Mensch iPad + AirPods | aktion-mensch-newsletter.de/?cid=21368… | ✅ OK | Aktiv bis 30.04.2026; Apple iPad + AirPods (ca. 500 €); kostenlos bestätigt |
-| Runner's World Frühjahrs-GS | runnersworld.de/news/runners-world-fruehjahrs-gewinnspiel-250-euro/ | ✅ OK | Aktiv; Deadline 24.04.2026 12:00 Uhr; 2 × 250 €; kostenlos bestätigt |
-| Hyundai WM-Gewinnspiel | hyundai.com/de/de/hyundai-welt/sponsoring-und-events/wm26.html | ✅ OK | Aktiv bis 06.05.2026; WM-Roadtrip Nordamerika; direkte URL; kostenlos |
-| Rossmann Centaur-Rätsel April | rossmann.de/cms/gewinnspiele/centaur-raetsel-202604.html | ✅ OK | URL-Muster durch mehrere Monate bestätigt; Deadline 30.04.2026 |
-| Tchibo Newsletter Gewinnspiel | tchibo.de/c/subscribenewsletter | ✅ OK | 30 × 100 € Gutscheine; direkter Tchibo-Pfad; kostenlos |
-| DA Direkt Nintendo Switch 2 | da-direkt.de/mail/gewinnspiel-2025 | ✅ OK | Aktiv bis 31.05.2026; 5 × Switch 2; direkter URL; kostenlos bestätigt |
-| ESSEN & TRINKEN Wochengewinnspiel | essen-und-trinken.de/gewinnspiele | ✅ OK | Wöchentliche Verlosung aktiv; Küche & Lifestyle; kostenlos |
-
-*nicht vollständig via WebFetch prüfbar (HTTP 403), kein Hinweis auf Ablauf
-
-### ENTFERNT (1 Eintrag)
-
-| Titel | URL | Status | Begründung |
-|-------|-----|--------|------------|
-| Lidl Frühlings-Gewinnspiel 2026 | lidl.de/c/lidl-gewinnspiele/s10019702 | ❌ HOMEPAGE | Allgemeine Gewinnspiel-Übersichtsseite ohne spezifischen Contest-Pfad. Aktuelles Lidl-Thema ist „WM-Sommer", nicht „Frühling" – Titel nicht mehr korrekt. |
+**Aus vorheriger Sitzung (19.04.2026) bereits hinzugefuegt:** VW T-Roc WM-GS, OPUS Fashion, Bonita Rheinkreuzfahrt, ADAC Newsletter, dm x MaxiNutrition.
 
 ---
 
-## Recherchierte, aber nicht aufgenommene Kandidaten
+## Link-Check Ergebnisse (18 bestehende Eintraege vor dieser Sitzung)
 
-| Titel | Grund für Ablehnung |
-|-------|---------------------|
-| BurdaDirect VW Tiguan / 50.000 € Gewinnspiel | Aggressive Datenweitergabe an viele Sponsoren; keine saubere direkte Veranstalter-URL findbar |
-| MediaMarkt: Google-Paket Gewinnspiel | Deadline 22.04.2026 zu nah; kein ausreichender Vorlauf für sinnvolle Anzeige |
-| DFB-Pokal-Finale Tickets (dfb.de) | Kein spezifischer, verifizierbarer direkter dfb.de-Gewinnspiel-URL auffindbar |
-| Globetrotter Newsletter Gewinnspiel | globetrotter.de/aktionen/newsletter-gewinnspiel – 403, Preis/Deadline unklar |
-| Saturn Gutschein (Produktbewertung) | Teilnahme erfordert Produktbewertung – möglicher Grenzfall Kaufpflicht |
+| Titel | Status | Begruendung |
+|-------|--------|-------------|
+| REWE Reisen Gewinnspiel | OK | URL bestätigt; Deadline 30.04.2026; kostenlos |
+| Penny Reisen Gewinnspiel | OK | URL bestätigt; Deadline 30.04.2026; kostenlos |
+| AIDA Monatsgewinnspiel | OK | Web-Suche: 3.000 EUR Gutschein, Deadline 30.04.2026, kostenlos |
+| engbers E-Bike Coboc | OK | Deadline 16.05.2026; kein Hinweis auf Probleme |
+| winario: Taeglich Bargeld | OK | Web-Suche: 100% kostenlos, keine Coins, nur Registrierung + Werbespot |
+| Momcozy KleanPal Pro | OK | Deadline 03.05.2026; kein Hinweis auf Probleme |
+| Aktion Mensch Newsletter | OK | Deadline 30.04.2026; Newsletter-Anmeldung erlaubt per Kriterien |
+| Runner's World Fruehjahrs-GS | OK | Web-Suche: Deadline 24.04.2026 12:00 Uhr, 2x250 EUR, kostenlos |
+| Hyundai WM-Gewinnspiel | OK | Web-Suche: Deadline 06.05.2026, WM-Roadtrip Nordamerika, kostenlos |
+| Rossmann Centaur-Raetsel April | OK | Web-Suche: Aktive April-Ausgabe, Deadline 30.04.2026, Preise inkl. Reisen |
+| Tchibo Newsletter Gewinnspiel | OK | Deadline 31.05.2026; Tchibo-GS laut Suche aktiv |
+| DA Direkt: Nintendo Switch 2 | OK | Web-Suche: Switch 2 (2026-Spiel) bestaetigt; aktiv; kostenlos |
+| ESSEN & TRINKEN Wochengewinnspiel | OK | Deadline 30.06.2026; woechentliche Verlosung |
+| Volkswagen Anpfiff zum Gewinn | OK | Web-Suche: Ende April bis Juli 2026, VW T-Roc + Tickets, kostenlos |
+| OPUS Fashion: 300 EUR Modegutschein | OK | Deadline 28.04.2026; direkte Marken-URL |
+| Bonita: Rheinkreuzfahrt | OK | Deadline 31.05.2026; direkte Bonita-URL; kostenlos |
+| ADAC Newsletter Reisegutscheine | OK | Deadline 14.12.2026; ADAC-Direktseite; Newsletter-Anmeldung |
+| dm x MaxiNutrition: Wellness-Hotel | OK | Deadline 11.05.2026; direkter dm-Link; kostenlos |
+
+---
+
+## Entfernte Eintraege
+
+Keine Eintraege entfernt (Sitzung 22.04.2026). Alle 18 geprueften Eintraege OK.
+
+*Aus vorheriger Sitzung entfernt (19.04.2026): Lidl Fruehjahrs-GS - HOMEPAGE (allgemeine Uebersichtsseite ohne Contest-spezifischen Pfad)*
+
+---
+
+## Ausgeschlossene Kandidaten (Sitzung 22.04.2026)
+
+| Titel | Grund |
+|-------|-------|
+| EDEKA DFB Gewinnspiel (App + Aktionscode) | KOSTENPFLICHTIG: Aktionscode aus Produktkaeufen |
+| PAYBACK Rubbel die App | DEFEKT: Deadline 01.02.2026 abgelaufen |
+| e-hoi Gewinnspiel 2026 | DEFEKT: Deadline 31.01.2026 abgelaufen |
+| Reisereporter Flusskreuzfahrt-GS | DEFEKT: Deadline 19.01.2026 abgelaufen |
+| Pick New York-Reise | KOSTENPFLICHTIG: Kauf von Pick-Produkten erforderlich |
+| Lotto GluecksSpirale Sonderziehung | KOSTENPFLICHTIG: Loeskauf erforderlich |
+| TUI hr3-Kofferband | DEFEKT: Aktionszeitraum 16.02 bis 20.03.2026 abgelaufen |
 
 ---
 
@@ -76,12 +84,11 @@ Da primäre Quellen (gewinnspiele-markt.de, gewinnspiele.de) und sekundäre Quel
 
 | Kennzahl | Wert |
 |----------|------|
-| Queue-Einträge vorher | 14 |
-| Neu hinzugefügt | 5 |
-| Entfernt (HOMEPAGE) | 1 |
-| Queue-Einträge nachher | **18** |
-| Status OK | 13 |
-| Status HOMEPAGE (entfernt) | 1 |
+| Queue-Eintraege zu Beginn (22.04.2026) | 18 |
+| Neu hinzugefuegt | 4 |
+| Entfernt | 0 |
+| Queue-Eintraege gesamt | 22 |
+| Status OK | 18 |
 | Status DEFEKT | 0 |
 | Status KOSTENPFLICHTIG | 0 |
-| Neue Kategorien erschlossen | 2 (`auto`, `mode`) |
+| Status HOMEPAGE | 0 |
