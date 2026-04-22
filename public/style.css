@@ -573,85 +573,108 @@ main { padding: 0 0 80px; }
 }
 .part-header-link:hover { border-color: var(--border-h); color: var(--accent); }
 
-/* ── Participation section (right column of hero-row) ── */
+/* ── Participation section ── */
 .part-section {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  max-height: 340px;
-  overflow-y: auto;
+  margin-bottom: 48px;
 }
 
 .part-section-header {
-  display: flex; align-items: center; gap: 8px;
-  font-size: 0.85rem; font-weight: 600; color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
 }
 
-.part-section-sub {
-  font-size: 0.72rem; color: var(--muted);
-  margin-top: -6px;
+.part-count-badge {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 20px; height: 20px; padding: 0 7px;
+  background: rgba(104,211,145,0.12); border: 1px solid rgba(104,211,145,0.3);
+  border-radius: 20px; font-size: 0.68rem; font-weight: 700; color: var(--green);
+  letter-spacing: 0;
 }
 
 /* ── Notification bell button ── */
 .notif-btn {
   margin-left: auto; background: none; border: none;
-  font-size: 0.9rem; cursor: pointer; opacity: 0.45;
+  font-size: 0.9rem; cursor: pointer; opacity: 0.35;
   transition: opacity 0.18s; padding: 2px 4px; line-height: 1;
 }
-.notif-btn:hover { opacity: 0.9; }
+.notif-btn:hover { opacity: 0.8; }
 .notif-btn[data-state="granted"] { opacity: 1; }
-.notif-btn[data-state="denied"]  { opacity: 0.25; cursor: not-allowed; }
+.notif-btn[data-state="denied"]  { opacity: 0.2; cursor: not-allowed; }
 .notif-btn[data-state="unsupported"] { display: none; }
 
-.part-count-badge {
-  display: inline-flex; align-items: center; justify-content: center;
-  min-width: 20px; height: 20px; padding: 0 6px;
-  background: rgba(104,211,145,0.15); border: 1px solid rgba(104,211,145,0.35);
-  border-radius: 20px; font-size: 0.7rem; font-weight: 700; color: var(--green);
+.part-section-sub {
+  font-size: 0.72rem; color: var(--muted); opacity: 0.6;
+  margin-bottom: 20px;
 }
-.part-grid { display: flex; flex-direction: column; gap: 8px; }
+
+.part-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 12px;
+}
 
 /* ── Participation card ── */
 .part-card {
-  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  display: flex; align-items: center; gap: 16px;
   background: var(--surface); border: 1px solid var(--border);
-  border-radius: 10px; padding: 14px 16px;
-  transition: border-color 0.18s, box-shadow 0.18s;
+  border-radius: 12px; padding: 18px 20px;
+  cursor: pointer;
+  transition: border-color 0.18s, box-shadow 0.18s, background 0.18s;
 }
-.part-card:hover { border-color: var(--border-h); box-shadow: 0 2px 12px rgba(0,0,0,.3); }
-.part-card.expired { opacity: 0.6; border-color: rgba(255,255,255,0.05); }
-.part-card-main { display: flex; flex-direction: column; gap: 4px; min-width: 0; flex: 1; }
+.part-card:hover {
+  border-color: var(--border-h);
+  background: var(--surface-h);
+  box-shadow: 0 4px 20px rgba(0,0,0,.35);
+}
+.part-card.expired { opacity: 0.5; }
+.part-card.expired:hover { opacity: 0.7; }
+
+.part-card-main { display: flex; flex-direction: column; gap: 5px; min-width: 0; flex: 1; }
+
 .part-card-title {
-  font-size: 0.9rem; font-weight: 600; color: var(--text);
+  font-size: 0.92rem; font-weight: 600; color: var(--text);
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  transition: color 0.15s;
 }
+.part-card:hover .part-card-title { color: var(--accent); }
+
+.part-card-meta {
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+}
+
 .part-card-deadline {
-  font-size: 0.82rem; font-weight: 700;
+  font-size: 0.78rem; font-weight: 600;
   color: var(--accent);
-  margin-top: 3px;
 }
 .part-card-deadline.urgent { color: var(--red); }
-.part-card-deadline.expired-date { color: var(--muted); font-weight: 500; }
+.part-card-deadline.expired-date { color: var(--muted); font-weight: 400; }
+
+.part-card-sponsor {
+  font-size: 0.74rem; color: var(--muted);
+}
+
+.unsubscribe-hint {
+  font-size: 0.72rem; color: var(--accent2); margin-top: 2px; opacity: 0.8;
+}
 
 /* ── Remove button ── */
 .part-remove {
-  flex-shrink: 0; width: 28px; height: 28px;
+  flex-shrink: 0; width: 30px; height: 30px;
   display: flex; align-items: center; justify-content: center;
-  background: transparent; border: 1px solid var(--border); border-radius: 6px;
+  background: transparent; border: 1px solid transparent; border-radius: 8px;
   color: var(--muted); font-size: 1.1rem; cursor: pointer; font-family: inherit;
   transition: border-color 0.15s, color 0.15s, background 0.15s;
 }
 .part-remove:hover {
   border-color: rgba(252,129,129,0.4); color: var(--red); background: rgba(252,129,129,0.08);
 }
-
-/* ── Click-to-scroll: part-card acts as a link ── */
-.part-card { cursor: pointer; }
-.part-card:hover .part-card-title { color: var(--accent); }
 
 /* ── Card highlight after scroll-to ── */
 @keyframes card-flash {

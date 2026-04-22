@@ -351,7 +351,10 @@ function renderParticipations() {
     card.innerHTML = `
       <div class="part-card-main">
         <div class="part-card-title">${p.title}</div>
-        <div class="part-card-deadline${urgent ? ' urgent' : expired ? ' expired-date' : ''}">${dText}</div>
+        <div class="part-card-meta">
+          <span class="part-card-deadline${urgent ? ' urgent' : expired ? ' expired-date' : ''}">${dText}</span>
+          <span class="part-card-sponsor">${p.sponsor}</span>
+        </div>
       </div>
       <button class="part-remove" data-id="${p.id}" aria-label="Entfernen">×</button>
     `;
