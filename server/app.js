@@ -31,7 +31,15 @@ function createApp(db) {
   // ── Performance ──────────────────────────────────────────────────────────
   app.use(compression());
 
-  // ── Rate limiting (API only) ─────────────────────────────────────────────
+  // ── Rate limiting ────────────────────────────────────────────────────────
+  app.use('/api/admin', rateLimit({
+    windowMs: 15 * 60 * 1000,
+    max: 30,
+    standardHeaders: true,
+    legacyHeaders: false,
+    message: { error: 'Too many requests, please try again later.' },
+  }));
+
   app.use('/api', rateLimit({
     windowMs: 15 * 60 * 1000,
     max: 100,
