@@ -11,7 +11,7 @@ const CAT_IMAGES = {
   reise:       'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=480&h=180&fit=crop&auto=format&q=75',
   bargeld:     'https://images.unsplash.com/photo-1580519542036-c47de6196ba5?w=480&h=180&fit=crop&auto=format&q=75',
   auto:        'https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=480&h=180&fit=crop&auto=format&q=75',
-  handy:       'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=480&h=180&fit=crop&auto=format&q=75',
+  handy:       'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=480&h=180&fit=crop&auto=format&q=75',
   gutschein:   'https://images.unsplash.com/photo-1513885535751-8b9238bd345a?w=480&h=180&fit=crop&auto=format&q=75',
   sport:       'https://images.unsplash.com/photo-1571333250630-f0230c320b6d?w=480&h=180&fit=crop&auto=format&q=75',
   mode:        'https://images.unsplash.com/photo-1445205170230-053b83016050?w=480&h=180&fit=crop&auto=format&q=75',
