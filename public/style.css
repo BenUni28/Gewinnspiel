@@ -980,28 +980,42 @@ main { padding: 0 0 80px; }
 }
 
 @media (max-width: 600px) {
-  /* Hero */
-  .hero { padding: 64px 0 48px; margin-bottom: 32px; }
-  .hero-content { padding: 0 24px; }
-  .hero-eyebrow { font-size: 0.6rem; padding: 5px 12px; margin-bottom: 18px; }
-  .hero h1 { font-size: clamp(2.6rem, 12vw, 3.2rem); margin-bottom: 14px; }
-  .hero-sub { font-size: 0.85rem; margin-bottom: 28px; max-width: 100%; }
+  /* Header */
+  .header-inner { padding: 0 14px; }
+  .logo span { display: none; }           /* nur Icon, kein "Gewinnspiele"-Text */
+  .profile-btn span { display: none; }
+  #live-label { display: none; }
+  #active-count-badge { display: none; }  /* Zahl redundant auf Mobile */
 
-  /* Stats: gleichmäßige Linie mit Trennern */
+  /* Hero */
+  .hero { padding: 56px 0 44px; margin-bottom: 28px; }
+  .hero-content { padding: 0 20px; text-align: center; }
+
+  /* Eyebrow: zu lang für Mobile → kürzer + umbrechen erlaubt */
+  .hero-eyebrow {
+    font-size: 0.58rem;
+    padding: 5px 12px;
+    margin: 0 auto 18px;
+    white-space: normal;
+    text-align: center;
+    max-width: 240px;
+    line-height: 1.5;
+  }
+
+  .hero h1 { font-size: clamp(2.4rem, 11vw, 3rem); margin-bottom: 12px; }
+  .hero-sub { font-size: 0.82rem; margin-bottom: 24px; max-width: 100%; }
+
+  /* Stats-Pill */
   .hero-stats {
     gap: 0;
-    margin-bottom: 32px;
+    margin-bottom: 28px;
     background: rgba(255,255,255,0.04);
     border: 1px solid rgba(255,255,255,0.08);
     border-radius: 14px;
-    padding: 16px 0;
+    padding: 14px 0;
     justify-content: space-around;
   }
-  .hero-stat {
-    align-items: center;
-    flex: 1;
-    position: relative;
-  }
+  .hero-stat { align-items: center; flex: 1; position: relative; }
   .hero-stat + .hero-stat::before {
     content: '';
     position: absolute;
@@ -1009,40 +1023,34 @@ main { padding: 0 0 80px; }
     width: 1px;
     background: rgba(255,255,255,0.1);
   }
-  .hero-stat-num { font-size: 1.55rem; }
-  .hero-stat-lbl { font-size: 0.62rem; text-align: center; }
+  .hero-stat-num { font-size: 1.4rem; }
+  .hero-stat-lbl { font-size: 0.58rem; text-align: center; }
 
   /* CTA-Buttons: gestapelt, volle Breite */
-  .hero-cta {
-    flex-direction: column;
-    gap: 10px;
-  }
+  .hero-cta { flex-direction: column; gap: 10px; }
   .btn-hero-primary {
     justify-content: center;
-    padding: 14px 24px;
-    font-size: 0.9rem;
+    padding: 14px;
+    font-size: 0.88rem;
     width: 100%;
-    box-sizing: border-box;
   }
   .btn-hero-secondary {
-    padding: 13px 24px;
-    font-size: 0.85rem;
+    padding: 13px;
+    font-size: 0.84rem;
     width: 100%;
-    box-sizing: border-box;
     text-align: center;
   }
 
-  /* Orbs kleiner */
-  .hero-orb-1 { width: 320px; height: 320px; top: -120px; left: -140px; }
-  .hero-orb-2 { width: 260px; height: 260px; bottom: -80px; right: -100px; }
+  /* Orbs */
+  .hero-orb-1 { width: 280px; height: 280px; top: -100px; left: -120px; }
+  .hero-orb-2 { width: 220px; height: 220px; bottom: -60px; right: -80px; }
 
   /* Layout */
   .grid { grid-template-columns: 1fr; }
   .info-grid { grid-template-columns: 1fr; }
-  #live-label { display: none; }
   .info-bottom { flex-direction: column; text-align: center; }
 
-  /* Header */
-  .header-inner { padding: 0 16px; }
-  .profile-btn span { display: none; }
+  /* Part-section header: nicht brechen lassen */
+  .part-collapse-btn { min-width: 0; }
+  .part-collapse-btn span:first-child { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 }

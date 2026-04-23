@@ -1,6 +1,6 @@
 'use strict';
 
-const CACHE = 'gw-v2';
+const CACHE = 'gw-v3';
 const PRECACHE = ['/', '/style.css', '/app.js', '/manifest.json', '/icons/icon.svg'];
 
 // Install: cache static shell immediately
