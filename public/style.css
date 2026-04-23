@@ -912,6 +912,64 @@ main { padding: 0 0 80px; }
 
 
 /* ── Responsive ── */
+
+/* iPad landscape / kleine Desktops (≤1024px) */
+@media (max-width: 1024px) {
+  .hero { padding: 80px 0 64px; }
+  .hero-orb-1 { width: 460px; height: 460px; top: -160px; left: -160px; }
+  .hero-orb-2 { width: 380px; height: 380px; bottom: -80px; right: -120px; }
+}
+
+/* iPad Portrait (≤820px) */
+@media (max-width: 820px) {
+  /* Hero zentrieren — linksbündig wirkt auf schmalen Tablets unausgewogen */
+  .hero { padding: 72px 0 56px; margin-bottom: 36px; }
+  .hero-content { text-align: center; }
+  .hero h1 { font-size: clamp(2.8rem, 9vw, 4rem); }
+  .hero-sub { max-width: 100%; font-size: 0.9rem; }
+  .hero-eyebrow { margin-left: auto; margin-right: auto; }
+
+  /* Stats — zentriert, mit Trennern wie auf Mobile */
+  .hero-stats {
+    gap: 0;
+    justify-content: space-around;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 14px;
+    padding: 18px 0;
+    margin-bottom: 32px;
+  }
+  .hero-stat {
+    align-items: center;
+    flex: 1;
+    position: relative;
+  }
+  .hero-stat + .hero-stat::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 15%; bottom: 15%;
+    width: 1px;
+    background: rgba(255,255,255,0.1);
+  }
+  .hero-stat-num { font-size: 1.7rem; }
+
+  /* CTAs — zentriert, etwas breiter für Touch */
+  .hero-cta {
+    justify-content: center;
+    gap: 10px;
+  }
+  .btn-hero-primary  { padding: 13px 32px; }
+  .btn-hero-secondary { padding: 12px 26px; }
+
+  /* Orbs kleiner */
+  .hero-orb-1 { width: 380px; height: 380px; top: -130px; left: -130px; }
+  .hero-orb-2 { width: 300px; height: 300px; bottom: -60px; right: -100px; }
+
+  .info-grid { grid-template-columns: repeat(2, 1fr); }
+  .favorites-grid { grid-template-columns: 1fr; }
+  .part-grid { grid-template-columns: 1fr; }
+}
+
 @media (max-width: 900px) {
   .info-grid { grid-template-columns: repeat(2, 1fr); }
 }
