@@ -923,18 +923,60 @@ main { padding: 0 0 80px; }
 
 @media (max-width: 600px) {
   /* Hero */
-  .hero { padding: 72px 0 56px; margin-bottom: 36px; }
-  .hero h1 { font-size: clamp(2.4rem, 11vw, 3rem); }
-  .hero-sub { font-size: 0.88rem; margin-bottom: 28px; }
-  .hero-stats { gap: 20px; margin-bottom: 28px; }
-  .hero-stat-num { font-size: 1.5rem; }
-  .hero-eyebrow { font-size: 0.62rem; padding: 5px 12px; margin-bottom: 20px; }
-  .hero-cta { gap: 10px; }
-  .btn-hero-primary, .btn-hero-secondary { padding: 11px 20px; font-size: 0.85rem; }
+  .hero { padding: 64px 0 48px; margin-bottom: 32px; }
+  .hero-content { padding: 0 24px; }
+  .hero-eyebrow { font-size: 0.6rem; padding: 5px 12px; margin-bottom: 18px; }
+  .hero h1 { font-size: clamp(2.6rem, 12vw, 3.2rem); margin-bottom: 14px; }
+  .hero-sub { font-size: 0.85rem; margin-bottom: 28px; max-width: 100%; }
 
-  /* Orbs toned down on small screens */
-  .hero-orb-1 { width: 350px; height: 350px; top: -100px; left: -120px; }
-  .hero-orb-2 { width: 280px; height: 280px; bottom: -60px; right: -80px; }
+  /* Stats: gleichmäßige Linie mit Trennern */
+  .hero-stats {
+    gap: 0;
+    margin-bottom: 32px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 14px;
+    padding: 16px 0;
+    justify-content: space-around;
+  }
+  .hero-stat {
+    align-items: center;
+    flex: 1;
+    position: relative;
+  }
+  .hero-stat + .hero-stat::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 20%; bottom: 20%;
+    width: 1px;
+    background: rgba(255,255,255,0.1);
+  }
+  .hero-stat-num { font-size: 1.55rem; }
+  .hero-stat-lbl { font-size: 0.62rem; text-align: center; }
+
+  /* CTA-Buttons: gestapelt, volle Breite */
+  .hero-cta {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .btn-hero-primary {
+    justify-content: center;
+    padding: 14px 24px;
+    font-size: 0.9rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .btn-hero-secondary {
+    padding: 13px 24px;
+    font-size: 0.85rem;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  /* Orbs kleiner */
+  .hero-orb-1 { width: 320px; height: 320px; top: -120px; left: -140px; }
+  .hero-orb-2 { width: 260px; height: 260px; bottom: -80px; right: -100px; }
 
   /* Layout */
   .grid { grid-template-columns: 1fr; }
