@@ -11,7 +11,7 @@ module.exports = function contestsRouter(db) {
 
     let sql = `
       SELECT id, title, cat, value_eur, icon, deadline,
-             sponsor, description, url, is_real, is_favorite, created_at
+             sponsor, description, url, is_real, is_favorite, draw_date, created_at
       FROM contests
       WHERE active = 1
         AND is_real = 1

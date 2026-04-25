@@ -61,7 +61,8 @@ function saveParticipation(c) {
   const list = loadParticipations();
   if (list.some(p => p.id === c.id)) return;
   list.push({ id: c.id, title: c.title, cat: c.cat, deadline: c.deadline,
-              sponsor: c.sponsor, url: c.url || '#', joinedAt: new Date().toISOString() });
+              sponsor: c.sponsor, url: c.url || '#', draw_date: c.draw_date || null,
+              joinedAt: new Date().toISOString() });
   localStorage.setItem(LS_KEY, JSON.stringify(list));
 }
 
@@ -348,6 +349,10 @@ function renderParticipations() {
 
     const card = document.createElement('div');
     card.className = 'part-card' + (expired ? ' expired' : '');
+    const drawLine = p.draw_date
+      ? `<span class="part-card-draw">Auslosung: ${p.draw_date}</span>`
+      : `<span class="part-card-draw not-found">Auslosung: nicht angegeben</span>`;
+
     card.innerHTML = `
       <div class="part-card-main">
         <div class="part-card-title">${p.title}</div>
@@ -355,6 +360,7 @@ function renderParticipations() {
           <span class="part-card-deadline${urgent ? ' urgent' : expired ? ' expired-date' : ''}">${dText}</span>
           <span class="part-card-sponsor">${p.sponsor}</span>
         </div>
+        ${drawLine}
       </div>
       <button class="part-remove" data-id="${p.id}" aria-label="Entfernen">×</button>
     `;

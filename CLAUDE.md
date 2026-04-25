@@ -104,6 +104,33 @@ URLs mit diesen Präfixen werden beim Import automatisch übersprungen (`server/
 
 **Wichtig:** Der Agent kann Railway nicht direkt ansprechen. Nur Git-Push → Auto-Deploy.
 
+### Queue-JSON-Schema (Felder pro Eintrag)
+
+```jsonc
+{
+  "title":       "Titel des Gewinnspiels",
+  "cat":         "sport",          // reise|bargeld|auto|handy|gutschein|sport|mode|haus|beauty|lebensmittel
+  "sponsor":     "Veranstalter",
+  "deadline":    "2026-06-01",     // ISO-Datum: letzter Teilnahmetag
+  "draw_date":   "15.06.2026",     // Auslosungs-/Gewinner-Bekanntgabedatum (Freitext, optional)
+  "description": "Kurze Beschreibung",
+  "url":         "https://…",
+  "is_real":     1,                // 1 = echtes Gewinnspiel, 0 = Demo
+  "value_eur":   999               // Gewinnwert in €, null wenn nicht angegeben
+}
+```
+
+### Auslosungsdatum recherchieren (`draw_date`)
+
+**Für jeden neuen Eintrag** muss der Agent aktiv nach dem Auslosungsdatum suchen:
+1. Öffne die Teilnahmeseite (url) und suche nach Begriffen wie:
+   - „Auslosung", „Auslosungsdatum", „Gewinner werden", „Bekanntgabe der Gewinner",
+   - „ermittelt am", „wird bekannt gegeben", „Los wird gezogen", „Ziehung"
+2. Prüfe die **Teilnahmebedingungen** der Seite (oft verlinkt als „TnB", „AGB", „Teilnahmebedingungen")
+3. Wenn ein konkretes Datum gefunden: trage es als Freitext ein (z.B. `"15.06.2026"` oder `"Juni 2026"`)
+4. Wenn nur eine vage Aussage: trage sie sinnvoll gekürzt ein (z.B. `"nach Teilnahmeschluss"`)
+5. Wenn nichts gefunden: Feld weglassen (wird als `null` importiert und in der UI als „nicht angegeben" angezeigt)
+
 ---
 
 ## Railway & Deployment
@@ -122,7 +149,7 @@ URLs mit diesen Präfixen werden beim Import automatisch übersprungen (`server/
 **Verwaltung:** https://claude.ai/code/scheduled
 
 Der Agent:
-1. Recherchiert 5–10 neue kostenlose Gewinnspiele
+1. Recherchiert 5–10 neue kostenlose Gewinnspiele inkl. `draw_date` (Auslosungsdatum aus den TnBs)
 2. Prüft alle URLs in der Queue (OK / KOSTENPFLICHTIG / HOMEPAGE / DEFEKT)
 3. Entfernt fehlerhafte und kostenpflichtige Einträge
 4. Pusht `contests-queue.json` + `link-check-report.md`

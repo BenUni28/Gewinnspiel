@@ -32,6 +32,7 @@ module.exports = function adminRouter(db) {
       url:         body.url || '#',
       is_real:     body.is_real ? 1 : 0,
       is_favorite: body.is_favorite ? 1 : 0,
+      draw_date:   body.draw_date || null,
     };
   }
 
@@ -64,8 +65,8 @@ module.exports = function adminRouter(db) {
     }
 
     const info = db.prepare(`
-      INSERT INTO contests (title, cat, value_eur, icon, deadline, sponsor, description, url, is_real, is_favorite)
-      VALUES (@title, @cat, @value_eur, @icon, @deadline, @sponsor, @description, @url, @is_real, @is_favorite)
+      INSERT INTO contests (title, cat, value_eur, icon, deadline, sponsor, description, url, is_real, is_favorite, draw_date)
+      VALUES (@title, @cat, @value_eur, @icon, @deadline, @sponsor, @description, @url, @is_real, @is_favorite, @draw_date)
     `).run({ title, cat, deadline, sponsor, ...normaliseContest(req.body) });
 
     res.status(201).json({ id: info.lastInsertRowid });
@@ -98,7 +99,7 @@ module.exports = function adminRouter(db) {
       UPDATE contests
       SET title=@title, cat=@cat, value_eur=@value_eur, icon=@icon,
           deadline=@deadline, sponsor=@sponsor, description=@description,
-          url=@url, is_real=@is_real, active=@active
+          url=@url, is_real=@is_real, active=@active, draw_date=@draw_date
       WHERE id=@id
     `).run({
       id, title, cat, deadline, sponsor,

@@ -713,6 +713,13 @@ main { padding: 0 0 80px; }
   font-size: 0.74rem; color: var(--muted);
 }
 
+.part-card-draw {
+  font-size: 0.72rem; color: var(--muted); margin-top: 3px; display: block;
+}
+.part-card-draw.not-found {
+  opacity: 0.4; font-style: italic;
+}
+
 .unsubscribe-hint {
   font-size: 0.72rem; color: var(--accent2); margin-top: 2px; opacity: 0.8;
 }

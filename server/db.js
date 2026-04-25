@@ -177,9 +177,14 @@ function createDb(dbPath, { queueFile = null, seed = SEED } = {}) {
     db.exec('ALTER TABLE contests ADD COLUMN is_favorite INTEGER NOT NULL DEFAULT 0');
   } catch (_) { /* column already exists */ }
 
+  // Add draw_date to existing DBs created before this column existed
+  try {
+    db.exec('ALTER TABLE contests ADD COLUMN draw_date TEXT');
+  } catch (_) { /* column already exists */ }
+
   const INSERT_STMT = db.prepare(`
-    INSERT INTO contests (title, cat, value_eur, icon, deadline, sponsor, description, url, is_real, is_favorite)
-    VALUES (@title, @cat, @value_eur, @icon, @deadline, @sponsor, @description, @url, @is_real, @is_favorite)
+    INSERT INTO contests (title, cat, value_eur, icon, deadline, sponsor, description, url, is_real, is_favorite, draw_date)
+    VALUES (@title, @cat, @value_eur, @icon, @deadline, @sponsor, @description, @url, @is_real, @is_favorite, @draw_date)
   `);
   const titleExists = db.prepare('SELECT COUNT(*) AS n FROM contests WHERE title = ?');
 
@@ -188,7 +193,7 @@ function createDb(dbPath, { queueFile = null, seed = SEED } = {}) {
   if (count === 0 && seed.length > 0) {
     // Apply safe defaults so partial rows (e.g. in tests) don't throw
     db.transaction(rows => rows.forEach(r => INSERT_STMT.run({
-      icon: '🎁', description: '', url: '#', value_eur: null, is_favorite: 0, ...r,
+      icon: '🎁', description: '', url: '#', value_eur: null, is_favorite: 0, draw_date: null, ...r,
     })))(seed);
   }
 
@@ -230,6 +235,7 @@ function createDb(dbPath, { queueFile = null, seed = SEED } = {}) {
               url:         item.url || '#',
               is_real:     item.is_real ? 1 : 0,
               is_favorite: item.is_favorite ? 1 : 0,
+              draw_date:   item.draw_date ?? null,
             });
             added++;
           }

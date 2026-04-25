@@ -36,6 +36,7 @@ async function addContest() {
     is_favorite: $('f-favorite').checked ? 1 : 0,
     description: $('f-desc').value,
     url:         $('f-url').value || '#',
+    draw_date:   $('f-draw-date').value.trim() || null,
   };
   try {
     const res = await fetch('/api/admin/contests', {
@@ -72,17 +73,18 @@ async function toggleFavorite(id, currentlyFav, btn) {
 
 // ── Edit modal ─────────────────────────────────────────────────────────────
 function openEdit(c) {
-  $('e-id').value       = c.id;
-  $('e-title').value    = c.title;
-  $('e-cat').value      = c.cat;
-  $('e-icon').value     = c.icon;
-  $('e-sponsor').value  = c.sponsor;
-  $('e-deadline').value = c.deadline;
-  $('e-value').value    = c.value_eur ?? '';
-  $('e-real').value     = c.is_real ? '1' : '0';
-  $('e-desc').value     = c.description;
-  $('e-url').value      = c.url !== '#' ? c.url : '';
-  $('e-active').checked = !!c.active;
+  $('e-id').value        = c.id;
+  $('e-title').value     = c.title;
+  $('e-cat').value       = c.cat;
+  $('e-icon').value      = c.icon;
+  $('e-sponsor').value   = c.sponsor;
+  $('e-deadline').value  = c.deadline;
+  $('e-value').value     = c.value_eur ?? '';
+  $('e-real').value      = c.is_real ? '1' : '0';
+  $('e-desc').value      = c.description;
+  $('e-url').value       = c.url !== '#' ? c.url : '';
+  $('e-draw-date').value = c.draw_date || '';
+  $('e-active').checked  = !!c.active;
   $('edit-msg').textContent = '';
   $('edit-backdrop').style.display = '';
   $('edit-modal').style.display = '';
@@ -109,6 +111,7 @@ async function saveEdit(e) {
     description: $('e-desc').value,
     url:         $('e-url').value || '#',
     active:      $('e-active').checked ? 1 : 0,
+    draw_date:   $('e-draw-date').value.trim() || null,
   };
   const btn = $('e-save-btn');
   btn.disabled = true; btn.textContent = 'Speichern…';
