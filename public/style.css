@@ -1061,3 +1061,145 @@ main { padding: 0 0 80px; }
   .part-collapse-btn { min-width: 0; }
   .part-collapse-btn span:first-child { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 }
+
+/* ══════════════════════════════════════════════════════
+   THEME TOGGLE BUTTON
+══════════════════════════════════════════════════════ */
+.theme-btn {
+  display: flex; align-items: center; justify-content: center;
+  width: 32px; height: 32px; border-radius: 50%; flex-shrink: 0;
+  background: var(--surface); border: 1px solid var(--border);
+  color: var(--muted); cursor: pointer;
+  transition: border-color 0.18s, color 0.18s, background 0.18s;
+}
+.theme-btn:hover { border-color: var(--border-h); color: var(--accent); }
+.theme-btn .icon-moon { display: none; }
+body.light-mode .theme-btn .icon-sun  { display: none; }
+body.light-mode .theme-btn .icon-moon { display: block; }
+
+/* ══════════════════════════════════════════════════════
+   LIGHT MODE  —  Spring Pastel Palette
+══════════════════════════════════════════════════════ */
+body.light-mode {
+  --bg:        #f7f3ee;
+  --surface:   rgba(0, 0, 0, 0.05);
+  --surface-h: rgba(0, 0, 0, 0.09);
+  --border:    rgba(0, 0, 0, 0.10);
+  --border-h:  rgba(88, 128, 188, 0.55);
+  --text:      #1c1728;
+  --muted:     rgba(28, 23, 40, 0.50);
+  --accent:    #5c86bc;
+  --accent2:   #9e70c4;
+  --glow:      rgba(92, 134, 188, 0.14);
+  --red:       #c45252;
+  --green:     #4fa870;
+}
+
+/* Background */
+body.light-mode .bg-grid {
+  background-image:
+    linear-gradient(rgba(88, 80, 160, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(88, 80, 160, 0.04) 1px, transparent 1px);
+}
+body.light-mode .bg-glow {
+  background:
+    radial-gradient(ellipse 80% 60% at 50% -10%, rgba(175, 155, 235, 0.22) 0%, transparent 70%),
+    radial-gradient(ellipse 50% 40% at 90% 80%,  rgba(235, 155, 185, 0.15) 0%, transparent 60%);
+}
+
+/* Header */
+body.light-mode header {
+  background: rgba(247, 243, 238, 0.88);
+  border-bottom-color: rgba(0, 0, 0, 0.09);
+}
+
+/* Hero */
+body.light-mode .hero {
+  background: linear-gradient(155deg, #ede4f8 0%, #f8e8ee 55%, #f7f3ee 100%);
+}
+body.light-mode .hero-orb-1 {
+  background: rgba(168, 142, 230, 0.30);
+}
+body.light-mode .hero-orb-2 {
+  background: rgba(232, 152, 178, 0.25);
+}
+body.light-mode .hero-stars circle {
+  fill: rgba(80, 60, 130, 0.22);
+}
+body.light-mode .hero-eyebrow {
+  color: var(--accent2);
+  background: rgba(158, 112, 196, 0.10);
+  border-color: rgba(158, 112, 196, 0.28);
+}
+body.light-mode .hero h1 .gradient-text {
+  background: linear-gradient(135deg, #5c86bc 0%, #9e70c4 50%, #c85c88 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+body.light-mode .hero-stat-num {
+  background: linear-gradient(135deg, #5c86bc, #9e70c4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+body.light-mode .hero-stat-lbl {
+  color: rgba(28, 23, 40, 0.38);
+}
+body.light-mode .btn-hero-primary {
+  box-shadow: 0 8px 28px rgba(92, 134, 188, 0.30);
+}
+body.light-mode .btn-hero-primary:hover {
+  box-shadow: 0 12px 36px rgba(92, 134, 188, 0.45);
+}
+
+/* Card image overlay (less dark in light mode) */
+body.light-mode .card-img-wrap::after {
+  background: linear-gradient(to bottom, transparent 50%, rgba(28, 23, 40, 0.35) 100%);
+}
+
+/* Category buttons */
+body.light-mode .cat.active {
+  background: rgba(92, 134, 188, 0.12);
+  border-color: rgba(92, 134, 188, 0.50);
+}
+
+/* Fav card badges */
+body.light-mode .fav-badge {
+  background: rgba(92, 134, 188, 0.14);
+  border-color: rgba(92, 134, 188, 0.35);
+  color: var(--accent);
+}
+body.light-mode .btn-fav {
+  background: linear-gradient(135deg, rgba(92, 134, 188, 0.14) 0%, rgba(158, 112, 196, 0.10) 100%);
+  border-color: rgba(92, 134, 188, 0.28);
+}
+body.light-mode .btn-fav:hover {
+  background: linear-gradient(135deg, rgba(92, 134, 188, 0.24) 0%, rgba(158, 112, 196, 0.18) 100%);
+  border-color: rgba(92, 134, 188, 0.55);
+  box-shadow: 0 0 16px rgba(92, 134, 188, 0.12);
+}
+
+/* Part section badge */
+body.light-mode .part-count-badge {
+  background: rgba(79, 168, 112, 0.14);
+  border-color: rgba(79, 168, 112, 0.35);
+}
+
+/* Profile modal */
+body.light-mode #profile-modal {
+  background: #f4efea;
+  border-color: rgba(0, 0, 0, 0.14);
+  box-shadow: 0 24px 64px rgba(28, 23, 40, 0.18);
+}
+body.light-mode #profile-modal-backdrop {
+  background: rgba(28, 23, 40, 0.45);
+}
+body.light-mode .pf-bm-link {
+  background: rgba(92, 134, 188, 0.12);
+  border-color: rgba(92, 134, 188, 0.38);
+}
+body.light-mode .pf-bm-link:hover {
+  background: rgba(92, 134, 188, 0.20);
+  border-color: rgba(92, 134, 188, 0.65);
+}

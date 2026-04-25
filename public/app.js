@@ -1,5 +1,22 @@
 'use strict';
 
+// ── Theme ──────────────────────────────────────────────────────────────────
+const THEME_KEY = 'gw_theme';
+
+function applyTheme(theme) {
+  document.body.classList.toggle('light-mode', theme === 'light');
+}
+
+function toggleTheme() {
+  const next = document.body.classList.contains('light-mode') ? 'dark' : 'light';
+  localStorage.setItem(THEME_KEY, next);
+  applyTheme(next);
+}
+
+applyTheme(localStorage.getItem(THEME_KEY) || 'dark');
+
+document.getElementById('theme-btn').addEventListener('click', toggleTheme);
+
 const CATS = {
   reise: 'Reise', bargeld: 'Bargeld', auto: 'Auto', handy: 'Technik',
   gutschein: 'Gutschein', sport: 'Sport', mode: 'Mode',
