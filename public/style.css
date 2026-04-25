@@ -704,9 +704,9 @@ main { padding: 0 0 80px; }
 
 .part-card-deadline {
   font-size: 0.78rem; font-weight: 600;
-  color: var(--accent);
+  color: #5ba8e8;
 }
-.part-card-deadline.urgent { color: var(--red); }
+.part-card-deadline.urgent { color: #2772c8; font-weight: 700; }
 .part-card-deadline.expired-date { color: var(--muted); font-weight: 400; }
 
 .part-card-sponsor {
@@ -714,10 +714,11 @@ main { padding: 0 0 80px; }
 }
 
 .part-card-draw {
-  font-size: 0.72rem; color: var(--muted); margin-top: 3px; display: block;
+  font-size: 0.78rem; font-weight: 500;
+  color: #55ad78; margin-top: 3px; display: block;
 }
 .part-card-draw.not-found {
-  opacity: 0.4; font-style: italic;
+  color: #55ad78; opacity: 0.45; font-style: italic;
 }
 
 .unsubscribe-hint {
@@ -1070,6 +1071,7 @@ main { padding: 0 0 80px; }
   width: 32px; height: 32px; border-radius: 50%; flex-shrink: 0;
   background: var(--surface); border: 1px solid var(--border);
   color: var(--muted); cursor: pointer;
+  margin-left: 8px;
   transition: border-color 0.18s, color 0.18s, background 0.18s;
 }
 .theme-btn:hover { border-color: var(--border-h); color: var(--accent); }
@@ -1082,9 +1084,9 @@ body.light-mode .theme-btn .icon-moon { display: block; }
 ══════════════════════════════════════════════════════ */
 body.light-mode {
   --bg:        #f7f3ee;
-  --surface:   rgba(0, 0, 0, 0.05);
-  --surface-h: rgba(0, 0, 0, 0.09);
-  --border:    rgba(0, 0, 0, 0.10);
+  --surface:   #e9e3db;
+  --surface-h: #dfd8cf;
+  --border:    rgba(0, 0, 0, 0.13);
   --border-h:  rgba(88, 128, 188, 0.55);
   --text:      #1c1728;
   --muted:     rgba(28, 23, 40, 0.50);
@@ -1203,3 +1205,9 @@ body.light-mode .pf-bm-link:hover {
   background: rgba(92, 134, 188, 0.20);
   border-color: rgba(92, 134, 188, 0.65);
 }
+
+/* Part card colors in light mode */
+body.light-mode .part-card-deadline       { color: #3a72b8; }
+body.light-mode .part-card-deadline.urgent { color: #1a4e96; }
+body.light-mode .part-card-draw            { color: #3a9460; }
+body.light-mode .part-card-draw.not-found  { color: #3a9460; opacity: 0.45; }
