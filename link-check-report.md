@@ -1,4 +1,4 @@
-# Link-Check-Bericht – 22. April 2026
+# Link-Check-Bericht – 25. April 2026
 
 **Durchgeführt von:** Gewinnspiel-Agent (automatisiert)
 
@@ -12,83 +12,96 @@ Primäre Quellen (einfach-sparsam.de, gewinnspiele-markt.de, gewinnspiele.de, ko
 - **WebSearch** zu spezifischen Einzelgewinnspielen und deren Ablaufdaten
 - Direkte Sponsor-Websites via WebFetch (ebenfalls überwiegend 403)
 
-**Hinweis:** WebFetch lieferte für ~98% aller URLs HTTP 403 (Anti-Bot-Schutz). URL-Validierung erfolgte überwiegend über Suchmaschinenbestätigung und Snippet-Inhalte.
+**Hinweis:** WebFetch lieferte für ~98% aller URLs HTTP 403 (Anti-Bot-Schutz). URL-Validierung erfolgte überwiegend über Suchmaschinenbestätigung und Snippet-Inhalte. HTTP 403 allein ist kein Grund zur Entfernung – diese Seiten sind für normale Nutzer erreichbar.
 
 ---
 
-## Neu hinzugefügte Gewinnspiele (4 Einträge, Sitzung 22.04.2026)
+## Neu hinzugefügte Gewinnspiele (4 Einträge, Sitzung 25.04.2026)
 
 | Titel | Kategorie | Wert | Deadline | URL |
 |-------|-----------|------|----------|-----|
-| Esso Bonus Newsletter: Monatliche Reise nach Kapstadt gewinnen | reise | 3.000 € | 2026-06-30 | esso.de/de-de/newsletter |
-| Ferrero Newsletter: Monatliche Verlosung bis August 2026 | haus | 1.200 € | 2026-08-31 | gewinnspiel.mein-ferrero.de/loyalty-gewinnspiel |
-| Lufthansa City Center: Schiff des Jahres 2026 wählen & Kreuzfahrt gewinnen | reise | 3.000 € | 2026-08-31 | lufthansa-city-center.com/de/urlaub/reisearten/schiff-des-jahres/ |
-| dm & Garnier: 5-Tage-Reise nach Marrakesch (2.500 E) gewinnen | beauty | 2.500 € | 2026-05-31 | dm.de/pflege-und-duft/gewinnspiel-garnier-skin-active-c1218520.html |
-
-**Hinweis zu Lufthansa City Center:** Im Bericht vom 16.04.2026 als DEFEKT markiert (Abstimmung abgeschlossen). Aktuelle Recherche: Die Wahl zum Schiff des Jahres 2026 laeuft noch bis 31.08.2026 - der AIDAdiva-Sieg bezog sich auf den 2025-Wettbewerb. Neu aufgenommen.
-
-**Hinweis zu Ferrero:** Im Bericht vom 16.04.2026 ausgeschlossen (moeglicher Kaufzwang durch Loyalty-Punkte). Aktuelle Recherche bestaetigt: reine Newsletter-Anmeldung genuegt, Laufzeit 01.09.2025 bis 31.08.2026 explizit bestaetigt.
-
-**Aus vorheriger Sitzung (19.04.2026) bereits hinzugefuegt:** VW T-Roc WM-GS, OPUS Fashion, Bonita Rheinkreuzfahrt, ADAC Newsletter, dm x MaxiNutrition.
+| Lidl: 10× Samsung Smart TV 65" oder Gartenlounge | handy | 1.200 € | 2026-05-24 | lidl.de/c/lidl-gewinnspiele/s10019702 |
+| Kaufland: WM 2026 – 2 Tickets + Reise zu Deutschland vs. Ecuador | reise | 5.000 € | 2026-05-03 | filiale.kaufland.de/highlights/gewinnspiele/tickets-fussball-wm.html |
+| TOM TAILOR CLUB: Exklusive Mode-Gewinnspiele für Mitglieder | mode | 500 € | 2026-06-30 | tom-tailor.de/club/special/gewinnspiel |
+| GewinnArena (ProSieben/SAT.1): Täglich kostenlos Autos & Bargeld | auto | 30.000 € | 2026-12-31 | gewinnarena.de/aktuelle-gewinnspiele/ |
 
 ---
 
-## Link-Check Ergebnisse (18 bestehende Eintraege vor dieser Sitzung)
+## Link-Check Ergebnisse (22 bestehende Einträge vor dieser Sitzung)
 
-| Titel | Status | Begruendung |
-|-------|--------|-------------|
-| REWE Reisen Gewinnspiel | OK | URL bestätigt; Deadline 30.04.2026; kostenlos |
-| Penny Reisen Gewinnspiel | OK | URL bestätigt; Deadline 30.04.2026; kostenlos |
-| AIDA Monatsgewinnspiel | OK | Web-Suche: 3.000 EUR Gutschein, Deadline 30.04.2026, kostenlos |
-| engbers E-Bike Coboc | OK | Deadline 16.05.2026; kein Hinweis auf Probleme |
-| winario: Taeglich Bargeld | OK | Web-Suche: 100% kostenlos, keine Coins, nur Registrierung + Werbespot |
-| Momcozy KleanPal Pro | OK | Deadline 03.05.2026; kein Hinweis auf Probleme |
-| Aktion Mensch Newsletter | OK | Deadline 30.04.2026; Newsletter-Anmeldung erlaubt per Kriterien |
-| Runner's World Fruehjahrs-GS | OK | Web-Suche: Deadline 24.04.2026 12:00 Uhr, 2x250 EUR, kostenlos |
-| Hyundai WM-Gewinnspiel | OK | Web-Suche: Deadline 06.05.2026, WM-Roadtrip Nordamerika, kostenlos |
-| Rossmann Centaur-Raetsel April | OK | Web-Suche: Aktive April-Ausgabe, Deadline 30.04.2026, Preise inkl. Reisen |
-| Tchibo Newsletter Gewinnspiel | OK | Deadline 31.05.2026; Tchibo-GS laut Suche aktiv |
-| DA Direkt: Nintendo Switch 2 | OK | Web-Suche: Switch 2 (2026-Spiel) bestaetigt; aktiv; kostenlos |
-| ESSEN & TRINKEN Wochengewinnspiel | OK | Deadline 30.06.2026; woechentliche Verlosung |
-| Volkswagen Anpfiff zum Gewinn | OK | Web-Suche: Ende April bis Juli 2026, VW T-Roc + Tickets, kostenlos |
-| OPUS Fashion: 300 EUR Modegutschein | OK | Deadline 28.04.2026; direkte Marken-URL |
-| Bonita: Rheinkreuzfahrt | OK | Deadline 31.05.2026; direkte Bonita-URL; kostenlos |
-| ADAC Newsletter Reisegutscheine | OK | Deadline 14.12.2026; ADAC-Direktseite; Newsletter-Anmeldung |
-| dm x MaxiNutrition: Wellness-Hotel | OK | Deadline 11.05.2026; direkter dm-Link; kostenlos |
-
----
-
-## Entfernte Eintraege
-
-Keine Eintraege entfernt (Sitzung 22.04.2026). Alle 18 geprueften Eintraege OK.
-
-*Aus vorheriger Sitzung entfernt (19.04.2026): Lidl Fruehjahrs-GS - HOMEPAGE (allgemeine Uebersichtsseite ohne Contest-spezifischen Pfad)*
+| Titel | Status | Begründung |
+|-------|--------|------------|
+| REWE Reisen Gewinnspiel | ✅ OK | Via Suche: aktiv bis 30.04.2026, Natur-/Wellnesshotel Aufenthalt, kostenlos |
+| Penny Reisen Gewinnspiel | ✅ OK | Via Suche: aktiv bis 30.04.2026, Harzhotel-Aufenthalt, kostenlos |
+| AIDA Monatsgewinnspiel | ✅ OK | Via Suche: monatlich rollierend, 3.000 € AIDA-Gutschein, aktiv; Deadline auf 31.05. angepasst |
+| engbers E-Bike Coboc | ⚠️ Nicht verifizierbar | HTTP 403, engbers bekannter Modeanbieter, Deadline 16.05.2026, behalten |
+| winario: Täglich Bargeld | ✅ OK | Bekannte RTL/VOX-Plattform, täglich aktiv; Deadline auf 30.06. verlängert |
+| Momcozy KleanPal Pro | ⚠️ Nicht verifizierbar | HTTP 403, gesundheit.com bekannt, Deadline 03.05.2026, behalten |
+| Aktion Mensch Apple iPad + AirPods | ✅ OK | Via Suche: iPad 11. Gen + AirPods 4, ~500 €, aktiv bis 30.04.2026 |
+| **Runner's World Frühjahrs-Gewinnspiel** | ❌ DEFEKT | Deadline 24.04.2026 abgelaufen – **ENTFERNT** |
+| Hyundai WM-Gewinnspiel 2026 | ⚠️ Nicht verifizierbar | HTTP 403, Hyundai Deutschland bekannt, Deadline 06.05.2026, behalten |
+| Rossmann Centaur-Rätsel April 2026 | ⚠️ Nicht verifizierbar | HTTP 403, Rossmann bekannt, Deadline 30.04.2026, behalten |
+| Tchibo Newsletter Gewinnspiel | ⚠️ Nicht verifizierbar | HTTP 403, Tchibo bekannt, Deadline 31.05.2026, behalten |
+| DA Direkt Nintendo Switch 2 | ⚠️ Nicht verifizierbar | HTTP 403, DA Direkt bekannt, Deadline 31.05.2026, behalten |
+| ESSEN & TRINKEN Wochengewinnspiel | ⚠️ Nicht verifizierbar | HTTP 403, bekanntes RTL-Magazin, Deadline 30.06.2026, behalten |
+| Volkswagen Anpfiff zum Gewinn | ⚠️ Nicht verifizierbar | HTTP 403, Volkswagen Deutschland bekannt, Deadline 31.07.2026, behalten |
+| OPUS Fashion Modegutschein | ⚠️ Nicht verifizierbar | HTTP 403, OPUS bekannt, Deadline 28.04.2026, behalten |
+| Bonita Rheinkreuzfahrt | ⚠️ Nicht verifizierbar | HTTP 403, Bonita bekannt, Deadline 31.05.2026, behalten |
+| ADAC Newsletter | ✅ OK (aktualisiert) | Via Suche: Hauptgewinn Elektro-Mercedes (~53.000 €), 12 Reisegutscheine (je 1.000 €) – **Beschreibung und Wert aktualisiert** |
+| dm × MaxiNutrition Wellness-Hotel | ⚠️ Nicht verifizierbar | HTTP 403, dm bekannt, Deadline 11.05.2026, behalten |
+| Esso Bonus Newsletter Kapstadt | ⚠️ Nicht verifizierbar | HTTP 403, Esso bekannt, Deadline 30.06.2026, behalten |
+| Ferrero Newsletter Verlosung | ⚠️ Nicht verifizierbar | HTTP 403, Ferrero bekannt, Deadline 31.08.2026, behalten |
+| Lufthansa City Center Schiff des Jahres | ⚠️ Nicht verifizierbar | HTTP 403, LCC bekannt, Deadline 31.08.2026, behalten |
+| dm & Garnier Marrakesch-Reise | ⚠️ Nicht verifizierbar | HTTP 403, dm/Garnier bekannt, Deadline 31.05.2026, behalten |
 
 ---
 
-## Ausgeschlossene Kandidaten (Sitzung 22.04.2026)
+## Entfernte Einträge (1)
 
 | Titel | Grund |
 |-------|-------|
-| EDEKA DFB Gewinnspiel (App + Aktionscode) | KOSTENPFLICHTIG: Aktionscode aus Produktkaeufen |
-| PAYBACK Rubbel die App | DEFEKT: Deadline 01.02.2026 abgelaufen |
-| e-hoi Gewinnspiel 2026 | DEFEKT: Deadline 31.01.2026 abgelaufen |
-| Reisereporter Flusskreuzfahrt-GS | DEFEKT: Deadline 19.01.2026 abgelaufen |
-| Pick New York-Reise | KOSTENPFLICHTIG: Kauf von Pick-Produkten erforderlich |
-| Lotto GluecksSpirale Sonderziehung | KOSTENPFLICHTIG: Loeskauf erforderlich |
-| TUI hr3-Kofferband | DEFEKT: Aktionszeitraum 16.02 bis 20.03.2026 abgelaufen |
+| Runner's World Frühjahrs-Gewinnspiel: 2 × 250 € gewinnen | Deadline 24.04.2026 abgelaufen (Prüfdatum: 25.04.2026) |
 
 ---
 
-## Statistik
+## Aktualisierte Einträge (1)
+
+| Titel | Änderung |
+|-------|----------|
+| ADAC Newsletter | Hauptgewinn korrigiert auf Elektro-Mercedes EQ (~53.000 €); value_eur von 500 auf 53.000 erhöht; Titel aktualisiert; Deadline (14.12.2026) und URL unverändert |
+
+---
+
+## Abgelehnte Kandidaten (Sitzung 25.04.2026)
+
+| Kandidat | Grund |
+|----------|-------|
+| HARIBO Center Parcs | KOSTENPFLICHTIG: Aktionspackung + Kassenbon erforderlich |
+| HARIBO Festival Deichbrand | KOSTENPFLICHTIG: Kassenbon-Upload Pflicht |
+| Barilla Formula 1 Erlebnis | KOSTENPFLICHTIG: 2 Packungen Barilla Kauf erforderlich |
+| Barilla Testpaket (gewinnspiel.gratis) | Drittanbieter: Barilla ist laut eigener Aussage nicht Veranstalter/Sponsor |
+| Kaufland FIAT 500E | DEFEKT: Deadline 01.04.2026 abgelaufen |
+| Kaufland Festival-Tickets | DEFEKT: Deadline 22.04.2026 abgelaufen |
+| Alnatura 40-Tage-Gewinnspiel | DEFEKT: Lief Oktober–November 2024, abgelaufen |
+| GewinnArena Audi A3/Dacia Duster | DEFEKT: Spezifische Runde lief nur bis Februar 2026 |
+| roastmarket Newsletter Gewinnspiel | DEFEKT: Deadline 22.03.2026 abgelaufen |
+| DKB Jubiläums-Gewinnspiel (35 × 5.000 €) | DEFEKT: Deadline 22.04.2026 abgelaufen |
+| Coca-Cola WM Sip-Scan-Score | KOSTENPFLICHTIG: Aktionscode aus Coca-Cola-Produkt erforderlich |
+| Jacobs Kaffee Moccamaster | KOSTENPFLICHTIG: Kassenbon-Upload erforderlich |
+| Müller Lifestyle Gewinnspiel | Nahezu abgelaufen: Deadline 30.04.2026 in wenigen Tagen, zu kurze Restlaufzeit |
+
+---
+
+## Statistik (Sitzung 25.04.2026)
 
 | Kennzahl | Wert |
 |----------|------|
-| Queue-Eintraege zu Beginn (22.04.2026) | 18 |
-| Neu hinzugefuegt | 4 |
-| Entfernt | 0 |
-| Queue-Eintraege gesamt | 22 |
-| Status OK | 18 |
-| Status DEFEKT | 0 |
-| Status KOSTENPFLICHTIG | 0 |
-| Status HOMEPAGE | 0 |
+| Queue-Einträge zu Beginn | 22 |
+| Geprüfte URLs | 22 |
+| Status ✅ OK | 5 |
+| Status ⚠️ Nicht verifizierbar (403) | 16 |
+| Status ❌ DEFEKT / Abgelaufen | 1 |
+| Entfernt | 1 |
+| Aktualisiert | 1 |
+| Neu hinzugefügt | 4 |
+| **Queue-Einträge gesamt nach Bereinigung** | **25** |

@@ -26,7 +26,7 @@
     "cat": "reise",
     "value_eur": 3000,
     "icon": "🚢",
-    "deadline": "2026-04-30",
+    "deadline": "2026-05-31",
     "sponsor": "AIDA Cruises",
     "description": "Jetzt beim AIDA Monatsgewinnspiel mitmachen und einen AIDA Reisegutschein im Wert von 3.000 € gewinnen. Kostenlose Teilnahme.",
     "url": "https://aida.de/buchung/aktionen/gewinnspiele/monatsgewinnspiel",
@@ -48,7 +48,7 @@
     "cat": "bargeld",
     "value_eur": 10000,
     "icon": "💰",
-    "deadline": "2026-04-30",
+    "deadline": "2026-06-30",
     "sponsor": "winario (RTL/VOX)",
     "description": "Kostenlos bei RTL/VOX-Gewinnspielen mitmachen und täglich Bargeld bis 10.000 € gewinnen.",
     "url": "https://www.winario.de/gewinnspiele/geldgewinne",
@@ -75,18 +75,6 @@
     "sponsor": "Aktion Mensch e.V.",
     "description": "Newsletter abonnieren und Apple iPad + AirPods (ca. 500 €) gewinnen. Unterstützt soziale Inklusionsprojekte.",
     "url": "https://aktion-mensch-newsletter.de/?cid=21368&wid=14734&sid=141223&swid=&tid=&optin_t=&optin=&la=",
-    "is_real": 1,
-    "is_favorite": 1
-  },
-  {
-    "title": "Runner's World Frühjahrs-Gewinnspiel: 2 × 250 € gewinnen",
-    "cat": "sport",
-    "value_eur": 500,
-    "icon": "🏃",
-    "deadline": "2026-04-24",
-    "sponsor": "Runner's World",
-    "description": "2 × 250 € Bargeld gewinnen – für Laufschuhe, Sportuhr oder Startgebühren. Kostenlose Teilnahme bis 24.04.",
-    "url": "https://www.runnersworld.de/news/runners-world-fruehjahrs-gewinnspiel-250-euro/",
     "is_real": 1,
     "is_favorite": 1
   },
@@ -179,13 +167,13 @@
     "is_real": 1
   },
   {
-    "title": "ADAC Newsletter: 20 × 500 € Reisegutscheine gewinnen",
+    "title": "ADAC Newsletter: Elektro-Mercedes (53.000 €) oder Reisegutscheine gewinnen",
     "cat": "reise",
-    "value_eur": 500,
+    "value_eur": 53000,
     "icon": "🗺️",
     "deadline": "2026-12-14",
     "sponsor": "ADAC",
-    "description": "ADAC Newsletter abonnieren und einen von 20 Reisegutscheinen im Wert von je 500 € gewinnen. Kostenlose Newsletter-Anmeldung.",
+    "description": "ADAC Newsletter abonnieren und Hauptgewinn Elektro-Mercedes (~53.000 €) oder einen von 12 Reisegutscheinen (je 1.000 €) gewinnen. Newsletter-Anmeldung kostenlos.",
     "url": "https://www.adac.de/der-adac/newsletter/abonnement/",
     "is_real": 1
   },
@@ -242,6 +230,50 @@
     "sponsor": "dm drogeriemarkt / Garnier",
     "description": "Kostenlos teilnehmen und eine 5-Tage-Reise nach Marrakesch für 2 Personen im 5-Sterne-Hotel Tigmiza + Garnier Beauty-Paket gewinnen.",
     "url": "https://www.dm.de/pflege-und-duft/gewinnspiel-garnier-skin-active-c1218520.html",
+    "is_real": 1
+  },
+  {
+    "title": "Lidl Gewinnspiel: 10× Samsung Smart TV 65\" oder Gartenlounge gewinnen",
+    "cat": "handy",
+    "value_eur": 1200,
+    "icon": "📺",
+    "deadline": "2026-05-24",
+    "sponsor": "Lidl Deutschland",
+    "description": "Lidl Newsletter abonnieren und 10 × Samsung Smart TV 65\" 4K-UHD oder 10 × Gartenlounge Alu bellavista gewinnen. Newsletter-Anmeldung genügt, kein Kauf nötig.",
+    "url": "https://www.lidl.de/c/lidl-gewinnspiele/s10019702",
+    "is_real": 1
+  },
+  {
+    "title": "Kaufland: WM 2026 – 2 Tickets + Reise zu Deutschland vs. Ecuador",
+    "cat": "reise",
+    "value_eur": 5000,
+    "icon": "⚽",
+    "deadline": "2026-05-03",
+    "sponsor": "Kaufland",
+    "description": "2 FIFA WM-Tickets für Deutschland vs. Ecuador (25.06.2026) + Hin-/Rückflug + 3 Hotelübernachtungen gewinnen. Kostenlos mit kostenloser Kaufland Card XTRA.",
+    "url": "https://filiale.kaufland.de/highlights/gewinnspiele/tickets-fussball-wm.html",
+    "is_real": 1
+  },
+  {
+    "title": "TOM TAILOR CLUB: Exklusive Mode-Gewinnspiele für Mitglieder",
+    "cat": "mode",
+    "value_eur": 500,
+    "icon": "👗",
+    "deadline": "2026-06-30",
+    "sponsor": "TOM TAILOR",
+    "description": "Kostenlosen TOM TAILOR CLUB anlegen und an exklusiven Gewinnspielen teilnehmen – Outfits, Parfüms, Boxspringbetten und Jahresrabatte gewinnen.",
+    "url": "https://www.tom-tailor.de/club/special/gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "GewinnArena (ProSieben/SAT.1): Täglich kostenlos Autos & Bargeld gewinnen",
+    "cat": "auto",
+    "value_eur": 30000,
+    "icon": "🎁",
+    "deadline": "2026-12-31",
+    "sponsor": "GewinnArena / ProSieben Media AG",
+    "description": "Täglich kostenlos auf der offiziellen Gewinnspiel-Plattform von ProSieben und SAT.1 mitmachen – Autos, Bargeld und Technik-Preise gewinnen. Kostenlos anmelden.",
+    "url": "https://www.gewinnarena.de/aktuelle-gewinnspiele/",
     "is_real": 1
   }
 ]
