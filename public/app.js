@@ -284,6 +284,24 @@ function makeCard(c) {
   return el;
 }
 
+// ── Sync draw_date from API into stored participations ─────────────────────
+function syncDrawDates(contestList) {
+  const parts = loadParticipations();
+  if (parts.length === 0) return;
+  const map = new Map(contestList.map(c => [c.id, c.draw_date ?? null]));
+  let changed = false;
+  parts.forEach(p => {
+    if (map.has(p.id) && p.draw_date !== map.get(p.id)) {
+      p.draw_date = map.get(p.id);
+      changed = true;
+    }
+  });
+  if (changed) {
+    localStorage.setItem(LS_KEY, JSON.stringify(parts));
+    renderParticipations();
+  }
+}
+
 // ── Render Favorites ───────────────────────────────────────────────────────
 async function renderFavorites() {
   const grid    = document.getElementById('favorites-grid');
@@ -293,6 +311,8 @@ async function renderFavorites() {
   const res = await fetch('/api/contests');
   if (!res.ok) return;
   const all = await res.json();
+
+  syncDrawDates(all);
 
   // Favoriten: manuell im Admin-Panel markiert (is_favorite = 1)
   const favs = all.filter(c => c.is_favorite);
