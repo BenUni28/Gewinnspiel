@@ -168,6 +168,19 @@
       <div class="grid" id="grid"></div>
       <p class="empty hidden" id="empty">Keine Gewinnspiele gefunden.</p>
 
+      <!-- Kürzlich abgelaufene Gewinnspiele -->
+      <section class="expired-section hidden" id="expired-section">
+        <div class="expired-toggle" id="expired-toggle">
+          <span>⏰ Kürzlich abgelaufen</span>
+          <span id="expired-badge" class="expired-badge"></span>
+          <svg class="expired-toggle-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </div>
+        <div id="expired-body" class="expired-body collapsed">
+          <p class="expired-sub">Diese Gewinnspiele sind kürzlich abgelaufen – prüfe ob schon ein Gewinner bekannt ist.</p>
+          <div class="grid" id="expired-grid"></div>
+        </div>
+      </section>
+
     </div>
   </main>
 

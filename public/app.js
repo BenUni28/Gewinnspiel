@@ -248,7 +248,7 @@ async function fetchContests() {
   if (searchQ) p.set('q', searchQ);
   const res = await fetch('/api/contests?' + p);
   if (!res.ok) throw new Error('HTTP ' + res.status);
-  return res.json();
+  return res.json(); // { active: [...], expired: [...] }
 }
 
 // ── Card ───────────────────────────────────────────────────────────────────
@@ -301,6 +301,62 @@ function makeCard(c) {
   return el;
 }
 
+// ── Expired card ───────────────────────────────────────────────────────────
+function makeExpiredCard(c) {
+  const img    = CAT_IMAGES[c.cat] || CAT_IMAGES['gutschein'];
+  const hasUrl = c.url && c.url !== '#';
+
+  const el = document.createElement('article');
+  el.className = 'card expired-card';
+  el.id = 'card-' + c.id;
+
+  el.innerHTML = `
+    <div class="card-img-wrap">
+      <img class="card-img" src="${img}" alt="${CATS[c.cat] || c.cat}" loading="lazy" />
+    </div>
+    <div class="card-top">
+      <div class="card-head">
+        <div class="card-cat">${CATS[c.cat] || c.cat}</div>
+        <div class="card-title">${c.title}</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="card-row">
+        <span class="card-value">${fmtVal(c.value_eur)}</span>
+        <span class="card-days expired-label">Abgelaufen ${fmtDate(c.deadline)}</span>
+      </div>
+      <div class="card-sponsor">${c.sponsor}</div>
+      <div class="card-draw-info${c.draw_date ? '' : ' unknown'}">
+        🏆 ${c.draw_date ? 'Auslosung: ' + c.draw_date : 'Auslosungsdatum unbekannt'}
+      </div>
+    </div>
+    ${hasUrl
+      ? `<a class="btn-go btn-check-result" href="${c.url}" target="_blank" rel="noopener noreferrer">Ergebnisse prüfen →</a>`
+      : `<span class="btn-go btn-no-url">Kein Link verfügbar</span>`}
+  `;
+
+  addSponsorLogo(el.querySelector('.card-img-wrap'), c.url, c.sponsor);
+  return el;
+}
+
+// ── Render Expired ─────────────────────────────────────────────────────────
+function renderExpired(list) {
+  const section = document.getElementById('expired-section');
+  const grid    = document.getElementById('expired-grid');
+  const badge   = document.getElementById('expired-badge');
+  if (!section || !grid) return;
+
+  if (!list || list.length === 0) {
+    section.classList.add('hidden');
+    return;
+  }
+
+  section.classList.remove('hidden');
+  if (badge) badge.textContent = list.length;
+  grid.innerHTML = '';
+  list.forEach(c => grid.appendChild(makeExpiredCard(c)));
+}
+
 // ── Sync draw_date from API into stored participations ─────────────────────
 function syncDrawDates(contestList) {
   const parts = loadParticipations();
@@ -327,12 +383,13 @@ async function renderFavorites() {
 
   const res = await fetch('/api/contests');
   if (!res.ok) return;
-  const all = await res.json();
+  const data = await res.json();
+  const all = [...(data.active || []), ...(data.expired || [])];
 
   syncDrawDates(all);
 
   // Favoriten: manuell im Admin-Panel markiert (is_favorite = 1)
-  const favs = all.filter(c => c.is_favorite);
+  const favs = (data.active || []).filter(c => c.is_favorite);
 
   if (favs.length === 0) {
     section.classList.add('hidden');
@@ -425,28 +482,32 @@ async function render() {
   grid.innerHTML = '<p style="color:var(--muted);padding:60px 0;text-align:center;grid-column:1/-1">Laden…</p>';
   empty.classList.add('hidden');
 
-  let list;
+  let active, expired;
   try {
-    list = await fetchContests();
+    const data = await fetchContests();
+    active  = data.active;
+    expired = data.expired;
   } catch {
     grid.innerHTML = '<p style="color:var(--red);padding:60px 0;text-align:center;grid-column:1/-1">Fehler beim Laden.</p>';
     return;
   }
 
   if (activeCat === 'alle' && !searchQ) {
-    totalActive = list.length;
+    totalActive = active.length;
     const badge = document.getElementById('active-count-badge');
     if (badge) badge.textContent = totalActive + ' aktiv';
     const heroCount = document.getElementById('hero-contest-count');
-    if (heroCount) heroCount.textContent = list.length;
+    if (heroCount) heroCount.textContent = active.length;
   }
 
   grid.innerHTML = '';
-  if (list.length === 0) {
+  if (active.length === 0) {
     empty.classList.remove('hidden');
   } else {
-    list.forEach(c => grid.appendChild(makeCard(c)));
+    active.forEach(c => grid.appendChild(makeCard(c)));
   }
+
+  renderExpired(expired);
 }
 
 // ── Events ─────────────────────────────────────────────────────────────────
@@ -548,6 +609,15 @@ document.getElementById('part-collapse-btn').addEventListener('click', () => {
     section.classList.add('collapsed');
   }
 });
+document.getElementById('expired-toggle')?.addEventListener('click', () => {
+  const body    = document.getElementById('expired-body');
+  const section = document.getElementById('expired-section');
+  if (!body) return;
+  const isCollapsed = body.classList.contains('collapsed');
+  body.classList.toggle('collapsed', !isCollapsed);
+  section.classList.toggle('open', isCollapsed);
+});
+
 updateNotifBtn();
 checkDeadlineNotifications();
 

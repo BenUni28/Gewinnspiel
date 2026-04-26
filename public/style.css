@@ -721,6 +721,77 @@ main { padding: 0 0 80px; }
   color: #55ad78; opacity: 0.45; font-style: italic;
 }
 
+/* ── Expired section ── */
+.expired-section {
+  margin-top: 48px;
+}
+
+.expired-toggle {
+  display: flex; align-items: center; gap: 10px;
+  cursor: pointer; padding: 12px 16px;
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 12px; user-select: none;
+  color: var(--muted); font-size: 0.88rem; font-weight: 500;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+.expired-toggle:hover {
+  background: var(--surface-h); border-color: var(--border-h); color: var(--text);
+}
+
+.expired-badge {
+  background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 20px; padding: 1px 8px;
+  font-size: 0.75rem; font-weight: 600; color: var(--muted);
+}
+
+.expired-toggle-icon {
+  margin-left: auto; opacity: 0.6;
+  transition: transform 0.25s ease;
+}
+.expired-section.open .expired-toggle-icon { transform: rotate(180deg); }
+
+.expired-body {
+  overflow: hidden;
+  max-height: 6000px;
+  transition: max-height 0.45s ease;
+}
+.expired-body.collapsed { max-height: 0; }
+
+.expired-sub {
+  font-size: 0.78rem; color: var(--muted); margin: 14px 0 18px;
+}
+
+.expired-card {
+  opacity: 0.72;
+  transition: opacity 0.2s;
+}
+.expired-card:hover { opacity: 1; }
+
+.expired-label {
+  color: var(--muted) !important; font-size: 0.72rem; font-weight: 400;
+}
+
+.card-draw-info {
+  font-size: 0.78rem; font-weight: 500;
+  color: #55ad78; margin-top: 5px;
+}
+.card-draw-info.unknown {
+  color: var(--muted); opacity: 0.55; font-style: italic;
+}
+
+.btn-check-result {
+  background: linear-gradient(135deg, rgba(85,173,120,0.10) 0%, rgba(99,179,237,0.07) 100%);
+  border-color: rgba(85,173,120,0.30); color: #55ad78;
+}
+.btn-check-result:hover {
+  background: linear-gradient(135deg, rgba(85,173,120,0.20) 0%, rgba(99,179,237,0.12) 100%);
+  border-color: rgba(85,173,120,0.60);
+  box-shadow: 0 0 14px rgba(85,173,120,0.12);
+}
+.btn-no-url {
+  opacity: 0.30; cursor: default; pointer-events: none;
+}
+
 .unsubscribe-hint {
   font-size: 0.72rem; color: var(--accent2); margin-top: 2px; opacity: 0.8;
 }
@@ -1210,4 +1281,10 @@ body.light-mode .pf-bm-link:hover {
 body.light-mode .part-card-deadline       { color: #3a72b8; }
 body.light-mode .part-card-deadline.urgent { color: #1a4e96; }
 body.light-mode .part-card-draw            { color: #3a9460; }
+body.light-mode .part-card-draw.not-found  { color: #3a9460; opacity: 0.45; }
+
+/* Expired section in light mode */
+body.light-mode .card-draw-info            { color: #3a9460; }
+body.light-mode .btn-check-result          { color: #3a9460; border-color: rgba(58,148,96,0.35); }
+body.light-mode .btn-check-result:hover    { border-color: rgba(58,148,96,0.70); }
 body.light-mode .part-card-draw.not-found  { color: #3a9460; opacity: 0.45; }
