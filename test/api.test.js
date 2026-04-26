@@ -96,54 +96,76 @@ describe('trust proxy', () => {
 // ── Public contests API ───────────────────────────────────────────────────
 describe('GET /api/contests', () => {
   let server, base;
+  const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
 
   before(() => {
     const db = createDb(':memory:', { seed: [
-      // Real, active
       { ...BASE_CONTEST, title: 'Real Active' },
-      // Real but expired
-      { ...BASE_CONTEST, title: 'Real Expired', deadline: '2000-01-01' },
-      // Demo (is_real=0) — should be deactivated and hidden
+      { ...BASE_CONTEST, title: 'Real Recently Expired', deadline: yesterday },
+      { ...BASE_CONTEST, title: 'Real Long Expired',     deadline: '2000-01-01' },
       { ...BASE_CONTEST, title: 'Demo Contest', is_real: 0, url: '#' },
     ]});
     ({ server, base } = startServer(db));
   });
   after(() => stopServer(server));
 
+  // Response shape — regression guard for the flat-array → {active,expired} change
+  test('returns { active, expired } object, not a flat array', async () => {
+    const res  = await fetch(`${base}/api/contests`);
+    const data = await res.json();
+    assert.ok(typeof data === 'object' && !Array.isArray(data), 'Response must be an object, not an array');
+    assert.ok(Array.isArray(data.active),  'data.active must be an array');
+    assert.ok(Array.isArray(data.expired), 'data.expired must be an array');
+  });
+
   // Bug 6: demos were showing on the public site
-  test('does not return is_real=0 (demo) entries', async () => {
+  test('is_real=0 entries absent from both active and expired', async () => {
     const res  = await fetch(`${base}/api/contests`);
-    const list = await res.json();
-    const demo = list.find(c => c.title === 'Demo Contest');
-    assert.equal(demo, undefined, 'Demo contest must not appear in public API');
+    const { active, expired } = await res.json();
+    const all  = [...active, ...expired];
+    assert.equal(all.find(c => c.title === 'Demo Contest'), undefined, 'Demo must not appear anywhere');
   });
 
-  test('does not return expired entries', async () => {
+  test('future-deadline entries appear in active, not expired', async () => {
     const res  = await fetch(`${base}/api/contests`);
-    const list = await res.json();
-    const exp  = list.find(c => c.title === 'Real Expired');
-    assert.equal(exp, undefined, 'Expired contest must not appear');
+    const { active, expired } = await res.json();
+    assert.ok(active.find(c => c.title === 'Real Active'), 'Active contest must be in active array');
+    assert.equal(expired.find(c => c.title === 'Real Active'), undefined, 'Active contest must not be in expired');
   });
 
-  test('returns active real entries', async () => {
+  test('recently-expired entries appear in expired, not active', async () => {
     const res  = await fetch(`${base}/api/contests`);
-    const list = await res.json();
-    const real = list.find(c => c.title === 'Real Active');
-    assert.ok(real, 'Active real contest should be in response');
+    const { active, expired } = await res.json();
+    assert.equal(active.find(c => c.title === 'Real Recently Expired'), undefined, 'Recently expired must not be in active');
+    assert.ok(expired.find(c => c.title === 'Real Recently Expired'), 'Recently expired must be in expired');
   });
 
-  test('response includes is_favorite field', async () => {
+  test('contests expired more than 30 days ago absent from both arrays', async () => {
     const res  = await fetch(`${base}/api/contests`);
-    const list = await res.json();
-    if (list.length > 0) {
-      assert.ok('is_favorite' in list[0], 'Response must include is_favorite');
-    }
+    const { active, expired } = await res.json();
+    const all  = [...active, ...expired];
+    assert.equal(all.find(c => c.title === 'Real Long Expired'), undefined, 'Old expired must not appear anywhere');
   });
 
-  test('filters by category', async () => {
+  test('active entries include draw_date and is_favorite fields', async () => {
+    const res  = await fetch(`${base}/api/contests`);
+    const { active } = await res.json();
+    assert.ok(active.length > 0, 'Need at least one active entry');
+    assert.ok('draw_date'   in active[0], 'active entries must include draw_date');
+    assert.ok('is_favorite' in active[0], 'active entries must include is_favorite');
+  });
+
+  test('expired entries include draw_date field', async () => {
+    const res  = await fetch(`${base}/api/contests`);
+    const { expired } = await res.json();
+    assert.ok(expired.length > 0, 'Need at least one expired entry');
+    assert.ok('draw_date' in expired[0], 'expired entries must include draw_date');
+  });
+
+  test('category filter applies to active array', async () => {
     const res  = await fetch(`${base}/api/contests?cat=bargeld`);
-    const list = await res.json();
-    list.forEach(c => assert.equal(c.cat, 'bargeld'));
+    const { active } = await res.json();
+    active.forEach(c => assert.equal(c.cat, 'bargeld', 'All active entries must match filtered category'));
   });
 });
 

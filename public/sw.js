@@ -1,15 +1,13 @@
 'use strict';
 
-const CACHE = 'gw-v3';
+const CACHE = 'gw-v4';
 const PRECACHE = ['/', '/style.css', '/app.js', '/manifest.json', '/icons/icon.svg'];
 
-// Install: cache static shell immediately
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(PRECACHE)));
   self.skipWaiting();
 });
 
-// Activate: delete stale caches from previous versions
 self.addEventListener('activate', e => {
   e.waitUntil(
     caches.keys().then(keys =>
@@ -23,38 +21,56 @@ self.addEventListener('fetch', e => {
   const { request } = e;
   const url = new URL(request.url);
 
-  // Skip cross-origin requests (Unsplash images, Google Fonts, etc.) —
-  // the browser's own HTTP cache handles these correctly.
+  // Skip cross-origin (Unsplash, Google Fonts, Clearbit) — browser HTTP cache handles these.
   if (url.origin !== self.location.origin) return;
 
-  // API calls: always network-first; fall back to empty list so UI doesn't break
+  // API calls: network-only; offline fallback returns empty but correctly-shaped response.
   if (url.pathname.startsWith('/api/')) {
     e.respondWith(
       fetch(request).catch(() =>
-        new Response('[]', { headers: { 'Content-Type': 'application/json' } })
+        new Response(
+          JSON.stringify({ active: [], expired: [] }),
+          { headers: { 'Content-Type': 'application/json' } }
+        )
       )
     );
     return;
   }
 
-  // Navigation (HTML): network-first so users always get fresh contest data;
-  // serve cached shell if offline
-  if (request.mode === 'navigate') {
+  // JS and CSS: network-first so new deployments are picked up immediately.
+  // Cache is updated on each successful fetch; used only when offline.
+  if (url.pathname.endsWith('.js') || url.pathname.endsWith('.css')) {
     e.respondWith(
-      fetch(request).catch(() => caches.match('/'))
+      fetch(request)
+        .then(res => {
+          if (res.ok) caches.open(CACHE).then(c => c.put(request, res.clone()));
+          return res;
+        })
+        .catch(() => caches.match(request))
     );
     return;
   }
 
-  // Static assets (CSS, JS, icons, fonts): cache-first, add to cache on miss
+  // Navigation (HTML): network-first; cached shell as offline fallback.
+  if (request.mode === 'navigate') {
+    e.respondWith(
+      fetch(request)
+        .then(res => {
+          if (res.ok) caches.open(CACHE).then(c => c.put(request, res.clone()));
+          return res;
+        })
+        .catch(() => caches.match('/'))
+    );
+    return;
+  }
+
+  // Icons, manifest: cache-first (never change).
   e.respondWith(
     caches.match(request).then(cached => {
       if (cached) return cached;
-      return fetch(request).then(response => {
-        if (response.ok) {
-          caches.open(CACHE).then(c => c.put(request, response.clone()));
-        }
-        return response;
+      return fetch(request).then(res => {
+        if (res.ok) caches.open(CACHE).then(c => c.put(request, res.clone()));
+        return res;
       });
     })
   );
