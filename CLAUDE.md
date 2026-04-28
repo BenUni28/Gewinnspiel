@@ -104,45 +104,43 @@ URLs mit diesen Präfixen werden beim Import automatisch übersprungen (`server/
 4. **HTTP 404 oder Redirect zur Startseite → sofort ABLEHNEN.**
 5. **Generischer Pfad (s. unten) → ABLEHNEN**, auch wenn der Abruf technisch erfolgreich war.
 
-### Abgelehnte URL-Muster (sofort disqualifiziert, keine Ausnahmen)
+### Abgelehnte URL-Muster
 
-Eine URL wird **immer abgelehnt**, wenn der Pfad nach dem Hostname NUR aus generischen Segmenten besteht:
+Eine URL wird abgelehnt, wenn die **Seite selbst** keinen konkreten Bezug zu einem spezifischen Gewinnspiel herstellt:
 
-| Generisches Segment (allein) | Grund |
-|------------------------------|-------|
-| `/` · `/de/` · `/en/` · `/home` | Startseite des Anbieters |
-| `/newsletter` · `/subscribe` · `/abonnieren` · `/subscribenewsletter` | Reine Newsletter-Anmeldung ohne Gewinnspiel-Bezug |
-| `/gewinnspiele` · `/aktionen` · `/angebote` · `/aktuelles` · `/kampagnen` | Übersichtsseite — zeigt mehrere Gewinnspiele |
-| `/shop` · `/produkte` · `/sortiment` | Produkt-/Shop-Seite |
+| Muster | Ablehnungsgrund |
+|--------|-----------------|
+| Startseite des Anbieters (`/`, `/de/`, `/home`) | Kein Gewinnspiel-Kontext |
+| Generische Übersichtsseite mit mehreren Gewinnspielen (`/gewinnspiele`, `/aktionen`) | Kein spezifisches Angebot |
+| Generische Newsletter-Anmeldeseite **ohne Erwähnung des konkreten Gewinns** | Nutzer weiß nicht, was er gewinnt |
+| Produkt-/Shop-Seite ohne Gewinnspiel-Kontext | Falsches Ziel |
 
-**Faustregel:** Wenn ein Nutzer auf die URL klickt und kein direktes Teilnahmeformular / keinen direkten Teilnahmebutton für *genau dieses eine* Gewinnspiel sieht → URL ablehnen.
+**Wichtig — Newsletter-Anmeldung als Teilnahmeweg ist völlig OK**, solange die Seite den konkreten Preis und das Gewinnspiel erklärt. Das Kriterium ist nicht „Newsletter-Seite ja/nein", sondern: **Sieht der Nutzer auf dieser Seite sofort, was er gewinnen kann?**
 
 ### Was eine akzeptierte URL leisten muss
 
-- Beschreibt **ein einziges spezifisches Gewinnspiel** mit konkretem Preis und Deadline
-- Bietet eine direkte Teilnahmemöglichkeit (Formular, Button, oder Anmeldemaske)
-- Bei Newsletter-Gewinnspiel: Die Seite muss **diesen konkreten Gewinn explizit nennen** (nicht nur „Newsletter abonnieren")
+- Der Nutzer sieht auf der Seite **konkret, was er gewinnen kann** (Preis, Gewinnbeschreibung)
+- Die Seite beschreibt **dieses eine spezifische Gewinnspiel**, nicht eine Auswahl vieler
+- Es gibt eine direkte Teilnahmemöglichkeit (Formular, Button, oder Anmeldemaske)
 
 ### Konkrete Beispiele
 
-**✅ Akzeptiert:**
+**✅ Akzeptiert — auch wenn Teilnahme per Newsletter:**
 ```
-https://www.engbers.com/landingpage/gewinnspiel           ← spezifische Landing Page
-https://aida.de/buchung/aktionen/gewinnspiele/monatsgewinnspiel  ← benanntes Spiel
-https://www.dm.de/pflege-und-duft/gewinnspiel-garnier-skin-active-c1218520.html  ← Produkt-ID im Pfad
-https://gewinnspiel.mein-ferrero.de/loyalty-gewinnspiel   ← dedizierte Subdomain
-https://aktion-mensch-newsletter.de/?cid=21368&wid=14734  ← konkrete Parameter
+https://www.engbers.com/landingpage/gewinnspiel              ← Landing Page mit Preis-Info
+https://aida.de/buchung/aktionen/gewinnspiele/monatsgewinnspiel  ← spezifisches Spiel
+https://gewinnspiel.mein-ferrero.de/loyalty-gewinnspiel      ← dedizierte Subdomain
+https://aktion-mensch-newsletter.de/?cid=21368&wid=14734     ← spezifische Kampagne
+https://www.adac.de/newsletter-gewinnspiel-mercedes/         ← nennt konkret den Preis
 ```
 
 **❌ Abgelehnt:**
 ```
-https://www.ikea.com/de/de/                               ← Startseite
-https://www.tchibo.de/c/subscribenewsletter               ← nur Newsletter-Anmeldung
-https://www.esso.de/de-de/newsletter                      ← nur Newsletter-Anmeldung
-https://www.adac.de/der-adac/newsletter/abonnement/       ← nur Newsletter-Anmeldung
-https://www.dm.de/neu/gewinnspiele                        ← Übersichtsseite
-https://www.gewinnarena.de/aktuelle-gewinnspiele/         ← Übersichtsseite (Listing)
-https://www.essen-und-trinken.de/gewinnspiele             ← Übersichtsseite
+https://www.ikea.com/de/de/                               ← Startseite, kein Gewinnspiel-Bezug
+https://www.tchibo.de/c/subscribenewsletter               ← generische Anmeldung, kein Preis genannt
+https://www.esso.de/de-de/newsletter                      ← generische Anmeldung, kein Preis genannt
+https://www.dm.de/neu/gewinnspiele                        ← Übersicht vieler Gewinnspiele
+https://www.essen-und-trinken.de/gewinnspiele             ← Übersicht vieler Gewinnspiele
 ```
 
 ### Umgang mit nicht-auffindbaren spezifischen URLs
