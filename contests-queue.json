@@ -101,14 +101,15 @@
     "is_real": 1
   },
   {
-    "title": "Tchibo Newsletter Gewinnspiel: 100 € Gutschein gewinnen",
+    "title": "Tchibo Kaffee-Newsletter: Monatlich 250 € Kaffeegutschein gewinnen",
     "cat": "gutschein",
-    "value_eur": 100,
+    "value_eur": 250,
     "icon": "☕",
-    "deadline": "2026-05-31",
+    "deadline": "2026-12-31",
+    "draw_date": "monatlich zum 1. des Folgemonats",
     "sponsor": "Tchibo",
-    "description": "Tchibo Newsletter abonnieren und einen von 30 Gutscheinen im Wert von je 100 € gewinnen. Kostenlose Teilnahme per E-Mail.",
-    "url": "https://www.tchibo.de/c/subscribenewsletter",
+    "description": "Tchibo Kaffee-Newsletter abonnieren und jeden Monat an der Verlosung eines 250 € Kaffeegutscheins teilnehmen. Das Jahresgewinnspiel läuft bis Ende 2026.",
+    "url": "https://www.tchibo.de/c/newsletter-kaffee-gewinnspiel",
     "is_real": 1
   },
   {
@@ -142,17 +143,6 @@
     "sponsor": "Volkswagen Deutschland",
     "description": "VW T-Roc, FIFA WM-Tickets, Erlebnisreisen & DFB-Merchandise gewinnen. Kostenlose Teilnahme mit kostenlosem VW ID Konto.",
     "url": "https://www.volkswagen.de/de/angebote-und-produkte/anpfiff-zum-gewinn.html",
-    "is_real": 1
-  },
-  {
-    "title": "OPUS Fashion: 300 € Modegutschein gewinnen",
-    "cat": "mode",
-    "value_eur": 300,
-    "icon": "👗",
-    "deadline": "2026-04-28",
-    "sponsor": "OPUS Fashion",
-    "description": "Newsletter anmelden, Frage beantworten und 300 € OPUS Fashion Gutschein gewinnen. Kostenlose Teilnahme bis 28. April.",
-    "url": "https://de.opus-fashion.com/de/gewinnspiel",
     "is_real": 1
   },
   {
@@ -239,8 +229,8 @@
     "icon": "📺",
     "deadline": "2026-05-24",
     "sponsor": "Lidl Deutschland",
-    "description": "Lidl Newsletter abonnieren und 10 × Samsung Smart TV 65\" 4K-UHD oder 10 × Gartenlounge Alu bellavista gewinnen. Newsletter-Anmeldung genügt, kein Kauf nötig.",
-    "url": "https://www.lidl.de/c/lidl-gewinnspiele/s10019702",
+    "description": "E-Mail-Adresse eintragen, kostenlosen Lidl-Newsletter abonnieren und 10 × Samsung Smart TV 65\" 4K-UHD oder 10 × Gartenlounge Alu bellavista gewinnen. Kein Kauf nötig.",
+    "url": "https://www.lidl-gewinnspiel.de/",
     "is_real": 1
   },
   {
@@ -274,6 +264,65 @@
     "sponsor": "GewinnArena / ProSieben Media AG",
     "description": "Täglich kostenlos auf der offiziellen Gewinnspiel-Plattform von ProSieben und SAT.1 mitmachen – Autos, Bargeld und Technik-Preise gewinnen. Kostenlos anmelden.",
     "url": "https://www.gewinnarena.de/aktuelle-gewinnspiele/",
+    "is_real": 1
+  },
+  {
+    "title": "Rossmann Centaur-Rätsel Mai 2026",
+    "cat": "beauty",
+    "value_eur": 200,
+    "icon": "💄",
+    "deadline": "2026-05-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Rossmann",
+    "description": "Monatliches Rätsel im Rossmann Centaur-Magazin lösen und attraktive Preise (z. B. Hotelübernachtungen) gewinnen. Kostenlose Online-Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.rossmann.de/cms/gewinnspiele/centaur-raetsel-202605.html",
+    "is_real": 1
+  },
+  {
+    "title": "BMW: 6 Monate BMW X7 M60i fahren + VIP-Golf-Tickets gewinnen",
+    "cat": "auto",
+    "value_eur": 5000,
+    "icon": "🏎️",
+    "deadline": "2026-06-30",
+    "draw_date": "vor der BMW International Open (1.–5. Juli 2026)",
+    "sponsor": "BMW AG",
+    "description": "6 Monate pure Fahrfreude im BMW X7 M60i xDrive erleben und 2 VIP-Tickets für die BMW International Open 2026 gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.bmw.de/de/landingpage/bmw-fahrfreude-gewinnen.html",
+    "is_real": 1
+  },
+  {
+    "title": "IKEA Family: Jeden Monat 5 × 1.000 € Mietzuschuss gewinnen",
+    "cat": "bargeld",
+    "value_eur": 1000,
+    "icon": "🏠",
+    "deadline": "2026-12-31",
+    "draw_date": "monatlich",
+    "sponsor": "IKEA Deutschland",
+    "description": "Kostenloses IKEA Family Konto anlegen und jeden Monat an der Verlosung von 5 × 1.000 € Mietzuschuss teilnehmen. Keine weiteren Bedingungen, kein Kauf nötig.",
+    "url": "https://www.ikea.com/de/de/campaigns/gewinne-ein-ikea-family-mietzuschuss-pub147d1b60",
+    "is_real": 1
+  },
+  {
+    "title": "Müller Drogerie Lifestyle Gewinnspiel: Kurzurlaub gewinnen",
+    "cat": "reise",
+    "value_eur": 800,
+    "icon": "🏨",
+    "deadline": "2026-05-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Müller Drogeriemarkt",
+    "description": "Kreuzworträtsel lösen und einen Kurzurlaub für 2 Personen in einem ausgewählten 4-Sterne-Hotel mit Halbpension gewinnen. Kostenlose Teilnahme ohne Kauf.",
+    "url": "https://www.mueller.de/aktuelles/gewinnspiele/gewinnspiel-lifestyle/",
+    "is_real": 1
+  },
+  {
+    "title": "INTERSPORT Deutschland: Sport-Ausrüstung & Erlebnisse gewinnen",
+    "cat": "sport",
+    "value_eur": 500,
+    "icon": "⚽",
+    "deadline": "2026-06-30",
+    "sponsor": "INTERSPORT Deutschland GmbH",
+    "description": "Auf dem offiziellen INTERSPORT Gewinnspiel-Portal regelmäßig neue Verlosungen von Sportausrüstung, Reisegutscheinen und Erlebnispaketen. Kostenlose Teilnahme.",
+    "url": "https://gewinnspiele.intersport.de/",
     "is_real": 1
   }
 ]
