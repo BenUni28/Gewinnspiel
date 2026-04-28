@@ -82,7 +82,7 @@ Ein Eintrag darf in die Queue (`contests-queue.json`) NUR wenn:
 | ✅ Kostenlos | Keine Kaufpflicht, kein kostenpflichtiges Abo |
 | ✅ Newsletter-Anmeldung OK | Nur E-Mail-Adresse angeben ist erlaubt |
 | ✅ Aktiv | Deadline in der Zukunft |
-| ✅ Direkte URL | Pfad zur Teilnahmeseite, nicht nur Startseite |
+| ✅ Direkte URL | Pfad zur spezifischen Gewinnspiel-Teilnahmeseite (siehe URL-Regeln unten) |
 | ✅ Seriös | Bekannter Veranstalter oder etabliertes Portal |
 | ❌ Kaufzwang | z.B. Los kaufen (Postcode Lotterie) → NICHT aufnehmen |
 | ❌ Pflichtmitgliedschaft | Bezahlte Mitgliedschaft erforderlich → NICHT aufnehmen |
@@ -91,6 +91,64 @@ Ein Eintrag darf in die Queue (`contests-queue.json`) NUR wenn:
 ### Geblockte Domains (Queue-Import)
 URLs mit diesen Präfixen werden beim Import automatisch übersprungen (`server/db.js` → `BLOCKED_URL_PREFIXES`):
 - `https://www.einfach-sparsam.de` — Drittanbieter-Aggregator, nicht der direkte Veranstalter
+
+---
+
+## URL-Pflichtprüfung (für JEDEN neuen Eintrag zwingend)
+
+### Schritt-für-Schritt-Prüfung (alle Schritte obligatorisch, kein Überspringen)
+
+1. **URL mit WebFetch abrufen** — immer zuerst, kein Hinzufügen ohne Versuch
+2. **HTTP 200 → Inhalt prüfen:** Die Seite muss das spezifische Gewinnspiel beschreiben (konkreter Preis, Teilnahmeschluss, Teilnahme-Button oder -Formular). Listet die Seite mehrere verschiedene Gewinnspiele, ist es eine Übersichtsseite → **ABLEHNEN**, nach der spezifischen Unterseite suchen.
+3. **HTTP 403 → Snippet-Pflicht:** WebSearch `"[exakter Gewinnspiel-Titel]" site:[domain.de]` ausführen. Zeigt das Ergebnis-Snippet den konkreten Preis und ein Datum? Wenn ja: OK. Wenn nein oder unklar → **ABLEHNEN**.
+4. **HTTP 404 oder Redirect zur Startseite → sofort ABLEHNEN.**
+5. **Generischer Pfad (s. unten) → ABLEHNEN**, auch wenn der Abruf technisch erfolgreich war.
+
+### Abgelehnte URL-Muster (sofort disqualifiziert, keine Ausnahmen)
+
+Eine URL wird **immer abgelehnt**, wenn der Pfad nach dem Hostname NUR aus generischen Segmenten besteht:
+
+| Generisches Segment (allein) | Grund |
+|------------------------------|-------|
+| `/` · `/de/` · `/en/` · `/home` | Startseite des Anbieters |
+| `/newsletter` · `/subscribe` · `/abonnieren` · `/subscribenewsletter` | Reine Newsletter-Anmeldung ohne Gewinnspiel-Bezug |
+| `/gewinnspiele` · `/aktionen` · `/angebote` · `/aktuelles` · `/kampagnen` | Übersichtsseite — zeigt mehrere Gewinnspiele |
+| `/shop` · `/produkte` · `/sortiment` | Produkt-/Shop-Seite |
+
+**Faustregel:** Wenn ein Nutzer auf die URL klickt und kein direktes Teilnahmeformular / keinen direkten Teilnahmebutton für *genau dieses eine* Gewinnspiel sieht → URL ablehnen.
+
+### Was eine akzeptierte URL leisten muss
+
+- Beschreibt **ein einziges spezifisches Gewinnspiel** mit konkretem Preis und Deadline
+- Bietet eine direkte Teilnahmemöglichkeit (Formular, Button, oder Anmeldemaske)
+- Bei Newsletter-Gewinnspiel: Die Seite muss **diesen konkreten Gewinn explizit nennen** (nicht nur „Newsletter abonnieren")
+
+### Konkrete Beispiele
+
+**✅ Akzeptiert:**
+```
+https://www.engbers.com/landingpage/gewinnspiel           ← spezifische Landing Page
+https://aida.de/buchung/aktionen/gewinnspiele/monatsgewinnspiel  ← benanntes Spiel
+https://www.dm.de/pflege-und-duft/gewinnspiel-garnier-skin-active-c1218520.html  ← Produkt-ID im Pfad
+https://gewinnspiel.mein-ferrero.de/loyalty-gewinnspiel   ← dedizierte Subdomain
+https://aktion-mensch-newsletter.de/?cid=21368&wid=14734  ← konkrete Parameter
+```
+
+**❌ Abgelehnt:**
+```
+https://www.ikea.com/de/de/                               ← Startseite
+https://www.tchibo.de/c/subscribenewsletter               ← nur Newsletter-Anmeldung
+https://www.esso.de/de-de/newsletter                      ← nur Newsletter-Anmeldung
+https://www.adac.de/der-adac/newsletter/abonnement/       ← nur Newsletter-Anmeldung
+https://www.dm.de/neu/gewinnspiele                        ← Übersichtsseite
+https://www.gewinnarena.de/aktuelle-gewinnspiele/         ← Übersichtsseite (Listing)
+https://www.essen-und-trinken.de/gewinnspiele             ← Übersichtsseite
+```
+
+### Umgang mit nicht-auffindbaren spezifischen URLs
+
+Wenn für ein Gewinnspiel keine spezifische Unterseite existiert (nur Startseite oder Übersichtsseite erreichbar):
+→ Den Eintrag **weglassen**. Kein Eintrag ist besser als ein Link, der Nutzer auf die falsche Seite führt.
 
 ---
 
@@ -150,9 +208,41 @@ URLs mit diesen Präfixen werden beim Import automatisch übersprungen (`server/
 
 Der Agent:
 1. Recherchiert 5–10 neue kostenlose Gewinnspiele inkl. `draw_date` (Auslosungsdatum aus den TnBs)
-2. Prüft alle URLs in der Queue (OK / KOSTENPFLICHTIG / HOMEPAGE / DEFEKT)
-3. Entfernt fehlerhafte und kostenpflichtige Einträge
+2. Prüft alle URLs in der Queue — für jede URL: WebFetch + Inhaltsprüfung nach den URL-Pflichtregeln (s.o.)
+3. Entfernt: abgelaufene, kostenpflichtige, defekte, und generische/Homepage-URLs
 4. Pusht `contests-queue.json` + `link-check-report.md`
+5. Sendet Abschluss-Benachrichtigung via ntfy.sh (s. unten)
+
+### Link-Check Statuswerte
+
+| Status | Bedeutung | Aktion |
+|--------|-----------|--------|
+| ✅ OK | URL erreichbar, Inhalt bestätigt spezifisches Gewinnspiel | Behalten |
+| ⚠️ Nicht verifizierbar (403) | URL gibt 403, aber Snippet bestätigt korrektes Gewinnspiel bei einer bekannten Marke | Behalten |
+| ❌ HOMEPAGE | URL zeigt auf Startseite oder generische Übersichtsseite — kein spezifisches Gewinnspiel | **ENTFERNEN** |
+| ❌ NEWSLETTER-ONLY | URL ist reine Newsletter-Anmeldeseite ohne Gewinnspiel-Bezug | **ENTFERNEN** |
+| ❌ DEFEKT | URL gibt 404, ist abgelaufen oder Deadline überschritten | **ENTFERNEN** |
+| ❌ KOSTENPFLICHTIG | Kaufzwang oder Pflichtmitgliedschaft entdeckt | **ENTFERNEN** |
+
+---
+
+## Abschluss-Benachrichtigung (ntfy.sh)
+
+Am Ende **jedes** Agent-Laufs eine Push-Nachricht senden:
+
+**Topic:** `NTFY_TOPIC_HIER_EINTRAGEN`
+
+```
+WebFetch POST https://ntfy.sh/NTFY_TOPIC_HIER_EINTRAGEN
+Headers:
+  Title: Gewinnspiele-Update
+  Priority: 3
+  Tags: trophy
+Body (einzeilig):
+  "✅ Lauf abgeschlossen · Neu: X · Entfernt: X · Gesamt: X aktive Einträge"
+```
+
+Der Agent ersetzt `X` mit den tatsächlichen Zahlen aus dem Lauf.
 
 ---
 
