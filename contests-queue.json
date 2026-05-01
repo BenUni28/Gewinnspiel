@@ -1,34 +1,12 @@
 [
   {
-    "title": "REWE Reisen Gewinnspiel: Traumurlaub gewinnen",
+    "title": "AIDA Monatsgewinnspiel: Kreuzfahrtgutschein 3.500 € gewinnen",
     "cat": "reise",
-    "value_eur": 2000,
-    "icon": "✈️",
-    "deadline": "2026-04-30",
-    "sponsor": "REWE Reisen",
-    "description": "Jetzt beim REWE Reisen Gewinnspiel mitmachen und eine Traumreise gewinnen. Kostenlose Teilnahme – kein Kauf erforderlich.",
-    "url": "https://www.rewe-reisen.de/gewinnspiel.html",
-    "is_real": 1
-  },
-  {
-    "title": "Penny Reisen Gewinnspiel: Urlaub gewinnen",
-    "cat": "reise",
-    "value_eur": 2000,
-    "icon": "✈️",
-    "deadline": "2026-04-30",
-    "sponsor": "Penny Reisen",
-    "description": "Beim Penny Reisen Gewinnspiel eine Urlaubsreise gewinnen. Einfach online teilnehmen und mit Glück verreisen. Kostenlos.",
-    "url": "https://www.penny-reisen.de/gewinnspiel.html",
-    "is_real": 1
-  },
-  {
-    "title": "AIDA Monatsgewinnspiel: Kreuzfahrtgutschein 3.000 € gewinnen",
-    "cat": "reise",
-    "value_eur": 3000,
+    "value_eur": 3500,
     "icon": "🚢",
     "deadline": "2026-05-31",
     "sponsor": "AIDA Cruises",
-    "description": "Jetzt beim AIDA Monatsgewinnspiel mitmachen und einen AIDA Reisegutschein im Wert von 3.000 € gewinnen. Kostenlose Teilnahme.",
+    "description": "Jetzt beim AIDA Monatsgewinnspiel mitmachen und einen AIDA Reisegutschein im Wert von 3.500 € gewinnen. Kostenlose Teilnahme.",
     "url": "https://aida.de/buchung/aktionen/gewinnspiele/monatsgewinnspiel",
     "is_real": 1
   },
@@ -67,18 +45,6 @@
     "is_favorite": 1
   },
   {
-    "title": "Aktion Mensch Newsletter: Apple iPad + AirPods gewinnen",
-    "cat": "handy",
-    "value_eur": 500,
-    "icon": "📱",
-    "deadline": "2026-04-30",
-    "sponsor": "Aktion Mensch e.V.",
-    "description": "Newsletter abonnieren und Apple iPad + AirPods (ca. 500 €) gewinnen. Unterstützt soziale Inklusionsprojekte.",
-    "url": "https://aktion-mensch-newsletter.de/?cid=21368&wid=14734&sid=141223&swid=&tid=&optin_t=&optin=&la=",
-    "is_real": 1,
-    "is_favorite": 1
-  },
-  {
     "title": "Hyundai WM-Gewinnspiel 2026: Roadtrip nach Nordamerika",
     "cat": "reise",
     "value_eur": 5000,
@@ -87,17 +53,6 @@
     "sponsor": "Hyundai Motor Deutschland",
     "description": "Gewinne eines von 2 WM-Reisepaketen zur FIFA WM 2026 – Flug Frankfurt nach Toronto, Hotel und Roadtrip inklusive. Kostenlos.",
     "url": "https://www.hyundai.com/de/de/hyundai-welt/sponsoring-und-events/wm26.html",
-    "is_real": 1
-  },
-  {
-    "title": "Rossmann Centaur-Rätsel April 2026",
-    "cat": "beauty",
-    "value_eur": 200,
-    "icon": "💄",
-    "deadline": "2026-04-30",
-    "sponsor": "Rossmann",
-    "description": "Löse das monatliche Rätsel im Rossmann Centaur-Magazin und gewinne attraktive Rossmann-Preise. Kostenlose Online-Teilnahme.",
-    "url": "https://www.rossmann.de/cms/gewinnspiele/centaur-raetsel-202604.html",
     "is_real": 1
   },
   {
@@ -110,28 +65,6 @@
     "sponsor": "Tchibo",
     "description": "Tchibo Kaffee-Newsletter abonnieren und jeden Monat an der Verlosung eines 250 € Kaffeegutscheins teilnehmen. Das Jahresgewinnspiel läuft bis Ende 2026.",
     "url": "https://www.tchibo.de/c/newsletter-kaffee-gewinnspiel",
-    "is_real": 1
-  },
-  {
-    "title": "DA Direkt: 5 × Nintendo Switch 2 + Mario Kart World gewinnen",
-    "cat": "handy",
-    "value_eur": 530,
-    "icon": "🎮",
-    "deadline": "2026-05-31",
-    "sponsor": "DA Direkt Versicherung",
-    "description": "5 × Nintendo Switch 2 inkl. Mario Kart World (je >500 €) oder 20 × 100 € Amazon-Gutschein gewinnen. Kostenlose Teilnahme per E-Mail.",
-    "url": "https://www.da-direkt.de/mail/gewinnspiel-2025",
-    "is_real": 1
-  },
-  {
-    "title": "ESSEN & TRINKEN Wochengewinnspiel: Küche & Lifestyle gewinnen",
-    "cat": "lebensmittel",
-    "value_eur": 500,
-    "icon": "🍽️",
-    "deadline": "2026-06-30",
-    "sponsor": "ESSEN & TRINKEN (Gruner+Jahr / RTL)",
-    "description": "Wöchentlich Preise rund um Küche, Genuss und Lifestyle gewinnen. Rätsel lösen, Formular ausfüllen – kostenlose Teilnahme.",
-    "url": "https://www.essen-und-trinken.de/gewinnspiele",
     "is_real": 1
   },
   {
@@ -151,42 +84,10 @@
     "value_eur": 3500,
     "icon": "🛳️",
     "deadline": "2026-05-31",
+    "draw_date": "bis 15.06.2026",
     "sponsor": "Bonita / Thurgau Travel",
     "description": "9 Tage Rheinkreuzfahrt auf MS Thurgau Gold für 2 – Vollpension, Getränke & Ausflüge inklusive. Kostenlose Teilnahme online oder im Store.",
     "url": "https://www.bonita.de/de/de/gewinnspiel-thurgau-travel",
-    "is_real": 1
-  },
-  {
-    "title": "ADAC Newsletter: Elektro-Mercedes (53.000 €) oder Reisegutscheine gewinnen",
-    "cat": "reise",
-    "value_eur": 53000,
-    "icon": "🗺️",
-    "deadline": "2026-12-14",
-    "sponsor": "ADAC",
-    "description": "ADAC Newsletter abonnieren und Hauptgewinn Elektro-Mercedes (~53.000 €) oder einen von 12 Reisegutscheinen (je 1.000 €) gewinnen. Newsletter-Anmeldung kostenlos.",
-    "url": "https://www.adac.de/der-adac/newsletter/abonnement/",
-    "is_real": 1
-  },
-  {
-    "title": "dm × MaxiNutrition: 5 Nächte Wellness-Hotel gewinnen",
-    "cat": "beauty",
-    "value_eur": 1500,
-    "icon": "🏨",
-    "deadline": "2026-05-11",
-    "sponsor": "dm / MaxiNutrition",
-    "description": "Frage beantworten und 5 Nächte im 5-Sterne Sport- & Wellnesshotel im Bayerischen Wald für 2 gewinnen. Kostenlos mit dm-Konto.",
-    "url": "https://www.dm.de/neu/gewinnspiele",
-    "is_real": 1
-  },
-  {
-    "title": "Esso Bonus Newsletter: Monatliche Reise nach Kapstadt gewinnen",
-    "cat": "reise",
-    "value_eur": 3000,
-    "icon": "✈️",
-    "deadline": "2026-06-30",
-    "sponsor": "Esso",
-    "description": "Esso Bonus Newsletter abonnieren und monatlich eine 5-Nächte-Reise nach Kapstadt (4-Sterne-Hotel + Flüge) für 2 Personen gewinnen.",
-    "url": "https://www.esso.de/de-de/newsletter",
     "is_real": 1
   },
   {
@@ -212,22 +113,12 @@
     "is_real": 1
   },
   {
-    "title": "dm & Garnier: 5-Tage-Reise nach Marrakesch (2.500 €) gewinnen",
-    "cat": "beauty",
-    "value_eur": 2500,
-    "icon": "💄",
-    "deadline": "2026-05-31",
-    "sponsor": "dm drogeriemarkt / Garnier",
-    "description": "Kostenlos teilnehmen und eine 5-Tage-Reise nach Marrakesch für 2 Personen im 5-Sterne-Hotel Tigmiza + Garnier Beauty-Paket gewinnen.",
-    "url": "https://www.dm.de/pflege-und-duft/gewinnspiel-garnier-skin-active-c1218520.html",
-    "is_real": 1
-  },
-  {
     "title": "Lidl Gewinnspiel: 10× Samsung Smart TV 65\" oder Gartenlounge gewinnen",
     "cat": "handy",
     "value_eur": 1200,
     "icon": "📺",
     "deadline": "2026-05-24",
+    "draw_date": "bis 29.05.2026",
     "sponsor": "Lidl Deutschland",
     "description": "E-Mail-Adresse eintragen, kostenlosen Lidl-Newsletter abonnieren und 10 × Samsung Smart TV 65\" 4K-UHD oder 10 × Gartenlounge Alu bellavista gewinnen. Kein Kauf nötig.",
     "url": "https://www.lidl-gewinnspiel.de/",
@@ -242,28 +133,6 @@
     "sponsor": "Kaufland",
     "description": "2 FIFA WM-Tickets für Deutschland vs. Ecuador (25.06.2026) + Hin-/Rückflug + 3 Hotelübernachtungen gewinnen. Kostenlos mit kostenloser Kaufland Card XTRA.",
     "url": "https://filiale.kaufland.de/highlights/gewinnspiele/tickets-fussball-wm.html",
-    "is_real": 1
-  },
-  {
-    "title": "TOM TAILOR CLUB: Exklusive Mode-Gewinnspiele für Mitglieder",
-    "cat": "mode",
-    "value_eur": 500,
-    "icon": "👗",
-    "deadline": "2026-06-30",
-    "sponsor": "TOM TAILOR",
-    "description": "Kostenlosen TOM TAILOR CLUB anlegen und an exklusiven Gewinnspielen teilnehmen – Outfits, Parfüms, Boxspringbetten und Jahresrabatte gewinnen.",
-    "url": "https://www.tom-tailor.de/club/special/gewinnspiel",
-    "is_real": 1
-  },
-  {
-    "title": "GewinnArena (ProSieben/SAT.1): Täglich kostenlos Autos & Bargeld gewinnen",
-    "cat": "auto",
-    "value_eur": 30000,
-    "icon": "🎁",
-    "deadline": "2026-12-31",
-    "sponsor": "GewinnArena / ProSieben Media AG",
-    "description": "Täglich kostenlos auf der offiziellen Gewinnspiel-Plattform von ProSieben und SAT.1 mitmachen – Autos, Bargeld und Technik-Preise gewinnen. Kostenlos anmelden.",
-    "url": "https://www.gewinnarena.de/aktuelle-gewinnspiele/",
     "is_real": 1
   },
   {
@@ -315,14 +184,50 @@
     "is_real": 1
   },
   {
-    "title": "INTERSPORT Deutschland: Sport-Ausrüstung & Erlebnisse gewinnen",
-    "cat": "sport",
+    "title": "DA Direkt Gesundheits-Gewinnspiel: Thermomix TM7 & Apple Watch gewinnen",
+    "cat": "handy",
+    "value_eur": 1499,
+    "icon": "⌚",
+    "deadline": "2026-05-10",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "DA Direkt Versicherung",
+    "description": "Kostenlos mitmachen und einen von 7 Technikpreisen gewinnen: 2× Thermomix TM7 (je ~1.499 €) oder 5× Apple Watch Series 11. Kein Kauf nötig.",
+    "url": "https://www.da-direkt.de/mail/gewinnspiel-gesundheit",
+    "is_real": 1
+  },
+  {
+    "title": "Aktion Mensch Newsletter: Apple iPad + AirPods 4 gewinnen",
+    "cat": "handy",
     "value_eur": 500,
-    "icon": "⚽",
+    "icon": "📱",
+    "deadline": "2026-05-15",
+    "draw_date": "4 Wochen nach Aktionsende",
+    "sponsor": "Aktion Mensch e.V.",
+    "description": "Newsletter abonnieren und Apple iPad (11. Gen., 128 GB) + AirPods 4 im Gesamtwert von ca. 500 € gewinnen. Unterstützt soziale Inklusionsprojekte. Kostenlos.",
+    "url": "https://aktion-mensch-newsletter.de/",
+    "is_real": 1
+  },
+  {
+    "title": "GewinnArena: Apple MacBook Pro 14\" (M3) gewinnen",
+    "cat": "handy",
+    "value_eur": 2000,
+    "icon": "💻",
     "deadline": "2026-06-30",
-    "sponsor": "INTERSPORT Deutschland GmbH",
-    "description": "Auf dem offiziellen INTERSPORT Gewinnspiel-Portal regelmäßig neue Verlosungen von Sportausrüstung, Reisegutscheinen und Erlebnispaketen. Kostenlose Teilnahme.",
-    "url": "https://gewinnspiele.intersport.de/",
+    "sponsor": "GewinnArena / ProSiebenSat.1",
+    "description": "Täglich kostenlos bei der offiziellen ProSieben/SAT.1 Gewinnspiel-Plattform mitmachen und Apple MacBook Pro 14\" (M3) gewinnen. Gratis anmelden und teilnehmen.",
+    "url": "https://www.gewinnarena.de/tv/gewinnarena/gewinnarena-exklusiv/apple-macbook-pro-m3/",
+    "is_real": 1
+  },
+  {
+    "title": "Falstaff × ROBINSON: 7 Nächte All-Inclusive-Urlaub in Marokko gewinnen",
+    "cat": "reise",
+    "value_eur": 2000,
+    "icon": "🌴",
+    "deadline": "2026-05-31",
+    "draw_date": "Sommer 2026",
+    "sponsor": "Falstaff / Robinson Club",
+    "description": "7 Nächte All Inclusive im ROBINSON AGADIR (Marokko) für 2 Personen in der Sommersaison 2026 gewinnen. Einfach Formular ausfüllen – kostenlose Teilnahme.",
+    "url": "https://www.falstaff.com/de/news/gewinnspiel-eine-woche-traumurlaub-im-robinson-agadir",
     "is_real": 1
   }
 ]
