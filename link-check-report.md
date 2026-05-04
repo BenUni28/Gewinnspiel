@@ -1,4 +1,4 @@
-# Link-Check-Bericht – 01. Mai 2026
+# Link-Check-Bericht – 04. Mai 2026
 
 **Durchgeführt von:** Gewinnspiel-Agent (automatisiert)
 
@@ -6,117 +6,92 @@
 
 ## Recherche-Methode
 
-Primäre Quellen (gewinnspiele-markt.de, kostenlos.de u.a.) gaben alle HTTP 403 zurück (Bot-Schutz). Recherche erfolgte über:
+Primäre Quellen (gewinnspiele-markt.de, kostenlos.de, mystipendium.de u.a.) gaben alle HTTP 403 zurück (Bot-Schutz). Recherche erfolgte über:
 
 - **WebSearch** mit gezielten Suchanfragen (Mai 2026)
-- **WebSearch** Snippet-Pflichtprüfung für alle 403-Antworten (je Eintrag site:-Suche)
+- **WebSearch** Snippet-Pflichtprüfung für alle 403-Antworten (je Eintrag `site:`-Suche)
 - Direkte Sponsor-Websites via WebFetch (ebenfalls überwiegend 403)
 
-**Hinweis:** WebFetch lieferte für ~99 % aller URLs HTTP 403 (Anti-Bot-Schutz). URL-Validierung erfolgte ausschließlich über Suchmaschinenbestätigung und Snippet-Inhalte. HTTP 403 allein ist kein Grund zur Entfernung.
+**Hinweis:** WebFetch lieferte für ~100 % aller URLs HTTP 403 (Anti-Bot-Schutz). URL-Validierung erfolgte ausschließlich über Suchmaschinenbestätigung und Snippet-Inhalte. HTTP 403 allein ist kein Grund zur Entfernung.
 
 ---
 
-## Neu hinzugefügte Gewinnspiele (4 Einträge, Sitzung 01.05.2026)
+## Neu hinzugefügte Gewinnspiele (4 Einträge)
 
 | Titel | Kategorie | Wert | Deadline | URL |
-|-------|-----------|------|----------|-----|
-| DA Direkt Gesundheits-Gewinnspiel: Thermomix TM7 & Apple Watch | handy | 1.499 € | 10.05.2026 | da-direkt.de/mail/gewinnspiel-gesundheit |
-| Aktion Mensch Newsletter: Apple iPad + AirPods 4 | handy | 500 € | 15.05.2026 | aktion-mensch-newsletter.de/ |
-| GewinnArena: Apple MacBook Pro 14" (M3) | handy | 2.000 € | 30.06.2026 | gewinnarena.de/tv/gewinnarena/gewinnarena-exklusiv/apple-macbook-pro-m3/ |
-| Falstaff × ROBINSON: 7 Nächte All-Inclusive Marokko | reise | 2.000 € | 31.05.2026 | falstaff.com/de/news/gewinnspiel-eine-woche-traumurlaub-im-robinson-agadir |
+|---|---|---|---|---|
+| ADAC Cyclassics 2026: 10 Startplätze | sport | 100 € | 01.07.2026 | adac.de/…/gewinnspiel-cyclassics/ |
+| Bergwelten × Salomon: Wanderschuhe X Ultra 5 | sport | 150 € | 22.05.2026 | bergwelten.com/a/bergfest-wanderschuhe-salomon |
+| DM alverde Magazin: Sudoku-Rätsel Mai 2026 | beauty | 50 € | 31.05.2026 | dm.de/…/sudoku-175348 |
+| emilio adani: Hosen-Flatrate (6 Hosen) | mode | 600 € | 28.06.2026 | emilioadani.com/landingpage/gewinnspiel |
 
 ---
 
-## Link-Check Ergebnisse (alle 29 Einträge vor Bereinigung)
+## Link-Check Ergebnisse (alle 20 Einträge vor Bereinigung)
 
-### ✅ OK – Behalten (16 Einträge)
+> Alle bestehenden URLs gaben HTTP 403 zurück. Für jeden Eintrag wurde eine Snippet-Pflichtprüfung per `site:`-WebSearch durchgeführt.
+
+### ✅ OK – Behalten (18 Einträge)
 
 | Titel | Status | Begründung |
-|-------|--------|------------|
-| AIDA Monatsgewinnspiel: Kreuzfahrtgutschein 3.500 € | ⚠️ OK (403) | Snippet bestätigt: 3.500 € Reisegutschein, spezifische Seite, monatlich rollierend |
-| engbers Gewinnspiel: 4 × E-Bike Coboc Iseo | ⚠️ OK (403) | Snippet bestätigt: 4 × E-Bike Coboc Iseo je 3.999 €, Deadline 16.05.2026, kostenlos |
-| winario: Täglich Bargeld gewinnen | ⚠️ OK (403) | Snippet bestätigt: kostenlose Teilnahme, MAIlight-Sonderaktion aktiv bis 29.05.2026 |
-| Momcozy KleanPal Pro zu gewinnen | ⚠️ OK (403) | Deadline 03.05.2026, spezifische Gewinnspielseite auf gesundheit.com |
-| Hyundai WM-Gewinnspiel 2026: Roadtrip Nordamerika | ⚠️ OK (403) | Snippet bestätigt: WM-Roadtrip für 4 Personen, Deadline 06.05.2026, kostenlos |
-| Tchibo Kaffee-Newsletter | ⚠️ OK (403) | Snippet bestätigt: „Monatlich ein Kaffeegutschein zu gewinnen!", Deadline 31.12.2026 |
-| Volkswagen Anpfiff zum Gewinn | ⚠️ OK (403) | Snippet bestätigt: VW T-Roc + WM-Tickets + Erlebnisreisen, Deadline 31.07.2026 |
-| Bonita: 9-tägige Luxus-Rheinkreuzfahrt | ⚠️ OK (403) | Snippet bestätigt: 9-Tage MS Thurgau Gold für 2, Deadline 31.05.2026, kostenlos |
-| Ferrero Newsletter: Monatliche Verlosung | ⚠️ OK (403) | URL auf mein-ferrero.de indexiert und bestätigt |
-| Lufthansa City Center Schiff des Jahres 2026 | ⚠️ OK (403) | Snippet bestätigt: Kreuzfahrt zu gewinnen, Deadline 31.08.2026, kostenlos |
-| Lidl: 10× Samsung Smart TV 65" | ⚠️ OK (403) | Snippet bestätigt: Samsung TV 65" 4K-UHD, Gewinner bis 29.05.2026 per E-Mail |
-| Kaufland: WM 2026 – 2 Tickets + Reise | ⚠️ OK (403) | Snippet bestätigt: Deutschland vs. Ecuador, Flug + Hotel, Deadline 03.05.2026 |
-| Rossmann Centaur-Rätsel Mai 2026 | ⚠️ OK (403) | Muster 202601–202604 indexiert und bestätigt; Mai-Seite per Muster abgeleitet |
-| BMW: 6 Monate BMW X7 M60i + VIP-Golf-Tickets | ⚠️ OK (403) | Snippet bestätigt: 6 Monate BMW X7 M60i xDrive + 2 VIP-Tickets, kostenlos |
-| IKEA Family: 5 × 1.000 € Mietzuschuss | ⚠️ OK (403) | Snippet bestätigt: 5 × 1.000 € monatlich, IKEA Family Konto (kostenlos) |
-| Müller Drogerie Lifestyle Gewinnspiel | ⚠️ OK (403) | Snippet bestätigt: spezifische Kreuzworträtsel-Seite mit Hotel-Hauptpreis, kostenlos |
+|---|---|---|
+| AIDA Monatsgewinnspiel: Kreuzfahrtgutschein 3.500 € | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: aktives Monatsgewinnspiel mit Reisegutschein, Deadline 31.05.2026 |
+| engbers Gewinnspiel: 4 × E-Bike Coboc Iseo | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: E-Bike Coboc Iseo je 3.999 €, Laufzeit 01.04.–16.05.2026 |
+| winario: Täglich Bargeld gewinnen | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: kostenlose Geldgewinne täglich, Plattform aktiv |
+| Hyundai WM-Gewinnspiel 2026: Roadtrip Nordamerika | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: WM-Roadtrip für 4 Personen, Teilnahmeschluss 06.05.2026 10 Uhr |
+| Tchibo Kaffee-Newsletter: 250 € Kaffeegutschein | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: monatlich 250 € Kaffeegutschein, läuft bis 31.12.2026 |
+| Volkswagen Anpfiff zum Gewinn | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: VW T-Roc + WM-Tickets + Erlebnisreisen, bis 31.07.2026 |
+| Bonita: 9-tägige Luxus-Rheinkreuzfahrt | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: 9 Tage MS Thurgau Gold für 2, Deadline 31.05.2026 |
+| Ferrero Newsletter: Monatliche Verlosung | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: Laufzeit Sep 2025 – Aug 2026, monatlich, kostenlos |
+| Lufthansa City Center: Schiff des Jahres 2026 | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: Abstimmung + Kreuzfahrt gewinnen, Deadline 31.08.2026 |
+| Lidl: 10× Samsung Smart TV 65" oder Gartenlounge | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: Samsung TV 65" 4K-UHD, Gewinner bis 29.05.2026 per E-Mail |
+| Rossmann Centaur-Rätsel Mai 2026 | ⚠️ Nicht verifizierbar (403) | URL-Muster bestätigt (centaur-raetsel-YYYYMM.html, Editionen 2024–Feb 2026 indexiert). Monatlich rollierendes Gewinnspiel, behalten. |
+| BMW: 6 Monate BMW X7 M60i + VIP-Golf-Tickets | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: BMW X7 M60i + 2 VIP-Tickets BMW International Open 2026 |
+| IKEA Family: 5 × 1.000 € Mietzuschuss | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: 5 × 1.000 € monatlich, IKEA Family Konto kostenlos |
+| Müller Drogerie Lifestyle Gewinnspiel | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: URL aktiv, spezifische Kreuzworträtsel-Seite auf mueller.de |
+| DA Direkt: Thermomix TM7 & Apple Watch | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: 2× Thermomix TM7 + 5× Apple Watch S11, bis 10.05.2026 |
+| Aktion Mensch Newsletter: iPad + AirPods 4 | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: iPad 11. Gen + AirPods 4 (~500 €), Deadline 15.05.2026 |
+| GewinnArena: Apple MacBook Pro 14" (M3) | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: spezifische URL auf gewinnarena.de aktiv, MacBook Pro M3 |
+| Falstaff × ROBINSON: 7 Nächte All-Inclusive Marokko | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: veröffentlicht 07.04.2026, ROBINSON AGADIR Sommer 2026 |
 
 ---
 
-### ❌ DEFEKT – Entfernt (8 Einträge)
+### ❌ DEFEKT – Entfernt (2 Einträge)
 
 | Titel | URL | Begründung |
-|-------|-----|------------|
-| REWE Reisen Gewinnspiel | rewe-reisen.de/gewinnspiel.html | Deadline abgelaufen: 30.04.2026 |
-| Penny Reisen Gewinnspiel | penny-reisen.de/gewinnspiel.html | Deadline abgelaufen: 30.04.2026 |
-| Aktion Mensch Newsletter (alte Kampagne) | aktion-mensch-newsletter.de/?cid=21368&... | Deadline abgelaufen: 30.04.2026; neue Kampagne bis 15.05.2026 separat aufgenommen |
-| Rossmann Centaur-Rätsel April 2026 | rossmann.de/cms/gewinnspiele/centaur-raetsel-202604.html | Deadline abgelaufen: 30.04.2026 |
-| DA Direkt: Nintendo Switch 2 (2025-Kampagne) | da-direkt.de/mail/gewinnspiel-2025 | Snippet bestätigt andere aktuelle Preise (Thermomix/Apple Watch); URL ist Altcamp aus 2025 – durch aktualisierte Kampagne ersetzt |
-| TOM TAILOR CLUB Gewinnspiel | tom-tailor.de/club/special/gewinnspiel | URL in keinem Suchresultat bestätigt; spezifische Preise und Datum nicht verifizierbar (kein Snippet) |
-| dm & Garnier: Reise nach Marrakesch | dm.de/pflege-und-duft/gewinnspiel-garnier-skin-active-c1218520.html | URL in keinem Snippet bestätigt; Gewinnspiel nicht auffindbar |
-| INTERSPORT Deutschland Gewinnspiele | gewinnspiele.intersport.de/ | Snippet: „Derzeit keine Gewinnspiele verfügbar" – DEFEKT |
+|---|---|---|
+| Momcozy KleanPal Pro zu gewinnen | gesundheit.com/gewinnspiele/momcozy-kleanpal-pro-zu-gewinnen | ❌ DEFEKT – Deadline 03.05.2026 überschritten (heute: 04.05.2026) |
+| Kaufland: WM 2026 – 2 Tickets + Reise zu Deutschland vs. Ecuador | filiale.kaufland.de/highlights/gewinnspiele/tickets-fussball-wm.html | ❌ DEFEKT – Deadline 03.05.2026 überschritten (heute: 04.05.2026) |
 
 ---
 
-### ❌ HOMEPAGE – Entfernt (3 Einträge)
-
-| Titel | URL | Begründung |
-|-------|-----|------------|
-| ESSEN & TRINKEN Wochengewinnspiel | essen-und-trinken.de/gewinnspiele | Generische Übersichtsseite für mehrere Gewinnspiele (laut CLAUDE.md explizit abgelehnt) |
-| dm × MaxiNutrition: Wellness-Hotel | dm.de/neu/gewinnspiele | Generische dm-Gewinnspiel-Übersichtsseite (laut CLAUDE.md explizit abgelehnt) |
-| GewinnArena: Täglich Autos & Bargeld | gewinnarena.de/aktuelle-gewinnspiele/ | Übersichtsseite für mehrere Gewinnspiele; ersetzt durch spezifische MacBook-Pro-Seite |
-
----
-
-### ❌ NEWSLETTER-ONLY – Entfernt (2 Einträge)
-
-| Titel | URL | Begründung |
-|-------|-----|------------|
-| Esso Bonus Newsletter | esso.de/de-de/newsletter | Generische Newsletter-Anmeldeseite ohne Gewinnspiel-Bezug (laut CLAUDE.md explizit abgelehnt) |
-| ADAC Newsletter Mercedes-Gewinnspiel | adac.de/der-adac/newsletter/abonnement/ | Snippet-Titel: „Der ADAC Newsletter. Vielfältig, aktuell, für jeden." – kein konkreter Preis auf der Seite erkennbar → generische Newsletter-Seite |
-
----
-
-## Abgelehnte Neukandidaten (Sitzung 01.05.2026)
+## Abgelehnte Neukandidaten
 
 | Kandidat | Grund |
-|----------|-------|
-| PENNY × Lenor Nordseebrise | ABGELAUFEN: Teilnahmeschluss 02.05.2026; Wert zu gering (Produkt-Pakete) |
-| Fiat 500E × REWE × Raffaello/Giotto | ABGELAUFEN: Teilnahmeschluss 26.04.2026 |
-| TUI BLUE Anniversary Gewinnspiel | ABGELAUFEN: Teilnahmeschluss 01.05.2026 (heute) |
-| Coca-Cola WM 2026 Sip & Scan | ABGELAUFEN: Aktionszeitraum 01.01.–31.03.2026 |
-| REWE × Lay's WM Final-Tickets | KOSTENPFLICHTIG: Produktkauf + Kassenbon-Upload nötig |
-| PENNY × Lay's/Doritos WM-Tickets | KOSTENPFLICHTIG: Produktkauf + Kassenbon-Upload nötig |
-| Hugendubel Lucky Bike Gutschein | ABGELAUFEN: Teilnahmeschluss 31.03.2026 |
-| GewinnArena Audi A3 / Dacia Duster | ABGELAUFEN: Teilnahmeschluss 20.02.2026 |
-| SVO Reisegutschein 2.000 € | KOSTENPFLICHTIG: Mindestbestellwert 4.000 € netto |
-| Kaufland Tankgutschein 100 € | KOSTENPFLICHTIG + ABGELAUFEN: Mindesteinkauf 100 €; Deadline 29.04.2026 |
-| Kaufland Festival-Tickets | ABGELAUFEN: Teilnahmeschluss 22.04.2026 |
-| Kaufland VIP-Loge Bayern/BVB | ABGELAUFEN: Teilnahmeschluss 04.02.2026 |
-| Hafermann Reisen Seine-Kreuzfahrt | KEIN DIREKTER URL: Nur über Drittanbieter auffindbar; kein direkter hafermannreisen.de-Pfad bestätigt |
-| Tchibo Südafrika Reise-Gewinnspiel | KEIN DIREKTER URL: tchibo-gewinnspiel.de-Kampagne abgelaufen (Dez. 2025) |
-| EDEKA DFB Länderspieltickets | CODE-PFLICHT abgelaufen: Aktionscode musste bis 06.03.2026 aktiviert werden |
+|---|---|
+| EDEKA DFB-Gewinnspiel (Länderspiel-Tickets) | ❌ DEFEKT – Teilnahmeschluss 03.05.2026, zum Zeitpunkt des Laufs bereits abgelaufen |
+| GewinnArena Auto (Audi A3 / Dacia Duster) | ❌ DEFEKT – Deadline Februar 2026 |
+| Kaufland Europa-Park Pakete | ❌ DEFEKT – Deadline 22.04.2026 |
+| Kaufland Festival-Tickets (Sprite) | ❌ DEFEKT – Deadline 22.04.2026 |
+| Penny Reisen Hotelaufenthalt | ❌ DEFEKT – Deadline 30.04.2026 |
+| Maggi Roadsurfer-Camper Gewinnspiel | ❌ DEFEKT – Deadline 30.04.2026 |
+| Mercedes-Benz CLA Gewinnspiel | ❌ DEFEKT – Deadline 30.09.2025 |
+| Bergwelten × Norrøna Midlayer-Jacke | ❌ DEFEKT – Deadline 11.04.2026 |
+| WMF Newsletter Gewinnspiel | ❌ DEFEKT – Deadline 28.02.2026 |
+| TUI MAGIC LIFE Plimmiri (Rhodos) | ❌ HOMEPAGE – tui.com/gewinnspiel/ ist generische Übersichtsseite, kein spezifischer Pfad |
+| MediaMarkt Sennheiser RS 275 | ❌ HOMEPAGE – mediamarkt.de Gewinnspiele-Übersichtsseite, kein spezifischer Pfad |
+| Milka Millionenarena | ❌ KOSTENPFLICHTIG – Aktionspackung mit Code erforderlich (Kaufzwang) |
+| REWE Treuepunkte (Wellness-Wochenende) | ❌ HOMEPAGE – Seite primär Treuepunkte-Kampagne, kein direkt erkennbarer Gewinnspiel-Kontext |
 
 ---
 
-## Statistik (Sitzung 01.05.2026)
+## Statistik
 
 | Kennzahl | Wert |
-|----------|------|
-| Queue-Einträge zu Beginn | 29 |
-| Geprüfte URLs | 29 |
-| Status ✅ OK (behalten) | 16 |
-| Status ❌ DEFEKT (entfernt) | 8 |
-| Status ❌ HOMEPAGE (entfernt) | 3 |
-| Status ❌ NEWSLETTER-ONLY (entfernt) | 2 |
+|---|---|
+| Queue-Einträge zu Beginn | 20 |
+| Geprüfte URLs | 20 |
+| Status ✅ / ⚠️ OK – behalten | 18 |
+| Status ❌ DEFEKT – entfernt | 2 |
 | Neu hinzugefügt | 4 |
-| **Queue-Einträge gesamt nach Bereinigung** | **20** |
+| **Queue-Einträge gesamt nach Bereinigung** | **22** |

@@ -33,18 +33,6 @@
     "is_real": 1
   },
   {
-    "title": "Momcozy KleanPal Pro zu gewinnen",
-    "cat": "haus",
-    "value_eur": 369.99,
-    "icon": "🍼",
-    "deadline": "2026-05-03",
-    "sponsor": "Momcozy / gesundheit.com",
-    "description": "Vollautomatisches 3-in-1 Babyflaschenpflegesystem (Waschen, Sterilisieren, Trocknen) gewinnen. Kostenlose Teilnahme.",
-    "url": "https://www.gesundheit.com/gewinnspiele/momcozy-kleanpal-pro-zu-gewinnen",
-    "is_real": 1,
-    "is_favorite": 1
-  },
-  {
     "title": "Hyundai WM-Gewinnspiel 2026: Roadtrip nach Nordamerika",
     "cat": "reise",
     "value_eur": 5000,
@@ -122,17 +110,6 @@
     "sponsor": "Lidl Deutschland",
     "description": "E-Mail-Adresse eintragen, kostenlosen Lidl-Newsletter abonnieren und 10 × Samsung Smart TV 65\" 4K-UHD oder 10 × Gartenlounge Alu bellavista gewinnen. Kein Kauf nötig.",
     "url": "https://www.lidl-gewinnspiel.de/",
-    "is_real": 1
-  },
-  {
-    "title": "Kaufland: WM 2026 – 2 Tickets + Reise zu Deutschland vs. Ecuador",
-    "cat": "reise",
-    "value_eur": 5000,
-    "icon": "⚽",
-    "deadline": "2026-05-03",
-    "sponsor": "Kaufland",
-    "description": "2 FIFA WM-Tickets für Deutschland vs. Ecuador (25.06.2026) + Hin-/Rückflug + 3 Hotelübernachtungen gewinnen. Kostenlos mit kostenloser Kaufland Card XTRA.",
-    "url": "https://filiale.kaufland.de/highlights/gewinnspiele/tickets-fussball-wm.html",
     "is_real": 1
   },
   {
@@ -228,6 +205,54 @@
     "sponsor": "Falstaff / Robinson Club",
     "description": "7 Nächte All Inclusive im ROBINSON AGADIR (Marokko) für 2 Personen in der Sommersaison 2026 gewinnen. Einfach Formular ausfüllen – kostenlose Teilnahme.",
     "url": "https://www.falstaff.com/de/news/gewinnspiel-eine-woche-traumurlaub-im-robinson-agadir",
+    "is_real": 1
+  },
+  {
+    "title": "ADAC Cyclassics 2026: 10 Startplätze gewinnen",
+    "cat": "sport",
+    "value_eur": 100,
+    "icon": "🏅",
+    "deadline": "2026-07-01",
+    "draw_date": "01.07.2026",
+    "sponsor": "ADAC Hansa",
+    "description": "10 Startplätze für die ADAC Cyclassics 2026 (16. August, Hamburg) gewinnen. Kontaktdaten eintragen und mitmachen – kostenlose Teilnahme, kein Kauf nötig.",
+    "url": "https://www.adac.de/der-adac/regionalclubs/hansa/reisen-freizeit/gewinnspiel-cyclassics/",
+    "is_real": 1
+  },
+  {
+    "title": "Bergwelten × Salomon: Wanderschuhe X Ultra 5 gewinnen",
+    "cat": "sport",
+    "value_eur": 150,
+    "icon": "🥾",
+    "deadline": "2026-05-22",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Bergwelten / Salomon",
+    "description": "Ein Paar Salomon X Ultra 5 Wanderschuhe aus der Frühjahr/Sommer-Kollektion 2026 gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.bergwelten.com/a/bergfest-wanderschuhe-salomon",
+    "is_real": 1
+  },
+  {
+    "title": "DM alverde Magazin: Sudoku-Rätsel Mai 2026 lösen & gewinnen",
+    "cat": "beauty",
+    "value_eur": 50,
+    "icon": "🧩",
+    "deadline": "2026-05-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "DM / alverde",
+    "description": "Sudoku-Rätsel lösen und eines von 12 Jessa-Pflegesets gewinnen. Kostenlose Online-Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.dm.de/unternehmen/alverde-magazin/gewinnspiele/sudoku-175348",
+    "is_real": 1
+  },
+  {
+    "title": "emilio adani: Hosen-Flatrate – 6 Hosen in 12 Monaten gewinnen",
+    "cat": "mode",
+    "value_eur": 600,
+    "icon": "👖",
+    "deadline": "2026-06-28",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "emilio adani",
+    "description": "Hosen-Flatrate gewinnen: 6 Hosen nach Wahl aus dem emilio adani Sortiment innerhalb von 12 Monaten. Kostenlose Teilnahme online, kein Kauf nötig.",
+    "url": "https://www.emilioadani.com/landingpage/gewinnspiel",
     "is_real": 1
   }
 ]
