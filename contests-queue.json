@@ -22,17 +22,6 @@
     "is_real": 1
   },
   {
-    "title": "winario: Täglich Bargeld gewinnen – bis 10.000 € Tagesgewinne",
-    "cat": "bargeld",
-    "value_eur": 10000,
-    "icon": "💰",
-    "deadline": "2026-06-30",
-    "sponsor": "winario (RTL/VOX)",
-    "description": "Kostenlos bei RTL/VOX-Gewinnspielen mitmachen und täglich Bargeld bis 10.000 € gewinnen.",
-    "url": "https://www.winario.de/gewinnspiele/geldgewinne",
-    "is_real": 1
-  },
-  {
     "title": "Tchibo Kaffee-Newsletter: Monatlich 250 € Kaffeegutschein gewinnen",
     "cat": "gutschein",
     "value_eur": 250,
@@ -76,29 +65,6 @@
     "sponsor": "Ferrero Deutschland",
     "description": "Ferrero Newsletter abonnieren und monatlich bei Sonderverlosungen mitmachen – z. B. De'Longhi Kaffeevollautomaten. Kostenlose Teilnahme.",
     "url": "https://gewinnspiel.mein-ferrero.de/loyalty-gewinnspiel",
-    "is_real": 1
-  },
-  {
-    "title": "Lufthansa City Center: Schiff des Jahres 2026 wählen & Kreuzfahrt gewinnen",
-    "cat": "reise",
-    "value_eur": 3000,
-    "icon": "🚢",
-    "deadline": "2026-08-31",
-    "sponsor": "Lufthansa City Center",
-    "description": "Dein Lieblingsschiff 2026 wählen und eine Kreuzfahrt gewinnen – kostenlose Abstimmung, kein Kauf erforderlich. Einsendeschluss 31.08.2026.",
-    "url": "https://lufthansa-city-center.com/de/urlaub/reisearten/schiff-des-jahres/",
-    "is_real": 1
-  },
-  {
-    "title": "Lidl Gewinnspiel: 10× Samsung Smart TV 65\" oder Gartenlounge gewinnen",
-    "cat": "handy",
-    "value_eur": 1200,
-    "icon": "📺",
-    "deadline": "2026-05-24",
-    "draw_date": "bis 29.05.2026",
-    "sponsor": "Lidl Deutschland",
-    "description": "E-Mail-Adresse eintragen, kostenlosen Lidl-Newsletter abonnieren und 10 × Samsung Smart TV 65\" 4K-UHD oder 10 × Gartenlounge Alu bellavista gewinnen. Kein Kauf nötig.",
-    "url": "https://www.lidl-gewinnspiel.de/",
     "is_real": 1
   },
   {
@@ -159,18 +125,6 @@
     "sponsor": "DA Direkt Versicherung",
     "description": "Kostenlos mitmachen und einen von 7 Technikpreisen gewinnen: 2× Thermomix TM7 (je ~1.499 €) oder 5× Apple Watch Series 11. Kein Kauf nötig.",
     "url": "https://www.da-direkt.de/mail/gewinnspiel-gesundheit",
-    "is_real": 1
-  },
-  {
-    "title": "Aktion Mensch Newsletter: Apple iPad + AirPods 4 gewinnen",
-    "cat": "handy",
-    "value_eur": 500,
-    "icon": "📱",
-    "deadline": "2026-05-15",
-    "draw_date": "4 Wochen nach Aktionsende",
-    "sponsor": "Aktion Mensch e.V.",
-    "description": "Newsletter abonnieren und Apple iPad (11. Gen., 128 GB) + AirPods 4 im Gesamtwert von ca. 500 € gewinnen. Unterstützt soziale Inklusionsprojekte. Kostenlos.",
-    "url": "https://aktion-mensch-newsletter.de/",
     "is_real": 1
   },
   {
