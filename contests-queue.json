@@ -33,17 +33,6 @@
     "is_real": 1
   },
   {
-    "title": "Hyundai WM-Gewinnspiel 2026: Roadtrip nach Nordamerika",
-    "cat": "reise",
-    "value_eur": 5000,
-    "icon": "🏆",
-    "deadline": "2026-05-06",
-    "sponsor": "Hyundai Motor Deutschland",
-    "description": "Gewinne eines von 2 WM-Reisepaketen zur FIFA WM 2026 – Flug Frankfurt nach Toronto, Hotel und Roadtrip inklusive. Kostenlos.",
-    "url": "https://www.hyundai.com/de/de/hyundai-welt/sponsoring-und-events/wm26.html",
-    "is_real": 1
-  },
-  {
     "title": "Tchibo Kaffee-Newsletter: Monatlich 250 € Kaffeegutschein gewinnen",
     "cat": "gutschein",
     "value_eur": 250,
@@ -253,6 +242,61 @@
     "sponsor": "emilio adani",
     "description": "Hosen-Flatrate gewinnen: 6 Hosen nach Wahl aus dem emilio adani Sortiment innerhalb von 12 Monaten. Kostenlose Teilnahme online, kein Kauf nötig.",
     "url": "https://www.emilioadani.com/landingpage/gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "ADAC Newsletter: Elektrischen Mercedes (53.000 €) oder Reisegutscheine gewinnen",
+    "cat": "auto",
+    "value_eur": 53000,
+    "deadline": "2026-12-14",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "ADAC",
+    "description": "ADAC Newsletter abonnieren und elektrischen Mercedes (53.000 €) oder 1 von 12 ADAC Reisegutscheinen à 1.000 € gewinnen. Kostenlos, auch ohne ADAC-Mitgliedschaft.",
+    "url": "https://www.adac.de/der-adac/newsletter/abonnement/",
+    "is_real": 1
+  },
+  {
+    "title": "Wüstenrot Gewinnspiel 2026: 2× iPhone 17 Pro & 2× Samsung Galaxy S25 Ultra",
+    "cat": "handy",
+    "value_eur": 1300,
+    "deadline": "2027-02-28",
+    "draw_date": "22.09.2026 und 09.03.2027",
+    "sponsor": "Wüstenrot Bausparkasse",
+    "description": "Teilnahmeformular ausfüllen und 2× Apple iPhone 17 Pro oder 2× Samsung Galaxy S25 Ultra gewinnen. Kostenlos, kein Kauf oder Vertrag erforderlich.",
+    "url": "https://cloud.info.wuestenrot.de/spiel-2026",
+    "is_real": 1
+  },
+  {
+    "title": "auto motor und sport: Kia EV3 Air (36.280 €) gewinnen – 80 Jahre Jubiläum",
+    "cat": "auto",
+    "value_eur": 36280,
+    "deadline": "2026-06-10",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "auto motor und sport",
+    "description": "Beim 80-Jahre-Jubiläum von auto motor und sport mitmachen und Kia EV3 Air in Frostblau (36.280 €) gewinnen. Kostenlose Online-Teilnahme, kein Kauf nötig.",
+    "url": "https://www.auto-motor-und-sport.de/verkehr/80-jahre-auto-motor-und-sport-gewinnspiel-kia-ev3-air-gewinnen/",
+    "is_real": 1
+  },
+  {
+    "title": "AW Magazin: KitchenAid Kaffeevollautomat KF4 (1.049 €) gewinnen",
+    "cat": "haus",
+    "value_eur": 1049,
+    "deadline": "2026-05-23",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "AW Magazin / KitchenAid",
+    "description": "KitchenAid KF4 Kaffeevollautomat (5KES8454) in Porcelain White im Wert von 1.049 € gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.awmagazin.de/gewinnspiele/kitchenaid",
+    "is_real": 1
+  },
+  {
+    "title": "Deutscher Fahrradpreis 2026: E-Bike von Rose Bikes gewinnen",
+    "cat": "sport",
+    "value_eur": 3000,
+    "deadline": "2026-05-13",
+    "draw_date": "20.05.2026",
+    "sponsor": "Deutscher Fahrradpreis / Rose Bikes",
+    "description": "E-Bike Sneak Plus EQ Shift von Rose Bikes oder li:on bikes light 24 gewinnen. Kostenlose Teilnahme per Losverfahren. Preisverleihung am 20. Mai in Düsseldorf.",
+    "url": "https://www.der-deutsche-fahrradpreis.de/gewinnspiel-2026/",
     "is_real": 1
   }
 ]

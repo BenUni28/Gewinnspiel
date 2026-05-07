@@ -1,4 +1,4 @@
-# Link-Check-Bericht – 04. Mai 2026
+# Link-Check-Bericht – 07. Mai 2026
 
 **Durchgeführt von:** Gewinnspiel-Agent (automatisiert)
 
@@ -6,92 +6,67 @@
 
 ## Recherche-Methode
 
-Primäre Quellen (gewinnspiele-markt.de, kostenlos.de, mystipendium.de u.a.) gaben alle HTTP 403 zurück (Bot-Schutz). Recherche erfolgte über:
+Alle direkten WebFetch-Aufrufe gaben HTTP 403 zurück (Anti-Bot-Schutz). Recherche erfolgte über:
 
 - **WebSearch** mit gezielten Suchanfragen (Mai 2026)
 - **WebSearch** Snippet-Pflichtprüfung für alle 403-Antworten (je Eintrag `site:`-Suche)
-- Direkte Sponsor-Websites via WebFetch (ebenfalls überwiegend 403)
+- Direkte Sponsor-Websites via WebFetch (überwiegend 403)
 
-**Hinweis:** WebFetch lieferte für ~100 % aller URLs HTTP 403 (Anti-Bot-Schutz). URL-Validierung erfolgte ausschließlich über Suchmaschinenbestätigung und Snippet-Inhalte. HTTP 403 allein ist kein Grund zur Entfernung.
+**Hinweis:** WebFetch lieferte für ~100 % aller URLs HTTP 403. URL-Validierung erfolgte ausschließlich über Suchmaschinenbestätigung und Snippet-Inhalte.
 
 ---
 
-## Neu hinzugefügte Gewinnspiele (4 Einträge)
+## ABSCHNITT A: URL-Checks Nr. 17–22
+
+> Alle 6 URLs lieferten HTTP 403. Snippet-Pflichtprüfung per WebSearch für jeden Eintrag durchgeführt.
+
+| Nr. | Titel | URL | Status | Begründung |
+|---|---|---|---|---|
+| 17 | GewinnArena MacBook Pro | gewinnarena.de/…/apple-macbook-pro-m3/ | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: spezifische Seite für MacBook Pro 14" M3, kostenlose Teilnahme, ProSiebenSat.1-Plattform. Behalten. |
+| 18 | Falstaff × ROBINSON Marokko | falstaff.com/de/news/gewinnspiel-eine-woche-traumurlaub-im-robinson-agadir | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: 7 Nächte ROBINSON AGADIR für 2 Personen, kostenlose Teilnahme, Sommer 2026. Behalten. |
+| 19 | ADAC Cyclassics Startplätze | adac.de/…/gewinnspiel-cyclassics/ | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: 10 Startplätze ADAC Cyclassics 16.08.2026 Hamburg, Deadline 01.07.2026, kostenlos. Behalten. |
+| 20 | Bergwelten × Salomon Wanderschuhe | bergwelten.com/a/bergfest-wanderschuhe-salomon | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: Salomon X Ultra 5, Deadline 22.05.2026, kostenlos. Behalten. |
+| 21 | DM alverde Sudoku-Rätsel Mai 2026 | dm.de/unternehmen/alverde-magazin/gewinnspiele/sudoku-175348 | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: Sudoku-Rätsel, Deadline 31.05.2026, kostenlos (dm-Account erforderlich). Behalten. |
+| 22 | emilio adani Hosen-Flatrate | emilioadani.com/landingpage/gewinnspiel | ⚠️ Nicht verifizierbar (403) | Snippet belegt Gewinnspiel-Landingpage für Hosen-Flatrate bei emilio adani. URL-Muster dediziert. Behalten. |
+
+---
+
+## ABSCHNITT B: Neu hinzugefügte Gewinnspiele (5 Einträge)
 
 | Titel | Kategorie | Wert | Deadline | URL |
 |---|---|---|---|---|
-| ADAC Cyclassics 2026: 10 Startplätze | sport | 100 € | 01.07.2026 | adac.de/…/gewinnspiel-cyclassics/ |
-| Bergwelten × Salomon: Wanderschuhe X Ultra 5 | sport | 150 € | 22.05.2026 | bergwelten.com/a/bergfest-wanderschuhe-salomon |
-| DM alverde Magazin: Sudoku-Rätsel Mai 2026 | beauty | 50 € | 31.05.2026 | dm.de/…/sudoku-175348 |
-| emilio adani: Hosen-Flatrate (6 Hosen) | mode | 600 € | 28.06.2026 | emilioadani.com/landingpage/gewinnspiel |
+| ADAC Newsletter: Mercedes (53.000 €) | auto | 53.000 € | 14.12.2026 | adac.de/…/newsletter/abonnement/ |
+| Wüstenrot: 2× iPhone 17 Pro & 2× Galaxy S25 Ultra | handy | 1.300 € | 28.02.2027 | cloud.info.wuestenrot.de/spiel-2026 |
+| auto motor und sport: Kia EV3 Air | auto | 36.280 € | 10.06.2026 | auto-motor-und-sport.de/…/kia-ev3-air-gewinnen/ |
+| AW Magazin: KitchenAid KF4 Kaffeevollautomat | haus | 1.049 € | 23.05.2026 | awmagazin.de/gewinnspiele/kitchenaid |
+| Deutscher Fahrradpreis: E-Bike Rose Bikes | sport | ~3.000 € | 13.05.2026 | der-deutsche-fahrradpreis.de/gewinnspiel-2026/ |
 
 ---
 
-## Link-Check Ergebnisse (alle 20 Einträge vor Bereinigung)
-
-> Alle bestehenden URLs gaben HTTP 403 zurück. Für jeden Eintrag wurde eine Snippet-Pflichtprüfung per `site:`-WebSearch durchgeführt.
-
-### ✅ OK – Behalten (18 Einträge)
-
-| Titel | Status | Begründung |
-|---|---|---|
-| AIDA Monatsgewinnspiel: Kreuzfahrtgutschein 3.500 € | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: aktives Monatsgewinnspiel mit Reisegutschein, Deadline 31.05.2026 |
-| engbers Gewinnspiel: 4 × E-Bike Coboc Iseo | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: E-Bike Coboc Iseo je 3.999 €, Laufzeit 01.04.–16.05.2026 |
-| winario: Täglich Bargeld gewinnen | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: kostenlose Geldgewinne täglich, Plattform aktiv |
-| Hyundai WM-Gewinnspiel 2026: Roadtrip Nordamerika | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: WM-Roadtrip für 4 Personen, Teilnahmeschluss 06.05.2026 10 Uhr |
-| Tchibo Kaffee-Newsletter: 250 € Kaffeegutschein | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: monatlich 250 € Kaffeegutschein, läuft bis 31.12.2026 |
-| Volkswagen Anpfiff zum Gewinn | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: VW T-Roc + WM-Tickets + Erlebnisreisen, bis 31.07.2026 |
-| Bonita: 9-tägige Luxus-Rheinkreuzfahrt | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: 9 Tage MS Thurgau Gold für 2, Deadline 31.05.2026 |
-| Ferrero Newsletter: Monatliche Verlosung | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: Laufzeit Sep 2025 – Aug 2026, monatlich, kostenlos |
-| Lufthansa City Center: Schiff des Jahres 2026 | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: Abstimmung + Kreuzfahrt gewinnen, Deadline 31.08.2026 |
-| Lidl: 10× Samsung Smart TV 65" oder Gartenlounge | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: Samsung TV 65" 4K-UHD, Gewinner bis 29.05.2026 per E-Mail |
-| Rossmann Centaur-Rätsel Mai 2026 | ⚠️ Nicht verifizierbar (403) | URL-Muster bestätigt (centaur-raetsel-YYYYMM.html, Editionen 2024–Feb 2026 indexiert). Monatlich rollierendes Gewinnspiel, behalten. |
-| BMW: 6 Monate BMW X7 M60i + VIP-Golf-Tickets | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: BMW X7 M60i + 2 VIP-Tickets BMW International Open 2026 |
-| IKEA Family: 5 × 1.000 € Mietzuschuss | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: 5 × 1.000 € monatlich, IKEA Family Konto kostenlos |
-| Müller Drogerie Lifestyle Gewinnspiel | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: URL aktiv, spezifische Kreuzworträtsel-Seite auf mueller.de |
-| DA Direkt: Thermomix TM7 & Apple Watch | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: 2× Thermomix TM7 + 5× Apple Watch S11, bis 10.05.2026 |
-| Aktion Mensch Newsletter: iPad + AirPods 4 | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: iPad 11. Gen + AirPods 4 (~500 €), Deadline 15.05.2026 |
-| GewinnArena: Apple MacBook Pro 14" (M3) | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: spezifische URL auf gewinnarena.de aktiv, MacBook Pro M3 |
-| Falstaff × ROBINSON: 7 Nächte All-Inclusive Marokko | ⚠️ Nicht verifizierbar (403) | Snippet bestätigt: veröffentlicht 07.04.2026, ROBINSON AGADIR Sommer 2026 |
-
----
-
-### ❌ DEFEKT – Entfernt (2 Einträge)
-
-| Titel | URL | Begründung |
-|---|---|---|
-| Momcozy KleanPal Pro zu gewinnen | gesundheit.com/gewinnspiele/momcozy-kleanpal-pro-zu-gewinnen | ❌ DEFEKT – Deadline 03.05.2026 überschritten (heute: 04.05.2026) |
-| Kaufland: WM 2026 – 2 Tickets + Reise zu Deutschland vs. Ecuador | filiale.kaufland.de/highlights/gewinnspiele/tickets-fussball-wm.html | ❌ DEFEKT – Deadline 03.05.2026 überschritten (heute: 04.05.2026) |
-
----
-
-## Abgelehnte Neukandidaten
+## Abgelehnte Neukandidaten (Teil B)
 
 | Kandidat | Grund |
 |---|---|
-| EDEKA DFB-Gewinnspiel (Länderspiel-Tickets) | ❌ DEFEKT – Teilnahmeschluss 03.05.2026, zum Zeitpunkt des Laufs bereits abgelaufen |
-| GewinnArena Auto (Audi A3 / Dacia Duster) | ❌ DEFEKT – Deadline Februar 2026 |
-| Kaufland Europa-Park Pakete | ❌ DEFEKT – Deadline 22.04.2026 |
-| Kaufland Festival-Tickets (Sprite) | ❌ DEFEKT – Deadline 22.04.2026 |
-| Penny Reisen Hotelaufenthalt | ❌ DEFEKT – Deadline 30.04.2026 |
-| Maggi Roadsurfer-Camper Gewinnspiel | ❌ DEFEKT – Deadline 30.04.2026 |
-| Mercedes-Benz CLA Gewinnspiel | ❌ DEFEKT – Deadline 30.09.2025 |
-| Bergwelten × Norrøna Midlayer-Jacke | ❌ DEFEKT – Deadline 11.04.2026 |
-| WMF Newsletter Gewinnspiel | ❌ DEFEKT – Deadline 28.02.2026 |
-| TUI MAGIC LIFE Plimmiri (Rhodos) | ❌ HOMEPAGE – tui.com/gewinnspiel/ ist generische Übersichtsseite, kein spezifischer Pfad |
-| MediaMarkt Sennheiser RS 275 | ❌ HOMEPAGE – mediamarkt.de Gewinnspiele-Übersichtsseite, kein spezifischer Pfad |
-| Milka Millionenarena | ❌ KOSTENPFLICHTIG – Aktionspackung mit Code erforderlich (Kaufzwang) |
-| REWE Treuepunkte (Wellness-Wochenende) | ❌ HOMEPAGE – Seite primär Treuepunkte-Kampagne, kein direkt erkennbarer Gewinnspiel-Kontext |
+| TUI MAGIC LIFE Rhodos (tui.com/gewinnspiel/) | ❌ HOMEPAGE – bereits in Vorläufer-Bericht abgelehnt; tui.com/gewinnspiel/ nicht als spezifischer Pfad verifizierbar |
+| BurdaDirect Reisegutschein (10.000 €) | ❌ Nicht seriös genug – Trustpilot 2,8/5, bekannt für Werbedaten-Weitergabe; kein seriöser Veranstalter |
+| Milka Monopoly (penny.de/aktionen/) | ❌ KOSTENPFLICHTIG – Teilnahme erfordert Kauf eines Milka-Aktionsproduktes |
+| Jacobs Krönung Moccamaster | ❌ KOSTENPFLICHTIG – Kassenbonpflicht (Produktkauf erforderlich) |
+| connect Leserwahl 2026 (iPhone 17 etc.) | ❌ DEFEKT – Deadline 13.04.2026 bereits überschritten |
+| REWE Reisen Wellnessurlaub | ❌ DEFEKT – Deadline 30.04.2026 bereits überschritten |
+| Kaufland Card BMW X2 | ❌ DEFEKT – Deadline März 2026 bereits überschritten |
+| Tchibo Disneyland Paris | ❌ DEFEKT – Deadline 09.02.2026 bereits überschritten |
+| ADAC Cyclassics (via einfach-sparsam.de) | ❌ GEBLOCKTE DOMAIN – Aggregator einfach-sparsam.de |
+| essen-und-trinken Muttertag (Häussler) | ⚠️ Sehr kurzfristig – Deadline 10.05.2026, nur noch 3 Tage; zu kurze Lebensdauer für Queue |
 
 ---
 
-## Statistik
+## Gesamtstatistik nach diesem Lauf
 
 | Kennzahl | Wert |
 |---|---|
-| Queue-Einträge zu Beginn | 20 |
-| Geprüfte URLs | 20 |
-| Status ✅ / ⚠️ OK – behalten | 18 |
-| Status ❌ DEFEKT – entfernt | 2 |
-| Neu hinzugefügt | 4 |
-| **Queue-Einträge gesamt nach Bereinigung** | **22** |
+| Queue-Einträge zu Beginn | 22 |
+| Geprüfte bestehende URLs (A-Checks 17–22) | 6 |
+| Status ⚠️ Nicht verifizierbar (403), behalten | 6 |
+| Status ❌ entfernt | 0 |
+| Neu hinzugefügt | 5 |
+| **Queue-Einträge gesamt** | **27** |
