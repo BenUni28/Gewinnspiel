@@ -83,7 +83,7 @@
     "title": "BMW: 6 Monate BMW X7 M60i fahren + VIP-Golf-Tickets gewinnen",
     "cat": "auto",
     "value_eur": 5000,
-    "icon": "🏎️",
+    "icon": "🏨️",
     "deadline": "2026-06-30",
     "draw_date": "vor der BMW International Open (1.–5. Juli 2026)",
     "sponsor": "BMW AG",
@@ -108,23 +108,11 @@
     "cat": "reise",
     "value_eur": 800,
     "icon": "🏨",
-    "deadline": "2026-05-31",
+    "deadline": "2026-05-14",
     "draw_date": "nach Teilnahmeschluss",
     "sponsor": "Müller Drogeriemarkt",
-    "description": "Kreuzworträtsel lösen und einen Kurzurlaub für 2 Personen in einem ausgewählten 4-Sterne-Hotel mit Halbpension gewinnen. Kostenlose Teilnahme ohne Kauf.",
+    "description": "Kreuzworträtsel lösen und 2 Übernachtungen inkl. Halbpension & Private Spa im 4-Sterne-Parkhotel Oberstaufen gewinnen. Kostenlose Teilnahme ohne Kauf.",
     "url": "https://www.mueller.de/aktuelles/gewinnspiele/gewinnspiel-lifestyle/",
-    "is_real": 1
-  },
-  {
-    "title": "DA Direkt Gesundheits-Gewinnspiel: Thermomix TM7 & Apple Watch gewinnen",
-    "cat": "handy",
-    "value_eur": 1499,
-    "icon": "⌚",
-    "deadline": "2026-05-10",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "DA Direkt Versicherung",
-    "description": "Kostenlos mitmachen und einen von 7 Technikpreisen gewinnen: 2× Thermomix TM7 (je ~1.499 €) oder 5× Apple Watch Series 11. Kein Kauf nötig.",
-    "url": "https://www.da-direkt.de/mail/gewinnspiel-gesundheit",
     "is_real": 1
   },
   {
@@ -166,7 +154,7 @@
     "title": "Bergwelten × Salomon: Wanderschuhe X Ultra 5 gewinnen",
     "cat": "sport",
     "value_eur": 150,
-    "icon": "🥾",
+    "icon": "🤾",
     "deadline": "2026-05-22",
     "draw_date": "nach Teilnahmeschluss",
     "sponsor": "Bergwelten / Salomon",
@@ -251,6 +239,28 @@
     "sponsor": "Deutscher Fahrradpreis / Rose Bikes",
     "description": "E-Bike Sneak Plus EQ Shift von Rose Bikes oder li:on bikes light 24 gewinnen. Kostenlose Teilnahme per Losverfahren. Preisverleihung am 20. Mai in Düsseldorf.",
     "url": "https://www.der-deutsche-fahrradpreis.de/gewinnspiel-2026/",
+    "is_real": 1
+  },
+  {
+    "title": "bonprix 40. Geburtstags-Gewinnspiel: E-Bike & Traumpreise gewinnen",
+    "cat": "mode",
+    "value_eur": 4000,
+    "deadline": "2026-06-07",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "bonprix",
+    "description": "40 Jahre bonprix feiern: 2× Kalkhoff E-Bikes (B.O.C.-Gutschein je 2.000 €), Center Parcs Ferienhaus, Sky-Jahresabo & mehr gewinnen. Newsletter-Anmeldung genügt, kein Kauf nötig.",
+    "url": "https://www.bonprix.de/service/gewinnspiel/",
+    "is_real": 1
+  },
+  {
+    "title": "Vabali Spa Hamburg: Wellnesstag für 2 Personen gewinnen",
+    "cat": "beauty",
+    "value_eur": 198,
+    "deadline": "2026-07-12",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Vabali Spa Hamburg",
+    "description": "2 Tagestickets, Leihwäsche (Bademantel & Sanatuch) und Frühstücksbuffet im Vabali Spa Hamburg (Wert ca. 198 €) gewinnen. Kostenlose Teilnahme per Anmeldeformular.",
+    "url": "https://www.vabali.de/hamburg/gewinnspiel/",
     "is_real": 1
   }
 ]
