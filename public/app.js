@@ -191,10 +191,26 @@ function makePartBtn(c) {
     if (hasParticipated(c.id)) {
       removeParticipation(c.id);
     } else {
-      saveParticipation(c);
-      setPartBtnState(btn, true);
-      renderParticipations();
-      updatePartBadge();
+      btn.classList.add('joining');
+      btn.disabled = true;
+      setTimeout(() => {
+        btn.classList.remove('joining');
+        btn.disabled = false;
+        saveParticipation(c);
+        setPartBtnState(btn, true);
+
+        const section = document.getElementById('part-section');
+        const wasCollapsed = section.classList.contains('collapsed');
+        if (wasCollapsed) section.classList.remove('collapsed');
+
+        renderParticipations(c.id);
+        updatePartBadge();
+
+        setTimeout(() => {
+          const newCard = document.querySelector('.part-card-new');
+          if (newCard) newCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }, wasCollapsed ? 350 : 80);
+      }, 680);
     }
   });
   return btn;
@@ -236,6 +252,27 @@ function makeFavCard(c) {
   addSponsorLogo(el.querySelector('.card-img-wrap'), c.url, c.sponsor);
   el.appendChild(makePartBtn(c));
   return el;
+}
+
+// ── Hidden categories (localStorage) ──────────────────────────────────────
+const HIDDEN_CATS_KEY = 'gw_hidden_cats';
+
+function loadHiddenCats() {
+  try { return new Set(JSON.parse(localStorage.getItem(HIDDEN_CATS_KEY)) || []); }
+  catch { return new Set(); }
+}
+
+function saveHiddenCats(set) {
+  localStorage.setItem(HIDDEN_CATS_KEY, JSON.stringify([...set]));
+}
+
+function applyHiddenCatStyles() {
+  const hidden = loadHiddenCats();
+  catBtns.forEach(btn => {
+    if (btn.dataset.cat === 'alle') return;
+    btn.classList.toggle('hidden-cat', hidden.has(btn.dataset.cat));
+  });
+  document.getElementById('cats-reset').classList.toggle('hidden', hidden.size === 0);
 }
 
 // ── State ──────────────────────────────────────────────────────────────────
@@ -411,7 +448,7 @@ function scrollToCard(id) {
 }
 
 // ── Render Participations ──────────────────────────────────────────────────
-function renderParticipations() {
+function renderParticipations(newId = null) {
   const section = document.getElementById('part-section');
   const grid    = document.getElementById('part-grid');
   const badge   = document.getElementById('part-count-badge');
@@ -442,7 +479,7 @@ function renderParticipations() {
     else             dText = `bis ${fmtDate(p.deadline)}`;
 
     const card = document.createElement('div');
-    card.className = 'part-card' + (expired ? ' expired' : '');
+    card.className = 'part-card' + (expired ? ' expired' : '') + (p.id === newId ? ' part-card-new' : '');
     const drawLine = p.draw_date
       ? `<span class="part-card-draw">Auslosung: ${p.draw_date}</span>`
       : `<span class="part-card-draw not-found">Auslosung: nicht angegeben</span>`;
@@ -500,11 +537,14 @@ async function render() {
     if (heroCount) heroCount.textContent = active.length;
   }
 
+  const hiddenCats = loadHiddenCats();
+  const visible = active.filter(c => !hiddenCats.has(c.cat));
+
   grid.innerHTML = '';
-  if (active.length === 0) {
+  if (visible.length === 0) {
     empty.classList.remove('hidden');
   } else {
-    active.forEach(c => grid.appendChild(makeCard(c)));
+    visible.forEach(c => grid.appendChild(makeCard(c)));
   }
 
   renderExpired(expired);
@@ -520,6 +560,34 @@ catBtns.forEach(btn => {
     render();
   });
 });
+
+document.querySelectorAll('.cat-hide').forEach(x => {
+  x.addEventListener('click', e => {
+    e.stopPropagation();
+    const cat = x.closest('.cat').dataset.cat;
+    const hidden = loadHiddenCats();
+    if (hidden.has(cat)) {
+      hidden.delete(cat);
+    } else {
+      hidden.add(cat);
+      if (activeCat === cat) {
+        activeCat = 'alle';
+        catBtns.forEach(b => b.classList.toggle('active', b.dataset.cat === 'alle'));
+      }
+    }
+    saveHiddenCats(hidden);
+    applyHiddenCatStyles();
+    render();
+  });
+});
+
+document.getElementById('cats-reset').addEventListener('click', () => {
+  saveHiddenCats(new Set());
+  applyHiddenCatStyles();
+  render();
+});
+
+applyHiddenCatStyles();
 
 let timer;
 document.getElementById('search').addEventListener('input', e => {

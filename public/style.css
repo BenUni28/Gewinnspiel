@@ -305,6 +305,41 @@ main { padding: 0 0 80px; }
   border-color: rgba(99, 179, 237, 0.5);
   color: var(--accent);
 }
+.cat.hidden-cat {
+  opacity: 0.45;
+  text-decoration: line-through;
+  border-style: dashed;
+}
+.cat-hide {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  font-size: 11px;
+  opacity: 0;
+  transition: opacity 0.15s, background 0.15s;
+  vertical-align: middle;
+}
+.cat:hover .cat-hide,
+.cat.hidden-cat .cat-hide { opacity: 1; }
+.cat-hide:hover { background: rgba(255,255,255,0.18); }
+.cats-reset {
+  display: inline-block;
+  margin-top: 7px;
+  padding: 0;
+  border: none;
+  background: none;
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-family: inherit;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.15s;
+}
+.cats-reset:hover { color: var(--accent); }
 
 /* ── Grid ── */
 .grid {
@@ -821,13 +856,44 @@ main { padding: 0 0 80px; }
   display: block; width: calc(100% - 36px); margin: 0 18px 18px;
   padding: 7px 10px; background: transparent;
   border: 1px solid var(--border); border-radius: 8px;
+  position: relative; overflow: hidden;
   color: var(--muted); font-size: 0.8rem; font-weight: 500;
   font-family: inherit; cursor: pointer; text-align: center;
   transition: all 0.18s;
 }
+.part-btn::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(104, 211, 145, 0.18);
+  transform: scaleX(0);
+  transform-origin: left;
+  border-radius: inherit;
+  pointer-events: none;
+  transition: transform 0.65s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.part-btn.joining { border-color: rgba(104, 211, 145, 0.5); color: var(--green); }
+.part-btn.joining::before { transform: scaleX(1); }
 .part-btn:hover { border-color: rgba(104,211,145,0.4); color: var(--green); background: rgba(104,211,145,0.06); }
 .part-btn.joined { border-color: rgba(104,211,145,0.45); color: var(--green); background: rgba(104,211,145,0.1); }
 .part-btn.joined:hover { border-color: rgba(252,129,129,0.4); color: var(--red); background: rgba(252,129,129,0.08); }
+
+@keyframes part-card-new-enter {
+  0% {
+    transform: scale(1.07);
+    box-shadow: 0 8px 36px rgba(104, 211, 145, 0.28);
+    border-color: rgba(104, 211, 145, 0.65);
+  }
+  65% { border-color: rgba(104, 211, 145, 0.3); }
+  100% {
+    transform: scale(1);
+    box-shadow: none;
+    border-color: var(--border);
+  }
+}
+.part-card.part-card-new {
+  animation: part-card-new-enter 0.55s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
 
 @media (max-width: 600px) {
   .part-card-title { font-size: 0.84rem; }
