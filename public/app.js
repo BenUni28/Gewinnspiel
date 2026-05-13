@@ -209,8 +209,8 @@ function makePartBtn(c) {
         setTimeout(() => {
           const newCard = document.querySelector('.part-card-new');
           if (newCard) newCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        }, wasCollapsed ? 350 : 80);
-      }, 680);
+        }, wasCollapsed ? 380 : 80);
+      }, 1100);
     }
   });
   return btn;
