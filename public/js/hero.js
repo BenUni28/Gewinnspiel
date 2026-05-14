@@ -30,7 +30,6 @@ const PRIZES = [
 
 const PAUSE_MS  = 2000;
 const TRAVEL_MS = 2400;
-const RADIUS_X  = 260;
 
 const N       = PRIZES.length;
 const SEGMENT = (Math.PI * 2) / N;
@@ -38,13 +37,15 @@ const SEGMENT = (Math.PI * 2) / N;
 const easeInOutCubic = t =>
   t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
 
+const getRadiusX = () => Math.min(280, window.innerWidth * 0.24);
+
 function computeSlide(index, rotation) {
   const worldAngle = index * SEGMENT - rotation;
   const sin   = Math.sin(worldAngle);
   const cos   = Math.cos(worldAngle);
   const depth = (cos + 1) / 2;
   return {
-    x:       sin * RADIUS_X,
+    x:       sin * getRadiusX(),
     yArc:    -8 + (1 - depth) * 16,
     scale:   0.32 + depth * 0.68,
     opacity: 0.10 + depth * 0.90,
