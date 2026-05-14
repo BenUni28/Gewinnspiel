@@ -18,7 +18,7 @@
 html { scroll-behavior: smooth; }
 
 body {
-  font-family: 'Playfair Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   background: var(--bg);
   color: var(--text);
   min-height: 100vh;
@@ -58,7 +58,7 @@ header {
   display: flex; align-items: center; gap: 9px;
   font-size: 1.05rem; font-weight: 700; letter-spacing: 0.01em;
   color: var(--text); text-decoration: none;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
 }
 .logo svg { color: var(--accent); }
 
@@ -150,7 +150,7 @@ main { padding: 0 0 80px; }
 }
 
 .hero h1 {
-  font-family: 'DM Serif Display', 'Playfair Display', sans-serif;
+  font-family: 'DM Serif Display', 'Space Grotesk', sans-serif;
   font-size: clamp(3rem, 8vw, 6rem);
   font-weight: 400;
   letter-spacing: -0.03em;
@@ -218,7 +218,7 @@ main { padding: 0 0 80px; }
 }
 
 .btn-hero-primary {
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
   color: #07070f;
@@ -239,7 +239,7 @@ main { padding: 0 0 80px; }
 }
 
 .btn-hero-secondary {
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   font-size: 0.9rem;
   font-weight: 500;
   color: var(--text);
@@ -318,17 +318,19 @@ main { padding: 0 0 80px; }
   align-items: center;
   justify-content: center;
   margin-left: 5px;
-  width: 15px;
-  height: 15px;
+  width: 16px;
+  height: 16px;
   border-radius: 50%;
   font-size: 13px;
   font-weight: 700;
   font-family: system-ui, sans-serif;
   line-height: 1;
+  padding-bottom: 0.5px;
   opacity: 0.6;
   color: var(--accent);
   transition: opacity 0.15s, background 0.15s, color 0.15s;
   vertical-align: middle;
+  text-align: center;
 }
 .cat:hover .cat-hide { opacity: 1; }
 .cat.hidden-cat .cat-hide { opacity: 1; color: var(--red); }

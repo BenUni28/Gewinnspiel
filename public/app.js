@@ -210,10 +210,10 @@ function animateCardEntrance(cardEl) {
   const finalScale = rect.width / overlayW;
 
   overlay.style.transition = [
-    'transform 0.75s cubic-bezier(0.16,1,0.3,1)',
-    'opacity 0.22s ease 0.6s',
-    'box-shadow 0.5s ease',
-    'border-color 0.45s ease',
+    'transform 1.4s cubic-bezier(0.16,1,0.3,1)',
+    'opacity 0.35s ease 1.15s',
+    'box-shadow 0.9s ease',
+    'border-color 0.8s ease',
   ].join(',');
   overlay.style.transform    = `translate(calc(-50% + ${dx}px),calc(-50% + ${dy}px)) scale(${finalScale})`;
   overlay.style.opacity      = '0';
@@ -225,7 +225,7 @@ function animateCardEntrance(cardEl) {
     cardEl.style.visibility = '';
     cardEl.classList.add('part-card-flash');
     setTimeout(() => cardEl.classList.remove('part-card-flash'), 700);
-  }, 860);
+  }, 1600);
 }
 
 // ── Shared participation button ────────────────────────────────────────────
