@@ -2,27 +2,27 @@
 
 const PRIZES = [
   {
-    src:   'https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=600&h=400&fit=crop&auto=format&q=80',
+    src:   '/images/auto.png',
     label: 'Mercedes AMG',
     sub:   'Sports & Auto',
   },
   {
-    src:   'https://images.unsplash.com/photo-1571068316344-75bc76f77890?w=600&h=400&fit=crop&auto=format&q=80',
+    src:   '/images/bike.png',
     label: 'Premium E-Bike',
     sub:   'Bikes & Mobility',
   },
   {
-    src:   'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=600&h=400&fit=crop&auto=format&q=80',
+    src:   '/images/reise.png',
     label: 'Traumreise',
     sub:   'Travel & Vacation',
   },
   {
-    src:   'https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=600&h=400&fit=crop&auto=format&q=80',
+    src:   '/images/smartwatch.png',
     label: 'Apple Watch',
     sub:   'Wearables & Tech',
   },
   {
-    src:   'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=400&fit=crop&auto=format&q=80',
+    src:   '/images/kopfhoerer.png',
     label: 'Studio Kopfhörer',
     sub:   'Audio & Sound',
   },
