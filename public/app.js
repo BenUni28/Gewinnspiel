@@ -181,6 +181,53 @@ function addSponsorLogo(container, url, sponsor) {
   container.appendChild(wrap);
 }
 
+// ── New participation card entrance animation ──────────────────────────────
+function animateCardEntrance(cardEl) {
+  const rect = cardEl.getBoundingClientRect();
+  const vw   = window.innerWidth;
+  const vh   = window.innerHeight;
+
+  const overlayW  = Math.min(480, vw - 48);
+  const initScale = Math.min(2.2, (vw * 0.72) / overlayW);
+
+  const overlay = document.createElement('div');
+  overlay.className = 'part-card part-card-overlay-anim';
+  overlay.innerHTML = cardEl.innerHTML;
+  overlay.style.cssText = [
+    `position:fixed`, `width:${overlayW}px`, `left:50%`, `top:50%`,
+    `transform:translate(-50%,-50%) scale(${initScale})`,
+    `z-index:9999`, `pointer-events:none`, `margin:0`,
+    `box-shadow:0 32px 80px rgba(0,0,0,0.65),0 0 0 1px rgba(104,211,145,0.25)`,
+    `border-color:rgba(104,211,145,0.65)`,
+  ].join(';');
+  document.body.appendChild(overlay);
+  cardEl.style.visibility = 'hidden';
+
+  overlay.getBoundingClientRect(); // force reflow
+
+  const dx         = (rect.left + rect.width  / 2) - vw / 2;
+  const dy         = (rect.top  + rect.height / 2) - vh / 2;
+  const finalScale = rect.width / overlayW;
+
+  overlay.style.transition = [
+    'transform 0.75s cubic-bezier(0.16,1,0.3,1)',
+    'opacity 0.22s ease 0.6s',
+    'box-shadow 0.5s ease',
+    'border-color 0.45s ease',
+  ].join(',');
+  overlay.style.transform    = `translate(calc(-50% + ${dx}px),calc(-50% + ${dy}px)) scale(${finalScale})`;
+  overlay.style.opacity      = '0';
+  overlay.style.boxShadow    = 'none';
+  overlay.style.borderColor  = 'rgba(104,211,145,0.15)';
+
+  setTimeout(() => {
+    overlay.remove();
+    cardEl.style.visibility = '';
+    cardEl.classList.add('part-card-flash');
+    setTimeout(() => cardEl.classList.remove('part-card-flash'), 700);
+  }, 860);
+}
+
 // ── Shared participation button ────────────────────────────────────────────
 function makePartBtn(c) {
   const btn = document.createElement('button');
@@ -208,7 +255,9 @@ function makePartBtn(c) {
 
         setTimeout(() => {
           const newCard = document.querySelector('.part-card-new');
-          if (newCard) newCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          if (!newCard) return;
+          newCard.scrollIntoView({ behavior: 'instant', block: 'center' });
+          requestAnimationFrame(() => animateCardEntrance(newCard));
         }, wasCollapsed ? 380 : 80);
       }, 1100);
     }
@@ -457,7 +506,9 @@ function renderParticipations(newId = null) {
   const list = loadParticipations();
   if (list.length === 0) { section.classList.add('hidden'); return; }
 
+  const wasHidden = section.classList.contains('hidden');
   section.classList.remove('hidden');
+  if (wasHidden && !newId) section.classList.add('collapsed');
   if (badge) badge.textContent = list.length;
 
   // Upcoming soonest first, expired (days < 0) at bottom
