@@ -1,6 +1,10 @@
 'use strict';
 
 const { Router } = require('express');
+const fs   = require('fs');
+const path = require('path');
+
+const REPORTS_DIR = path.join(__dirname, '..', '..', 'agent-reports');
 
 module.exports = function adminRouter(db) {
   const router = Router();
@@ -119,6 +123,29 @@ module.exports = function adminRouter(db) {
     const info = db.prepare('UPDATE contests SET active = 0 WHERE id = ?').run(id);
     if (info.changes === 0) return res.status(404).json({ error: 'Not found' });
     res.json({ deactivated: id });
+  });
+
+  // GET /api/admin/agent-reports — list all dated report files, newest first
+  router.get('/agent-reports', (_req, res) => {
+    try {
+      if (!fs.existsSync(REPORTS_DIR)) return res.json([]);
+      const files = fs.readdirSync(REPORTS_DIR)
+        .filter(f => /^\d{4}-\d{2}-\d{2}\.md$/.test(f))
+        .sort()
+        .reverse();
+      res.json(files.map(f => ({ date: f.replace('.md', '') })));
+    } catch {
+      res.json([]);
+    }
+  });
+
+  // GET /api/admin/agent-reports/:date — return raw markdown for one report
+  router.get('/agent-reports/:date', (req, res) => {
+    const date = req.params.date;
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) return res.status(400).json({ error: 'Invalid date' });
+    const filepath = path.join(REPORTS_DIR, date + '.md');
+    if (!fs.existsSync(filepath)) return res.status(404).json({ error: 'Not found' });
+    res.type('text/plain; charset=utf-8').send(fs.readFileSync(filepath, 'utf8'));
   });
 
   return router;

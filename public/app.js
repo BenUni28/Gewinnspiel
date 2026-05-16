@@ -288,7 +288,6 @@ function makeFavCard(c) {
     </div>
     <div class="fav-body">
       <div class="fav-row">
-        <span class="fav-value">${fmtVal(c.value_eur)}</span>
         <span class="fav-days${urgent ? ' urgent' : ''}">${clock}${daysLabel(days)}</span>
       </div>
       <div class="fav-sponsor">${c.sponsor}</div>
@@ -366,7 +365,6 @@ function makeCard(c) {
     <div class="card-body">
       <div class="card-desc">${c.description}</div>
       <div class="card-row">
-        <span class="card-value">${fmtVal(c.value_eur)}</span>
         <span class="card-days${urgent ? ' urgent' : ''}">${clock}${daysLabel(days)}</span>
       </div>
       <div class="card-sponsor">${c.sponsor}</div>
@@ -408,7 +406,6 @@ function makeExpiredCard(c) {
     </div>
     <div class="card-body">
       <div class="card-row">
-        <span class="card-value">${fmtVal(c.value_eur)}</span>
         <span class="card-days expired-label">Abgelaufen ${fmtDate(c.deadline)}</span>
       </div>
       <div class="card-sponsor">${c.sponsor}</div>

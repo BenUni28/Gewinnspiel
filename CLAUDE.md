@@ -208,8 +208,16 @@ Der Agent:
 1. Recherchiert 5–10 neue kostenlose Gewinnspiele inkl. `draw_date` (Auslosungsdatum aus den TnBs)
 2. Prüft alle URLs in der Queue — für jede URL: WebFetch + Inhaltsprüfung nach den URL-Pflichtregeln (s.o.)
 3. Entfernt: abgelaufene, kostenpflichtige, defekte, und generische/Homepage-URLs
-4. Pusht `contests-queue.json` + `link-check-report.md`
+4. Pusht `contests-queue.json` + `link-check-report.md` + **`agent-reports/YYYY-MM-DD.md`** (Pflicht, s.u.)
 5. Sendet Abschluss-Benachrichtigung via ntfy.sh (s. unten)
+
+### Agent-Bericht speichern (PFLICHT bei jedem Lauf)
+
+**Am Ende jedes Laufs** eine Datei in `agent-reports/` anlegen:
+- Dateiname: `agent-reports/YYYY-MM-DD.md` (heutiges ISO-Datum, z.B. `2026-05-16.md`)
+- Inhalt: **identisch** mit dem, was in `link-check-report.md` geschrieben wird
+- Beides pushen — so entsteht eine vollständige History im Ordner
+- Die Admin-Seite liest diesen Ordner und zeigt alle Berichte sortiert nach Datum an
 
 ### Link-Check Statuswerte
 

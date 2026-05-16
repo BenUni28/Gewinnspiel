@@ -149,6 +149,55 @@
       font-size: 1.5rem; cursor: pointer; line-height: 1; font-family: inherit;
     }
     .modal-close:hover { color: var(--text); }
+
+    /* Collapsible card sections */
+    .card-header {
+      display: flex; align-items: center; justify-content: space-between;
+      cursor: pointer; user-select: none; margin-bottom: 0;
+    }
+    .card-header h2 { margin-bottom: 0; }
+    .card-toggle-icon { color: var(--muted); transition: transform 0.25s ease; flex-shrink: 0; }
+    .card.collapsed .card-toggle-icon { transform: rotate(-90deg); }
+    .card-collapsible {
+      overflow: hidden;
+      max-height: 2000px; opacity: 1;
+      transition: max-height 0.35s cubic-bezier(0.16,1,0.3,1), opacity 0.22s ease;
+    }
+    .card.collapsed .card-collapsible { max-height: 0 !important; opacity: 0; }
+    .card-collapsible-inner { padding-top: 20px; }
+
+    /* Agent report items */
+    .report-item { border-bottom: 1px solid var(--border); }
+    .report-item:last-child { border-bottom: none; }
+    .report-header {
+      width: 100%; display: flex; align-items: center; justify-content: space-between;
+      background: none; border: none; padding: 14px 0; cursor: pointer;
+      font-size: 0.88rem; font-weight: 600; color: var(--text); font-family: inherit;
+      text-align: left;
+    }
+    .report-header:hover { color: var(--accent); }
+    .report-icon { color: var(--muted); transition: transform 0.25s ease; flex-shrink: 0; }
+    .report-item.open .report-icon { transform: rotate(180deg); }
+    .report-body {
+      overflow: hidden; max-height: 0; opacity: 0;
+      transition: max-height 0.4s cubic-bezier(0.16,1,0.3,1), opacity 0.25s ease;
+    }
+    .report-item.open .report-body { max-height: 6000px; opacity: 1; }
+    .report-content { padding: 4px 0 20px; }
+
+    /* Markdown rendering */
+    .md-h1 { font-size: 1.1rem; font-weight: 700; color: var(--text); margin: 14px 0 8px; }
+    .md-h2 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase; color: var(--accent); margin: 18px 0 8px; }
+    .md-h3 { font-size: 0.9rem; font-weight: 600; color: var(--text); margin: 12px 0 6px; }
+    .md-p  { font-size: 0.83rem; color: var(--muted); line-height: 1.6; margin-bottom: 6px; }
+    .md-hr { border: none; border-top: 1px solid var(--border); margin: 14px 0; }
+    .md-list { font-size: 0.83rem; color: var(--muted); line-height: 1.7; padding-left: 18px; margin-bottom: 10px; }
+    .md-table-wrap { overflow-x: auto; margin: 8px 0 14px; }
+    .md-table { width: 100%; border-collapse: collapse; font-size: 0.78rem; }
+    .md-table th { text-align: left; padding: 6px 10px; font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); border-bottom: 1px solid var(--border); }
+    .md-table td { padding: 7px 10px; border-bottom: 1px solid rgba(255,255,255,0.04); color: var(--muted); vertical-align: top; }
+    .md-table tr:hover td { background: var(--surface-h); }
+    .md-code { font-family: monospace; font-size: 0.82rem; background: rgba(255,255,255,0.08); padding: 1px 5px; border-radius: 3px; color: var(--accent2); }
   </style>
 </head>
 <body>
@@ -170,70 +219,69 @@
     <p class="key-status" id="key-status">Schlüssel nicht gesetzt.</p>
   </div>
 
-  <!-- Add contest -->
-  <div class="card">
-    <h2>Neues Gewinnspiel</h2>
-    <label>Titel *</label>
-    <input id="f-title" type="text" placeholder="z.B. iPhone 17 Pro gewinnen" />
-
-    <label>Kategorie *</label>
-    <select id="f-cat">
-      <option value="reise">Reise</option>
-      <option value="bargeld">Bargeld</option>
-      <option value="auto">Auto</option>
-      <option value="handy">Technik</option>
-      <option value="gutschein">Gutschein</option>
-      <option value="sport">Sport</option>
-      <option value="mode">Mode</option>
-      <option value="haus">Haus</option>
-      <option value="beauty">Beauty</option>
-      <option value="lebensmittel">Lebensmittel</option>
-    </select>
-
-    <div class="grid-2">
-      <div>
-        <label>Sponsor *</label>
-        <input id="f-sponsor" type="text" placeholder="z.B. MediaMarkt" />
-      </div>
-      <div>
-        <label>Teilnahmeschluss *</label>
-        <input id="f-deadline" type="date" />
-      </div>
+  <!-- Add contest (collapsible, collapsed by default) -->
+  <div class="card collapsed" id="add-card">
+    <div class="card-header" id="add-card-toggle">
+      <h2>Neues Gewinnspiel</h2>
+      <svg class="card-toggle-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
     </div>
+    <div class="card-collapsible">
+      <div class="card-collapsible-inner">
+        <label>Titel *</label>
+        <input id="f-title" type="text" placeholder="z.B. iPhone 17 Pro gewinnen" />
 
-    <div class="grid-2">
-      <div>
-        <label>Gewinnwert in € (leer = kostenfrei)</label>
-        <input id="f-value" type="number" min="0" step="0.01" placeholder="z.B. 999" />
-      </div>
-      <div>
+        <label>Kategorie *</label>
+        <select id="f-cat">
+          <option value="reise">Reise</option>
+          <option value="bargeld">Bargeld</option>
+          <option value="auto">Auto</option>
+          <option value="handy">Technik</option>
+          <option value="gutschein">Gutschein</option>
+          <option value="sport">Sport</option>
+          <option value="mode">Mode</option>
+          <option value="haus">Haus</option>
+          <option value="beauty">Beauty</option>
+          <option value="lebensmittel">Lebensmittel</option>
+        </select>
+
+        <div class="grid-2">
+          <div>
+            <label>Sponsor *</label>
+            <input id="f-sponsor" type="text" placeholder="z.B. MediaMarkt" />
+          </div>
+          <div>
+            <label>Teilnahmeschluss *</label>
+            <input id="f-deadline" type="date" />
+          </div>
+        </div>
+
         <label>Typ</label>
         <select id="f-real">
           <option value="0">Demo</option>
           <option value="1">Echt (ECHT-Badge)</option>
         </select>
+
+        <label>Beschreibung</label>
+        <textarea id="f-desc" placeholder="Kurze Beschreibung des Gewinnspiels…"></textarea>
+
+        <label>Auslosungsdatum <span style="color:var(--muted);font-size:0.75rem">(optional – aus den Teilnahmebedingungen)</span></label>
+        <input id="f-draw-date" type="text" placeholder="z.B. 20.05.2026 oder 'wird nach Teilnahmeschluss bekannt gegeben'" />
+
+        <label>Teilnahme-URL</label>
+        <input id="f-url" type="url" placeholder="https://…" />
+
+        <label style="margin-top:16px;display:flex;align-items:center;gap:8px;cursor:pointer;">
+          <input type="checkbox" id="f-favorite" style="width:auto;accent-color:var(--accent);" />
+          Als Favorit anzeigen <span style="color:var(--muted);font-size:0.75rem;">(max. 3)</span>
+        </label>
+
+        <button class="btn btn-primary" id="btn-add">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+          Hinzufügen
+        </button>
+        <div class="msg" id="add-msg"></div>
       </div>
     </div>
-
-    <label>Beschreibung</label>
-    <textarea id="f-desc" placeholder="Kurze Beschreibung des Gewinnspiels…"></textarea>
-
-    <label>Auslosungsdatum <span style="color:var(--muted);font-size:0.75rem">(optional – aus den Teilnahmebedingungen)</span></label>
-    <input id="f-draw-date" type="text" placeholder="z.B. 20.05.2026 oder 'wird nach Teilnahmeschluss bekannt gegeben'" />
-
-    <label>Teilnahme-URL</label>
-    <input id="f-url" type="url" placeholder="https://…" />
-
-    <label style="margin-top:16px;display:flex;align-items:center;gap:8px;cursor:pointer;">
-      <input type="checkbox" id="f-favorite" style="width:auto;accent-color:var(--accent);" />
-      Als Favorit anzeigen <span style="color:var(--muted);font-size:0.75rem;">(max. 3)</span>
-    </label>
-
-    <button class="btn btn-primary" id="btn-add">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
-      Hinzufügen
-    </button>
-    <div class="msg" id="add-msg"></div>
   </div>
 
   <!-- Contest list -->
@@ -265,6 +313,21 @@
       </table>
     </div>
   </div>
+  <!-- Agent-Berichte (collapsible, collapsed by default) -->
+  <div class="card collapsed" id="reports-card">
+    <div class="card-header" id="reports-card-toggle">
+      <h2>Agent-Berichte</h2>
+      <svg class="card-toggle-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+    </div>
+    <div class="card-collapsible">
+      <div class="card-collapsible-inner" style="padding-top:16px">
+        <div id="reports-wrap">
+          <p style="font-size:0.84rem;color:var(--muted)">Schlüssel eingeben und Karte öffnen.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </main>
 
 <!-- Edit Modal -->
@@ -306,19 +369,11 @@
       </div>
     </div>
 
-    <div class="grid-2">
-      <div>
-        <label>Gewinnwert in € (leer = kostenfrei)</label>
-        <input id="e-value" type="number" min="0" step="0.01" />
-      </div>
-      <div>
-        <label>Typ</label>
-        <select id="e-real">
-          <option value="0">Demo</option>
-          <option value="1">Echt (ECHT-Badge)</option>
-        </select>
-      </div>
-    </div>
+    <label>Typ</label>
+    <select id="e-real">
+      <option value="0">Demo</option>
+      <option value="1">Echt (ECHT-Badge)</option>
+    </select>
 
     <label>Beschreibung</label>
     <textarea id="e-desc"></textarea>

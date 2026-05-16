@@ -24,14 +24,12 @@ function showMsg(id, text, ok) {
 }
 
 async function addContest() {
-  const v = $('f-value').value;
   const body = {
     title:       $('f-title').value,
     cat:         $('f-cat').value,
     icon:        '🎁',
     sponsor:     $('f-sponsor').value,
     deadline:    $('f-deadline').value,
-    value_eur:   v !== '' ? parseFloat(v) : null,
     is_real:     parseInt($('f-real').value),
     is_favorite: $('f-favorite').checked ? 1 : 0,
     description: $('f-desc').value,
@@ -79,7 +77,6 @@ function openEdit(c) {
   $('e-icon').value      = c.icon;
   $('e-sponsor').value   = c.sponsor;
   $('e-deadline').value  = c.deadline;
-  $('e-value').value     = c.value_eur ?? '';
   $('e-real').value      = c.is_real ? '1' : '0';
   $('e-desc').value      = c.description;
   $('e-url').value       = c.url !== '#' ? c.url : '';
@@ -99,14 +96,12 @@ function closeEdit() {
 async function saveEdit(e) {
   e.preventDefault();
   const id  = parseInt($('e-id').value);
-  const v   = $('e-value').value;
   const body = {
     title:       $('e-title').value,
     cat:         $('e-cat').value,
     icon:        $('e-icon').value || '🎁',
     sponsor:     $('e-sponsor').value,
     deadline:    $('e-deadline').value,
-    value_eur:   v !== '' ? parseFloat(v) : null,
     is_real:     parseInt($('e-real').value),
     description: $('e-desc').value,
     url:         $('e-url').value || '#',
@@ -230,3 +225,129 @@ $('btn-hide-inactive').addEventListener('click', () => {
 
 document.getElementById('btn-add').addEventListener('click', addContest);
 document.getElementById('btn-load').addEventListener('click', loadContests);
+
+// ── Collapsible cards ───────────────────────────────────────────────────────
+function setupCollapsible(toggleId, cardId, onOpen) {
+  const toggle = $(toggleId);
+  const card   = $(cardId);
+  if (!toggle || !card) return;
+  toggle.addEventListener('click', () => {
+    const wasCollapsed = card.classList.contains('collapsed');
+    card.classList.toggle('collapsed');
+    if (wasCollapsed && onOpen) onOpen();
+  });
+}
+
+setupCollapsible('add-card-toggle', 'add-card', null);
+setupCollapsible('reports-card-toggle', 'reports-card', loadAgentReports);
+
+// ── Agent-Berichte ──────────────────────────────────────────────────────────
+let reportsLoaded = false;
+
+function escHtml(t) {
+  return String(t)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function renderInline(text) {
+  return escHtml(text)
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/`(.+?)`/g, '<code class="md-code">$1</code>');
+}
+
+function renderMd(md) {
+  const lines = md.split('\n');
+  let html = '', i = 0;
+  while (i < lines.length) {
+    const line = lines[i];
+    const hm = line.match(/^(#{1,3}) (.+)$/);
+    if (hm) {
+      const lv = hm[1].length;
+      html += `<div class="md-h${lv}">${renderInline(hm[2])}</div>`;
+      i++; continue;
+    }
+    if (/^---+$/.test(line.trim())) {
+      html += '<hr class="md-hr">'; i++; continue;
+    }
+    if (line.startsWith('|')) {
+      const rows = [];
+      while (i < lines.length && lines[i].startsWith('|')) { rows.push(lines[i]); i++; }
+      const headers = rows[0].split('|').slice(1,-1).map(c => c.trim());
+      html += '<div class="md-table-wrap"><table class="md-table"><thead><tr>';
+      html += headers.map(h => `<th>${renderInline(h)}</th>`).join('');
+      html += '</tr></thead><tbody>';
+      for (let r = 2; r < rows.length; r++) {
+        const cells = rows[r].split('|').slice(1,-1).map(c => c.trim());
+        html += '<tr>' + cells.map(c => `<td>${renderInline(c)}</td>`).join('') + '</tr>';
+      }
+      html += '</tbody></table></div>'; continue;
+    }
+    if (/^[-*] /.test(line)) {
+      html += '<ul class="md-list">';
+      while (i < lines.length && /^[-*] /.test(lines[i])) {
+        html += `<li>${renderInline(lines[i].replace(/^[-*] /,''))}</li>`; i++;
+      }
+      html += '</ul>'; continue;
+    }
+    if (line.trim() === '') { i++; continue; }
+    html += `<p class="md-p">${renderInline(line)}</p>`; i++;
+  }
+  return html;
+}
+
+function formatReportDate(dateStr) {
+  const [y, m, d] = dateStr.split('-');
+  const months = ['Jan','Feb','Mär','Apr','Mai','Jun','Jul','Aug','Sep','Okt','Nov','Dez'];
+  return `${parseInt(d)}. ${months[parseInt(m)-1]} ${y}`;
+}
+
+async function loadAgentReports() {
+  if (reportsLoaded) return;
+  const wrap = $('reports-wrap');
+  wrap.innerHTML = '<p style="font-size:0.84rem;color:var(--muted)">Laden…</p>';
+  try {
+    const res = await fetch('/api/admin/agent-reports', {
+      headers: { 'Authorization': 'Bearer ' + getKey() },
+    });
+    const list = await res.json();
+    if (!res.ok) throw new Error(list.error || res.status);
+    if (list.length === 0) {
+      wrap.innerHTML = '<p style="font-size:0.84rem;color:var(--muted)">Noch keine Berichte vorhanden.</p>';
+      reportsLoaded = true; return;
+    }
+    wrap.innerHTML = list.map(r => `
+      <div class="report-item" data-date="${r.date}">
+        <button class="report-header">
+          <span>${formatReportDate(r.date)}</span>
+          <svg class="report-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="report-body">
+          <div class="report-content" style="color:var(--muted);font-size:0.83rem">Wird geladen…</div>
+        </div>
+      </div>
+    `).join('');
+    wrap.querySelectorAll('.report-item').forEach(item => {
+      item.querySelector('.report-header').addEventListener('click', async () => {
+        const wasOpen = item.classList.contains('open');
+        item.classList.toggle('open');
+        if (!wasOpen && !item.dataset.loaded) {
+          item.dataset.loaded = '1';
+          const content = item.querySelector('.report-content');
+          try {
+            const r = await fetch(`/api/admin/agent-reports/${item.dataset.date}`, {
+              headers: { 'Authorization': 'Bearer ' + getKey() },
+            });
+            if (!r.ok) throw new Error(r.status);
+            const md = await r.text();
+            content.innerHTML = renderMd(md);
+          } catch (e) {
+            content.innerHTML = `<p style="color:var(--red)">Fehler: ${e.message}</p>`;
+          }
+        }
+      });
+    });
+    reportsLoaded = true;
+  } catch (e) {
+    wrap.innerHTML = `<p style="color:var(--red);font-size:0.84rem">✗ ${e.message}</p>`;
+  }
+}
