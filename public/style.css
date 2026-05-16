@@ -407,6 +407,16 @@ main { padding: 0 0 80px; }
   opacity: 0.75; margin-top: 2px;
 }
 
+.count-badge {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.78rem; font-weight: 500;
+  color: var(--accent);
+  background: rgba(99,179,237,0.10);
+  border: 1px solid rgba(99,179,237,0.30);
+  border-radius: 20px; padding: 2px 10px;
+  align-self: center;
+}
+
 /* ── Grid ── */
 .grid {
   display: grid;
@@ -416,8 +426,8 @@ main { padding: 0 0 80px; }
 
 /* ── Card ── */
 .card {
-  background: var(--surface);
-  border: 1px solid var(--border);
+  background: rgba(99,179,237,0.05);
+  border: 1px solid rgba(99,179,237,0.22);
   border-radius: 14px;
   overflow: hidden;
   display: flex; flex-direction: column;
@@ -572,10 +582,10 @@ main { padding: 0 0 80px; }
   gap: 14px;
 }
 
-/* Favorite card – same as .card but with subtle blue highlight */
+/* Favorite card – slightly deeper blue than regular cards */
 .fav-card {
-  background: rgba(99,179,237,0.05);
-  border: 1px solid rgba(99,179,237,0.28);
+  background: rgba(99,179,237,0.13);
+  border: 1px solid rgba(99,179,237,0.40);
   border-radius: 14px;
   overflow: hidden;
   display: flex; flex-direction: column;
@@ -678,6 +688,7 @@ main { padding: 0 0 80px; }
 /* ── Participation section ── */
 .part-section {
   margin-bottom: 48px;
+  padding-top: 4rem;
 }
 
 .part-section-header {
@@ -691,13 +702,13 @@ main { padding: 0 0 80px; }
   display: flex; align-items: center; gap: 10px;
   flex: 1;
   background: none; border: none; padding: 0; cursor: pointer;
-  font-family: inherit;
-  font-size: 0.82rem; font-weight: 600;
-  letter-spacing: 0.06em; text-transform: uppercase;
-  color: var(--muted);
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem; font-weight: 500;
+  letter-spacing: 0; text-transform: none;
+  color: var(--text);
   text-align: left;
 }
-.part-collapse-btn:hover { color: var(--text); }
+.part-collapse-btn:hover { opacity: 0.8; }
 
 .part-collapse-icon {
   transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);

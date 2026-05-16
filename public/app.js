@@ -210,10 +210,10 @@ function animateCardEntrance(cardEl) {
   const finalScale = rect.width / overlayW;
 
   overlay.style.transition = [
-    'transform 1.4s cubic-bezier(0.16,1,0.3,1)',
+    'transform 3s cubic-bezier(0.16,1,0.3,1)',
     'opacity 0.35s ease 1.15s',
-    'box-shadow 0.9s ease',
-    'border-color 0.8s ease',
+    'box-shadow 1.4s ease',
+    'border-color 1.3s ease',
   ].join(',');
   overlay.style.transform    = `translate(calc(-50% + ${dx}px),calc(-50% + ${dy}px)) scale(${finalScale})`;
   overlay.style.opacity      = '0';
@@ -590,6 +590,9 @@ async function render() {
 
   const hiddenCats = loadHiddenCats();
   const visible = active.filter(c => !hiddenCats.has(c.cat));
+
+  const countBadge = document.getElementById('active-grid-count');
+  if (countBadge) countBadge.textContent = visible.length;
 
   grid.innerHTML = '';
   if (visible.length === 0) {
