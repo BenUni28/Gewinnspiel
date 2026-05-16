@@ -11,17 +11,6 @@
     "is_real": 1
   },
   {
-    "title": "engbers Gewinnspiel: 4 × E-Bike Coboc Iseo (je 3.999 €)",
-    "cat": "sport",
-    "value_eur": 3999,
-    "icon": "🚴",
-    "deadline": "2026-05-16",
-    "sponsor": "engbers / Coboc",
-    "description": "Mitmachen und eines von 4 E-Bikes Coboc Iseo im Wert von je 3.999 € gewinnen. Teilnahmeschluss 16. Mai.",
-    "url": "https://www.engbers.com/landingpage/gewinnspiel",
-    "is_real": 1
-  },
-  {
     "title": "Tchibo Kaffee-Newsletter: Monatlich 250 € Kaffeegutschein gewinnen",
     "cat": "gutschein",
     "value_eur": 250,
@@ -101,18 +90,6 @@
     "sponsor": "IKEA Deutschland",
     "description": "Kostenloses IKEA Family Konto anlegen und jeden Monat an der Verlosung von 5 × 1.000 € Mietzuschuss teilnehmen. Keine weiteren Bedingungen, kein Kauf nötig.",
     "url": "https://www.ikea.com/de/de/campaigns/gewinne-ein-ikea-family-mietzuschuss-pub147d1b60",
-    "is_real": 1
-  },
-  {
-    "title": "Müller Drogerie Lifestyle Gewinnspiel: Kurzurlaub gewinnen",
-    "cat": "reise",
-    "value_eur": 800,
-    "icon": "🏨",
-    "deadline": "2026-05-14",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Müller Drogeriemarkt",
-    "description": "Kreuzworträtsel lösen und 2 Übernachtungen inkl. Halbpension & Private Spa im 4-Sterne-Parkhotel Oberstaufen gewinnen. Kostenlose Teilnahme ohne Kauf.",
-    "url": "https://www.mueller.de/aktuelles/gewinnspiele/gewinnspiel-lifestyle/",
     "is_real": 1
   },
   {
@@ -231,24 +208,13 @@
     "is_real": 1
   },
   {
-    "title": "Deutscher Fahrradpreis 2026: E-Bike von Rose Bikes gewinnen",
-    "cat": "sport",
-    "value_eur": 3000,
-    "deadline": "2026-05-13",
-    "draw_date": "20.05.2026",
-    "sponsor": "Deutscher Fahrradpreis / Rose Bikes",
-    "description": "E-Bike Sneak Plus EQ Shift von Rose Bikes oder li:on bikes light 24 gewinnen. Kostenlose Teilnahme per Losverfahren. Preisverleihung am 20. Mai in Düsseldorf.",
-    "url": "https://www.der-deutsche-fahrradpreis.de/gewinnspiel-2026/",
-    "is_real": 1
-  },
-  {
     "title": "bonprix 40. Geburtstags-Gewinnspiel: E-Bike & Traumpreise gewinnen",
     "cat": "mode",
     "value_eur": 4000,
     "deadline": "2026-06-07",
     "draw_date": "nach Teilnahmeschluss",
     "sponsor": "bonprix",
-    "description": "40 Jahre bonprix feiern: 2× Kalkhoff E-Bikes (B.O.C.-Gutschein je 2.000 €), Center Parcs Ferienhaus, Sky-Jahresabo & mehr gewinnen. Newsletter-Anmeldung genügt, kein Kauf nötig.",
+    "description": "40 Jahre bonprix feiern: Kalkhoff E-Bikes, Center Parcs Ferienhaus, Sky-Jahresabo & mehr gewinnen. Newsletter-Anmeldung genügt, kein Kauf nötig.",
     "url": "https://www.bonprix.de/service/gewinnspiel/",
     "is_real": 1
   },
@@ -261,6 +227,42 @@
     "sponsor": "Vabali Spa Hamburg",
     "description": "2 Tagestickets, Leihwäsche (Bademantel & Sanatuch) und Frühstücksbuffet im Vabali Spa Hamburg (Wert ca. 198 €) gewinnen. Kostenlose Teilnahme per Anmeldeformular.",
     "url": "https://www.vabali.de/hamburg/gewinnspiel/",
+    "is_real": 1
+  },
+  {
+    "title": "IBIS Backwaren WM-Gewinnspiel: Weber Grill & Fanpakete gewinnen",
+    "cat": "lebensmittel",
+    "value_eur": 700,
+    "icon": "⚽",
+    "deadline": "2026-07-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "IBIS Backwaren",
+    "description": "Anlässlich der Fußball-WM 2026 einen hochwertigen Weber Grill (Hauptpreis) oder eines von 30 IBIS Produktpaketen gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.ibis-backwaren.de/wm26/",
+    "is_real": 1
+  },
+  {
+    "title": "ROFU Kinderland: LEGOLAND® & Peppa Pig Park Sommer-Gewinnspiel",
+    "cat": "reise",
+    "value_eur": 450,
+    "icon": "🎢",
+    "deadline": "2026-06-30",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "ROFU Kinderland",
+    "description": "Übernachtungspaket oder 4 × 2 Merlin Abenteuer-Pässe für LEGOLAND® Deutschland Resort & Peppa Pig Park gewinnen. Kostenlose Online-Teilnahme, kein Kauf nötig.",
+    "url": "https://www.rofu.de/unternehmen/gewinnspiele/freizeitparks/",
+    "is_real": 1
+  },
+  {
+    "title": "Der kleine ICE: Familienabenteuer im LEGOLAND® Deutschland gewinnen",
+    "cat": "reise",
+    "value_eur": 450,
+    "icon": "🎠",
+    "deadline": "2026-06-30",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Der kleine ICE / Deutsche Bahn",
+    "description": "2-tägigen Familien-Ausflug ins LEGOLAND® Deutschland Resort gewinnen – inkl. 2 Tage Parkeintritt und 1 Übernachtung für 2 Erw. + 2 Kinder. Kostenlos teilnehmen.",
+    "url": "https://www.der-kleine-ice.de/gewinnen/gewinnt-familienabenteuer-im-legoland/",
     "is_real": 1
   }
 ]
