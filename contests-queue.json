@@ -73,7 +73,7 @@
     "cat": "auto",
     "value_eur": 5000,
     "icon": "🏨️",
-    "deadline": "2026-06-30",
+    "deadline": "2026-06-07",
     "draw_date": "vor der BMW International Open (1.–5. Juli 2026)",
     "sponsor": "BMW AG",
     "description": "6 Monate pure Fahrfreude im BMW X7 M60i xDrive erleben und 2 VIP-Tickets für die BMW International Open 2026 gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
@@ -263,6 +263,61 @@
     "sponsor": "Der kleine ICE / Deutsche Bahn",
     "description": "2-tägigen Familien-Ausflug ins LEGOLAND® Deutschland Resort gewinnen – inkl. 2 Tage Parkeintritt und 1 Übernachtung für 2 Erw. + 2 Kinder. Kostenlos teilnehmen.",
     "url": "https://www.der-kleine-ice.de/gewinnen/gewinnt-familienabenteuer-im-legoland/",
+    "is_real": 1
+  },
+  {
+    "title": "Peter Hahn Summer Journey: nicko cruises Reisegutschein gewinnen",
+    "cat": "reise",
+    "value_eur": 2000,
+    "deadline": "2026-06-30",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Peter Hahn / nicko cruises",
+    "description": "Nicko cruises Reisegutschein (1.500 €) + 500 € Peter Hahn Shopping-Gutschein + exklusives Reise-Set mit Ledertasche gewinnen. Kostenlose Teilnahme, kein Kauf nötig.",
+    "url": "https://www.peterhahn.de/gewinnen",
+    "is_real": 1
+  },
+  {
+    "title": "Kaufland Regio-Tage: 3 Nächte Hotel Schloss Döttingen gewinnen",
+    "cat": "reise",
+    "value_eur": 800,
+    "deadline": "2026-07-29",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Kaufland",
+    "description": "3 Nächte im 4-Sterne Hotel Schloss Döttingen, 30 Ariete Pizzaöfen oder 50 Kaufland-Gutscheine (je 50 €) gewinnen. Kostenlose Teilnahme nach Registrierung der Kaufland Card.",
+    "url": "https://filiale.kaufland.de/highlights/gewinnspiele/regio-tage.html",
+    "is_real": 1
+  },
+  {
+    "title": "Falstaff × Sonnenberg Südtirol: 2 Nächte Wellness gewinnen",
+    "cat": "reise",
+    "value_eur": 800,
+    "deadline": "2026-06-07",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Falstaff / Sonnenberg Panorama Dolomites Wellbeing",
+    "description": "2 Nächte mit 3/4-Genusspension im 4-Sterne-Superior Hotel Sonnenberg Panorama Dolomites Wellbeing in Meransen/Südtirol (1.450 m) gewinnen. Kostenlose Teilnahme per Formular.",
+    "url": "https://www.falstaff.com/de/news/gewinnspiel-wellnessurlaub-in-den-suedtiroler-bergen",
+    "is_real": 1
+  },
+  {
+    "title": "MÜLLER Lifestyle: 2 Nächte Parkhotel Oberstaufen gewinnen",
+    "cat": "reise",
+    "value_eur": 400,
+    "deadline": "2026-05-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "MÜLLER Drogerie / Parkhotel Oberstaufen",
+    "description": "2 Nächte mit Halbpension für 2 Personen im Parkhotel Oberstaufen (Allgäu) gewinnen. Kostenlose Online-Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.mueller.de/aktuelles/gewinnspiele/gewinnspiel-lifestyle/",
+    "is_real": 1
+  },
+  {
+    "title": "schuhe.de: Monatlich ein Paar Schuhe bis 150 € gewinnen",
+    "cat": "mode",
+    "value_eur": 150,
+    "deadline": "2026-12-31",
+    "draw_date": "monatlich am 4. des Folgemonats",
+    "sponsor": "schuhe.de",
+    "description": "Jeden Monat ein Paar Schuhe nach Wahl im Wert bis 150 € gewinnen. Newsletter-Anmeldung genügt, kein Kauf erforderlich. Monatliche Auslosung unter allen Neuanmeldungen.",
+    "url": "https://www.schuhe.de/gewinnspiel",
     "is_real": 1
   }
 ]
