@@ -219,6 +219,28 @@
     <p class="key-status" id="key-status">Schlüssel nicht gesetzt.</p>
   </div>
 
+  <!-- Agent-Berichte -->
+  <div class="card collapsed" id="reports-card">
+    <div class="card-header" id="reports-card-toggle">
+      <h2>Agent-Berichte</h2>
+      <svg class="card-toggle-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+    </div>
+    <div class="card-collapsible">
+      <div class="card-collapsible-inner" style="padding-top:12px">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:14px">
+          <span style="font-size:0.78rem;color:var(--muted)">Laufberichte des Agenten, neuester zuerst.</span>
+          <button class="btn btn-primary" id="btn-load-reports" style="margin-top:0;padding:6px 14px;font-size:0.8rem">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-.49-4.6"/></svg>
+            Laden
+          </button>
+        </div>
+        <div id="reports-wrap">
+          <p style="font-size:0.84rem;color:var(--muted)">API-Schlüssel eingeben und auf „Laden" klicken.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Add contest (collapsible, collapsed by default) -->
   <div class="card collapsed" id="add-card">
     <div class="card-header" id="add-card-toggle">
@@ -284,45 +306,38 @@
     </div>
   </div>
 
-  <!-- Contest list -->
-  <div class="card">
-    <h2>Alle Gewinnspiele</h2>
-    <div class="list-controls">
-      <button class="btn btn-primary" id="btn-load" style="margin-top:0">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-.49-4.6"/></svg>
-        Liste laden
-      </button>
-      <button class="btn btn-toggle" id="btn-hide-inactive" style="margin-top:0" title="Inaktive ein-/ausblenden">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94"/><path d="M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19"/><line x1="1" y1="1" x2="23" y2="23"/></svg>
-        <span id="hide-label">Inaktive ausblenden</span>
-      </button>
-      <span id="inactive-count" style="font-size:0.78rem;color:var(--muted)"></span>
-      <input type="search" id="list-search" placeholder="Suchen nach Titel, Sponsor, Kategorie…"
-             style="flex:1;min-width:180px;margin-top:0;padding:8px 12px" />
-    </div>
-    <div class="table-wrap">
-      <table id="contest-table">
-        <thead>
-          <tr>
-            <th>ID</th><th>Titel</th><th>Kat.</th><th>Deadline</th><th>Typ</th><th>Status</th><th>Fav.</th><th>Aktionen</th>
-          </tr>
-        </thead>
-        <tbody id="table-body">
-          <tr><td class="load-row" colspan="7">Auf „Liste laden" klicken.</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-  <!-- Agent-Berichte (collapsible, collapsed by default) -->
-  <div class="card collapsed" id="reports-card">
-    <div class="card-header" id="reports-card-toggle">
-      <h2>Agent-Berichte</h2>
+  <!-- Contest list (collapsible) -->
+  <div class="card collapsed" id="list-card">
+    <div class="card-header" id="list-card-toggle">
+      <h2>Alle Gewinnspiele</h2>
       <svg class="card-toggle-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
     </div>
     <div class="card-collapsible">
-      <div class="card-collapsible-inner" style="padding-top:16px">
-        <div id="reports-wrap">
-          <p style="font-size:0.84rem;color:var(--muted)">Schlüssel eingeben und Karte öffnen.</p>
+      <div class="card-collapsible-inner">
+        <div class="list-controls">
+          <button class="btn btn-primary" id="btn-load" style="margin-top:0">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-.49-4.6"/></svg>
+            Liste laden
+          </button>
+          <button class="btn btn-toggle" id="btn-hide-inactive" style="margin-top:0" title="Inaktive ein-/ausblenden">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94"/><path d="M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19"/><line x1="1" y1="1" x2="23" y2="23"/></svg>
+            <span id="hide-label">Inaktive ausblenden</span>
+          </button>
+          <span id="inactive-count" style="font-size:0.78rem;color:var(--muted)"></span>
+          <input type="search" id="list-search" placeholder="Suchen nach Titel, Sponsor, Kategorie…"
+                 style="flex:1;min-width:180px;margin-top:0;padding:8px 12px" />
+        </div>
+        <div class="table-wrap">
+          <table id="contest-table">
+            <thead>
+              <tr>
+                <th>ID</th><th>Titel</th><th>Kat.</th><th>Deadline</th><th>Typ</th><th>Status</th><th>Fav.</th><th>Aktionen</th>
+              </tr>
+            </thead>
+            <tbody id="table-body">
+              <tr><td class="load-row" colspan="8">Auf „Liste laden" klicken.</td></tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>

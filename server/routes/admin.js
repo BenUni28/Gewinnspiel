@@ -145,7 +145,7 @@ module.exports = function adminRouter(db) {
     if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) return res.status(400).json({ error: 'Invalid date' });
     const filepath = path.join(REPORTS_DIR, date + '.md');
     if (!fs.existsSync(filepath)) return res.status(404).json({ error: 'Not found' });
-    res.type('text/plain; charset=utf-8').send(fs.readFileSync(filepath, 'utf8'));
+    res.set('Content-Type', 'text/plain; charset=utf-8').send(fs.readFileSync(filepath, 'utf8'));
   });
 
   return router;

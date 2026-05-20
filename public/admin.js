@@ -227,23 +227,18 @@ document.getElementById('btn-add').addEventListener('click', addContest);
 document.getElementById('btn-load').addEventListener('click', loadContests);
 
 // ── Collapsible cards ───────────────────────────────────────────────────────
-function setupCollapsible(toggleId, cardId, onOpen) {
+function setupCollapsible(toggleId, cardId) {
   const toggle = $(toggleId);
   const card   = $(cardId);
   if (!toggle || !card) return;
-  toggle.addEventListener('click', () => {
-    const wasCollapsed = card.classList.contains('collapsed');
-    card.classList.toggle('collapsed');
-    if (wasCollapsed && onOpen) onOpen();
-  });
+  toggle.addEventListener('click', () => card.classList.toggle('collapsed'));
 }
 
-setupCollapsible('add-card-toggle', 'add-card', null);
-setupCollapsible('reports-card-toggle', 'reports-card', loadAgentReports);
+setupCollapsible('add-card-toggle',     'add-card');
+setupCollapsible('reports-card-toggle', 'reports-card');
+setupCollapsible('list-card-toggle',    'list-card');
 
 // ── Agent-Berichte ──────────────────────────────────────────────────────────
-let reportsLoaded = false;
-
 function escHtml(t) {
   return String(t)
     .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
@@ -302,18 +297,22 @@ function formatReportDate(dateStr) {
 }
 
 async function loadAgentReports() {
-  if (reportsLoaded) return;
+  const key = $('apiKey').value.trim();
   const wrap = $('reports-wrap');
+  if (!key) {
+    wrap.innerHTML = '<p style="font-size:0.84rem;color:var(--red)">✗ Bitte zuerst den API-Schlüssel eingeben.</p>';
+    return;
+  }
   wrap.innerHTML = '<p style="font-size:0.84rem;color:var(--muted)">Laden…</p>';
   try {
     const res = await fetch('/api/admin/agent-reports', {
-      headers: { 'Authorization': 'Bearer ' + getKey() },
+      headers: { 'Authorization': 'Bearer ' + key },
     });
     const list = await res.json();
-    if (!res.ok) throw new Error(list.error || res.status);
+    if (!res.ok) throw new Error(list.error || 'HTTP ' + res.status);
     if (list.length === 0) {
       wrap.innerHTML = '<p style="font-size:0.84rem;color:var(--muted)">Noch keine Berichte vorhanden.</p>';
-      reportsLoaded = true; return;
+      return;
     }
     wrap.innerHTML = list.map(r => `
       <div class="report-item" data-date="${r.date}">
@@ -335,19 +334,21 @@ async function loadAgentReports() {
           const content = item.querySelector('.report-content');
           try {
             const r = await fetch(`/api/admin/agent-reports/${item.dataset.date}`, {
-              headers: { 'Authorization': 'Bearer ' + getKey() },
+              headers: { 'Authorization': 'Bearer ' + $('apiKey').value.trim() },
             });
-            if (!r.ok) throw new Error(r.status);
+            if (!r.ok) throw new Error('HTTP ' + r.status);
             const md = await r.text();
             content.innerHTML = renderMd(md);
           } catch (e) {
             content.innerHTML = `<p style="color:var(--red)">Fehler: ${e.message}</p>`;
+            delete item.dataset.loaded;
           }
         }
       });
     });
-    reportsLoaded = true;
   } catch (e) {
     wrap.innerHTML = `<p style="color:var(--red);font-size:0.84rem">✗ ${e.message}</p>`;
   }
 }
+
+$('btn-load-reports').addEventListener('click', loadAgentReports);
