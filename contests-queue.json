@@ -128,18 +128,6 @@
     "is_real": 1
   },
   {
-    "title": "Bergwelten × Salomon: Wanderschuhe X Ultra 5 gewinnen",
-    "cat": "sport",
-    "value_eur": 150,
-    "icon": "🤾",
-    "deadline": "2026-05-22",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Bergwelten / Salomon",
-    "description": "Ein Paar Salomon X Ultra 5 Wanderschuhe aus der Frühjahr/Sommer-Kollektion 2026 gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://www.bergwelten.com/a/bergfest-wanderschuhe-salomon",
-    "is_real": 1
-  },
-  {
     "title": "DM alverde Magazin: Sudoku-Rätsel Mai 2026 lösen & gewinnen",
     "cat": "beauty",
     "value_eur": 50,
@@ -318,6 +306,66 @@
     "sponsor": "schuhe.de",
     "description": "Jeden Monat ein Paar Schuhe nach Wahl im Wert bis 150 € gewinnen. Newsletter-Anmeldung genügt, kein Kauf erforderlich. Monatliche Auslosung unter allen Neuanmeldungen.",
     "url": "https://www.schuhe.de/gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "caravaning.info: Hymer Free 540 Wohnmobil (42.000 €) gewinnen",
+    "cat": "reise",
+    "value_eur": 42000,
+    "icon": "🚐",
+    "deadline": "2026-09-06",
+    "draw_date": "September 2026",
+    "sponsor": "caravaning.info",
+    "description": "Hymer Free 540 Wohnmobil im Wert von über 42.000 € gewinnen. Video anschauen, Gewinnspielfrage beantworten und Formular absenden – kostenlose Teilnahme, kein Kauf nötig.",
+    "url": "https://www.caravaning.info/das-ist-caravaning/gewinnspiele/caravaning-gewinnspiel/",
+    "is_real": 1
+  },
+  {
+    "title": "Wandermagazin: Abstimmen & Outdoor-Preise gewinnen – Deutschlands Schönster Wanderweg 2026",
+    "cat": "sport",
+    "value_eur": 100,
+    "icon": "🥾",
+    "deadline": "2026-06-30",
+    "draw_date": "monatlich, Schlussziehung 01.07.2026",
+    "sponsor": "Wandermagazin",
+    "description": "Für Deutschlands Schönsten Wanderweg abstimmen und Outdoor-Ausrüstung sowie monatlich einen Jacques' Wein-Depot Gutschein (100 €) gewinnen. Kostenlos, einmalige Abstimmung.",
+    "url": "https://wandermagazin.de/wahlstudio",
+    "is_real": 1
+  },
+  {
+    "title": "Globetrotter Newsletter: 1 von 5 × 100 € Einkaufsgutschein gewinnen",
+    "cat": "gutschein",
+    "value_eur": 100,
+    "icon": "🎒",
+    "deadline": "2026-05-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Globetrotter",
+    "description": "Globetrotter Newsletter abonnieren und 1 von 5 Einkaufsgutscheinen à 100 € für das Outdoor-Sortiment gewinnen. Newsletter-Anmeldung genügt, kein Kauf erforderlich.",
+    "url": "https://www.globetrotter.de/aktionen/newsletter-gewinnspiel/",
+    "is_real": 1
+  },
+  {
+    "title": "Globetrotter Fotowettbewerb 2026: Bestes Outdoor-Foto & Gutscheine gewinnen",
+    "cat": "sport",
+    "value_eur": 100,
+    "icon": "📷",
+    "deadline": "2026-08-01",
+    "draw_date": "August 2026",
+    "sponsor": "Globetrotter",
+    "description": "Bestes Outdoor-Foto einsenden und Globetrotter Einkaufsgutscheine gewinnen (1. Platz: 100 €, 2. Platz: 75 €, 3. Platz: 50 €). Kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.globetrotter.de/magazin/fotowettbewerb/",
+    "is_real": 1
+  },
+  {
+    "title": "Barilla × Formel 1: Erlebnisreise zum Red Bull Ring Österreich gewinnen",
+    "cat": "lebensmittel",
+    "value_eur": 2000,
+    "icon": "🏎️",
+    "deadline": "2026-05-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Barilla Deutschland",
+    "description": "1 von 11 Formel-1-Erlebnisreisen nach Österreich (Red Bull Ring) oder eines von 250 F1 × Barilla Fanpaketen gewinnen. Formular ausfüllen – kostenlose Online-Teilnahme.",
+    "url": "https://promo-f1.barilla.com/de-de/f1-gewinnspiel/",
     "is_real": 1
   }
 ]
