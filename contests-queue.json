@@ -400,5 +400,60 @@
     "description": "Startplatz für die Sachsen Classic 2026 (13.–15. Aug., Sachsen/Tschechien) inkl. Rally-Training am Sachsenring (Gesamtwert 2.398 €) gewinnen. Kostenlose Online-Teilnahme.",
     "url": "https://www.auto-motor-und-sport.de/verkehr/80-jahre-auto-motor-und-sport-gewinnspiel-sachsen-classic-2026-startplatz-gewinnen/",
     "is_real": 1
+  },
+  {
+    "title": "Tchibo Reise-Gewinnspiel: 15 Tage Südafrika-Rundreise & 5× 500 € Reisegutschein gewinnen",
+    "cat": "reise",
+    "value_eur": 5000,
+    "deadline": "2026-06-01",
+    "draw_date": "05.06.2026",
+    "sponsor": "Tchibo / Tchibo Travel",
+    "description": "15-tägige Südafrika-Rundreise für 2 Personen inkl. Kruger Nationalpark oder einen von 5× 500 € Tchibo Travel Reisegutscheinen gewinnen. Formular ausfüllen – kostenlose Teilnahme, kein Kauf nötig.",
+    "url": "https://www.tchibo.de/c/reise-gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "Lidl: 5× 1.000 € Einkaufsgutschein + Goldene Grillzange gewinnen",
+    "cat": "gutschein",
+    "value_eur": 1000,
+    "deadline": "2026-07-19",
+    "draw_date": "bis 29.07.2026",
+    "sponsor": "Lidl",
+    "description": "5 Einkaufsgutscheine im Wert von je 1.000 € und eine goldene Grillzange gewinnen. E-Mail-Adresse eintragen und Teilnahmebedingungen akzeptieren – kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.lidl.de/gewinnspiele-goldene-grillzange",
+    "is_real": 1
+  },
+  {
+    "title": "Runner's World Sommer-Gewinnspiel: 2× 250 € Bargeld gewinnen",
+    "cat": "bargeld",
+    "value_eur": 250,
+    "deadline": "2026-06-19",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Runner's World / Hearst Deutschland",
+    "description": "Gewinnspielfrage beantworten und 2× 250 € Bargeld gewinnen. Kostenlose Teilnahme auf runnersworld.de, kein Kauf erforderlich.",
+    "url": "https://www.runnersworld.de/news/sommer-gewinnspiel-gewinne-250-euro-in-bar/",
+    "is_real": 1
+  },
+  {
+    "title": "trendtours Gewinnspiel: Istanbul-Städtereise für 2 Personen gewinnen",
+    "cat": "reise",
+    "value_eur": 800,
+    "deadline": "2026-06-15",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "trendtours Touristik",
+    "description": "Newsletter abonnieren und eine traumhafte Istanbul-Städtereise für 2 Personen gewinnen. Kostenlose Teilnahme per E-Mail-Anmeldung, kein Kauf erforderlich.",
+    "url": "https://www.trendtours.de/gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "ACON: ACON X Trampolin (3.999 €) gewinnen – Newsletter-Anmeldung",
+    "cat": "sport",
+    "value_eur": 3999,
+    "deadline": "2026-06-28",
+    "draw_date": "Ende Juni 2026",
+    "sponsor": "ACON Germany",
+    "description": "ACON Newsletter abonnieren und ACON X Trampolin im Wert von 3.999 € gewinnen. Kostenlose Teilnahme per E-Mail-Anmeldung, kein Kauf erforderlich.",
+    "url": "https://de.acon24.com/pages/acon-newsletter-anmeldung",
+    "is_real": 1
   }
 ]
