@@ -4,7 +4,8 @@
     "cat": "reise",
     "value_eur": 3500,
     "icon": "🚢",
-    "deadline": "2026-05-31",
+    "deadline": "2026-06-30",
+    "draw_date": "monatlich am Ende des Monats",
     "sponsor": "AIDA Cruises",
     "description": "Jetzt beim AIDA Monatsgewinnspiel mitmachen und einen AIDA Reisegutschein im Wert von 3.500 € gewinnen. Kostenlose Teilnahme.",
     "url": "https://aida.de/buchung/aktionen/gewinnspiele/monatsgewinnspiel",
@@ -34,18 +35,6 @@
     "is_real": 1
   },
   {
-    "title": "Bonita: 9-tägige Luxus-Rheinkreuzfahrt für 2 gewinnen",
-    "cat": "reise",
-    "value_eur": 3500,
-    "icon": "🛳️",
-    "deadline": "2026-05-31",
-    "draw_date": "bis 15.06.2026",
-    "sponsor": "Bonita / Thurgau Travel",
-    "description": "9 Tage Rheinkreuzfahrt auf MS Thurgau Gold für 2 – Vollpension, Getränke & Ausflüge inklusive. Kostenlose Teilnahme online oder im Store.",
-    "url": "https://www.bonita.de/de/de/gewinnspiel-thurgau-travel",
-    "is_real": 1
-  },
-  {
     "title": "Ferrero Newsletter: Monatliche Verlosung bis August 2026",
     "cat": "haus",
     "value_eur": 1200,
@@ -54,18 +43,6 @@
     "sponsor": "Ferrero Deutschland",
     "description": "Ferrero Newsletter abonnieren und monatlich bei Sonderverlosungen mitmachen – z. B. De'Longhi Kaffeevollautomaten. Kostenlose Teilnahme.",
     "url": "https://gewinnspiel.mein-ferrero.de/loyalty-gewinnspiel",
-    "is_real": 1
-  },
-  {
-    "title": "Rossmann Centaur-Rätsel Mai 2026",
-    "cat": "beauty",
-    "value_eur": 200,
-    "icon": "💄",
-    "deadline": "2026-05-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Rossmann",
-    "description": "Monatliches Rätsel im Rossmann Centaur-Magazin lösen und attraktive Preise (z. B. Hotelübernachtungen) gewinnen. Kostenlose Online-Teilnahme, kein Kauf erforderlich.",
-    "url": "https://www.rossmann.de/cms/gewinnspiele/centaur-raetsel-202605.html",
     "is_real": 1
   },
   {
@@ -104,18 +81,6 @@
     "is_real": 1
   },
   {
-    "title": "Falstaff × ROBINSON: 7 Nächte All-Inclusive-Urlaub in Marokko gewinnen",
-    "cat": "reise",
-    "value_eur": 2000,
-    "icon": "🌴",
-    "deadline": "2026-05-31",
-    "draw_date": "Sommer 2026",
-    "sponsor": "Falstaff / Robinson Club",
-    "description": "7 Nächte All Inclusive im ROBINSON AGADIR (Marokko) für 2 Personen in der Sommersaison 2026 gewinnen. Einfach Formular ausfüllen – kostenlose Teilnahme.",
-    "url": "https://www.falstaff.com/de/news/gewinnspiel-eine-woche-traumurlaub-im-robinson-agadir",
-    "is_real": 1
-  },
-  {
     "title": "ADAC Cyclassics 2026: 10 Startplätze gewinnen",
     "cat": "sport",
     "value_eur": 100,
@@ -125,30 +90,6 @@
     "sponsor": "ADAC Hansa",
     "description": "10 Startplätze für die ADAC Cyclassics 2026 (16. August, Hamburg) gewinnen. Kontaktdaten eintragen und mitmachen – kostenlose Teilnahme, kein Kauf nötig.",
     "url": "https://www.adac.de/der-adac/regionalclubs/hansa/reisen-freizeit/gewinnspiel-cyclassics/",
-    "is_real": 1
-  },
-  {
-    "title": "DM alverde Magazin: Sudoku-Rätsel Mai 2026 lösen & gewinnen",
-    "cat": "beauty",
-    "value_eur": 50,
-    "icon": "🧩",
-    "deadline": "2026-05-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "DM / alverde",
-    "description": "Sudoku-Rätsel lösen und eines von 12 Jessa-Pflegesets gewinnen. Kostenlose Online-Teilnahme, kein Kauf erforderlich.",
-    "url": "https://www.dm.de/unternehmen/alverde-magazin/gewinnspiele/sudoku-175348",
-    "is_real": 1
-  },
-  {
-    "title": "emilio adani: Hosen-Flatrate – 6 Hosen in 12 Monaten gewinnen",
-    "cat": "mode",
-    "value_eur": 600,
-    "icon": "👖",
-    "deadline": "2026-06-28",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "emilio adani",
-    "description": "Hosen-Flatrate gewinnen: 6 Hosen nach Wahl aus dem emilio adani Sortiment innerhalb von 12 Monaten. Kostenlose Teilnahme online, kein Kauf nötig.",
-    "url": "https://www.emilioadani.com/landingpage/gewinnspiel",
     "is_real": 1
   },
   {
@@ -191,7 +132,7 @@
     "deadline": "2026-06-07",
     "draw_date": "nach Teilnahmeschluss",
     "sponsor": "bonprix",
-    "description": "40 Jahre bonprix feiern: Kalkhoff E-Bikes, Center Parcs Ferienhaus, Sky-Jahresabo & mehr gewinnen. Newsletter-Anmeldung genügt, kein Kauf nötig.",
+    "description": "40 Jahre bonprix feiern: Tolle Preise von Partnermarken gewinnen. Newsletter-Anmeldung genügt, kein Kauf nötig.",
     "url": "https://www.bonprix.de/service/gewinnspiel/",
     "is_real": 1
   },
@@ -243,13 +184,13 @@
     "is_real": 1
   },
   {
-    "title": "Peter Hahn Summer Journey: nicko cruises Reisegutschein gewinnen",
+    "title": "Peter Hahn Summer Journey: Traumreise & Gutscheine gewinnen",
     "cat": "reise",
-    "value_eur": 2000,
-    "deadline": "2026-06-30",
+    "value_eur": 5000,
+    "deadline": "2026-08-31",
     "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Peter Hahn / nicko cruises",
-    "description": "Nicko cruises Reisegutschein (1.500 €) + 500 € Peter Hahn Shopping-Gutschein + exklusives Reise-Set mit Ledertasche gewinnen. Kostenlose Teilnahme, kein Kauf nötig.",
+    "sponsor": "Peter Hahn",
+    "description": "5.000 € Reisegutschein, exklusive TITAN Reisetasche und Peter Hahn Shopping-Gutscheine (Gesamtwert über 7.600 €) gewinnen. Formular ausfüllen – kostenlose Teilnahme.",
     "url": "https://www.peterhahn.de/gewinnen",
     "is_real": 1
   },
@@ -273,17 +214,6 @@
     "sponsor": "Falstaff / Sonnenberg Panorama Dolomites Wellbeing",
     "description": "2 Nächte mit 3/4-Genusspension im 4-Sterne-Superior Hotel Sonnenberg Panorama Dolomites Wellbeing in Meransen/Südtirol (1.450 m) gewinnen. Kostenlose Teilnahme per Formular.",
     "url": "https://www.falstaff.com/de/news/gewinnspiel-wellnessurlaub-in-den-suedtiroler-bergen",
-    "is_real": 1
-  },
-  {
-    "title": "MÜLLER Lifestyle: 2 Nächte Parkhotel Oberstaufen gewinnen",
-    "cat": "reise",
-    "value_eur": 400,
-    "deadline": "2026-05-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "MÜLLER Drogerie / Parkhotel Oberstaufen",
-    "description": "2 Nächte mit Halbpension für 2 Personen im Parkhotel Oberstaufen (Allgäu) gewinnen. Kostenlose Online-Teilnahme, kein Kauf erforderlich.",
-    "url": "https://www.mueller.de/aktuelles/gewinnspiele/gewinnspiel-lifestyle/",
     "is_real": 1
   },
   {
@@ -322,18 +252,6 @@
     "is_real": 1
   },
   {
-    "title": "Globetrotter Newsletter: 1 von 5 × 100 € Einkaufsgutschein gewinnen",
-    "cat": "gutschein",
-    "value_eur": 100,
-    "icon": "🎒",
-    "deadline": "2026-05-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Globetrotter",
-    "description": "Globetrotter Newsletter abonnieren und 1 von 5 Einkaufsgutscheinen à 100 € für das Outdoor-Sortiment gewinnen. Newsletter-Anmeldung genügt, kein Kauf erforderlich.",
-    "url": "https://www.globetrotter.de/aktionen/newsletter-gewinnspiel/",
-    "is_real": 1
-  },
-  {
     "title": "Globetrotter Fotowettbewerb 2026: Bestes Outdoor-Foto & Gutscheine gewinnen",
     "cat": "sport",
     "value_eur": 100,
@@ -343,18 +261,6 @@
     "sponsor": "Globetrotter",
     "description": "Bestes Outdoor-Foto (Thema: Sternenhimmel) einsenden und Globetrotter Einkaufsgutscheine gewinnen (1. Platz: 100 €, 2. Platz: 75 €, 3. Platz: 50 €). Kostenlose Teilnahme.",
     "url": "https://www.globetrotter.de/magazin/fotowettbewerb/",
-    "is_real": 1
-  },
-  {
-    "title": "Barilla × Formel 1: Erlebnisreise zum Red Bull Ring Österreich gewinnen",
-    "cat": "lebensmittel",
-    "value_eur": 2000,
-    "icon": "🏎️",
-    "deadline": "2026-05-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Barilla Deutschland",
-    "description": "1 von 11 Formel-1-Erlebnisreisen nach Österreich (Red Bull Ring) oder eines von 250 F1 × Barilla Fanpaketen gewinnen. Formular ausfüllen – kostenlose Online-Teilnahme.",
-    "url": "https://promo-f1.barilla.com/de-de/f1-gewinnspiel/",
     "is_real": 1
   },
   {
@@ -388,17 +294,6 @@
     "sponsor": "REWE Reisen",
     "description": "4 Nächte im 4-Sterne Hotel Gersfelder Hof (Rhön) mit Innenpool, Sauna & Halbpension gewinnen. Frage beantworten und Formular absenden – kostenlose Teilnahme.",
     "url": "https://www.rewe-reisen.de/gewinnspiel.html",
-    "is_real": 1
-  },
-  {
-    "title": "auto motor und sport: Sachsen Classic 2026 Startplatz gewinnen",
-    "cat": "sport",
-    "value_eur": 2398,
-    "deadline": "2026-05-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "auto motor und sport / Sachsen Classic",
-    "description": "Startplatz für die Sachsen Classic 2026 (13.–15. Aug., Sachsen/Tschechien) inkl. Rally-Training am Sachsenring (Gesamtwert 2.398 €) gewinnen. Kostenlose Online-Teilnahme.",
-    "url": "https://www.auto-motor-und-sport.de/verkehr/80-jahre-auto-motor-und-sport-gewinnspiel-sachsen-classic-2026-startplatz-gewinnen/",
     "is_real": 1
   },
   {
@@ -454,6 +349,50 @@
     "sponsor": "ACON Germany",
     "description": "ACON Newsletter abonnieren und ACON X Trampolin im Wert von 3.999 € gewinnen. Kostenlose Teilnahme per E-Mail-Anmeldung, kein Kauf erforderlich.",
     "url": "https://de.acon24.com/pages/acon-newsletter-anmeldung",
+    "is_real": 1
+  },
+  {
+    "title": "Schwarzwald Tourismus: Monatlich 2 Nächte Hotel im Schwarzwald gewinnen",
+    "cat": "reise",
+    "value_eur": 300,
+    "deadline": "2026-12-31",
+    "draw_date": "monatlich am Ende des Monats",
+    "sponsor": "Schwarzwald Tourismus GmbH",
+    "description": "Monatlich ein Kurzurlaub für 2 Personen im Schwarzwald gewinnen – 2 Nächte im Hotel Tannhof inkl. Frühstücksbuffet. Memory-Spiel spielen und Formular ausfüllen – kostenlos.",
+    "url": "https://www.schwarzwald.de/schwarzwald-urlaub-gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "DB Mobil: Fitnessbike im Wert von 999 € gewinnen",
+    "cat": "sport",
+    "value_eur": 999,
+    "deadline": "2026-09-30",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "DB Mobil / Deutsche Bahn",
+    "description": "Beim DB Mobil Gewinnspiel ein hochwertiges Fitnessbike im Wert von 999 € gewinnen. Formular ausfüllen und absenden – kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://gewinnspiel.dbmobil.de/",
+    "is_real": 1
+  },
+  {
+    "title": "Die Jugendherbergen: Wöchentlich Familien-Sommerurlaub gewinnen",
+    "cat": "reise",
+    "value_eur": 500,
+    "deadline": "2026-07-26",
+    "draw_date": "wöchentlich",
+    "sponsor": "Die Jugendherbergen Rheinland-Pfalz/Saarland",
+    "description": "12 Wochen lang wöchentlich 2 × 3 Tage Familienurlaub mit Vollpension (max. 6 Personen) in einer Jugendherberge in Rheinland-Pfalz oder Saarland gewinnen. Newsletter abonnieren – kostenlos.",
+    "url": "https://www.diejugendherbergen.de/gewinnspiel.html",
+    "is_real": 1
+  },
+  {
+    "title": "Wellness Heaven: 2 Nächte im Wellnesshotel Bayerischer Wald gewinnen",
+    "cat": "beauty",
+    "value_eur": 450,
+    "deadline": "2026-08-01",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Wellness Heaven",
+    "description": "2 Übernachtungen für 2 Personen im Wellness & Naturhotel Tonihof im Bayerischen Wald gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
+    "url": "https://www.wellness-heaven.de/wellness/wellness-gewinnspiel/",
     "is_real": 1
   }
 ]
