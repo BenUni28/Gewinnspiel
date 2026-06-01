@@ -17,7 +17,7 @@
     "value_eur": 250,
     "icon": "☕",
     "deadline": "2026-12-31",
-    "draw_date": "monatlich zum 1. des Folgemonats",
+    "draw_date": "monatlich zum 15. des Folgemonats",
     "sponsor": "Tchibo",
     "description": "Tchibo Kaffee-Newsletter abonnieren und jeden Monat an der Verlosung eines 250 € Kaffeegutscheins teilnehmen. Das Jahresgewinnspiel läuft bis Ende 2026.",
     "url": "https://www.tchibo.de/c/newsletter-kaffee-gewinnspiel",
@@ -43,18 +43,6 @@
     "sponsor": "Ferrero Deutschland",
     "description": "Ferrero Newsletter abonnieren und monatlich bei Sonderverlosungen mitmachen – z. B. De'Longhi Kaffeevollautomaten. Kostenlose Teilnahme.",
     "url": "https://gewinnspiel.mein-ferrero.de/loyalty-gewinnspiel",
-    "is_real": 1
-  },
-  {
-    "title": "BMW: 6 Monate BMW X7 M60i fahren + VIP-Golf-Tickets gewinnen",
-    "cat": "auto",
-    "value_eur": 5000,
-    "icon": "🏨️",
-    "deadline": "2026-06-07",
-    "draw_date": "vor der BMW International Open (1.–5. Juli 2026)",
-    "sponsor": "BMW AG",
-    "description": "6 Monate pure Fahrfreude im BMW X7 M60i xDrive erleben und 2 VIP-Tickets für die BMW International Open 2026 gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://www.bmw.de/de/landingpage/bmw-fahrfreude-gewinnen.html",
     "is_real": 1
   },
   {
@@ -130,9 +118,9 @@
     "cat": "mode",
     "value_eur": 4000,
     "deadline": "2026-06-07",
-    "draw_date": "nach Teilnahmeschluss",
+    "draw_date": "ab 17.06.2026",
     "sponsor": "bonprix",
-    "description": "40 Jahre bonprix feiern: Tolle Preise von Partnermarken gewinnen. Newsletter-Anmeldung genügt, kein Kauf nötig.",
+    "description": "40 Jahre bonprix feiern: E-Bike (4.000 € Gutschein), Sky-Jahresabo und mehr Preise gewinnen. Newsletter-Anmeldung genügt, kein Kauf nötig.",
     "url": "https://www.bonprix.de/service/gewinnspiel/",
     "is_real": 1
   },
@@ -297,17 +285,6 @@
     "is_real": 1
   },
   {
-    "title": "Tchibo Reise-Gewinnspiel: 15 Tage Südafrika-Rundreise & 5× 500 € Reisegutschein gewinnen",
-    "cat": "reise",
-    "value_eur": 5000,
-    "deadline": "2026-06-01",
-    "draw_date": "05.06.2026",
-    "sponsor": "Tchibo / Tchibo Travel",
-    "description": "15-tägige Südafrika-Rundreise für 2 Personen inkl. Kruger Nationalpark oder einen von 5× 500 € Tchibo Travel Reisegutscheinen gewinnen. Formular ausfüllen – kostenlose Teilnahme, kein Kauf nötig.",
-    "url": "https://www.tchibo.de/c/reise-gewinnspiel",
-    "is_real": 1
-  },
-  {
     "title": "Lidl: 5× 1.000 € Einkaufsgutschein + Goldene Grillzange gewinnen",
     "cat": "gutschein",
     "value_eur": 1000,
@@ -363,17 +340,6 @@
     "is_real": 1
   },
   {
-    "title": "DB Mobil: Fitnessbike im Wert von 999 € gewinnen",
-    "cat": "sport",
-    "value_eur": 999,
-    "deadline": "2026-09-30",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "DB Mobil / Deutsche Bahn",
-    "description": "Beim DB Mobil Gewinnspiel ein hochwertiges Fitnessbike im Wert von 999 € gewinnen. Formular ausfüllen und absenden – kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://gewinnspiel.dbmobil.de/",
-    "is_real": 1
-  },
-  {
     "title": "Die Jugendherbergen: Wöchentlich Familien-Sommerurlaub gewinnen",
     "cat": "reise",
     "value_eur": 500,
@@ -393,6 +359,61 @@
     "sponsor": "Wellness Heaven",
     "description": "2 Übernachtungen für 2 Personen im Wellness & Naturhotel Tonihof im Bayerischen Wald gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
     "url": "https://www.wellness-heaven.de/wellness/wellness-gewinnspiel/",
+    "is_real": 1
+  },
+  {
+    "title": "Belli Cantuccini: FIAT Topolino oder Espressokocher gewinnen",
+    "cat": "auto",
+    "value_eur": 10000,
+    "deadline": "2026-08-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Belli Cantuccini / Gadeschi",
+    "description": "FIAT Topolino (Hauptgewinn, ca. 10.000 €) oder einen von 33 kultige Espressokocher gewinnen. Kostenlose Online-Teilnahme per Formular, kein Kauf erforderlich.",
+    "url": "https://topolino-gewinnspiel.cantuccini.de/",
+    "is_real": 1
+  },
+  {
+    "title": "TUI MAGIC LIFE: 7 Nächte Cluburlaub in der Türkei für 2 gewinnen",
+    "cat": "reise",
+    "value_eur": 1500,
+    "deadline": "2026-06-30",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "TUI MAGIC LIFE",
+    "description": "7 Nächte All Inclusive im TUI MAGIC LIFE Jacaranda an der türkischen Riviera für 2 Personen (Winter 2026/27) gewinnen. Kostenlose Teilnahme per Formular, kein Kauf nötig.",
+    "url": "https://www.magiclife.com/de/de/gewinnspiel-elan/",
+    "is_real": 1
+  },
+  {
+    "title": "Müller Drogerie Lifestyle: 2 Nächte Via Salina Wellnesshotel gewinnen",
+    "cat": "reise",
+    "value_eur": 1250,
+    "deadline": "2026-07-09",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Müller Drogerie",
+    "description": "2 Nächte im Via Salina Wellnesshotel im Tannheimer Tal für 2 Personen plus 5 × Frank-Juice Pakete (je 150 €) gewinnen. Lösungswort im Online-Formular eintragen – kostenlose Teilnahme.",
+    "url": "https://www.mueller.de/aktuelles/gewinnspiele/gewinnspiel-lifestyle/",
+    "is_real": 1
+  },
+  {
+    "title": "dm glückskind: Monatlich 50 Familienboxen mit Pampers & Co. gewinnen",
+    "cat": "beauty",
+    "value_eur": 80,
+    "deadline": "2026-12-31",
+    "draw_date": "monatlich am letzten Sonntag des Monats",
+    "sponsor": "dm drogerie markt / Pampers",
+    "description": "Jeden Monat 50 Familienboxen mit Pampers Windeln, Oral-B, Ariel, Always und mehr gewinnen. Kostenlose Teilnahme für registrierte dm glückskind-Mitglieder (kostenloser Account).",
+    "url": "https://www.dm.de/glueckskind/gewinnspiele-und-produkttests",
+    "is_real": 1
+  },
+  {
+    "title": "Niederegger WM-Gewinnspiel: 111 exklusive WM-T-Shirts gewinnen",
+    "cat": "mode",
+    "value_eur": 25,
+    "deadline": "2026-06-30",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Niederegger Lübeck",
+    "description": "111 exklusive Niederegger WM-T-Shirts verlosen. Kostenlose Online-Teilnahme per Formular, kein Kauf erforderlich.",
+    "url": "https://www.niederegger.de/wm-gewinnspiel/",
     "is_real": 1
   }
 ]
