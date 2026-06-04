@@ -415,5 +415,60 @@
     "description": "111 exklusive Niederegger WM-T-Shirts verlosen. Kostenlose Online-Teilnahme per Formular, kein Kauf erforderlich.",
     "url": "https://www.niederegger.de/wm-gewinnspiel/",
     "is_real": 1
+  },
+  {
+    "title": "REWE × Ferrero: MINI Cooper C Cabrio & 50.000 Sofortgewinne",
+    "cat": "auto",
+    "value_eur": 25000,
+    "deadline": "2026-07-05",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "REWE / Ferrero",
+    "description": "E-Mail eingeben, Los freirubbeln – sofort Samsung TV (55\"), Soundbar oder Fan-Artikel gewinnen. Hauptgewinn: 1 × MINI Cooper C Cabrio. Kostenlose Teilnahme, kein Kauf nötig.",
+    "url": "https://www.gemeinsam-jubeln-rewe.de/",
+    "is_real": 1
+  },
+  {
+    "title": "Seeberger WM-Promo: Samsung Heimkino-Beamer gewinnen",
+    "cat": "handy",
+    "value_eur": 800,
+    "deadline": "2026-07-20",
+    "draw_date": "nach Teilnahmeschluss am 20.07.2026",
+    "sponsor": "Seeberger",
+    "description": "Newsletter abonnieren und Samsung Heimkino-Beamer plus Seeberger Snacks zur WM 2026 gewinnen. Kostenlose Teilnahme per E-Mail-Anmeldung, kein Kauf erforderlich.",
+    "url": "https://seeberger.de/pages/gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "ROSSMANN App: 7 Nächte Aldiana Club Resort Österreich für die Familie gewinnen",
+    "cat": "reise",
+    "value_eur": 2500,
+    "deadline": "2026-07-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "ROSSMANN / Aldiana",
+    "description": "Rossmann App kostenlos herunterladen und 7 Nächte All Inclusive im Aldiana Club Resort Österreich für 2 Erw. + 2 Kinder (bis 14 J.) gewinnen. Kein Kauf erforderlich.",
+    "url": "https://www.rossmann.de/de/service-und-hilfe/app-gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "engbers × BOSCH: 20 Power-Tool-Sets für Haus & Garten gewinnen",
+    "cat": "haus",
+    "value_eur": 300,
+    "deadline": "2026-06-24",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "engbers / BOSCH",
+    "description": "Eines von 20 BOSCH Power-Tool-Sets für Haus und Garten gewinnen. Kostenlose Teilnahme über das engbers Gewinnspielformular, kein Kauf erforderlich.",
+    "url": "https://www.engbers.com/landingpage/gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "Bergzeit × Ortovox: Bike-Outfit im Wert von 500 € gewinnen",
+    "cat": "sport",
+    "value_eur": 500,
+    "deadline": "2026-06-14",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Bergzeit / Ortovox",
+    "description": "Vollständiges Ortovox Bike-Outfit im Wert von über 500 € gewinnen. Kostenlose Teilnahme per Formular auf bergzeit.de oder via Instagram, kein Kauf erforderlich.",
+    "url": "https://www.bergzeit.de/magazin/ortovox-bikeoutfit-bergzeit-glueckspilz/",
+    "is_real": 1
   }
 ]
