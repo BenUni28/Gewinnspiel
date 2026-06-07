@@ -114,17 +114,6 @@
     "is_real": 1
   },
   {
-    "title": "bonprix 40. Geburtstags-Gewinnspiel: E-Bike & Traumpreise gewinnen",
-    "cat": "mode",
-    "value_eur": 4000,
-    "deadline": "2026-06-07",
-    "draw_date": "ab 17.06.2026",
-    "sponsor": "bonprix",
-    "description": "40 Jahre bonprix feiern: E-Bike (4.000 € Gutschein), Sky-Jahresabo und mehr Preise gewinnen. Newsletter-Anmeldung genügt, kein Kauf nötig.",
-    "url": "https://www.bonprix.de/service/gewinnspiel/",
-    "is_real": 1
-  },
-  {
     "title": "Vabali Spa Hamburg: Wellnesstag für 2 Personen gewinnen",
     "cat": "beauty",
     "value_eur": 198,
@@ -194,17 +183,6 @@
     "is_real": 1
   },
   {
-    "title": "Falstaff × Sonnenberg Südtirol: 2 Nächte Wellness gewinnen",
-    "cat": "reise",
-    "value_eur": 800,
-    "deadline": "2026-06-07",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Falstaff / Sonnenberg Panorama Dolomites Wellbeing",
-    "description": "2 Nächte mit 3/4-Genusspension im 4-Sterne-Superior Hotel Sonnenberg Panorama Dolomites Wellbeing in Meransen/Südtirol (1.450 m) gewinnen. Kostenlose Teilnahme per Formular.",
-    "url": "https://www.falstaff.com/de/news/gewinnspiel-wellnessurlaub-in-den-suedtiroler-bergen",
-    "is_real": 1
-  },
-  {
     "title": "schuhe.de: Monatlich ein Paar Schuhe bis 150 € gewinnen",
     "cat": "mode",
     "value_eur": 150,
@@ -269,7 +247,7 @@
     "deadline": "2026-06-10",
     "draw_date": "bis 24.07.2026 (nach WM-Finale)",
     "sponsor": "DERTOUR",
-    "description": "WM 2026 tippen und 1 × 3.000 €, 4 × 1.000 € oder 5 × 400 € DERTOUR-Reisegutscheine gewinnen. Kostenlose Teilnahme, unabhängig von einem Kauf.",
+    "description": "WM 2026 tippen und 1 × 3.000 €, 4 × 1.000 € oder 5 × 400 € DERTOUR-Reisegutscheine gewinnen. Kostenlose Teilnahme auf der Webseite, unabhängig von einem Kauf.",
     "url": "https://www.dertour-reisebuero.de/wm-gewinnspiel/",
     "is_real": 1
   },
@@ -469,6 +447,50 @@
     "sponsor": "Bergzeit / Ortovox",
     "description": "Vollständiges Ortovox Bike-Outfit im Wert von über 500 € gewinnen. Kostenlose Teilnahme per Formular auf bergzeit.de oder via Instagram, kein Kauf erforderlich.",
     "url": "https://www.bergzeit.de/magazin/ortovox-bikeoutfit-bergzeit-glueckspilz/",
+    "is_real": 1
+  },
+  {
+    "title": "AIDA WM-Tippspiel 2026: AIDA Reisegutschein 1.500 € gewinnen",
+    "cat": "reise",
+    "value_eur": 1500,
+    "deadline": "2026-07-19",
+    "draw_date": "nach WM-Finale 19.07.2026",
+    "sponsor": "AIDA Cruises",
+    "description": "WM 2026 tippen und AIDA Reisegutschein im Wert von 1.500 € oder eines von 10 AIDA Überraschungspaketen gewinnen. Kostenlose Teilnahme am Tippspiel, kein Kauf erforderlich.",
+    "url": "https://aida.wm-tippspiel.de/",
+    "is_real": 1
+  },
+  {
+    "title": "Cellini Caffè × EDEKA: Vespa Primavera Elettrica gewinnen",
+    "cat": "auto",
+    "value_eur": 5200,
+    "deadline": "2026-07-30",
+    "draw_date": "nach Teilnahmeschluss 30.07.2026",
+    "sponsor": "Cellini Caffè / EDEKA",
+    "description": "Cellini Newsletter abonnieren und eine Vespa Primavera Elettrica gewinnen. Kostenlose Teilnahme per E-Mail-Anmeldung, Teilnahme auch via Instagram möglich, kein Kauf nötig.",
+    "url": "https://cellini-shop.de/gewinnspiel/",
+    "is_real": 1
+  },
+  {
+    "title": "Hugendubel: 4 Nächte MAREMÜRITZ Yachthafen Resort für 2 Personen",
+    "cat": "reise",
+    "value_eur": 800,
+    "deadline": "2026-06-30",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Hugendubel / MAREMÜRITZ Yachthafen Resort",
+    "description": "Hugendubel Newsletter abonnieren und 4 Nächte inkl. Halbpension im MAREMÜRITZ Yachthafen Resort an der Mecklenburgischen Seenplatte für 2 Personen gewinnen. Kostenlos.",
+    "url": "https://www.hugendubel.de/de/category/101640/gewinnspiel.html",
+    "is_real": 1
+  },
+  {
+    "title": "emilio adani: Hosen-Flatrate – 6 Hosen nach Wahl in 12 Monaten",
+    "cat": "mode",
+    "value_eur": 480,
+    "deadline": "2026-06-28",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "emilio adani",
+    "description": "Hosen-Flatrate gewinnen: 6 Hosen in 12 Monaten nach Wahl aus dem emilio adani Onlineshop. Formular ausfüllen – kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.emilioadani.com/landingpage/gewinnspiel",
     "is_real": 1
   }
 ]
