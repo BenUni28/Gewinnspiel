@@ -103,17 +103,6 @@
     "is_real": 1
   },
   {
-    "title": "auto motor und sport: Kia EV3 Air (36.280 €) gewinnen – 80 Jahre Jubiläum",
-    "cat": "auto",
-    "value_eur": 36280,
-    "deadline": "2026-06-10",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "auto motor und sport",
-    "description": "Beim 80-Jahre-Jubiläum von auto motor und sport mitmachen und Kia EV3 Air in Frostblau (36.280 €) gewinnen. Kostenlose Online-Teilnahme, kein Kauf nötig.",
-    "url": "https://www.auto-motor-und-sport.de/verkehr/80-jahre-auto-motor-und-sport-gewinnspiel-kia-ev3-air-gewinnen/",
-    "is_real": 1
-  },
-  {
     "title": "Vabali Spa Hamburg: Wellnesstag für 2 Personen gewinnen",
     "cat": "beauty",
     "value_eur": 198,
@@ -238,17 +227,6 @@
     "sponsor": "SCOTT Sports",
     "description": "Leichtes Profi-Rennrad SCOTT Addict RC 20 im Wert von 4.999 € gewinnen. Einfach Formular ausfüllen und absenden – kostenlose Teilnahme, kein Kauf erforderlich.",
     "url": "https://www.scott-sports.com/de/de/addict-rc-20-giveaway",
-    "is_real": 1
-  },
-  {
-    "title": "DERTOUR WM-Tippspiel 2026: 9.000 € Reisegutscheine gewinnen",
-    "cat": "reise",
-    "value_eur": 3000,
-    "deadline": "2026-06-10",
-    "draw_date": "bis 24.07.2026 (nach WM-Finale)",
-    "sponsor": "DERTOUR",
-    "description": "WM 2026 tippen und 1 × 3.000 €, 4 × 1.000 € oder 5 × 400 € DERTOUR-Reisegutscheine gewinnen. Kostenlose Teilnahme auf der Webseite, unabhängig von einem Kauf.",
-    "url": "https://www.dertour-reisebuero.de/wm-gewinnspiel/",
     "is_real": 1
   },
   {
@@ -491,6 +469,41 @@
     "sponsor": "emilio adani",
     "description": "Hosen-Flatrate gewinnen: 6 Hosen in 12 Monaten nach Wahl aus dem emilio adani Onlineshop. Formular ausfüllen – kostenlose Teilnahme, kein Kauf erforderlich.",
     "url": "https://www.emilioadani.com/landingpage/gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "Schwarzwald Tourismus GmbH: 3× DORFURLAUB-Gutschein (je 1.100 €) gewinnen",
+    "cat": "reise",
+    "value_eur": 1100,
+    "deadline": "2026-09-30",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Schwarzwald Tourismus GmbH",
+    "description": "Jubiläumsgewinnspiel: 3 DORFURLAUB-Gutscheine im Wert von je 1.100 € für authentischen Schwarzwald-Urlaub gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
+    "url": "https://www.schwarzwald-tourismus.info/schwarzwald/dorfurlaub/gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "DFB Lizenzgewinnspiel WM 2026: Täglich exklusive DFB-Preise gewinnen",
+    "cat": "sport",
+    "value_eur": null,
+    "icon": "⚽",
+    "deadline": "2026-06-11",
+    "draw_date": "täglich vom 11.06. bis 19.07.2026",
+    "sponsor": "DFB",
+    "description": "Einmalig registrieren und täglich bis zum WM-Finale (19.07.2026) exklusive DFB-Lizenzpartner-Preise gewinnen. Anmeldeschluss: 11.06.2026. Kostenlos, kein Kauf nötig.",
+    "url": "https://gewinnspiel.dfb.de/pages/gewinnspiel-dfb-wm-lizenzgewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "Explorer Travel: WM 2026 Reisegutscheine gewinnen",
+    "cat": "reise",
+    "value_eur": 500,
+    "icon": "✈️",
+    "deadline": "2026-06-26",
+    "draw_date": "nach Teilnahmeschluss am 26.06.2026",
+    "sponsor": "Explorer Travel GmbH",
+    "description": "1 × 500 €, 1 × 300 € und 1 × 150 € Explorer Reisegutschein gewinnen. Kostenlose Teilnahme, unabhängig von einer Buchung. Einmalige Teilnahme per Formular, kein Kauf nötig.",
+    "url": "https://partner.explorer.de/gewinnspiel-fussball-2026",
     "is_real": 1
   }
 ]
