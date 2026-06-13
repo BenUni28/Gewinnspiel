@@ -351,17 +351,6 @@
     "is_real": 1
   },
   {
-    "title": "dm glückskind: Monatlich 50 Familienboxen mit Pampers & Co. gewinnen",
-    "cat": "beauty",
-    "value_eur": 80,
-    "deadline": "2026-12-31",
-    "draw_date": "monatlich am letzten Sonntag des Monats",
-    "sponsor": "dm drogerie markt / Pampers",
-    "description": "Jeden Monat 50 Familienboxen mit Pampers Windeln, Oral-B, Ariel, Always und mehr gewinnen. Kostenlose Teilnahme für registrierte dm glückskind-Mitglieder (kostenloser Account).",
-    "url": "https://www.dm.de/glueckskind/gewinnspiele-und-produkttests",
-    "is_real": 1
-  },
-  {
     "title": "Niederegger WM-Gewinnspiel: 111 exklusive WM-T-Shirts gewinnen",
     "cat": "mode",
     "value_eur": 25,
@@ -483,18 +472,6 @@
     "is_real": 1
   },
   {
-    "title": "DFB Lizenzgewinnspiel WM 2026: Täglich exklusive DFB-Preise gewinnen",
-    "cat": "sport",
-    "value_eur": null,
-    "icon": "⚽",
-    "deadline": "2026-06-11",
-    "draw_date": "täglich vom 11.06. bis 19.07.2026",
-    "sponsor": "DFB",
-    "description": "Einmalig registrieren und täglich bis zum WM-Finale (19.07.2026) exklusive DFB-Lizenzpartner-Preise gewinnen. Anmeldeschluss: 11.06.2026. Kostenlos, kein Kauf nötig.",
-    "url": "https://gewinnspiel.dfb.de/pages/gewinnspiel-dfb-wm-lizenzgewinnspiel",
-    "is_real": 1
-  },
-  {
     "title": "Explorer Travel: WM 2026 Reisegutscheine gewinnen",
     "cat": "reise",
     "value_eur": 500,
@@ -504,6 +481,72 @@
     "sponsor": "Explorer Travel GmbH",
     "description": "1 × 500 €, 1 × 300 € und 1 × 150 € Explorer Reisegutschein gewinnen. Kostenlose Teilnahme, unabhängig von einer Buchung. Einmalige Teilnahme per Formular, kein Kauf nötig.",
     "url": "https://partner.explorer.de/gewinnspiel-fussball-2026",
+    "is_real": 1
+  },
+  {
+    "title": "EDEKA & Ferrero – Mit dem Herzen dabei: VW ID.7 & Sofortgewinne",
+    "cat": "lebensmittel",
+    "value_eur": 40000,
+    "deadline": "2026-06-28",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "EDEKA & Ferrero",
+    "description": "VW ID.7 als Hauptpreis + täglich Sofortgewinne (Reisegutscheine, TVs, DFB-Trikots). E-Mail-Anmeldung, kostenlos, täglich teilnehmen möglich.",
+    "url": "https://www.edeka-herzen.de/",
+    "is_real": 1
+  },
+  {
+    "title": "GLOBUS Memo: Wöchentlich 5 × 100 € Einkaufsgutschein gewinnen",
+    "cat": "gutschein",
+    "value_eur": 100,
+    "deadline": "2026-12-27",
+    "draw_date": "wöchentlich",
+    "sponsor": "GLOBUS Markthallen",
+    "description": "Wöchentlich das GLOBUS Memory-Spiel lösen und 1 von 5 GLOBUS-Einkaufsgutscheinen à 100 € gewinnen. Kostenlos, einmal pro Woche mitspielen.",
+    "url": "https://www.globus.de/gewinnspiel/memospiel.php",
+    "is_real": 1
+  },
+  {
+    "title": "Matilde Vicenzi: Kenwood Küchenmaschine & täglich Feingebäck gewinnen",
+    "cat": "haus",
+    "value_eur": 700,
+    "deadline": "2026-07-19",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Matilde Vicenzi",
+    "description": "Kenwood Titanium Chef Patissier XL (700 €) als Hauptpreis + täglich Feingebäck-Pakete & wöchentliche Back-Sets gewinnen. Kostenlos anmelden und mitmachen.",
+    "url": "https://matilde-vicenzi-feingebaeck.de/",
+    "is_real": 1
+  },
+  {
+    "title": "billiger.de WM-Gewinnspiel: Gutscheine & Nintendo Switch 2 gewinnen",
+    "cat": "gutschein",
+    "value_eur": 250,
+    "deadline": "2026-07-19",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "billiger.de",
+    "description": "11 Einkaufsgutscheine à 250 € (Shell, Amazon, MediaMarkt, Expedia oder Lidl) sowie Nintendo Switch 2 + EA Sports FC 26 gewinnen. Kostenlose Teilnahme, kein Kauf nötig.",
+    "url": "https://www.solutions.billiger.de/de/lp/WM-Gewinnspiel.php",
+    "is_real": 1
+  },
+  {
+    "title": "Knorr & Philips: 150× Airfryer 5000 Series gewinnen",
+    "cat": "haus",
+    "value_eur": 200,
+    "deadline": "2026-07-05",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Knorr (Unilever)",
+    "description": "150 Philips Airfryer 5000 Series Megabasket gewinnen – sehr hohe Gewinnchance. Kostenlos online teilnehmen, kein Kauf erforderlich.",
+    "url": "https://www.knorr.com/de/airfryer-gewinnspiel.html",
+    "is_real": 1
+  },
+  {
+    "title": "BMW Motorrad: Traumbike für die Saison 2026 gewinnen",
+    "cat": "sport",
+    "value_eur": 15000,
+    "deadline": "2027-01-07",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "BMW Motorrad",
+    "description": "Ein BMW Motorrad nach Wahl für die komplette Outdoorsaison (April–September 2026) gewinnen. Kostenlose Online-Teilnahme per Formular.",
+    "url": "https://www.gewinnspiele-bmw-motorrad.de/verlosung/gewinnspiel2026/",
     "is_real": 1
   }
 ]
