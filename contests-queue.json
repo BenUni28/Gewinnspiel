@@ -263,17 +263,6 @@
     "is_real": 1
   },
   {
-    "title": "trendtours Gewinnspiel: Istanbul-Städtereise für 2 Personen gewinnen",
-    "cat": "reise",
-    "value_eur": 800,
-    "deadline": "2026-06-15",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "trendtours Touristik",
-    "description": "Newsletter abonnieren und eine traumhafte Istanbul-Städtereise für 2 Personen gewinnen. Kostenlose Teilnahme per E-Mail-Anmeldung, kein Kauf erforderlich.",
-    "url": "https://www.trendtours.de/gewinnspiel",
-    "is_real": 1
-  },
-  {
     "title": "ACON: ACON X Trampolin (3.999 €) gewinnen – Newsletter-Anmeldung",
     "cat": "sport",
     "value_eur": 3999,
@@ -403,17 +392,6 @@
     "sponsor": "engbers / BOSCH",
     "description": "Eines von 20 BOSCH Power-Tool-Sets für Haus und Garten gewinnen. Kostenlose Teilnahme über das engbers Gewinnspielformular, kein Kauf erforderlich.",
     "url": "https://www.engbers.com/landingpage/gewinnspiel",
-    "is_real": 1
-  },
-  {
-    "title": "Bergzeit × Ortovox: Bike-Outfit im Wert von 500 € gewinnen",
-    "cat": "sport",
-    "value_eur": 500,
-    "deadline": "2026-06-14",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Bergzeit / Ortovox",
-    "description": "Vollständiges Ortovox Bike-Outfit im Wert von über 500 € gewinnen. Kostenlose Teilnahme per Formular auf bergzeit.de oder via Instagram, kein Kauf erforderlich.",
-    "url": "https://www.bergzeit.de/magazin/ortovox-bikeoutfit-bergzeit-glueckspilz/",
     "is_real": 1
   },
   {
@@ -547,6 +525,50 @@
     "sponsor": "BMW Motorrad",
     "description": "Ein BMW Motorrad nach Wahl für die komplette Outdoorsaison (April–September 2026) gewinnen. Kostenlose Online-Teilnahme per Formular.",
     "url": "https://www.gewinnspiele-bmw-motorrad.de/verlosung/gewinnspiel2026/",
+    "is_real": 1
+  },
+  {
+    "title": "AIDA × Salitos: SUP Board, Airwheel & AIDA-Fanpakete gewinnen",
+    "cat": "reise",
+    "value_eur": 800,
+    "deadline": "2026-10-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "AIDA Cruises × Salitos",
+    "description": "Gewinnspielfrage beantworten und SALITOS Kühlschrank, Airwheel, SUP Board oder exklusive AIDA Schiffsbesichtigungs-Tickets gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://aida.de/willkommen/30-jahre/salitos",
+    "is_real": 1
+  },
+  {
+    "title": "Galbani Gusta la Dolce Vita: 3 × Italienreise (4.000 €) gewinnen",
+    "cat": "reise",
+    "value_eur": 4000,
+    "deadline": "2026-10-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Galbani",
+    "description": "Quiz über die Herkunft italienischer Gerichte spielen und 1 von 3 Reisegutscheinen nach Italien (je 4.000 €) gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
+    "url": "https://gustaladolcevita.galbani.com/de/start",
+    "is_real": 1
+  },
+  {
+    "title": "DFB WM-Lizenzgewinnspiel: Täglich exklusive Fan-Pakete gewinnen",
+    "cat": "sport",
+    "value_eur": 200,
+    "deadline": "2026-07-19",
+    "draw_date": "täglich bis 19.07.2026",
+    "sponsor": "Deutscher Fußball-Bund (DFB)",
+    "description": "Einmal anmelden und täglich bis zum WM-Finale am 19.07.2026 in der Verlosung für exklusive DFB-Lizenzpartner Fan-Pakete bleiben. Kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://gewinnspiel.dfb.de/pages/gewinnspiel-dfb-wm-lizenzgewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "DocMorris WM-Gewinnspiel: Apple iPhone 17 Pro gewinnen",
+    "cat": "handy",
+    "value_eur": 1200,
+    "deadline": "2026-07-19",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "DocMorris Online-Apotheke",
+    "description": "Newsletter abonnieren und Apple iPhone 17 Pro sowie 4 exklusive Markenboxen gewinnen. DocMorris WM-Gewinnspiel vom 09.06.–19.07.2026. Kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.docmorris.de/newsletters",
     "is_real": 1
   }
 ]
