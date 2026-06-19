@@ -252,17 +252,6 @@
     "is_real": 1
   },
   {
-    "title": "Runner's World Sommer-Gewinnspiel: 2× 250 € Bargeld gewinnen",
-    "cat": "bargeld",
-    "value_eur": 250,
-    "deadline": "2026-06-19",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Runner's World / Hearst Deutschland",
-    "description": "Gewinnspielfrage beantworten und 2× 250 € Bargeld gewinnen. Kostenlose Teilnahme auf runnersworld.de, kein Kauf erforderlich.",
-    "url": "https://www.runnersworld.de/news/sommer-gewinnspiel-gewinne-250-euro-in-bar/",
-    "is_real": 1
-  },
-  {
     "title": "ACON: ACON X Trampolin (3.999 €) gewinnen – Newsletter-Anmeldung",
     "cat": "sport",
     "value_eur": 3999,
@@ -561,14 +550,58 @@
     "is_real": 1
   },
   {
-    "title": "DocMorris WM-Gewinnspiel: Apple iPhone 17 Pro gewinnen",
-    "cat": "handy",
-    "value_eur": 1200,
-    "deadline": "2026-07-19",
+    "title": "auto motor und sport Tech Award 2026: Kia EV3 Air (36.280 €) gewinnen",
+    "cat": "auto",
+    "value_eur": 36280,
+    "deadline": "2026-07-13",
     "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "DocMorris Online-Apotheke",
-    "description": "Newsletter abonnieren und Apple iPhone 17 Pro sowie 4 exklusive Markenboxen gewinnen. DocMorris WM-Gewinnspiel vom 09.06.–19.07.2026. Kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://www.docmorris.de/newsletters",
+    "sponsor": "auto motor und sport",
+    "description": "Beim auto motor und sport Tech Award 2026 für Technologien & Innovationen im Auto abstimmen und als Hauptpreis einen Kia EV3 Air in Frostblau (36.280 €) gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.auto-motor-und-sport.de/verkehr/tech-award-2025-leserwahl/",
+    "is_real": 1
+  },
+  {
+    "title": "Wüstenrot Modernisierungsgewinnspiel 2026: 15 attraktive Preise gewinnen",
+    "cat": "haus",
+    "value_eur": 250,
+    "deadline": "2026-08-31",
+    "draw_date": "bis 10.09.2026",
+    "sponsor": "Wüstenrot Bausparkasse",
+    "description": "Formular ausfüllen und eines von 15 attraktiven Preisen im Gesamtwert von über 2.500 € rund ums Thema Modernisieren & Wohnen gewinnen. Kostenlose Teilnahme, kein Kauf oder Vertrag erforderlich.",
+    "url": "https://www.wuestenrot.de/modernisieren",
+    "is_real": 1
+  },
+  {
+    "title": "Aktion Mensch: Newsletter abonnieren und 500 € IKEA Gutschein gewinnen",
+    "cat": "gutschein",
+    "value_eur": 500,
+    "deadline": "2026-07-31",
+    "draw_date": "ca. Ende August 2026",
+    "sponsor": "Aktion Mensch e.V.",
+    "description": "Aktion Mensch Newsletter abonnieren und 500 € IKEA Gutschein gewinnen. Aktionszeitraum 16.06.–31.07.2026. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
+    "url": "https://aktion-mensch-newsletter.de/",
+    "is_real": 1
+  },
+  {
+    "title": "Handyhase WM Gewinnspiel 2026: Smartphones & Technikpreise gewinnen",
+    "cat": "handy",
+    "value_eur": 500,
+    "deadline": "2026-07-19",
+    "draw_date": "21.07.2026",
+    "sponsor": "Handyhase.de",
+    "description": "WM-Quizfragen in 5 Runden beantworten und Technik-Preise von MediaMarktSaturn, freenet, SIMon Mobile, LogiTel und Vodafone gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.handyhase.de/gewinnspiele/wm-gewinnspiel-2026/",
+    "is_real": 1
+  },
+  {
+    "title": "PAYBACK WM Tippspiel 2026: Mallorca-Reise, PS5 Pro & 100.000 Punkte gewinnen",
+    "cat": "reise",
+    "value_eur": 2000,
+    "deadline": "2026-07-19",
+    "draw_date": "nach WM-Finale (19.07.2026)",
+    "sponsor": "PAYBACK GmbH",
+    "description": "WM-Spielergebnisse täglich tippen und Rubbellose freischalten: Mallorca Reise, PlayStation 5 Pro, 100.000 PAYBACK Punkte oder Aral-Tankfüllungen gewinnen. Kostenlose Teilnahme per PAYBACK App, kein Kauf nötig.",
+    "url": "https://www.payback.de/payback-wm",
     "is_real": 1
   }
 ]
