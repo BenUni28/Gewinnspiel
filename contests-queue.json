@@ -603,5 +603,60 @@
     "description": "WM-Spielergebnisse täglich tippen und Rubbellose freischalten: Mallorca Reise, PlayStation 5 Pro, 100.000 PAYBACK Punkte oder Aral-Tankfüllungen gewinnen. Kostenlose Teilnahme per PAYBACK App, kein Kauf nötig.",
     "url": "https://www.payback.de/payback-wm",
     "is_real": 1
+  },
+  {
+    "title": "Coppenrath Feingebäck × PAW PATROL: Exklusiver Kinoabend & Tickets gewinnen",
+    "cat": "lebensmittel",
+    "value_eur": 500,
+    "deadline": "2026-07-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Coppenrath Feingebäck",
+    "description": "Privaten Kinoabend für bis zu 30 Personen + 15 × 2 Kinotickets zum PAW PATROL-Film sowie PAW Patrol Merchandise-Pakete gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
+    "url": "https://coppenrath-feingebaeck.de/gewinnspiel_paw_patrol/",
+    "is_real": 1
+  },
+  {
+    "title": "HARIBO & MAOAM WM-Tippspiel 2026: Trikots & Fan-Events gewinnen",
+    "cat": "sport",
+    "value_eur": 300,
+    "deadline": "2026-07-19",
+    "draw_date": "nach jedem Deutschland-Spiel",
+    "sponsor": "HARIBO GmbH",
+    "description": "Kostenlos auf alle WM-Spiele tippen und WM-Trikots, Bubble-Soccer-Event für 10 Freunde oder weitere Fan-Preise gewinnen. Keine Kaufpflicht, keine Registrierungsgebühr.",
+    "url": "https://fussball.haribo.com/",
+    "is_real": 1
+  },
+  {
+    "title": "Sachsen-Anhalt Tourismus: Urlaubsmagazin-Gewinnspiel 2026",
+    "cat": "reise",
+    "value_eur": 500,
+    "deadline": "2026-07-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Sachsen-Anhalt Tourismus / IMG",
+    "description": "Hotelübernachtungen in Sachsen-Anhalt gewinnen – darunter Dorint Halle, Bauhaus Dessau und weitere Naturhotels. Teilnahme per E-Mail-Formular, kostenlos, kein Kauf erforderlich.",
+    "url": "https://sachsen-anhalt-tourismus.de/gewinnspiel2026",
+    "is_real": 1
+  },
+  {
+    "title": "Capri-Sun × Glücksgefühle Festival: 2 × 2 Tickets für das Festival am Hockenheimring",
+    "cat": "sport",
+    "value_eur": 250,
+    "deadline": "2026-07-14",
+    "draw_date": "nach Teilnahmeschluss am 14.07.2026",
+    "sponsor": "Capri-Sun / COSMOPOLITAN",
+    "description": "2 × 2 Festival-Tickets für das Glücksgefühle Festival (3.–6. September, Hockenheimring) gewinnen – 40 Stunden Live-Musik aus Pop, Hip-Hop und EDM. Kostenlose Teilnahme per E-Mail, kein Kauf nötig.",
+    "url": "https://www.capri-sun.com/de-de/kampagnen/festivals/gluecksgefuehle/",
+    "is_real": 1
+  },
+  {
+    "title": "Ahoi-Schiff WM-Tippspiel 2026: Kreuzfahrtgutschein & Tankgutscheine gewinnen",
+    "cat": "reise",
+    "value_eur": 500,
+    "deadline": "2026-07-19",
+    "draw_date": "19.07.2026",
+    "sponsor": "Ahoi Schiff",
+    "description": "WM 2026 kostenlos tippen und Kreuzfahrtgutschein (500 €) + Tankgutschein (100 €) für Platz 1–3 gewinnen. Keine Einsätze, kein Wettbüro. Name eintragen und loslegen.",
+    "url": "https://www.ahoi-schiff.de/aktuelles/wm-tippspiel-2026",
+    "is_real": 1
   }
 ]
