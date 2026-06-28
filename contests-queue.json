@@ -373,17 +373,6 @@
     "is_real": 1
   },
   {
-    "title": "engbers × BOSCH: 20 Power-Tool-Sets für Haus & Garten gewinnen",
-    "cat": "haus",
-    "value_eur": 300,
-    "deadline": "2026-06-24",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "engbers / BOSCH",
-    "description": "Eines von 20 BOSCH Power-Tool-Sets für Haus und Garten gewinnen. Kostenlose Teilnahme über das engbers Gewinnspielformular, kein Kauf erforderlich.",
-    "url": "https://www.engbers.com/landingpage/gewinnspiel",
-    "is_real": 1
-  },
-  {
     "title": "AIDA WM-Tippspiel 2026: AIDA Reisegutschein 1.500 € gewinnen",
     "cat": "reise",
     "value_eur": 1500,
@@ -436,18 +425,6 @@
     "sponsor": "Schwarzwald Tourismus GmbH",
     "description": "Jubiläumsgewinnspiel: 3 DORFURLAUB-Gutscheine im Wert von je 1.100 € für authentischen Schwarzwald-Urlaub gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
     "url": "https://www.schwarzwald-tourismus.info/schwarzwald/dorfurlaub/gewinnspiel",
-    "is_real": 1
-  },
-  {
-    "title": "Explorer Travel: WM 2026 Reisegutscheine gewinnen",
-    "cat": "reise",
-    "value_eur": 500,
-    "icon": "✈️",
-    "deadline": "2026-06-26",
-    "draw_date": "nach Teilnahmeschluss am 26.06.2026",
-    "sponsor": "Explorer Travel GmbH",
-    "description": "1 × 500 €, 1 × 300 € und 1 × 150 € Explorer Reisegutschein gewinnen. Kostenlose Teilnahme, unabhängig von einer Buchung. Einmalige Teilnahme per Formular, kein Kauf nötig.",
-    "url": "https://partner.explorer.de/gewinnspiel-fussball-2026",
     "is_real": 1
   },
   {
@@ -657,6 +634,50 @@
     "sponsor": "Ahoi Schiff",
     "description": "WM 2026 kostenlos tippen und Kreuzfahrtgutschein (500 €) + Tankgutschein (100 €) für Platz 1–3 gewinnen. Keine Einsätze, kein Wettbüro. Name eintragen und loslegen.",
     "url": "https://www.ahoi-schiff.de/aktuelles/wm-tippspiel-2026",
+    "is_real": 1
+  },
+  {
+    "title": "ATU × Spider-Man: 6 Tage New York Reise für 2 gewinnen",
+    "cat": "reise",
+    "value_eur": 5000,
+    "deadline": "2026-08-04",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "ATU Auto-Teile-Unger",
+    "description": "6-tägige New York Reise für 2 Personen (Flug, 5 Nächte Hotel, Stunt Academy, Rooftop Dinner) + 200 Kinogutscheine à 20 € gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
+    "url": "https://www.atu.de/pages/landingpages/vorteilswelt/gewinnspiel.html",
+    "is_real": 1
+  },
+  {
+    "title": "Canyon × ERDINGER: Spectral:ON CF 9 E-MTB (5.000 €) gewinnen",
+    "cat": "sport",
+    "value_eur": 5000,
+    "deadline": "2026-07-16",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Canyon Bikes × ERDINGER Alkoholfrei",
+    "description": "Canyon Spectral:ON CF 9 E-MTB im Wert von ca. 5.000 € + 25 ERDINGER Bier-Pakete + 25 Sportbundles gewinnen. Newsletter-Anmeldung genügt – kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.canyon.com/de-de/raffle/?cid=raffle-winter-giveaway-spectral-on",
+    "is_real": 1
+  },
+  {
+    "title": "ERDINGER WM Tippspiel 2026: Thomas Müller Fan-Paket & Teampreise gewinnen",
+    "cat": "sport",
+    "value_eur": 200,
+    "deadline": "2026-07-19",
+    "draw_date": "nach WM-Finale 19.07.2026",
+    "sponsor": "ERDINGER Weißbräu",
+    "description": "WM 2026 kostenlos tippen und Thomas Müller Fan-Paket (signiertes Trikot, Brille, Ball, Jacke + 12 Flaschen), Beerpong-Tisch oder Fanshop-Gutscheine gewinnen. Kein Kauf nötig.",
+    "url": "https://erdinger-tippspiel.de/",
+    "is_real": 1
+  },
+  {
+    "title": "Kaufland RCS: 2 × Apple iPhone 17 Pro gewinnen",
+    "cat": "handy",
+    "value_eur": 1300,
+    "deadline": "2026-07-08",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Kaufland",
+    "description": "Eines von 2 Apple iPhone 17 Pro gewinnen. Kostenlose Online-Teilnahme per Formular auf der Kaufland Webseite, kein Kauf erforderlich.",
+    "url": "https://filiale.kaufland.de/highlights/gewinnspiele/rcs.html",
     "is_real": 1
   }
 ]
