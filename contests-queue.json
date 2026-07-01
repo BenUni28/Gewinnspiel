@@ -1,17 +1,5 @@
 [
   {
-    "title": "AIDA Monatsgewinnspiel: Kreuzfahrtgutschein 3.500 € gewinnen",
-    "cat": "reise",
-    "value_eur": 3500,
-    "icon": "🚢",
-    "deadline": "2026-06-30",
-    "draw_date": "monatlich am Ende des Monats",
-    "sponsor": "AIDA Cruises",
-    "description": "Jetzt beim AIDA Monatsgewinnspiel mitmachen und einen AIDA Reisegutschein im Wert von 3.500 € gewinnen. Kostenlose Teilnahme.",
-    "url": "https://aida.de/buchung/aktionen/gewinnspiele/monatsgewinnspiel",
-    "is_real": 1
-  },
-  {
     "title": "Tchibo Kaffee-Newsletter: Monatlich 250 € Kaffeegutschein gewinnen",
     "cat": "gutschein",
     "value_eur": 250,
@@ -55,17 +43,6 @@
     "sponsor": "IKEA Deutschland",
     "description": "Kostenloses IKEA Family Konto anlegen und jeden Monat an der Verlosung von 5 × 1.000 € Mietzuschuss teilnehmen. Keine weiteren Bedingungen, kein Kauf nötig.",
     "url": "https://www.ikea.com/de/de/campaigns/gewinne-ein-ikea-family-mietzuschuss-pub147d1b60",
-    "is_real": 1
-  },
-  {
-    "title": "GewinnArena: Apple MacBook Pro 14\" (M3) gewinnen",
-    "cat": "handy",
-    "value_eur": 2000,
-    "icon": "💻",
-    "deadline": "2026-06-30",
-    "sponsor": "GewinnArena / ProSiebenSat.1",
-    "description": "Täglich kostenlos bei der offiziellen ProSieben/SAT.1 Gewinnspiel-Plattform mitmachen und Apple MacBook Pro 14\" (M3) gewinnen. Gratis anmelden und teilnehmen.",
-    "url": "https://www.gewinnarena.de/tv/gewinnarena/gewinnarena-exklusiv/apple-macbook-pro-m3/",
     "is_real": 1
   },
   {
@@ -126,30 +103,6 @@
     "is_real": 1
   },
   {
-    "title": "ROFU Kinderland: LEGOLAND® & Peppa Pig Park Sommer-Gewinnspiel",
-    "cat": "reise",
-    "value_eur": 450,
-    "icon": "🎢",
-    "deadline": "2026-06-30",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "ROFU Kinderland",
-    "description": "Übernachtungspaket oder 4 × 2 Merlin Abenteuer-Pässe für LEGOLAND® Deutschland Resort & Peppa Pig Park gewinnen. Kostenlose Online-Teilnahme, kein Kauf nötig.",
-    "url": "https://www.rofu.de/unternehmen/gewinnspiele/freizeitparks/",
-    "is_real": 1
-  },
-  {
-    "title": "Der kleine ICE: Familienabenteuer im LEGOLAND® Deutschland gewinnen",
-    "cat": "reise",
-    "value_eur": 450,
-    "icon": "🎠",
-    "deadline": "2026-06-30",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Der kleine ICE / Deutsche Bahn",
-    "description": "2-tägigen Familien-Ausflug ins LEGOLAND® Deutschland Resort gewinnen – inkl. 2 Tage Parkeintritt und 1 Übernachtung für 2 Erw. + 2 Kinder. Kostenlos teilnehmen.",
-    "url": "https://www.der-kleine-ice.de/gewinnen/gewinnt-familienabenteuer-im-legoland/",
-    "is_real": 1
-  },
-  {
     "title": "Peter Hahn Summer Journey: Traumreise & Gutscheine gewinnen",
     "cat": "reise",
     "value_eur": 5000,
@@ -195,18 +148,6 @@
     "is_real": 1
   },
   {
-    "title": "Wandermagazin: Abstimmen & Outdoor-Preise gewinnen – Deutschlands Schönster Wanderweg 2026",
-    "cat": "sport",
-    "value_eur": 100,
-    "icon": "🥾",
-    "deadline": "2026-06-30",
-    "draw_date": "monatlich, Schlussziehung 01.07.2026",
-    "sponsor": "Wandermagazin",
-    "description": "Für Deutschlands Schönsten Wanderweg abstimmen und Outdoor-Ausrüstung sowie monatlich einen Jacques' Wein-Depot Gutschein (100 €) gewinnen. Kostenlos, einmalige Abstimmung.",
-    "url": "https://wandermagazin.de/wahlstudio",
-    "is_real": 1
-  },
-  {
     "title": "Globetrotter Fotowettbewerb 2026: Bestes Outdoor-Foto & Gutscheine gewinnen",
     "cat": "sport",
     "value_eur": 100,
@@ -216,17 +157,6 @@
     "sponsor": "Globetrotter",
     "description": "Bestes Outdoor-Foto (Thema: Sternenhimmel) einsenden und Globetrotter Einkaufsgutscheine gewinnen (1. Platz: 100 €, 2. Platz: 75 €, 3. Platz: 50 €). Kostenlose Teilnahme.",
     "url": "https://www.globetrotter.de/magazin/fotowettbewerb/",
-    "is_real": 1
-  },
-  {
-    "title": "SCOTT Sports: SCOTT Addict RC 20 Rennrad (4.999 €) gewinnen",
-    "cat": "sport",
-    "value_eur": 4999,
-    "deadline": "2026-06-30",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "SCOTT Sports",
-    "description": "Leichtes Profi-Rennrad SCOTT Addict RC 20 im Wert von 4.999 € gewinnen. Einfach Formular ausfüllen und absenden – kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://www.scott-sports.com/de/de/addict-rc-20-giveaway",
     "is_real": 1
   },
   {
@@ -249,17 +179,6 @@
     "sponsor": "Lidl",
     "description": "5 Einkaufsgutscheine im Wert von je 1.000 € und eine goldene Grillzange gewinnen. E-Mail-Adresse eintragen und Teilnahmebedingungen akzeptieren – kostenlose Teilnahme, kein Kauf erforderlich.",
     "url": "https://www.lidl.de/gewinnspiele-goldene-grillzange",
-    "is_real": 1
-  },
-  {
-    "title": "ACON: ACON X Trampolin (3.999 €) gewinnen – Newsletter-Anmeldung",
-    "cat": "sport",
-    "value_eur": 3999,
-    "deadline": "2026-06-28",
-    "draw_date": "Ende Juni 2026",
-    "sponsor": "ACON Germany",
-    "description": "ACON Newsletter abonnieren und ACON X Trampolin im Wert von 3.999 € gewinnen. Kostenlose Teilnahme per E-Mail-Anmeldung, kein Kauf erforderlich.",
-    "url": "https://de.acon24.com/pages/acon-newsletter-anmeldung",
     "is_real": 1
   },
   {
@@ -307,17 +226,6 @@
     "is_real": 1
   },
   {
-    "title": "TUI MAGIC LIFE: 7 Nächte Cluburlaub in der Türkei für 2 gewinnen",
-    "cat": "reise",
-    "value_eur": 1500,
-    "deadline": "2026-06-30",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "TUI MAGIC LIFE",
-    "description": "7 Nächte All Inclusive im TUI MAGIC LIFE Jacaranda an der türkischen Riviera für 2 Personen (Winter 2026/27) gewinnen. Kostenlose Teilnahme per Formular, kein Kauf nötig.",
-    "url": "https://www.magiclife.com/de/de/gewinnspiel-elan/",
-    "is_real": 1
-  },
-  {
     "title": "Müller Drogerie Lifestyle: 2 Nächte Via Salina Wellnesshotel gewinnen",
     "cat": "reise",
     "value_eur": 1250,
@@ -326,17 +234,6 @@
     "sponsor": "Müller Drogerie",
     "description": "2 Nächte im Via Salina Wellnesshotel im Tannheimer Tal für 2 Personen plus 5 × Frank-Juice Pakete (je 150 €) gewinnen. Lösungswort im Online-Formular eintragen – kostenlose Teilnahme.",
     "url": "https://www.mueller.de/aktuelles/gewinnspiele/gewinnspiel-lifestyle/",
-    "is_real": 1
-  },
-  {
-    "title": "Niederegger WM-Gewinnspiel: 111 exklusive WM-T-Shirts gewinnen",
-    "cat": "mode",
-    "value_eur": 25,
-    "deadline": "2026-06-30",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Niederegger Lübeck",
-    "description": "111 exklusive Niederegger WM-T-Shirts verlosen. Kostenlose Online-Teilnahme per Formular, kein Kauf erforderlich.",
-    "url": "https://www.niederegger.de/wm-gewinnspiel/",
     "is_real": 1
   },
   {
@@ -395,28 +292,6 @@
     "is_real": 1
   },
   {
-    "title": "Hugendubel: 4 Nächte MAREMÜRITZ Yachthafen Resort für 2 Personen",
-    "cat": "reise",
-    "value_eur": 800,
-    "deadline": "2026-06-30",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Hugendubel / MAREMÜRITZ Yachthafen Resort",
-    "description": "Hugendubel Newsletter abonnieren und 4 Nächte inkl. Halbpension im MAREMÜRITZ Yachthafen Resort an der Mecklenburgischen Seenplatte für 2 Personen gewinnen. Kostenlos.",
-    "url": "https://www.hugendubel.de/de/category/101640/gewinnspiel.html",
-    "is_real": 1
-  },
-  {
-    "title": "emilio adani: Hosen-Flatrate – 6 Hosen nach Wahl in 12 Monaten",
-    "cat": "mode",
-    "value_eur": 480,
-    "deadline": "2026-06-28",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "emilio adani",
-    "description": "Hosen-Flatrate gewinnen: 6 Hosen in 12 Monaten nach Wahl aus dem emilio adani Onlineshop. Formular ausfüllen – kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://www.emilioadani.com/landingpage/gewinnspiel",
-    "is_real": 1
-  },
-  {
     "title": "Schwarzwald Tourismus GmbH: 3× DORFURLAUB-Gutschein (je 1.100 €) gewinnen",
     "cat": "reise",
     "value_eur": 1100,
@@ -425,17 +300,6 @@
     "sponsor": "Schwarzwald Tourismus GmbH",
     "description": "Jubiläumsgewinnspiel: 3 DORFURLAUB-Gutscheine im Wert von je 1.100 € für authentischen Schwarzwald-Urlaub gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
     "url": "https://www.schwarzwald-tourismus.info/schwarzwald/dorfurlaub/gewinnspiel",
-    "is_real": 1
-  },
-  {
-    "title": "EDEKA & Ferrero – Mit dem Herzen dabei: VW ID.7 & Sofortgewinne",
-    "cat": "lebensmittel",
-    "value_eur": 40000,
-    "deadline": "2026-06-28",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "EDEKA & Ferrero",
-    "description": "VW ID.7 als Hauptpreis + täglich Sofortgewinne (Reisegutscheine, TVs, DFB-Trikots). E-Mail-Anmeldung, kostenlos, täglich teilnehmen möglich.",
-    "url": "https://www.edeka-herzen.de/",
     "is_real": 1
   },
   {
@@ -678,6 +542,73 @@
     "sponsor": "Kaufland",
     "description": "Eines von 2 Apple iPhone 17 Pro gewinnen. Kostenlose Online-Teilnahme per Formular auf der Kaufland Webseite, kein Kauf erforderlich.",
     "url": "https://filiale.kaufland.de/highlights/gewinnspiele/rcs.html",
+    "is_real": 1
+  },
+  {
+    "title": "AIDA Monatsgewinnspiel Juli: 5.000 € AIDA Reisegutschein gewinnen",
+    "cat": "reise",
+    "value_eur": 5000,
+    "icon": "🚢",
+    "deadline": "2026-07-19",
+    "draw_date": "19.07.2026",
+    "sponsor": "AIDA Cruises",
+    "description": "Gewinnspielfrage beantworten und AIDA Reisegutschein im Wert von 5.000 € gewinnen. Monatlich neue Runde – Juli-Teilnahme bis 19.07.2026. Kostenlose Teilnahme, kein Kauf nötig.",
+    "url": "https://aida.de/buchung/aktionen/gewinnspiele/monatsgewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "REWE × Bonduelle: 10 Pizzaöfen & 10 Elektrogrills gewinnen",
+    "cat": "lebensmittel",
+    "value_eur": 150,
+    "deadline": "2026-07-12",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "REWE / Bonduelle",
+    "description": "Gewinnspielfrage beantworten und einen von 10 Tefal Pizzaöfen oder einen von 10 Landmann Elektrogrills gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
+    "url": "https://www.rewe.de/aktionen/gewinnspiele/bonduelle/",
+    "is_real": 1
+  },
+  {
+    "title": "Mountain Bike Holidays: Conway WME 3.9 MTB + Bikeurlaub für 2 gewinnen",
+    "cat": "sport",
+    "value_eur": 3000,
+    "deadline": "2026-07-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Mountain Bike Holidays",
+    "description": "Conway WME 3.9 Fully-MTB + 2 Nächte Bikeurlaub für 2 Personen + Uebler Fahrradträger + Schöffel Outfits + Helme & Protektoren gewinnen. Newsletter-Anmeldung + Frage beantworten – kostenlos.",
+    "url": "https://gewinnspiel.bike-holidays.com/",
+    "is_real": 1
+  },
+  {
+    "title": "BMW BERLIN-MARATHON 2026: VIP-Paket für 2 Personen gewinnen",
+    "cat": "sport",
+    "value_eur": 500,
+    "deadline": "2026-08-14",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "BMW",
+    "description": "Eines von 2 VIP-Paketen für den BMW BERLIN-MARATHON im September 2026 gewinnen – Zuschauer- oder Athleten-Erlebnis exklusiv. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
+    "url": "https://www.bmw.de/de/mehr-bmw/landingpage/bmw-berlin-marathon-2026.html",
+    "is_real": 1
+  },
+  {
+    "title": "trendtours: 6 Tage Busreise Costa Blanca & Valencia für 2 Personen gewinnen",
+    "cat": "reise",
+    "value_eur": 900,
+    "deadline": "2026-08-09",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "trendtours Touristik",
+    "description": "Kostenlosen trendtours Newsletter abonnieren und 6-tägige Busreise für 2 Personen nach Costa Blanca & Valencia gewinnen. Gratis Teilnahme per E-Mail-Anmeldung, kein Kauf nötig.",
+    "url": "https://www.trendtours.de/gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "Vodafone: Samsung Galaxy Z Flip7 oder Z Fold7 gewinnen",
+    "cat": "handy",
+    "value_eur": 1100,
+    "deadline": "2026-07-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Vodafone Deutschland",
+    "description": "Vodafone Newsletter abonnieren und Samsung Galaxy Z Flip7 oder Z Fold7 Falt-Smartphone gewinnen. Kostenlose Teilnahme per E-Mail-Anmeldung, kein Kauf oder Vertrag erforderlich.",
+    "url": "https://www.vodafone.de/privat/vos-gewinnspiel-galaxy.html",
     "is_real": 1
   }
 ]
