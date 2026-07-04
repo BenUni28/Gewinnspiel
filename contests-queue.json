@@ -46,18 +46,6 @@
     "is_real": 1
   },
   {
-    "title": "ADAC Cyclassics 2026: 10 Startplätze gewinnen",
-    "cat": "sport",
-    "value_eur": 100,
-    "icon": "🏅",
-    "deadline": "2026-07-01",
-    "draw_date": "01.07.2026",
-    "sponsor": "ADAC Hansa",
-    "description": "10 Startplätze für die ADAC Cyclassics 2026 (16. August, Hamburg) gewinnen. Kontaktdaten eintragen und mitmachen – kostenlose Teilnahme, kein Kauf nötig.",
-    "url": "https://www.adac.de/der-adac/regionalclubs/hansa/reisen-freizeit/gewinnspiel-cyclassics/",
-    "is_real": 1
-  },
-  {
     "title": "ADAC Newsletter: Elektrischen Mercedes (53.000 €) oder Reisegutscheine gewinnen",
     "cat": "auto",
     "value_eur": 53000,
@@ -609,6 +597,50 @@
     "sponsor": "Vodafone Deutschland",
     "description": "Vodafone Newsletter abonnieren und Samsung Galaxy Z Flip7 oder Z Fold7 Falt-Smartphone gewinnen. Kostenlose Teilnahme per E-Mail-Anmeldung, kein Kauf oder Vertrag erforderlich.",
     "url": "https://www.vodafone.de/privat/vos-gewinnspiel-galaxy.html",
+    "is_real": 1
+  },
+  {
+    "title": "Mannheimer Morgen 80-Jahre Jubiläum: 5.000 € Reisegutschein oder E-Bike gewinnen",
+    "cat": "reise",
+    "value_eur": 5000,
+    "deadline": "2026-12-31",
+    "draw_date": "04.01.2027",
+    "sponsor": "Mannheimer Morgen",
+    "description": "5.000 € FN Reisen-Gutschein, E-Bike im Wert von 3.222 € (Fahrrad Stadler Mannheim) oder Tech-Paket (1.000 €) gewinnen. Online-Formular ausfüllen – kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.mannheimer-morgen.de/jubi-gewinnspiel.html",
+    "is_real": 1
+  },
+  {
+    "title": "Dr. Oetker Götterspeise: 10× Nintendo Switch 2 gewinnen",
+    "cat": "handy",
+    "value_eur": 450,
+    "deadline": "2026-09-30",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Dr. Oetker",
+    "description": "Kurze Umfrage (5 Fragen) zur Götterspeise ausfüllen und eine von 10 Nintendo Switch 2 Konsolen gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.oetker.de/goetterspeise-gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "Jolie × Don Papa: 4 Open Beatz Festival-Tickets gewinnen",
+    "cat": "sport",
+    "value_eur": 400,
+    "deadline": "2026-07-20",
+    "draw_date": "vor dem Festival (24.–26. Juli 2026)",
+    "sponsor": "Jolie / Don Papa Rum",
+    "description": "4 Full Weekend Tickets für das Open Beatz Festival (24.–26. Juli 2026, Herzogenaurach) gewinnen. Einfach Formular auf Jolie.de ausfüllen – kostenlose Teilnahme.",
+    "url": "https://www.jolie.de/gewinnspiele/open-beatz-2026-gewinne-mit-don-papa-jolie-4-full-weekend-tickets-fuer-das-elektronische-musikfestival-219127.html",
+    "is_real": 1
+  },
+  {
+    "title": "Melitta WM-Gewinnspiel: Latticia OT Kaffeevollautomat gewinnen",
+    "cat": "haus",
+    "value_eur": 500,
+    "deadline": "2026-07-14",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Melitta",
+    "description": "Gewinnspielfrage beantworten und Melitta Latticia® OT Kaffeevollautomat + 1 kg Kaffeebohnen gewinnen. Formular ausfüllen – kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.melitta.de/teilnahme",
     "is_real": 1
   }
 ]
