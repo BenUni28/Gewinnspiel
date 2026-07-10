@@ -86,7 +86,7 @@
     "deadline": "2026-07-31",
     "draw_date": "nach Teilnahmeschluss",
     "sponsor": "IBIS Backwaren",
-    "description": "Anlässlich der Fußball-WM 2026 einen hochwertigen Weber Grill (Hauptpreis) oder eines von 30 IBIS Produktpaketen gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
+    "description": "Anlässlich der Fußball-WM 2026 einen hochwertigen Weber Grill (Hauptgewinn) oder eines von 30 IBIS Produktpaketen gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
     "url": "https://www.ibis-backwaren.de/wm26/",
     "is_real": 1
   },
@@ -214,28 +214,6 @@
     "is_real": 1
   },
   {
-    "title": "Müller Drogerie Lifestyle: 2 Nächte Via Salina Wellnesshotel gewinnen",
-    "cat": "reise",
-    "value_eur": 1250,
-    "deadline": "2026-07-09",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Müller Drogerie",
-    "description": "2 Nächte im Via Salina Wellnesshotel im Tannheimer Tal für 2 Personen plus 5 × Frank-Juice Pakete (je 150 €) gewinnen. Lösungswort im Online-Formular eintragen – kostenlose Teilnahme.",
-    "url": "https://www.mueller.de/aktuelles/gewinnspiele/gewinnspiel-lifestyle/",
-    "is_real": 1
-  },
-  {
-    "title": "REWE × Ferrero: MINI Cooper C Cabrio & 50.000 Sofortgewinne",
-    "cat": "auto",
-    "value_eur": 25000,
-    "deadline": "2026-07-05",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "REWE / Ferrero",
-    "description": "E-Mail eingeben, Los freirubbeln – sofort Samsung TV (55\"), Soundbar oder Fan-Artikel gewinnen. Hauptgewinn: 1 × MINI Cooper C Cabrio. Kostenlose Teilnahme, kein Kauf nötig.",
-    "url": "https://www.gemeinsam-jubeln-rewe.de/",
-    "is_real": 1
-  },
-  {
     "title": "Seeberger WM-Promo: Samsung Heimkino-Beamer gewinnen",
     "cat": "handy",
     "value_eur": 800,
@@ -321,17 +299,6 @@
     "sponsor": "billiger.de",
     "description": "11 Einkaufsgutscheine à 250 € (Shell, Amazon, MediaMarkt, Expedia oder Lidl) sowie Nintendo Switch 2 + EA Sports FC 26 gewinnen. Kostenlose Teilnahme, kein Kauf nötig.",
     "url": "https://www.solutions.billiger.de/de/lp/WM-Gewinnspiel.php",
-    "is_real": 1
-  },
-  {
-    "title": "Knorr & Philips: 150× Airfryer 5000 Series gewinnen",
-    "cat": "haus",
-    "value_eur": 200,
-    "deadline": "2026-07-05",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Knorr (Unilever)",
-    "description": "150 Philips Airfryer 5000 Series Megabasket gewinnen – sehr hohe Gewinnchance. Kostenlos online teilnehmen, kein Kauf erforderlich.",
-    "url": "https://www.knorr.com/de/airfryer-gewinnspiel.html",
     "is_real": 1
   },
   {
@@ -522,17 +489,6 @@
     "is_real": 1
   },
   {
-    "title": "Kaufland RCS: 2 × Apple iPhone 17 Pro gewinnen",
-    "cat": "handy",
-    "value_eur": 1300,
-    "deadline": "2026-07-08",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Kaufland",
-    "description": "Eines von 2 Apple iPhone 17 Pro gewinnen. Kostenlose Online-Teilnahme per Formular auf der Kaufland Webseite, kein Kauf erforderlich.",
-    "url": "https://filiale.kaufland.de/highlights/gewinnspiele/rcs.html",
-    "is_real": 1
-  },
-  {
     "title": "AIDA Monatsgewinnspiel Juli: 5.000 € AIDA Reisegutschein gewinnen",
     "cat": "reise",
     "value_eur": 5000,
@@ -641,6 +597,50 @@
     "sponsor": "Melitta",
     "description": "Gewinnspielfrage beantworten und Melitta Latticia® OT Kaffeevollautomat + 1 kg Kaffeebohnen gewinnen. Formular ausfüllen – kostenlose Teilnahme, kein Kauf erforderlich.",
     "url": "https://www.melitta.de/teilnahme",
+    "is_real": 1
+  },
+  {
+    "title": "Starmobile WM Gewinnspiel 2026: Samsung TV 65\" & Motorola razr 70 Ultra gewinnen",
+    "cat": "handy",
+    "value_eur": 800,
+    "deadline": "2026-07-18",
+    "draw_date": "nach jedem Turnierrundenende bis 18.07.2026",
+    "sponsor": "starmobile.de",
+    "description": "33 Preise im Gesamtwert von über 4.500 € verlosen: Samsung Smart-TV 65\", Motorola razr 70 Ultra, Amazon- und Shell-Gutscheine, Smartwatches. Tippspiel ausfüllen – kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://starmobile.de/gewinnspiel-fussball-wm-2026",
+    "is_real": 1
+  },
+  {
+    "title": "HiPP Kinderhotel Gewinnspiel: 2× Familienurlaub All-inclusive gewinnen",
+    "cat": "reise",
+    "value_eur": 2000,
+    "deadline": "2026-10-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "HiPP",
+    "description": "2 × 5 Tage Familienurlaub All-inclusive in einem Premium-Kinderhotel für 2 Erwachsene + 2 Kinder (bis 12 J.) gewinnen. Kostenlose Online-Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.hipp.de/beikost/aktuelles/gewinnspiel-kinderhotels/",
+    "is_real": 1
+  },
+  {
+    "title": "medpex WM-Gewinnspiel: iPhone 17 Pro gewinnen",
+    "cat": "handy",
+    "value_eur": 1200,
+    "deadline": "2026-07-19",
+    "draw_date": "nach Teilnahmeschluss am 19.07.2026",
+    "sponsor": "medpex Versandapotheke",
+    "description": "Newsletter abonnieren und Apple iPhone 17 Pro (256 GB) + 4 Beautyboxen mit Markenprodukten gewinnen. Kostenlose Teilnahme per Formular oder Newsletter-Anmeldung, kein Kauf erforderlich.",
+    "url": "https://www.medpex.de/lp/medpex-11",
+    "is_real": 1
+  },
+  {
+    "title": "Tchibo Glücksrad: täglich 500 € Reisegutschein, Kaffeevollautomat & Gutscheinkarten gewinnen",
+    "cat": "gutschein",
+    "value_eur": 500,
+    "deadline": "2026-09-30",
+    "draw_date": "täglich",
+    "sponsor": "Tchibo",
+    "description": "Täglich am Tchibo Glücksrad drehen und 500 € Reisegutschein, Kaffeevollautomat Esperto mini oder 300 € Tchibo-Gutscheinkarte gewinnen. Newsletter-Anmeldung genügt – kostenlose Teilnahme, kein Kauf nötig.",
+    "url": "https://gewinnen.tchibo.de/",
     "is_real": 1
   }
 ]
