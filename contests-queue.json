@@ -148,17 +148,6 @@
     "is_real": 1
   },
   {
-    "title": "Lidl: 5× 1.000 € Einkaufsgutschein + Goldene Grillzange gewinnen",
-    "cat": "gutschein",
-    "value_eur": 1000,
-    "deadline": "2026-07-19",
-    "draw_date": "bis 29.07.2026",
-    "sponsor": "Lidl",
-    "description": "5 Einkaufsgutscheine im Wert von je 1.000 € und eine goldene Grillzange gewinnen. E-Mail-Adresse eintragen und Teilnahmebedingungen akzeptieren – kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://www.lidl.de/gewinnspiele-goldene-grillzange",
-    "is_real": 1
-  },
-  {
     "title": "Schwarzwald Tourismus: Monatlich 2 Nächte Hotel im Schwarzwald gewinnen",
     "cat": "reise",
     "value_eur": 300,
@@ -225,17 +214,6 @@
     "is_real": 1
   },
   {
-    "title": "AIDA WM-Tippspiel 2026: AIDA Reisegutschein 1.500 € gewinnen",
-    "cat": "reise",
-    "value_eur": 1500,
-    "deadline": "2026-07-19",
-    "draw_date": "nach WM-Finale 19.07.2026",
-    "sponsor": "AIDA Cruises",
-    "description": "WM 2026 tippen und AIDA Reisegutschein im Wert von 1.500 € oder eines von 10 AIDA Überraschungspaketen gewinnen. Kostenlose Teilnahme am Tippspiel, kein Kauf erforderlich.",
-    "url": "https://aida.wm-tippspiel.de/",
-    "is_real": 1
-  },
-  {
     "title": "Cellini Caffè × EDEKA: Vespa Primavera Elettrica gewinnen",
     "cat": "auto",
     "value_eur": 5200,
@@ -266,17 +244,6 @@
     "sponsor": "GLOBUS Markthallen",
     "description": "Wöchentlich das GLOBUS Memory-Spiel lösen und 1 von 5 GLOBUS-Einkaufsgutscheinen à 100 € gewinnen. Kostenlos, einmal pro Woche mitspielen.",
     "url": "https://www.globus.de/gewinnspiel/memospiel.php",
-    "is_real": 1
-  },
-  {
-    "title": "billiger.de WM-Gewinnspiel: Gutscheine & Nintendo Switch 2 gewinnen",
-    "cat": "gutschein",
-    "value_eur": 250,
-    "deadline": "2026-07-19",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "billiger.de",
-    "description": "11 Einkaufsgutscheine à 250 € (Shell, Amazon, MediaMarkt, Expedia oder Lidl) sowie Nintendo Switch 2 + EA Sports FC 26 gewinnen. Kostenlose Teilnahme, kein Kauf nötig.",
-    "url": "https://www.solutions.billiger.de/de/lp/WM-Gewinnspiel.php",
     "is_real": 1
   },
   {
@@ -313,17 +280,6 @@
     "is_real": 1
   },
   {
-    "title": "DFB WM-Lizenzgewinnspiel: Täglich exklusive Fan-Pakete gewinnen",
-    "cat": "sport",
-    "value_eur": 200,
-    "deadline": "2026-07-19",
-    "draw_date": "täglich bis 19.07.2026",
-    "sponsor": "Deutscher Fußball-Bund (DFB)",
-    "description": "Einmal anmelden und täglich bis zum WM-Finale am 19.07.2026 in der Verlosung für exklusive DFB-Lizenzpartner Fan-Pakete bleiben. Kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://gewinnspiel.dfb.de/pages/gewinnspiel-dfb-wm-lizenzgewinnspiel",
-    "is_real": 1
-  },
-  {
     "title": "Wüstenrot Modernisierungsgewinnspiel 2026: 15 attraktive Preise gewinnen",
     "cat": "haus",
     "value_eur": 250,
@@ -346,28 +302,6 @@
     "is_real": 1
   },
   {
-    "title": "Handyhase WM Gewinnspiel 2026: Smartphones & Technikpreise gewinnen",
-    "cat": "handy",
-    "value_eur": 500,
-    "deadline": "2026-07-19",
-    "draw_date": "21.07.2026",
-    "sponsor": "Handyhase.de",
-    "description": "WM-Quizfragen in 5 Runden beantworten und Technik-Preise von MediaMarktSaturn, freenet, SIMon Mobile, LogiTel und Vodafone gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://www.handyhase.de/gewinnspiele/wm-gewinnspiel-2026/",
-    "is_real": 1
-  },
-  {
-    "title": "PAYBACK WM Tippspiel 2026: Mallorca-Reise, PS5 Pro & 100.000 Punkte gewinnen",
-    "cat": "reise",
-    "value_eur": 2000,
-    "deadline": "2026-07-19",
-    "draw_date": "nach WM-Finale (19.07.2026)",
-    "sponsor": "PAYBACK GmbH",
-    "description": "WM-Spielergebnisse täglich tippen und Rubbellose freischalten: Mallorca Reise, PlayStation 5 Pro, 100.000 PAYBACK Punkte oder Aral-Tankfüllungen gewinnen. Kostenlose Teilnahme per PAYBACK App, kein Kauf nötig.",
-    "url": "https://www.payback.de/payback-wm",
-    "is_real": 1
-  },
-  {
     "title": "Coppenrath Feingebäck × PAW PATROL: Exklusiver Kinoabend & Tickets gewinnen",
     "cat": "lebensmittel",
     "value_eur": 500,
@@ -376,17 +310,6 @@
     "sponsor": "Coppenrath Feingebäck",
     "description": "Privaten Kinoabend für bis zu 30 Personen + 15 × 2 Kinotickets zum PAW PATROL-Film sowie PAW Patrol Merchandise-Pakete gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
     "url": "https://coppenrath-feingebaeck.de/gewinnspiel_paw_patrol/",
-    "is_real": 1
-  },
-  {
-    "title": "HARIBO & MAOAM WM-Tippspiel 2026: Trikots & Fan-Events gewinnen",
-    "cat": "sport",
-    "value_eur": 300,
-    "deadline": "2026-07-19",
-    "draw_date": "nach jedem Deutschland-Spiel",
-    "sponsor": "HARIBO GmbH",
-    "description": "Kostenlos auf alle WM-Spiele tippen und WM-Trikots, Bubble-Soccer-Event für 10 Freunde oder weitere Fan-Preise gewinnen. Keine Kaufpflicht, keine Registrierungsgebühr.",
-    "url": "https://fussball.haribo.com/",
     "is_real": 1
   },
   {
@@ -401,17 +324,6 @@
     "is_real": 1
   },
   {
-    "title": "Ahoi-Schiff WM-Tippspiel 2026: Kreuzfahrtgutschein & Tankgutscheine gewinnen",
-    "cat": "reise",
-    "value_eur": 500,
-    "deadline": "2026-07-19",
-    "draw_date": "19.07.2026",
-    "sponsor": "Ahoi Schiff",
-    "description": "WM 2026 kostenlos tippen und Kreuzfahrtgutschein (500 €) + Tankgutschein (100 €) für Platz 1–3 gewinnen. Keine Einsätze, kein Wettbüro. Name eintragen und loslegen.",
-    "url": "https://www.ahoi-schiff.de/aktuelles/wm-tippspiel-2026",
-    "is_real": 1
-  },
-  {
     "title": "ATU × Spider-Man: 6 Tage New York Reise für 2 gewinnen",
     "cat": "reise",
     "value_eur": 5000,
@@ -419,41 +331,7 @@
     "draw_date": "nach Teilnahmeschluss",
     "sponsor": "ATU Auto-Teile-Unger",
     "description": "6-tägige New York Reise für 2 Personen (Flug, 5 Nächte Hotel, Stunt Academy, Rooftop Dinner) + 200 Kinogutscheine à 20 € gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
-    "url": "https://www.atu.de/pages/landingpages/vorteilswelt/gewinnspiel.html",
-    "is_real": 1
-  },
-  {
-    "title": "Canyon × ERDINGER: Spectral:ON CF 9 E-MTB (5.000 €) gewinnen",
-    "cat": "sport",
-    "value_eur": 5000,
-    "deadline": "2026-07-16",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Canyon Bikes × ERDINGER Alkoholfrei",
-    "description": "Canyon Spectral:ON CF 9 E-MTB im Wert von ca. 5.000 € + 25 ERDINGER Bier-Pakete + 25 Sportbundles gewinnen. Newsletter-Anmeldung genügt – kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://www.canyon.com/de-de/raffle/?cid=raffle-winter-giveaway-spectral-on",
-    "is_real": 1
-  },
-  {
-    "title": "ERDINGER WM Tippspiel 2026: Thomas Müller Fan-Paket & Teampreise gewinnen",
-    "cat": "sport",
-    "value_eur": 200,
-    "deadline": "2026-07-19",
-    "draw_date": "nach WM-Finale 19.07.2026",
-    "sponsor": "ERDINGER Weißbräu",
-    "description": "WM 2026 kostenlos tippen und Thomas Müller Fan-Paket (signiertes Trikot, Brille, Ball, Jacke + 12 Flaschen), Beerpong-Tisch oder Fanshop-Gutscheine gewinnen. Kein Kauf nötig.",
-    "url": "https://erdinger-tippspiel.de/",
-    "is_real": 1
-  },
-  {
-    "title": "AIDA Monatsgewinnspiel Juli: 5.000 € AIDA Reisegutschein gewinnen",
-    "cat": "reise",
-    "value_eur": 5000,
-    "icon": "🚢",
-    "deadline": "2026-07-19",
-    "draw_date": "19.07.2026",
-    "sponsor": "AIDA Cruises",
-    "description": "Gewinnspielfrage beantworten und AIDA Reisegutschein im Wert von 5.000 € gewinnen. Monatlich neue Runde – Juli-Teilnahme bis 19.07.2026. Kostenlose Teilnahme, kein Kauf nötig.",
-    "url": "https://aida.de/buchung/aktionen/gewinnspiele/monatsgewinnspiel",
+    "url": "https://www.atu.de/pages/gewinnspiel/spiderman-gewinnspiel.html",
     "is_real": 1
   },
   {
@@ -534,17 +412,6 @@
     "is_real": 1
   },
   {
-    "title": "Starmobile WM Gewinnspiel 2026: Samsung TV 65\" & Motorola razr 70 Ultra gewinnen",
-    "cat": "handy",
-    "value_eur": 800,
-    "deadline": "2026-07-18",
-    "draw_date": "nach jedem Turnierrundenende bis 18.07.2026",
-    "sponsor": "starmobile.de",
-    "description": "33 Preise im Gesamtwert von über 4.500 € verlosen: Samsung Smart-TV 65\", Motorola razr 70 Ultra, Amazon- und Shell-Gutscheine, Smartwatches. Tippspiel ausfüllen – kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://starmobile.de/gewinnspiel-fussball-wm-2026",
-    "is_real": 1
-  },
-  {
     "title": "HiPP Kinderhotel Gewinnspiel: 2× Familienurlaub All-inclusive gewinnen",
     "cat": "reise",
     "value_eur": 2000,
@@ -553,17 +420,6 @@
     "sponsor": "HiPP",
     "description": "2 × 5 Tage Familienurlaub All-inclusive in einem Premium-Kinderhotel für 2 Erwachsene + 2 Kinder (bis 12 J.) gewinnen. Kostenlose Online-Teilnahme, kein Kauf erforderlich.",
     "url": "https://www.hipp.de/beikost/aktuelles/gewinnspiel-kinderhotels/",
-    "is_real": 1
-  },
-  {
-    "title": "medpex WM-Gewinnspiel: iPhone 17 Pro gewinnen",
-    "cat": "handy",
-    "value_eur": 1200,
-    "deadline": "2026-07-19",
-    "draw_date": "nach Teilnahmeschluss am 19.07.2026",
-    "sponsor": "medpex Versandapotheke",
-    "description": "Newsletter abonnieren und Apple iPhone 17 Pro (256 GB) + 4 Beautyboxen mit Markenprodukten gewinnen. Kostenlose Teilnahme per Formular oder Newsletter-Anmeldung, kein Kauf erforderlich.",
-    "url": "https://www.medpex.de/lp/medpex-11",
     "is_real": 1
   },
   {
@@ -641,6 +497,72 @@
     "sponsor": "EAT SMARTER / ELO / GEFU / Severin / MANI",
     "description": "Muscheln in der Bildgalerie zählen und hochwertige Küchenhelfer von ELO, GEFU und Severin sowie griechisches Olivenöl von MANI Bläuel gewinnen. Kostenlose Teilnahme per Formular.",
     "url": "https://eatsmarter.de/gewinnspiele/unser-grosses-sommergewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "nimm2 Sommergewinnspiel – Der Sommer lacht: täglich Sofortgewinne",
+    "cat": "lebensmittel",
+    "value_eur": null,
+    "deadline": "2026-08-30",
+    "draw_date": "Sofortgewinn täglich",
+    "sponsor": "Storck / nimm2",
+    "description": "Täglich 2 von 12 Feldern aufdecken und sofort gewinnen: Produktpakete, Koffer, Strandtaschen, Luftmatratzen u.v.m. Kostenlos, ohne Anmeldung.",
+    "url": "https://www.nimm2.de/de/der-sommer-lacht",
+    "is_real": 1
+  },
+  {
+    "title": "AIDA Monatsgewinnspiel August: 1.500 € Reisegutschein gewinnen",
+    "cat": "reise",
+    "value_eur": 1500,
+    "deadline": "2026-07-31",
+    "draw_date": "August 2026",
+    "sponsor": "AIDA Cruises",
+    "description": "Monatlich einen AIDA Reisegutschein im Wert von 1.500 € gewinnen. Kostenlose Teilnahme per Online-Formular, kein Kauf nötig.",
+    "url": "https://aida.de/buchung/aktionen/gewinnspiele/monatsgewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "ÖKO-TEST Sommergewinnspiel 2026: Nachhaltige Produkte gewinnen",
+    "cat": "beauty",
+    "value_eur": null,
+    "deadline": "2026-07-26",
+    "draw_date": "Anfang August 2026",
+    "sponsor": "ÖKO-TEST",
+    "description": "Nachhaltige Produkte von geprüften Marken gewinnen, z. B. Hautpflege und Haushaltshilfen. Kostenlos per Online-Formular mitmachen – kein Kauf erforderlich.",
+    "url": "https://oekotest-ag.de/gewinnspiel/oeko-test/sommer-gewinnspiel-nachhaltige-produkte-gewinnen/",
+    "is_real": 1
+  },
+  {
+    "title": "schauinsland-reisen: 5× Koffer voller Glück – All-Inclusive-Paket (je 2.000 €)",
+    "cat": "reise",
+    "value_eur": 2000,
+    "deadline": "2026-07-26",
+    "draw_date": "03.08.2026",
+    "sponsor": "schauinsland-reisen",
+    "description": "5× Reisepaket (je 2.000 €): 7 Nächte All Inclusive im R2 Hotel für 2 Personen inkl. Koffer & Reise-Goodies gewinnen. Kostenlos per Newsletter-Anmeldung + Packlisten-Spiel.",
+    "url": "https://www.schauinsland-reisen.de/gewinnspiele/koffer-voller-glueck",
+    "is_real": 1
+  },
+  {
+    "title": "TUI Reisegutschein Gewinnspiel: 16× 1.000 € gewinnen",
+    "cat": "reise",
+    "value_eur": 1000,
+    "deadline": "2026-08-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "TUI",
+    "description": "16× TUI Reisegutschein im Wert von je 1.000 € gewinnen. Kostenlose Online-Registrierung und kurze Umfrage ausfüllen – kein Kauf nötig.",
+    "url": "https://www.tui.com/gewinnspiel/",
+    "is_real": 1
+  },
+  {
+    "title": "Europa-Park Großes Rulantica Gewinnspiel: Übernachtung & Tageskarten",
+    "cat": "reise",
+    "value_eur": null,
+    "deadline": "2026-07-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Europa-Park / Rulantica",
+    "description": "Übernachtung für 4 Personen im Hotel Krønasår inkl. Rulantica-Tageskarten gewinnen + 10× 2 Rulantica-Tageskarten. Kostenlos per Formular, kein Kauf erforderlich.",
+    "url": "https://www.europapark.de/de/rulantica/grosses-rulantica-gewinnspiel",
     "is_real": 1
   }
 ]
