@@ -586,5 +586,49 @@
     "description": "Einen von 70 dm-Adventskalendern gewinnen – u.a. Balea, Alverde, Ebelin Kids und Erwachsene. Mit kostenlosem Mein dm-Konto anmelden und Wunsch-Adventskalender angeben. Kein Kauf erforderlich.",
     "url": "https://www.dm.de/neu/gewinnspiele/adventskalender-gewinnspiel-2948470",
     "is_real": 1
+  },
+  {
+    "title": "ESSEN & TRINKEN × Weber: Gasgrill Spirit EPX-435R Stealth Edition gewinnen",
+    "cat": "haus",
+    "value_eur": 999,
+    "deadline": "2026-07-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "ESSEN & TRINKEN / Weber-Stephen",
+    "description": "Puzzle lösen und Weber Gasgrill Spirit EPX-435R Stealth in der limitierten Stealth Edition (999 €) gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
+    "url": "https://www.essen-und-trinken.de/gewinnspiele/mit-weber-gewinnen-14084672.html",
+    "is_real": 1
+  },
+  {
+    "title": "Sternquell Wiesn: Simson S51 Motorrad oder Festivalbier gewinnen",
+    "cat": "auto",
+    "value_eur": 3500,
+    "deadline": "2026-08-14",
+    "draw_date": "06.09.2026 auf der Sternquell Wiesn",
+    "sponsor": "Sternquell Brauerei",
+    "description": "Simson S51 Motorrad im Sternquell-Design oder eines von 10 Kästen Sternquell Festbier gewinnen. Kostenlose Online-Teilnahme per Formular, kein Kauf erforderlich.",
+    "url": "https://www.sternquell-wiesn.de/sternquell-wiesn-gewinnspiel/",
+    "is_real": 1
+  },
+  {
+    "title": "ENGWE E26 3.0 Pro: 3× vollgefedertes E-Mountainbike gewinnen",
+    "cat": "sport",
+    "value_eur": 2000,
+    "deadline": "2026-08-28",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "ENGWE",
+    "description": "E-Mail eintragen und eines von 3 ENGWE E26 3.0 Pro vollgefederten E-Mountainbikes gewinnen. Kostenlose Teilnahme per Newsletter-Anmeldung, kein Kauf erforderlich.",
+    "url": "https://de.engwe.com/pages/engwe-e26-3-0-pro-giveaway",
+    "is_real": 1
+  },
+  {
+    "title": "MapFour Roam E-Trekkingbike Launch: 2× E-Bike gewinnen",
+    "cat": "sport",
+    "value_eur": 3000,
+    "deadline": "2026-08-10",
+    "draw_date": "bis 11.08.2026",
+    "sponsor": "MapFour",
+    "description": "Für den Newsletter anmelden und eines von 2 nagelneuen MapFour Roam E-Trekkingbikes (150 km Reichweite) gewinnen. Kostenlose Teilnahme per E-Mail, kein Kauf erforderlich.",
+    "url": "https://mapfour.com/pages/mapfour-roam-launch",
+    "is_real": 1
   }
 ]
