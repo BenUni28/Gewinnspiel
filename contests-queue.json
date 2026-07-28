@@ -148,17 +148,6 @@
     "is_real": 1
   },
   {
-    "title": "Die Jugendherbergen: Wöchentlich Familien-Sommerurlaub gewinnen",
-    "cat": "reise",
-    "value_eur": 500,
-    "deadline": "2026-07-26",
-    "draw_date": "wöchentlich",
-    "sponsor": "Die Jugendherbergen Rheinland-Pfalz/Saarland",
-    "description": "12 Wochen lang wöchentlich 2 × 3 Tage Familienurlaub mit Vollpension (max. 6 Personen) in einer Jugendherberge in Rheinland-Pfalz oder Saarland gewinnen. Newsletter abonnieren – kostenlos.",
-    "url": "https://www.diejugendherbergen.de/gewinnspiel.html",
-    "is_real": 1
-  },
-  {
     "title": "Wellness Heaven: 2 Nächte im Wellnesshotel Bayerischer Wald gewinnen",
     "cat": "beauty",
     "value_eur": 450,
@@ -489,28 +478,6 @@
     "is_real": 1
   },
   {
-    "title": "ÖKO-TEST Sommergewinnspiel 2026: Nachhaltige Produkte gewinnen",
-    "cat": "beauty",
-    "value_eur": null,
-    "deadline": "2026-07-26",
-    "draw_date": "Anfang August 2026",
-    "sponsor": "ÖKO-TEST",
-    "description": "Nachhaltige Produkte von geprüften Marken gewinnen, z. B. Hautpflege und Haushaltshilfen. Kostenlos per Online-Formular mitmachen – kein Kauf erforderlich.",
-    "url": "https://oekotest-ag.de/gewinnspiel/oeko-test/sommer-gewinnspiel-nachhaltige-produkte-gewinnen/",
-    "is_real": 1
-  },
-  {
-    "title": "schauinsland-reisen: 5× Koffer voller Glück – All-Inclusive-Paket (je 2.000 €)",
-    "cat": "reise",
-    "value_eur": 2000,
-    "deadline": "2026-07-26",
-    "draw_date": "03.08.2026",
-    "sponsor": "schauinsland-reisen",
-    "description": "5× Reisepaket (je 2.000 €): 7 Nächte All Inclusive im R2 Hotel für 2 Personen inkl. Koffer & Reise-Goodies gewinnen. Kostenlos per Newsletter-Anmeldung + Packlisten-Spiel.",
-    "url": "https://www.schauinsland-reisen.de/gewinnspiele/koffer-voller-glueck",
-    "is_real": 1
-  },
-  {
     "title": "TUI Reisegutschein Gewinnspiel: 16× 1.000 € gewinnen",
     "cat": "reise",
     "value_eur": 1000,
@@ -629,6 +596,61 @@
     "sponsor": "MapFour",
     "description": "Für den Newsletter anmelden und eines von 2 nagelneuen MapFour Roam E-Trekkingbikes (150 km Reichweite) gewinnen. Kostenlose Teilnahme per E-Mail, kein Kauf erforderlich.",
     "url": "https://mapfour.com/pages/mapfour-roam-launch",
+    "is_real": 1
+  },
+  {
+    "title": "BORN Feinkost WM-Gewinnspiel: Reise zur FIFA WM 2026 & Produktpakete gewinnen",
+    "cat": "lebensmittel",
+    "value_eur": 3000,
+    "deadline": "2026-08-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "BORN Feinkost",
+    "description": "Formular ausfüllen und Reise zur FIFA WM 2026 in den USA oder BORN Produktpakete gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://weltmeister.born-feinkost.de/",
+    "is_real": 1
+  },
+  {
+    "title": "Spezi Sommergewinnspiel: Vespa Sprint 125 oder Spezi Fanpakete gewinnen",
+    "cat": "auto",
+    "value_eur": 4000,
+    "deadline": "2026-10-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Spezi (Bergwolf GmbH)",
+    "description": "Gewinnspielfrage beantworten und eine Vespa Sprint 125 (ca. 4.000 €) oder Spezi Fanpakete gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
+    "url": "https://gewinnspiel.spezi.com/",
+    "is_real": 1
+  },
+  {
+    "title": "Aoste Sommer: Vespa Elettrica oder exklusive Grill-Events gewinnen",
+    "cat": "auto",
+    "value_eur": 5000,
+    "deadline": "2026-10-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Aoste",
+    "description": "Newsletter abonnieren und eine Vespa Elettrica (ca. 5.000 €) oder Grill-Event-Pakete gewinnen. Kostenlose Teilnahme per E-Mail, kein Kauf erforderlich.",
+    "url": "https://www.aoste.de/sommer/",
+    "is_real": 1
+  },
+  {
+    "title": "Homeplaza: Dyson Purifier Cool Formaldehyde PC1 (450 €) gewinnen",
+    "cat": "haus",
+    "value_eur": 450,
+    "deadline": "2026-08-17",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Homeplaza",
+    "description": "Newsletter abonnieren und Dyson Purifier Cool PC1 Luftreiniger & Ventilator (450 €) gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.homeplaza.de/gewinnspiele/dyson-purifier-cool-pc1/mn_48831",
+    "is_real": 1
+  },
+  {
+    "title": "Waldhaus Bier E-Bike Gewinnspiel: Hochwertiges E-Bike im Schwarzwald-Design gewinnen",
+    "cat": "sport",
+    "value_eur": 2500,
+    "deadline": "2026-10-15",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Waldhaus Brauerei",
+    "description": "Schwarzwald-Quiz beantworten und ein E-Bike im Waldhaus-Design (ca. 2.500 €) gewinnen. Kostenlose Teilnahme per Online-Formular, kein Kauf erforderlich.",
+    "url": "https://www.waldhaus-bier.de/schwarzwald/e-bike-gewinnspiel/",
     "is_real": 1
   }
 ]
