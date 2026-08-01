@@ -57,40 +57,6 @@
     "is_real": 1
   },
   {
-    "title": "IBIS Backwaren WM-Gewinnspiel: Weber Grill & Fanpakete gewinnen",
-    "cat": "lebensmittel",
-    "value_eur": 700,
-    "icon": "⚽",
-    "deadline": "2026-07-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "IBIS Backwaren",
-    "description": "Anlässlich der Fußball-WM 2026 einen hochwertigen Weber Grill (Hauptgewinn) oder eines von 30 IBIS Produktpaketen gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://www.ibis-backwaren.de/wm26/",
-    "is_real": 1
-  },
-  {
-    "title": "Peter Hahn Summer Journey: Traumreise & Gutscheine gewinnen",
-    "cat": "reise",
-    "value_eur": 5000,
-    "deadline": "2026-08-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Peter Hahn",
-    "description": "5.000 € Reisegutschein, exklusive TITAN Reisetasche und Peter Hahn Shopping-Gutscheine (Gesamtwert über 7.600 €) gewinnen. Formular ausfüllen – kostenlose Teilnahme.",
-    "url": "https://www.peterhahn.de/gewinnen",
-    "is_real": 1
-  },
-  {
-    "title": "Kaufland Regio-Tage: 3 Nächte Hotel Schloss Döttingen gewinnen",
-    "cat": "reise",
-    "value_eur": 800,
-    "deadline": "2026-07-29",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Kaufland",
-    "description": "3 Nächte im 4-Sterne Hotel Schloss Döttingen, 30 Ariete Pizzaöfen oder 50 Kaufland-Gutscheine (je 50 €) gewinnen. Kostenlose Teilnahme nach Registrierung der Kaufland Card.",
-    "url": "https://filiale.kaufland.de/highlights/gewinnspiele/regio-tage.html",
-    "is_real": 1
-  },
-  {
     "title": "schuhe.de: Monatlich ein Paar Schuhe bis 150 € gewinnen",
     "cat": "mode",
     "value_eur": 150,
@@ -114,29 +80,6 @@
     "is_real": 1
   },
   {
-    "title": "Globetrotter Fotowettbewerb 2026: Bestes Outdoor-Foto & Gutscheine gewinnen",
-    "cat": "sport",
-    "value_eur": 100,
-    "icon": "📷",
-    "deadline": "2026-08-01",
-    "draw_date": "August 2026",
-    "sponsor": "Globetrotter",
-    "description": "Bestes Outdoor-Foto (Thema: Sternenhimmel) einsenden und Globetrotter Einkaufsgutscheine gewinnen (1. Platz: 100 €, 2. Platz: 75 €, 3. Platz: 50 €). Kostenlose Teilnahme.",
-    "url": "https://www.globetrotter.de/magazin/fotowettbewerb/",
-    "is_real": 1
-  },
-  {
-    "title": "REWE Reisen: 4 Nächte Wellness im Hotel Gersfelder Hof gewinnen",
-    "cat": "reise",
-    "value_eur": 800,
-    "deadline": "2026-07-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "REWE Reisen",
-    "description": "4 Nächte im 4-Sterne Hotel Gersfelder Hof (Rhön) mit Innenpool, Sauna & Halbpension gewinnen. Frage beantworten und Formular absenden – kostenlose Teilnahme.",
-    "url": "https://www.rewe-reisen.de/gewinnspiel.html",
-    "is_real": 1
-  },
-  {
     "title": "Schwarzwald Tourismus: Monatlich 2 Nächte Hotel im Schwarzwald gewinnen",
     "cat": "reise",
     "value_eur": 300,
@@ -148,17 +91,6 @@
     "is_real": 1
   },
   {
-    "title": "Wellness Heaven: 2 Nächte im Wellnesshotel Bayerischer Wald gewinnen",
-    "cat": "beauty",
-    "value_eur": 450,
-    "deadline": "2026-08-01",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Wellness Heaven",
-    "description": "2 Übernachtungen für 2 Personen im Wellness & Naturhotel Tonihof im Bayerischen Wald gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
-    "url": "https://www.wellness-heaven.de/wellness/wellness-gewinnspiel/",
-    "is_real": 1
-  },
-  {
     "title": "Belli Cantuccini: FIAT Topolino oder Espressokocher gewinnen",
     "cat": "auto",
     "value_eur": 10000,
@@ -167,28 +99,6 @@
     "sponsor": "Belli Cantuccini / Gadeschi",
     "description": "FIAT Topolino (Hauptgewinn, ca. 10.000 €) oder einen von 33 kultige Espressokocher gewinnen. Kostenlose Online-Teilnahme per Formular, kein Kauf erforderlich.",
     "url": "https://topolino-gewinnspiel.cantuccini.de/",
-    "is_real": 1
-  },
-  {
-    "title": "ROSSMANN App: 7 Nächte Aldiana Club Resort Österreich für die Familie gewinnen",
-    "cat": "reise",
-    "value_eur": 2500,
-    "deadline": "2026-07-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "ROSSMANN / Aldiana",
-    "description": "Rossmann App kostenlos herunterladen und 7 Nächte All Inclusive im Aldiana Club Resort Österreich für 2 Erw. + 2 Kinder (bis 14 J.) gewinnen. Kein Kauf erforderlich.",
-    "url": "https://www.rossmann.de/de/service-und-hilfe/app-gewinnspiel",
-    "is_real": 1
-  },
-  {
-    "title": "Cellini Caffè × EDEKA: Vespa Primavera Elettrica gewinnen",
-    "cat": "auto",
-    "value_eur": 5200,
-    "deadline": "2026-07-30",
-    "draw_date": "nach Teilnahmeschluss 30.07.2026",
-    "sponsor": "Cellini Caffè / EDEKA",
-    "description": "Cellini Newsletter abonnieren und eine Vespa Primavera Elettrica gewinnen. Kostenlose Teilnahme per E-Mail-Anmeldung, Teilnahme auch via Instagram möglich, kein Kauf nötig.",
-    "url": "https://cellini-shop.de/gewinnspiel/",
     "is_real": 1
   },
   {
@@ -229,7 +139,7 @@
     "cat": "reise",
     "value_eur": 800,
     "deadline": "2026-10-31",
-    "draw_date": "nach Teilnahmeschluss",
+    "draw_date": "14.11.2026",
     "sponsor": "AIDA Cruises × Salitos",
     "description": "Gewinnspielfrage beantworten und SALITOS Kühlschrank, Airwheel, SUP Board oder exklusive AIDA Schiffsbesichtigungs-Tickets gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
     "url": "https://aida.de/willkommen/30-jahre/salitos",
@@ -258,61 +168,6 @@
     "is_real": 1
   },
   {
-    "title": "Aktion Mensch: Newsletter abonnieren und 500 € IKEA Gutschein gewinnen",
-    "cat": "gutschein",
-    "value_eur": 500,
-    "deadline": "2026-07-31",
-    "draw_date": "ca. Ende August 2026",
-    "sponsor": "Aktion Mensch e.V.",
-    "description": "Aktion Mensch Newsletter abonnieren und 500 € IKEA Gutschein gewinnen. Aktionszeitraum 16.06.–31.07.2026. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
-    "url": "https://aktion-mensch-newsletter.de/",
-    "is_real": 1
-  },
-  {
-    "title": "Coppenrath Feingebäck × PAW PATROL: Exklusiver Kinoabend & Tickets gewinnen",
-    "cat": "lebensmittel",
-    "value_eur": 500,
-    "deadline": "2026-07-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Coppenrath Feingebäck",
-    "description": "Privaten Kinoabend für bis zu 30 Personen + 15 × 2 Kinotickets zum PAW PATROL-Film sowie PAW Patrol Merchandise-Pakete gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
-    "url": "https://coppenrath-feingebaeck.de/gewinnspiel_paw_patrol/",
-    "is_real": 1
-  },
-  {
-    "title": "Sachsen-Anhalt Tourismus: Urlaubsmagazin-Gewinnspiel 2026",
-    "cat": "reise",
-    "value_eur": 500,
-    "deadline": "2026-07-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Sachsen-Anhalt Tourismus / IMG",
-    "description": "Hotelübernachtungen in Sachsen-Anhalt gewinnen – darunter Dorint Halle, Bauhaus Dessau und weitere Naturhotels. Teilnahme per E-Mail-Formular, kostenlos, kein Kauf erforderlich.",
-    "url": "https://sachsen-anhalt-tourismus.de/gewinnspiel2026",
-    "is_real": 1
-  },
-  {
-    "title": "ATU × Spider-Man: 6 Tage New York Reise für 2 gewinnen",
-    "cat": "reise",
-    "value_eur": 5000,
-    "deadline": "2026-08-04",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "ATU Auto-Teile-Unger",
-    "description": "6-tägige New York Reise für 2 Personen (Flug, 5 Nächte Hotel, Stunt Academy, Rooftop Dinner) + 200 Kinogutscheine à 20 € gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
-    "url": "https://www.atu.de/pages/gewinnspiel/spiderman-gewinnspiel.html",
-    "is_real": 1
-  },
-  {
-    "title": "Mountain Bike Holidays: Conway WME 3.9 MTB + Bikeurlaub für 2 gewinnen",
-    "cat": "sport",
-    "value_eur": 3000,
-    "deadline": "2026-07-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Mountain Bike Holidays",
-    "description": "Conway WME 3.9 Fully-MTB + 2 Nächte Bikeurlaub für 2 Personen + Uebler Fahrradträger + Schöffel Outfits + Helme & Protektoren gewinnen. Newsletter-Anmeldung + Frage beantworten – kostenlos.",
-    "url": "https://gewinnspiel.bike-holidays.com/",
-    "is_real": 1
-  },
-  {
     "title": "BMW BERLIN-MARATHON 2026: VIP-Paket für 2 Personen gewinnen",
     "cat": "sport",
     "value_eur": 500,
@@ -332,17 +187,6 @@
     "sponsor": "trendtours Touristik",
     "description": "Kostenlosen trendtours Newsletter abonnieren und 6-tägige Busreise für 2 Personen nach Costa Blanca & Valencia gewinnen. Gratis Teilnahme per E-Mail-Anmeldung, kein Kauf nötig.",
     "url": "https://www.trendtours.de/gewinnspiel",
-    "is_real": 1
-  },
-  {
-    "title": "Vodafone: Samsung Galaxy Z Flip7 oder Z Fold7 gewinnen",
-    "cat": "handy",
-    "value_eur": 1100,
-    "deadline": "2026-07-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Vodafone Deutschland",
-    "description": "Vodafone Newsletter abonnieren und Samsung Galaxy Z Flip7 oder Z Fold7 Falt-Smartphone gewinnen. Kostenlose Teilnahme per E-Mail-Anmeldung, kein Kauf oder Vertrag erforderlich.",
-    "url": "https://www.vodafone.de/privat/vos-gewinnspiel-galaxy.html",
     "is_real": 1
   },
   {
@@ -368,83 +212,6 @@
     "is_real": 1
   },
   {
-    "title": "HiPP Kinderhotel Gewinnspiel: 2× Familienurlaub All-inclusive gewinnen",
-    "cat": "reise",
-    "value_eur": 2000,
-    "deadline": "2026-10-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "HiPP",
-    "description": "2 × 5 Tage Familienurlaub All-inclusive in einem Premium-Kinderhotel für 2 Erwachsene + 2 Kinder (bis 12 J.) gewinnen. Kostenlose Online-Teilnahme, kein Kauf erforderlich.",
-    "url": "https://www.hipp.de/beikost/aktuelles/gewinnspiel-kinderhotels/",
-    "is_real": 1
-  },
-  {
-    "title": "Tchibo Glücksrad: täglich 500 € Reisegutschein, Kaffeevollautomat & Gutscheinkarten gewinnen",
-    "cat": "gutschein",
-    "value_eur": 500,
-    "deadline": "2026-09-30",
-    "draw_date": "täglich",
-    "sponsor": "Tchibo",
-    "description": "Täglich am Tchibo Glücksrad drehen und 500 € Reisegutschein, Kaffeevollautomat Esperto mini oder 300 € Tchibo-Gutscheinkarte gewinnen. Newsletter-Anmeldung genügt – kostenlose Teilnahme, kein Kauf nötig.",
-    "url": "https://gewinnen.tchibo.de/",
-    "is_real": 1
-  },
-  {
-    "title": "HandyTarifTipp Sommergewinnspiel 2026: OPPO Find X9 Ultra & Xiaomi 17 gewinnen",
-    "cat": "handy",
-    "value_eur": 1500,
-    "deadline": "2026-07-31",
-    "draw_date": "bis 05.08.2026",
-    "sponsor": "HandyTarifTipp.de",
-    "description": "OPPO Find X9 Ultra, Xiaomi 17 und OPPO Pad 5 5G sowie 7× 35 € MediaMarkt Gutscheine gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
-    "url": "https://handytariftipp.de/handytariftipp-de-sommergewinnspiel-2026-gewinne-das-oppo-find-x9-ultra-xiaomi-17-mehr/",
-    "is_real": 1
-  },
-  {
-    "title": "auto motor und sport × Suzuki: e VITARA (44.280 €) oder GSX-8S Motorrad gewinnen",
-    "cat": "auto",
-    "value_eur": 44280,
-    "deadline": "2026-07-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Suzuki Deutschland / auto motor und sport",
-    "description": "Suzuki e VITARA ALLGRIP-e Comfort+ (44.280 €) oder Suzuki GSX-8S Motorrad (8.990 €) gewinnen. Online-Formular ausfüllen – kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://www.auto-motor-und-sport.de/verkehr/suzuki-gewinnspiel-e-vitara-oder-gsx-8s/",
-    "is_real": 1
-  },
-  {
-    "title": "Müller Drogerie: 2 Nächte Via Salina Hotel am See im Tannheimer Tal gewinnen",
-    "cat": "reise",
-    "value_eur": 400,
-    "deadline": "2026-07-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Müller Drogerie / Frank Juice",
-    "description": "Kreuzworträtsel lösen und 2 Nächte für 2 Personen im Via Salina Hotel am See (Tannheimer Tal) inkl. Frühstück + 5 Frank-Juice-Pakete gewinnen. Kostenlose Teilnahme.",
-    "url": "https://www.mueller.de/aktuelles/gewinnspiele/gewinnspiel-lifestyle/",
-    "is_real": 1
-  },
-  {
-    "title": "Wellnessfinder Juli 2026: 2 Nächte LifeStyle Resort zum Kurfürsten gewinnen",
-    "cat": "beauty",
-    "value_eur": 350,
-    "deadline": "2026-07-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Wellnessfinder",
-    "description": "2 Nächte für 2 Personen im LifeStyle Resort zum Kurfürsten (Doppel-Romancezimmer, Frühstück, 4.000 m² Wellness) gewinnen. Kostenlose Teilnahme per Formular.",
-    "url": "https://www.wellnessfinder.com/hotels/lifestyle-resort-zum-kurfuersten/gewinnspiel",
-    "is_real": 1
-  },
-  {
-    "title": "BÜRGER × Europa-Park: 3× Kurzurlaub (Übernachtung + Park-Tickets) für 4 Personen",
-    "cat": "reise",
-    "value_eur": 600,
-    "deadline": "2026-07-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "BÜRGER Fleischwaren",
-    "description": "Einer von 3 Kurzurlauben für 4 Personen im Europa-Park Erlebnis-Resort gewinnen: 1 Übernachtung in einem 4-Sterne-Hotel inkl. Europa-Park- und Rulantica-Tagestickets. Kostenlos per Formular.",
-    "url": "https://www.buerger.de/europa-park",
-    "is_real": 1
-  },
-  {
     "title": "EAT SMARTER Sommergewinnspiel 2026: Küchenhelfer von ELO, GEFU & Severin gewinnen",
     "cat": "haus",
     "value_eur": 300,
@@ -464,39 +231,6 @@
     "sponsor": "Storck / nimm2",
     "description": "Täglich 2 von 12 Feldern aufdecken und sofort gewinnen: Produktpakete, Koffer, Strandtaschen, Luftmatratzen u.v.m. Kostenlos, ohne Anmeldung.",
     "url": "https://www.nimm2.de/de/der-sommer-lacht",
-    "is_real": 1
-  },
-  {
-    "title": "AIDA Monatsgewinnspiel August: 1.500 € Reisegutschein gewinnen",
-    "cat": "reise",
-    "value_eur": 1500,
-    "deadline": "2026-07-31",
-    "draw_date": "August 2026",
-    "sponsor": "AIDA Cruises",
-    "description": "Monatlich einen AIDA Reisegutschein im Wert von 1.500 € gewinnen. Kostenlose Teilnahme per Online-Formular, kein Kauf nötig.",
-    "url": "https://aida.de/buchung/aktionen/gewinnspiele/monatsgewinnspiel",
-    "is_real": 1
-  },
-  {
-    "title": "TUI Reisegutschein Gewinnspiel: 16× 1.000 € gewinnen",
-    "cat": "reise",
-    "value_eur": 1000,
-    "deadline": "2026-08-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "TUI",
-    "description": "16× TUI Reisegutschein im Wert von je 1.000 € gewinnen. Kostenlose Online-Registrierung und kurze Umfrage ausfüllen – kein Kauf nötig.",
-    "url": "https://www.tui.com/gewinnspiel/",
-    "is_real": 1
-  },
-  {
-    "title": "Europa-Park Großes Rulantica Gewinnspiel: Übernachtung & Tageskarten",
-    "cat": "reise",
-    "value_eur": null,
-    "deadline": "2026-07-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Europa-Park / Rulantica",
-    "description": "Übernachtung für 4 Personen im Hotel Krønasår inkl. Rulantica-Tageskarten gewinnen + 10× 2 Rulantica-Tageskarten. Kostenlos per Formular, kein Kauf erforderlich.",
-    "url": "https://www.europapark.de/de/rulantica/grosses-rulantica-gewinnspiel",
     "is_real": 1
   },
   {
@@ -552,17 +286,6 @@
     "sponsor": "dm-drogerie markt",
     "description": "Einen von 70 dm-Adventskalendern gewinnen – u.a. Balea, Alverde, Ebelin Kids und Erwachsene. Mit kostenlosem Mein dm-Konto anmelden und Wunsch-Adventskalender angeben. Kein Kauf erforderlich.",
     "url": "https://www.dm.de/neu/gewinnspiele/adventskalender-gewinnspiel-2948470",
-    "is_real": 1
-  },
-  {
-    "title": "ESSEN & TRINKEN × Weber: Gasgrill Spirit EPX-435R Stealth Edition gewinnen",
-    "cat": "haus",
-    "value_eur": 999,
-    "deadline": "2026-07-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "ESSEN & TRINKEN / Weber-Stephen",
-    "description": "Puzzle lösen und Weber Gasgrill Spirit EPX-435R Stealth in der limitierten Stealth Edition (999 €) gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
-    "url": "https://www.essen-und-trinken.de/gewinnspiele/mit-weber-gewinnen-14084672.html",
     "is_real": 1
   },
   {
@@ -651,6 +374,83 @@
     "sponsor": "Waldhaus Brauerei",
     "description": "Schwarzwald-Quiz beantworten und ein E-Bike im Waldhaus-Design (ca. 2.500 €) gewinnen. Kostenlose Teilnahme per Online-Formular, kein Kauf erforderlich.",
     "url": "https://www.waldhaus-bier.de/schwarzwald/e-bike-gewinnspiel/",
+    "is_real": 1
+  },
+  {
+    "title": "Runner's World Sommer-Gewinnspiel: 2× 250 € Bargeld für deine Laufsaison",
+    "cat": "bargeld",
+    "value_eur": 250,
+    "deadline": "2026-08-14",
+    "draw_date": null,
+    "sponsor": "Runner's World (Hearst)",
+    "description": "Gewinnspielfrage beantworten und Formular ausfüllen – du kannst 2× 250 Euro Bargeld für deine Laufsaison gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.runnersworld.de/news/sommer-gewinnspiel-250-fuer-deine-laufsaison-sichern-1/",
+    "is_real": 1
+  },
+  {
+    "title": "BMW Cabrio & Roadster Gewinnspiel: 6 Monate Fahrspaß gewinnen",
+    "cat": "auto",
+    "value_eur": null,
+    "deadline": "2026-08-08",
+    "draw_date": null,
+    "sponsor": "BMW AG",
+    "description": "6 Monate Fahrgenuss mit einem BMW X3 M50 xDrive, BMW 420i Cabrio oder BMW M440i xDrive Coupé gewinnen – inkl. 12.000 Freikilometer und Versicherung. Mindestalter 18 Jahre, Führerschein Kl. B erforderlich.",
+    "url": "https://aktion.bmw.de/bmw-cabriolet-gewinnspiel/",
+    "is_real": 1
+  },
+  {
+    "title": "Jolie × Mionetto + CODELLO: Genusspaket & Schal gewinnen",
+    "cat": "lebensmittel",
+    "value_eur": 50,
+    "deadline": "2026-08-17",
+    "draw_date": null,
+    "sponsor": "Jolie.de / Bauer Verlag",
+    "description": "Newsletter abonnieren und ein Mionetto Genusspaket sowie einen CODELLO Seiden-Schal im Wert von 50 Euro gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.jolie.de/gewinnspiele/genusspakete-mit-mionetto-und-codello-zu-gewinnen-219118.html",
+    "is_real": 1
+  },
+  {
+    "title": "DJH Jugendherbergen Rheinland Sommer 2026: 250 € Reisegutschein gewinnen",
+    "cat": "reise",
+    "value_eur": 250,
+    "deadline": "2026-08-31",
+    "draw_date": null,
+    "sponsor": "DJH Landesverband Rheinland",
+    "description": "Am Sommer-Gewinnspiel des DJH Rheinland teilnehmen und einen Reisegutschein im Wert von 250 Euro für eine Jugendherberge deiner Wahl gewinnen. Kostenlose Teilnahme per Online-Formular.",
+    "url": "https://www.jugendherberge.de/rheinland/formulare/gewinnspiel-sommer-2026/",
+    "is_real": 1
+  },
+  {
+    "title": "Mein-EigenHeim: Gartenhaus LIVN von Gartenbits gewinnen",
+    "cat": "haus",
+    "value_eur": 9000,
+    "deadline": "2026-08-15",
+    "draw_date": null,
+    "sponsor": "Mein-EigenHeim Magazin / Gartenbits",
+    "description": "Gewinne ein hochwertiges Gartenhaus LIVN von Gartenbits – ein Rückzugsort für entspannte Sommermomente im Wert von rund 9.000 Euro. Kostenlose Teilnahme per Online-Formular.",
+    "url": "https://www.mein-eigenheim.de/beitrag/gewinnspiel-entspannung.html",
+    "is_real": 1
+  },
+  {
+    "title": "RITTER SPORT Newsletter-Gewinnspiel: Exklusive Schokoladen-Pakete gewinnen",
+    "cat": "lebensmittel",
+    "value_eur": null,
+    "deadline": "2026-09-04",
+    "draw_date": null,
+    "sponsor": "Alfred Ritter GmbH (RITTER SPORT)",
+    "description": "RITTER SPORT Newsletter abonnieren und exklusive Schokoladen-Pakete mit den neuesten Sorten gewinnen. Das monatliche Newsletter-Gewinnspiel ist vollständig kostenlos, kein Kauf erforderlich.",
+    "url": "https://www.ritter-sport.com/de/newsletter-gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "GewinnArena Exklusiv: Sony PlayStation 5 Slim Digital auf Joyn gewinnen",
+    "cat": "handy",
+    "value_eur": 449,
+    "deadline": "2026-08-07",
+    "draw_date": null,
+    "sponsor": "GewinnArena / Joyn",
+    "description": "Kostenlos am Joyn-Exklusiv-Gewinnspiel teilnehmen und eine Sony PlayStation 5 Slim Digital Edition gewinnen. Teilnahme über das Online-Formular auf gewinnarena.de, kein Kaufzwang.",
+    "url": "https://www.gewinnarena.de/tv/gewinnarena/gewinnarena-exklusiv/sony-playstation-5-slim-digital-joyn-07-26/",
     "is_real": 1
   }
 ]
