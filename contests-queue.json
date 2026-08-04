@@ -311,17 +311,6 @@
     "is_real": 1
   },
   {
-    "title": "MapFour Roam E-Trekkingbike Launch: 2× E-Bike gewinnen",
-    "cat": "sport",
-    "value_eur": 3000,
-    "deadline": "2026-08-10",
-    "draw_date": "bis 11.08.2026",
-    "sponsor": "MapFour",
-    "description": "Für den Newsletter anmelden und eines von 2 nagelneuen MapFour Roam E-Trekkingbikes (150 km Reichweite) gewinnen. Kostenlose Teilnahme per E-Mail, kein Kauf erforderlich.",
-    "url": "https://mapfour.com/pages/mapfour-roam-launch",
-    "is_real": 1
-  },
-  {
     "title": "BORN Feinkost WM-Gewinnspiel: Reise zur FIFA WM 2026 & Produktpakete gewinnen",
     "cat": "lebensmittel",
     "value_eur": 3000,
@@ -451,6 +440,39 @@
     "sponsor": "GewinnArena / Joyn",
     "description": "Kostenlos am Joyn-Exklusiv-Gewinnspiel teilnehmen und eine Sony PlayStation 5 Slim Digital Edition gewinnen. Teilnahme über das Online-Formular auf gewinnarena.de, kein Kaufzwang.",
     "url": "https://www.gewinnarena.de/tv/gewinnarena/gewinnarena-exklusiv/sony-playstation-5-slim-digital-joyn-07-26/",
+    "is_real": 1
+  },
+  {
+    "title": "AIDA Monatsgewinnspiel August 2026: 1.500 € Reisegutschein gewinnen",
+    "cat": "reise",
+    "value_eur": 1500,
+    "deadline": "2026-08-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "AIDA Cruises",
+    "description": "Jeden Monat verlost AIDA einen Reisegutschein im Wert von 1.500 €. Newsletter abonnieren und am Monatsgewinnspiel teilnehmen. Kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://aida.de/buchung/aktionen/gewinnspiele/monatsgewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "GewinnArena Exklusiv: Sony DualSense Controller V2 gewinnen",
+    "cat": "handy",
+    "value_eur": 80,
+    "deadline": "2026-08-13",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "GewinnArena / Sony",
+    "description": "Sony PlayStation 5 DualSense Controller V2 gewinnen. Kostenlose Teilnahme per Online-Formular auf gewinnarena.de, kein Kaufzwang.",
+    "url": "https://www.gewinnarena.de/tv/gewinnarena/gewinnarena-exklusiv/sony-playstation-5-ps5-dualsense-controller-v2-07-26/",
+    "is_real": 1
+  },
+  {
+    "title": "Steuertipps 50 Jahre: 3.000 € Reisegutschein & Samsung Preise gewinnen",
+    "cat": "reise",
+    "value_eur": 3000,
+    "deadline": "2026-12-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Steuertipps.de / Haufe Group",
+    "description": "Zum 50. Jubiläum verlost steuertipps.de einen Reisegutschein im Wert von 3.000 € sowie Samsung Preise. Kostenlose Teilnahme per Online-Formular, kein Kauf erforderlich.",
+    "url": "https://www.steuertipps.de/50jahre",
     "is_real": 1
   }
 ]
