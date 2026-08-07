@@ -35,17 +35,6 @@
     "is_real": 1
   },
   {
-    "title": "ADAC Newsletter: Elektrischen Mercedes (53.000 €) oder Reisegutscheine gewinnen",
-    "cat": "auto",
-    "value_eur": 53000,
-    "deadline": "2026-12-14",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "ADAC",
-    "description": "ADAC Newsletter abonnieren und elektrischen Mercedes (53.000 €) oder 1 von 12 ADAC Reisegutscheinen à 1.000 € gewinnen. Kostenlos, auch ohne ADAC-Mitgliedschaft.",
-    "url": "https://www.adac.de/der-adac/newsletter/abonnement/",
-    "is_real": 1
-  },
-  {
     "title": "Wüstenrot Gewinnspiel 2026: 2× iPhone 17 Pro & 2× Samsung Galaxy S25 Ultra",
     "cat": "handy",
     "value_eur": 1300,
@@ -154,17 +143,6 @@
     "sponsor": "Galbani",
     "description": "Quiz über die Herkunft italienischer Gerichte spielen und 1 von 3 Reisegutscheinen nach Italien (je 4.000 €) gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
     "url": "https://gustaladolcevita.galbani.com/de/start",
-    "is_real": 1
-  },
-  {
-    "title": "Wüstenrot Modernisierungsgewinnspiel 2026: 15 attraktive Preise gewinnen",
-    "cat": "haus",
-    "value_eur": 250,
-    "deadline": "2026-08-31",
-    "draw_date": "bis 10.09.2026",
-    "sponsor": "Wüstenrot Bausparkasse",
-    "description": "Formular ausfüllen und eines von 15 attraktiven Preisen im Gesamtwert von über 2.500 € rund ums Thema Modernisieren & Wohnen gewinnen. Kostenlose Teilnahme, kein Kauf oder Vertrag erforderlich.",
-    "url": "https://www.wuestenrot.de/modernisieren",
     "is_real": 1
   },
   {
@@ -311,17 +289,6 @@
     "is_real": 1
   },
   {
-    "title": "MapFour Roam E-Trekkingbike Launch: 2× E-Bike gewinnen",
-    "cat": "sport",
-    "value_eur": 3000,
-    "deadline": "2026-08-10",
-    "draw_date": "bis 11.08.2026",
-    "sponsor": "MapFour",
-    "description": "Für den Newsletter anmelden und eines von 2 nagelneuen MapFour Roam E-Trekkingbikes (150 km Reichweite) gewinnen. Kostenlose Teilnahme per E-Mail, kein Kauf erforderlich.",
-    "url": "https://mapfour.com/pages/mapfour-roam-launch",
-    "is_real": 1
-  },
-  {
     "title": "BORN Feinkost WM-Gewinnspiel: Reise zur FIFA WM 2026 & Produktpakete gewinnen",
     "cat": "lebensmittel",
     "value_eur": 3000,
@@ -363,17 +330,6 @@
     "sponsor": "Homeplaza",
     "description": "Newsletter abonnieren und Dyson Purifier Cool PC1 Luftreiniger & Ventilator (450 €) gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
     "url": "https://www.homeplaza.de/gewinnspiele/dyson-purifier-cool-pc1/mn_48831",
-    "is_real": 1
-  },
-  {
-    "title": "Waldhaus Bier E-Bike Gewinnspiel: Hochwertiges E-Bike im Schwarzwald-Design gewinnen",
-    "cat": "sport",
-    "value_eur": 2500,
-    "deadline": "2026-10-15",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Waldhaus Brauerei",
-    "description": "Schwarzwald-Quiz beantworten und ein E-Bike im Waldhaus-Design (ca. 2.500 €) gewinnen. Kostenlose Teilnahme per Online-Formular, kein Kauf erforderlich.",
-    "url": "https://www.waldhaus-bier.de/schwarzwald/e-bike-gewinnspiel/",
     "is_real": 1
   },
   {
@@ -443,14 +399,102 @@
     "is_real": 1
   },
   {
-    "title": "GewinnArena Exklusiv: Sony PlayStation 5 Slim Digital auf Joyn gewinnen",
+    "title": "AIDA Monatsgewinnspiel August 2026: 1.500 € Reisegutschein gewinnen",
+    "cat": "reise",
+    "value_eur": 1500,
+    "deadline": "2026-08-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "AIDA Cruises",
+    "description": "Jeden Monat verlost AIDA einen Reisegutschein im Wert von 1.500 €. Newsletter abonnieren und am Monatsgewinnspiel teilnehmen. Kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://aida.de/buchung/aktionen/gewinnspiele/monatsgewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "GewinnArena Exklusiv: Sony DualSense Controller V2 gewinnen",
     "cat": "handy",
-    "value_eur": 449,
-    "deadline": "2026-08-07",
+    "value_eur": 80,
+    "deadline": "2026-08-13",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "GewinnArena / Sony",
+    "description": "Sony PlayStation 5 DualSense Controller V2 gewinnen. Kostenlose Teilnahme per Online-Formular auf gewinnarena.de, kein Kaufzwang.",
+    "url": "https://www.gewinnarena.de/tv/gewinnarena/gewinnarena-exklusiv/sony-playstation-5-ps5-dualsense-controller-v2-07-26/",
+    "is_real": 1
+  },
+  {
+    "title": "Steuertipps 50 Jahre: 3.000 € Reisegutschein & Samsung Preise gewinnen",
+    "cat": "reise",
+    "value_eur": 3000,
+    "deadline": "2026-12-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Steuertipps.de / Haufe Group",
+    "description": "Zum 50. Jubiläum verlost steuertipps.de einen Reisegutschein im Wert von 3.000 € sowie Samsung Preise. Kostenlose Teilnahme per Online-Formular, kein Kauf erforderlich.",
+    "url": "https://www.steuertipps.de/50jahre",
+    "is_real": 1
+  },
+  {
+    "title": "Ich liebe Käse: Tefal Pizza Pronto Electric gewinnen",
+    "cat": "lebensmittel",
+    "value_eur": 499,
+    "deadline": "2026-09-20",
     "draw_date": null,
-    "sponsor": "GewinnArena / Joyn",
-    "description": "Kostenlos am Joyn-Exklusiv-Gewinnspiel teilnehmen und eine Sony PlayStation 5 Slim Digital Edition gewinnen. Teilnahme über das Online-Formular auf gewinnarena.de, kein Kaufzwang.",
-    "url": "https://www.gewinnarena.de/tv/gewinnarena/gewinnarena-exklusiv/sony-playstation-5-slim-digital-joyn-07-26/",
+    "sponsor": "Ich liebe Käse (Savencia)",
+    "description": "3× Tefal Pizza Pronto Electric (je ~499 €) kostenlos gewinnen. Täglich per Chatbot teilnehmen – häufigere Teilnahme erhöht die Gewinnchancen.",
+    "url": "https://ich-liebe-kaese.de/aktionen/gewinnspiele/pizza-pronto-electric/",
+    "is_real": 1
+  },
+  {
+    "title": "Imaging World: DJI Osmo 360 Action-Kamera gewinnen",
+    "cat": "handy",
+    "value_eur": 499,
+    "deadline": "2026-09-15",
+    "draw_date": null,
+    "sponsor": "Imaging World",
+    "description": "DJI Osmo 360 Action-Kamera + 10×2 Messe-Tickets + Kalahari-Rucksäcke gewinnen. Kostenlose Teilnahme per Newsletter-Anmeldung bis 15.09.2026.",
+    "url": "https://imagingworld.de/gewinnspiel/",
+    "is_real": 1
+  },
+  {
+    "title": "GewinnArena Exklusiv: Apple iPhone Pro Max gewinnen",
+    "cat": "handy",
+    "value_eur": 1299,
+    "deadline": "2026-08-17",
+    "draw_date": null,
+    "sponsor": "GewinnArena / ProSiebenSat.1",
+    "description": "Apple iPhone Pro Max kostenlos gewinnen. Einmalige kostenlose Registrierung bei GewinnArena (offizielle Plattform von ProSiebenSat.1) genügt.",
+    "url": "https://www.gewinnarena.de/tv/gewinnarena/gewinnarena-exklusiv/apple-iphone-pro-max-joyn-07-26/",
+    "is_real": 1
+  },
+  {
+    "title": "REWE Reisen: Harz-Urlaub im Panoramic Hotel gewinnen",
+    "cat": "reise",
+    "value_eur": 500,
+    "deadline": "2026-10-31",
+    "draw_date": null,
+    "sponsor": "REWE Reisen",
+    "description": "4-tägiger Aufenthalt im Panoramic Hotel – Aparthotel im Harz gewinnen. Kostenlose Teilnahme per Formular, freie Wahl des Anreisetermins 2026.",
+    "url": "https://www.rewe-reisen.de/gewinnspiel.html",
+    "is_real": 1
+  },
+  {
+    "title": "Böklunder: Wochenendtrip nach Paris gewinnen",
+    "cat": "reise",
+    "value_eur": 800,
+    "deadline": "2026-10-31",
+    "draw_date": null,
+    "sponsor": "Böklunder",
+    "description": "Paris-Trip für 2: Air France-Flüge ab Deutschland + 2 Hotelnächte kostenlos gewinnen. Teilnahme per Formular. Aktion zum Kinostart Oh la la 2.",
+    "url": "https://www.boeklunder.de/gewinnspiele/gewinnspiel-oh-la-la-2-neue-tests-neues-chaos",
+    "is_real": 1
+  },
+  {
+    "title": "Wiesehoff: 250 € Bonjour France Gutschein gewinnen",
+    "cat": "gutschein",
+    "value_eur": 250,
+    "deadline": "2026-08-31",
+    "draw_date": null,
+    "sponsor": "Wiesehoff",
+    "description": "250 € Onlineshop-Gutschein bei Bonjour France kostenlos gewinnen. Teilnahme per Formular auf wiesehoff-gewinnspiel.de. Aktion zu Oh la la 2.",
+    "url": "https://www.wiesehoff-gewinnspiel.de/",
     "is_real": 1
   }
 ]
