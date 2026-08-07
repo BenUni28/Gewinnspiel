@@ -496,5 +496,38 @@
     "description": "250 € Onlineshop-Gutschein bei Bonjour France kostenlos gewinnen. Teilnahme per Formular auf wiesehoff-gewinnspiel.de. Aktion zu Oh la la 2.",
     "url": "https://www.wiesehoff-gewinnspiel.de/",
     "is_real": 1
+  },
+  {
+    "title": "AIDA Monatsgewinnspiel August 2026: 1.500 € Reisegutschein gewinnen",
+    "cat": "reise",
+    "value_eur": 1500,
+    "deadline": "2026-08-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "AIDA Cruises",
+    "description": "Jeden Monat verlost AIDA einen Reisegutschein im Wert von 1.500 €. Newsletter abonnieren und am Monatsgewinnspiel teilnehmen. Kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://aida.de/buchung/aktionen/gewinnspiele/monatsgewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "GewinnArena Exklusiv: Sony DualSense Controller V2 gewinnen",
+    "cat": "handy",
+    "value_eur": 80,
+    "deadline": "2026-08-13",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "GewinnArena / Sony",
+    "description": "Sony PlayStation 5 DualSense Controller V2 gewinnen. Kostenlose Teilnahme per Online-Formular auf gewinnarena.de, kein Kaufzwang.",
+    "url": "https://www.gewinnarena.de/tv/gewinnarena/gewinnarena-exklusiv/sony-playstation-5-ps5-dualsense-controller-v2-07-26/",
+    "is_real": 1
+  },
+  {
+    "title": "Steuertipps 50 Jahre: 3.000 € Reisegutschein & Samsung Preise gewinnen",
+    "cat": "reise",
+    "value_eur": 3000,
+    "deadline": "2026-12-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Steuertipps.de / Haufe Group",
+    "description": "Zum 50. Jubiläum verlost steuertipps.de einen Reisegutschein im Wert von 3.000 € sowie Samsung Preise. Kostenlose Teilnahme per Online-Formular, kein Kauf erforderlich.",
+    "url": "https://www.steuertipps.de/50jahre",
+    "is_real": 1
   }
 ]
