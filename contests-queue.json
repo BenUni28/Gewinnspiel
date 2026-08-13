@@ -518,5 +518,71 @@
     "description": "Für Sportscars des Jahres 2026 abstimmen und Winterfahrtraining in Schweden (~6.000 €) oder Lamborghini Trofeo World Finals-Reise nach Monza gewinnen. Kostenlose Teilnahme, kein Kauf nötig.",
     "url": "https://www.autobild.de/artikel/sportscars-des-jahres-2026-gewinnspiel-28726581.html",
     "is_real": 1
+  },
+  {
+    "title": "ARD Sportschau: Tor des Monats Juli 2026 – Reisemobil (45.000 €) gewinnen",
+    "cat": "reise",
+    "value_eur": 45000,
+    "deadline": "2026-08-29",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "ARD Sportschau × caravaning.info",
+    "description": "Abstimmen, wer das Tor des Monats Juli 2026 ist, und dabei ein Reisemobil im Wert von 45.000 € gewinnen. Kostenlose Teilnahme per Abstimmungsformular, kein Kauf erforderlich.",
+    "url": "https://www1.sportschau.de/tdm/tdm",
+    "is_real": 1
+  },
+  {
+    "title": "alltours: 1 Woche Dominikanische Republik (Breathless Punta Cana) gewinnen",
+    "cat": "reise",
+    "value_eur": 2000,
+    "deadline": "2026-09-30",
+    "draw_date": "Oktober 2026",
+    "sponsor": "alltours Flugreisen",
+    "description": "Kostenlosen alltours Newsletter abonnieren und eine Woche für 2 Personen im 5-Sterne Breathless Punta Cana Resort & Spa (All-inclusive) in der Dominikanischen Republik gewinnen. Kein Kauf erforderlich.",
+    "url": "https://www.alltours.de/gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "Zuhause Wohnen: SodaStream Ultimate Multi-Drink (255 €) gewinnen",
+    "cat": "haus",
+    "value_eur": 255,
+    "deadline": "2026-09-03",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Zuhause Wohnen / Gruner+Jahr",
+    "description": "SodaStream Ultimate Multi-Drink inkl. 10 verschiedener Drink Mixes (Gesamtwert ~255 €) gewinnen. Kostenlose Teilnahme per Online-Formular, kein Kauf erforderlich.",
+    "url": "https://zuhausewohnen.de/gewinnspiele/gewinnspiel-sodastream",
+    "is_real": 1
+  },
+  {
+    "title": "Avena Sommergewinnspiel: Bosch Küchenmaschine (470 €) gewinnen",
+    "cat": "haus",
+    "value_eur": 470,
+    "deadline": "2026-09-13",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Avena Naturprodukte",
+    "description": "Persönliches Blechkuchen-Rezept oder Backtrick per E-Mail einsenden und eine Bosch Küchenmaschine (470 €) oder Avena-Gutscheine gewinnen. Kostenlose Teilnahme per E-Mail, kein Kauf erforderlich.",
+    "url": "https://www.avena.de/gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "Jägermeister Club: Monatliches Gewinnspiel – exklusive Preise gewinnen",
+    "cat": "lebensmittel",
+    "value_eur": null,
+    "deadline": "2026-12-31",
+    "draw_date": "monatlich am Monatsende",
+    "sponsor": "Mast-Jägermeister SE",
+    "description": "Kostenlos im Jägermeister Club registrieren und monatlich an exklusiven Verlosungen teilnehmen – z. B. limitierte Brand-Items, Tickets und Kühllösungen. Eine Teilnahme pro Person pro Monat.",
+    "url": "https://de.jagermeister.com/club/monatliches-gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "Qatar Airways × SO/ Maldives: Traumreise auf die Malediven gewinnen",
+    "cat": "reise",
+    "value_eur": 3000,
+    "deadline": "2026-09-30",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Qatar Airways × SO/ Maldives",
+    "description": "Qatar Airways Newsletter abonnieren und 2 Economy-Flüge nach Male sowie 5 Nächte Vollpension im SO/ Maldives Hotel für 2 Personen gewinnen. Kostenlose Teilnahme per Newsletter-Anmeldung, nur Neukunden.",
+    "url": "https://www.qatarairways.com/de-de/offers/subscribe-and-win-somaldives.html",
+    "is_real": 1
   }
 ]
