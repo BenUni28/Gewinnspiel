@@ -146,17 +146,6 @@
     "is_real": 1
   },
   {
-    "title": "BMW BERLIN-MARATHON 2026: VIP-Paket für 2 Personen gewinnen",
-    "cat": "sport",
-    "value_eur": 500,
-    "deadline": "2026-08-14",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "BMW",
-    "description": "Eines von 2 VIP-Paketen für den BMW BERLIN-MARATHON im September 2026 gewinnen – Zuschauer- oder Athleten-Erlebnis exklusiv. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
-    "url": "https://www.bmw.de/de/mehr-bmw/landingpage/bmw-berlin-marathon-2026.html",
-    "is_real": 1
-  },
-  {
     "title": "Mannheimer Morgen 80-Jahre Jubiläum: 5.000 € Reisegutschein oder E-Bike gewinnen",
     "cat": "reise",
     "value_eur": 5000,
@@ -256,17 +245,6 @@
     "is_real": 1
   },
   {
-    "title": "Sternquell Wiesn: Simson S51 Motorrad oder Festivalbier gewinnen",
-    "cat": "auto",
-    "value_eur": 3500,
-    "deadline": "2026-08-14",
-    "draw_date": "06.09.2026 auf der Sternquell Wiesn",
-    "sponsor": "Sternquell Brauerei",
-    "description": "Simson S51 Motorrad im Sternquell-Design oder eines von 10 Kästen Sternquell Festbier gewinnen. Kostenlose Online-Teilnahme per Formular, kein Kauf erforderlich.",
-    "url": "https://www.sternquell-wiesn.de/sternquell-wiesn-gewinnspiel/",
-    "is_real": 1
-  },
-  {
     "title": "ENGWE E26 3.0 Pro: 3× vollgefedertes E-Mountainbike gewinnen",
     "cat": "sport",
     "value_eur": 2000,
@@ -322,17 +300,6 @@
     "is_real": 1
   },
   {
-    "title": "Runner's World Sommer-Gewinnspiel: 2× 250 € Bargeld für deine Laufsaison",
-    "cat": "bargeld",
-    "value_eur": 250,
-    "deadline": "2026-08-14",
-    "draw_date": null,
-    "sponsor": "Runner's World (Hearst)",
-    "description": "Gewinnspielfrage beantworten und Formular ausfüllen – du kannst 2× 250 Euro Bargeld für deine Laufsaison gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://www.runnersworld.de/news/sommer-gewinnspiel-250-fuer-deine-laufsaison-sichern-1/",
-    "is_real": 1
-  },
-  {
     "title": "Jolie × Mionetto + CODELLO: Genusspaket & Schal gewinnen",
     "cat": "lebensmittel",
     "value_eur": 50,
@@ -355,17 +322,6 @@
     "is_real": 1
   },
   {
-    "title": "Mein-EigenHeim: Gartenhaus LIVN von Gartenbits gewinnen",
-    "cat": "haus",
-    "value_eur": 9000,
-    "deadline": "2026-08-15",
-    "draw_date": null,
-    "sponsor": "Mein-EigenHeim Magazin / Gartenbits",
-    "description": "Gewinne ein hochwertiges Gartenhaus LIVN von Gartenbits – ein Rückzugsort für entspannte Sommermomente im Wert von rund 9.000 Euro. Kostenlose Teilnahme per Online-Formular.",
-    "url": "https://www.mein-eigenheim.de/beitrag/gewinnspiel-entspannung.html",
-    "is_real": 1
-  },
-  {
     "title": "RITTER SPORT Newsletter-Gewinnspiel: Exklusive Schokoladen-Pakete gewinnen",
     "cat": "lebensmittel",
     "value_eur": null,
@@ -385,17 +341,6 @@
     "sponsor": "AIDA Cruises",
     "description": "Jeden Monat verlost AIDA einen Reisegutschein im Wert von 1.500 €. Newsletter abonnieren und am Monatsgewinnspiel teilnehmen. Kostenlose Teilnahme, kein Kauf erforderlich.",
     "url": "https://aida.de/buchung/aktionen/gewinnspiele/monatsgewinnspiel",
-    "is_real": 1
-  },
-  {
-    "title": "GewinnArena Exklusiv: Sony DualSense Controller V2 gewinnen",
-    "cat": "handy",
-    "value_eur": 80,
-    "deadline": "2026-08-13",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "GewinnArena / Sony",
-    "description": "Sony PlayStation 5 DualSense Controller V2 gewinnen. Kostenlose Teilnahme per Online-Formular auf gewinnarena.de, kein Kaufzwang.",
-    "url": "https://www.gewinnarena.de/tv/gewinnarena/gewinnarena-exklusiv/sony-playstation-5-ps5-dualsense-controller-v2-07-26/",
     "is_real": 1
   },
   {
@@ -583,6 +528,72 @@
     "sponsor": "Qatar Airways × SO/ Maldives",
     "description": "Qatar Airways Newsletter abonnieren und 2 Economy-Flüge nach Male sowie 5 Nächte Vollpension im SO/ Maldives Hotel für 2 Personen gewinnen. Kostenlose Teilnahme per Newsletter-Anmeldung, nur Neukunden.",
     "url": "https://www.qatarairways.com/de-de/offers/subscribe-and-win-somaldives.html",
+    "is_real": 1
+  },
+  {
+    "title": "auto motor und sport 80 Jahre: Kia EV3 Air (36.280 €) gewinnen",
+    "cat": "auto",
+    "value_eur": 36280,
+    "deadline": "2026-12-14",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Motor Presse Stuttgart (auto motor und sport)",
+    "description": "Zum 80-Jahr-Jubiläum von auto motor und sport an der Leserwahl teilnehmen und einen Kia EV3 Air in Frostblau (36.280 €) gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
+    "url": "https://www.auto-motor-und-sport.de/verkehr/80-jahre-auto-motor-und-sport-gewinnspiel-kia-ev3-air-gewinnen/",
+    "is_real": 1
+  },
+  {
+    "title": "Berghaus Vanlife: Camper Van für 12 Monate + 7.000 € Ausstattung gewinnen",
+    "cat": "reise",
+    "value_eur": 16000,
+    "deadline": "2027-02-26",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Berghaus × Rocket Camper",
+    "description": "Komplett ausgebauten Berghaus × Rocket Camper Van für 12 Monate gewinnen, plus 2.000 € Berghaus-Outfit-Gutschein und 5.000 € Tankkarte. Kostenlose Teilnahme per Formular, mind. 21 Jahre, Führerschein erforderlich.",
+    "url": "https://your-berghaus.com/",
+    "is_real": 1
+  },
+  {
+    "title": "Mein Grundeinkommen: Monatlich 1.000 € für ein Jahr gewinnen",
+    "cat": "bargeld",
+    "value_eur": 12000,
+    "deadline": "2027-06-30",
+    "draw_date": "monatlich (nächste Ziehung 16.09.2026)",
+    "sponsor": "Mein Grundeinkommen e.V.",
+    "description": "Kostenlos anmelden und eines von 25 bedingungslosen Grundeinkommen gewinnen – 1.000 € pro Monat für 12 Monate (12.000 € gesamt), steuerfrei und ohne Bedingungen.",
+    "url": "https://www.mein-grundeinkommen.de/verlosung",
+    "is_real": 1
+  },
+  {
+    "title": "ALDI Nord Glückskorb: Wöchentlich DYSON, iPad & mehr gewinnen",
+    "cat": "haus",
+    "value_eur": 450,
+    "deadline": "2026-08-30",
+    "draw_date": "wöchentlich",
+    "sponsor": "ALDI Nord",
+    "description": "Wöchentlich Hauptpreise wie DYSON Kopfhörer, Apple iPad, COSORI Heißluftfritteuse, SONOS Lautsprecher oder DREAME Saugroboter gewinnen. Kostenlose Teilnahme per ALDI Nord App, kein Kauf erforderlich.",
+    "url": "https://www.aldi-glueckskorb.de/",
+    "is_real": 1
+  },
+  {
+    "title": "HiPP Kinderhotels: 2× Familienurlaub (je 1.200 €) gewinnen",
+    "cat": "reise",
+    "value_eur": 1200,
+    "deadline": "2026-10-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "HiPP",
+    "description": "1 von 2 Wochen Familienurlaub im Kinderhotel für 2 Erwachsene und bis zu 2 Kinder (bis 12 Jahre) gewinnen. Kostenlose Teilnahme per Online-Formular, kein Kauf erforderlich.",
+    "url": "https://www.hipp.de/beikost/aktuelles/gewinnspiel-kinderhotels/",
+    "is_real": 1
+  },
+  {
+    "title": "Aktion Mensch Newsletter: 500 € MediaMarkt-Gutschein gewinnen",
+    "cat": "handy",
+    "value_eur": 500,
+    "deadline": "2026-10-15",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Aktion Mensch",
+    "description": "Aktion Mensch Newsletter abonnieren und einen 500 € MediaMarkt-Gutschein gewinnen – für Smartphone, Fernseher oder Gaming-Zubehör. Kostenlose Teilnahme per Newsletter-Anmeldung, kein Kauf erforderlich.",
+    "url": "https://aktion-mensch-newsletter.de/",
     "is_real": 1
   }
 ]
