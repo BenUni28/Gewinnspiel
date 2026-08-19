@@ -223,28 +223,6 @@
     "is_real": 1
   },
   {
-    "title": "Lidl Sommer-Bonus: 3× Last-Minute-Traumreise (je 3.000 €) gewinnen",
-    "cat": "reise",
-    "value_eur": 3000,
-    "deadline": "2026-08-16",
-    "draw_date": "bis 21.08.2026",
-    "sponsor": "Lidl Reisen",
-    "description": "3× Last-Minute-Traumreise im Wert von je 3.000 € gewinnen – Strand, City oder Berge. Gewinnspielfrage beantworten, kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://www.lidl.de/gewinnspiel-sommer-bonus",
-    "is_real": 1
-  },
-  {
-    "title": "dm Adventskalender Gewinnspiel 2026: 70× Beauty-Adventskalender gewinnen",
-    "cat": "beauty",
-    "value_eur": 50,
-    "deadline": "2026-08-16",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "dm-drogerie markt",
-    "description": "Einen von 70 dm-Adventskalendern gewinnen – u.a. Balea, Alverde, Ebelin Kids und Erwachsene. Mit kostenlosem Mein dm-Konto anmelden und Wunsch-Adventskalender angeben. Kein Kauf erforderlich.",
-    "url": "https://www.dm.de/neu/gewinnspiele/adventskalender-gewinnspiel-2948470",
-    "is_real": 1
-  },
-  {
     "title": "ENGWE E26 3.0 Pro: 3× vollgefedertes E-Mountainbike gewinnen",
     "cat": "sport",
     "value_eur": 2000,
@@ -286,28 +264,6 @@
     "sponsor": "Aoste",
     "description": "Newsletter abonnieren und eine Vespa Elettrica (ca. 5.000 €) oder Grill-Event-Pakete gewinnen. Kostenlose Teilnahme per E-Mail, kein Kauf erforderlich.",
     "url": "https://www.aoste.de/sommer/",
-    "is_real": 1
-  },
-  {
-    "title": "Homeplaza: Dyson Purifier Cool Formaldehyde PC1 (450 €) gewinnen",
-    "cat": "haus",
-    "value_eur": 450,
-    "deadline": "2026-08-17",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Homeplaza",
-    "description": "Newsletter abonnieren und Dyson Purifier Cool PC1 Luftreiniger & Ventilator (450 €) gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://www.homeplaza.de/gewinnspiele/dyson-purifier-cool-pc1/mn_48831",
-    "is_real": 1
-  },
-  {
-    "title": "Jolie × Mionetto + CODELLO: Genusspaket & Schal gewinnen",
-    "cat": "lebensmittel",
-    "value_eur": 50,
-    "deadline": "2026-08-17",
-    "draw_date": null,
-    "sponsor": "Jolie.de / Bauer Verlag",
-    "description": "Newsletter abonnieren und ein Mionetto Genusspaket sowie einen CODELLO Seiden-Schal im Wert von 50 Euro gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://www.jolie.de/gewinnspiele/genusspakete-mit-mionetto-und-codello-zu-gewinnen-219118.html",
     "is_real": 1
   },
   {
@@ -374,17 +330,6 @@
     "sponsor": "Imaging World",
     "description": "DJI Osmo 360 Action-Kamera + 10×2 Messe-Tickets + Kalahari-Rucksäcke gewinnen. Kostenlose Teilnahme per Newsletter-Anmeldung bis 15.09.2026.",
     "url": "https://imagingworld.de/gewinnspiel/",
-    "is_real": 1
-  },
-  {
-    "title": "GewinnArena Exklusiv: Apple iPhone Pro Max gewinnen",
-    "cat": "handy",
-    "value_eur": 1299,
-    "deadline": "2026-08-17",
-    "draw_date": null,
-    "sponsor": "GewinnArena / ProSiebenSat.1",
-    "description": "Apple iPhone Pro Max kostenlos gewinnen. Einmalige kostenlose Registrierung bei GewinnArena (offizielle Plattform von ProSiebenSat.1) genügt.",
-    "url": "https://www.gewinnarena.de/tv/gewinnarena/gewinnarena-exklusiv/apple-iphone-pro-max-joyn-07-26/",
     "is_real": 1
   },
   {
@@ -594,6 +539,61 @@
     "sponsor": "Aktion Mensch",
     "description": "Aktion Mensch Newsletter abonnieren und einen 500 € MediaMarkt-Gutschein gewinnen – für Smartphone, Fernseher oder Gaming-Zubehör. Kostenlose Teilnahme per Newsletter-Anmeldung, kein Kauf erforderlich.",
     "url": "https://aktion-mensch-newsletter.de/",
+    "is_real": 1
+  },
+  {
+    "title": "Berlin mit Kind × Thule: Kinderwagen Thule Charm 2 in 1 gewinnen",
+    "cat": "haus",
+    "value_eur": 1299,
+    "deadline": "2026-09-06",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Berlin mit Kind / Thule",
+    "description": "Thule Charm 2 in 1 Kinderwagen (Babywanne + Sportwagen) im Wert von ~1.299 € gewinnen. Kostenlose Teilnahme per Online-Formular, kein Kauf erforderlich.",
+    "url": "https://berlinmitkind.de/gewinnspiel/kinderwagen-thule-charm/",
+    "is_real": 1
+  },
+  {
+    "title": "onvista Börsenspiel Trader 2026: New-York-Reise Business Class gewinnen",
+    "cat": "reise",
+    "value_eur": 8529,
+    "deadline": "2026-10-30",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "onvista / Société Générale",
+    "description": "Virtuelles Börsenspiel kostenlos mitmachen und eine Business-Class-Reise für 2 Personen nach New York + 4 Nächte im 4-Sterne-Hotel (ca. 8.529 €) gewinnen. Kein echtes Geld erforderlich.",
+    "url": "https://www.onvista.de/info/boersenspiel-gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "Mein Tophotel Sommer-Gewinnspiel 2026: 4 Hotelaufenthalte gewinnen",
+    "cat": "reise",
+    "value_eur": 500,
+    "deadline": "2026-08-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Mein Tophotel",
+    "description": "Lieblingshotel-Kategorie angeben und einen von 4 Hotelaufenthalten gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich. Auslosung nach Teilnahmeschluss am 31.08.2026.",
+    "url": "https://www.meintophotel.de/sommer-gewinnspiel-2026/",
+    "is_real": 1
+  },
+  {
+    "title": "wirsindanderswo: 2 Nächte im Bio-Thermalhotel Falkenhof Bad Füssing gewinnen",
+    "cat": "reise",
+    "value_eur": 280,
+    "deadline": "2026-08-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "wirsindanderswo",
+    "description": "2 Übernachtungen für 2 Personen im nachhaltigen Bio-Thermalhotel Falkenhof in Bad Füssing (Bayern) gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
+    "url": "https://www.wirsindanderswo.de/gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "EDEKA DFB-Länderspiel: 2×2 Tickets für Deutschland (Sep/Okt 2026) gewinnen",
+    "cat": "sport",
+    "value_eur": 200,
+    "deadline": "2026-09-20",
+    "draw_date": "vor dem Spiel am 27.09.2026",
+    "sponsor": "EDEKA / DFB",
+    "description": "2×2 Tickets für DFB-Länderspiele gewinnen: Deutschland am 27.09.2026 in Augsburg und am 01.10.2026 in München. Kostenlose Teilnahme per EDEKA-App oder Formular auf edeka.de, kein Kauf erforderlich.",
+    "url": "https://www.edeka.de/kampagnen/dfb-gewinnspiel/",
     "is_real": 1
   }
 ]
