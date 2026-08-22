@@ -388,17 +388,6 @@
     "is_real": 1
   },
   {
-    "title": "FUNKE FUN: Nikon Z50II – Die perfekte Reisebegleiterin gewinnen",
-    "cat": "handy",
-    "value_eur": 1099,
-    "deadline": "2026-08-20",
-    "draw_date": null,
-    "sponsor": "FUNKE Mediengruppe",
-    "description": "Nikon Z50II Standard-Kit mit Z DX 16-50mm VR Objektiv im Wert von ca. 1.099 € gewinnen. Kostenlose Teilnahme per Online-Formular auf funke.fun, kein Kauf erforderlich.",
-    "url": "https://www.funke.fun/gewinnspiele/detail-16",
-    "is_real": 1
-  },
-  {
     "title": "AUTO BILD Sportscars des Jahres 2026: Wintertraining oder WM-Erlebnis gewinnen",
     "cat": "sport",
     "value_eur": 6000,
@@ -594,6 +583,28 @@
     "sponsor": "EDEKA / DFB",
     "description": "2×2 Tickets für DFB-Länderspiele gewinnen: Deutschland am 27.09.2026 in Augsburg und am 01.10.2026 in München. Kostenlose Teilnahme per EDEKA-App oder Formular auf edeka.de, kein Kauf erforderlich.",
     "url": "https://www.edeka.de/kampagnen/dfb-gewinnspiel/",
+    "is_real": 1
+  },
+  {
+    "title": "Kochgourmet Sommergewinnspiel 2026: Thermomix TM7 gewinnen",
+    "cat": "haus",
+    "value_eur": 1599,
+    "deadline": "2026-09-30",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Kochgourmet",
+    "description": "Thermomix TM7 (ca. 1.599 €) und Kochbücher gewinnen. Vom 05.08. bis 30.09.2026 kostenlos am Sommergewinnspiel teilnehmen – Formular ausfüllen, kein Kauf erforderlich.",
+    "url": "https://www.kochgourmet.com/gewinnspiele/sommergewinnspiel-2026",
+    "is_real": 1
+  },
+  {
+    "title": "bauSpezi × FISCHER: LED-Beleuchtungs-Sets & Faltschlösser gewinnen",
+    "cat": "sport",
+    "value_eur": 300,
+    "deadline": "2026-09-30",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "bauSpezi / FISCHER",
+    "description": "6 FISCHER LED-Akku-Beleuchtungs-Sets TWIN STOP 110 Lux und 5 FISCHER Faltschlösser PROTEC PLUS+ FN110 gewinnen. Gewinnspielfrage beantworten, Formular absenden – kostenlos, kein Kauf.",
+    "url": "https://gewinnspiel.bauspezi.de/",
     "is_real": 1
   }
 ]
