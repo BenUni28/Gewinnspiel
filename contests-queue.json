@@ -168,17 +168,6 @@
     "is_real": 1
   },
   {
-    "title": "EAT SMARTER Sommergewinnspiel 2026: Küchenhelfer von ELO, GEFU & Severin gewinnen",
-    "cat": "haus",
-    "value_eur": 300,
-    "deadline": "2026-08-23",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "EAT SMARTER / ELO / GEFU / Severin / MANI",
-    "description": "Muscheln in der Bildgalerie zählen und hochwertige Küchenhelfer von ELO, GEFU und Severin sowie griechisches Olivenöl von MANI Bläuel gewinnen. Kostenlose Teilnahme per Formular.",
-    "url": "https://eatsmarter.de/gewinnspiele/unser-grosses-sommergewinnspiel",
-    "is_real": 1
-  },
-  {
     "title": "nimm2 Sommergewinnspiel – Der Sommer lacht: täglich Sofortgewinne",
     "cat": "lebensmittel",
     "value_eur": null,
@@ -605,6 +594,39 @@
     "sponsor": "bauSpezi / FISCHER",
     "description": "6 FISCHER LED-Akku-Beleuchtungs-Sets TWIN STOP 110 Lux und 5 FISCHER Faltschlösser PROTEC PLUS+ FN110 gewinnen. Gewinnspielfrage beantworten, Formular absenden – kostenlos, kein Kauf.",
     "url": "https://gewinnspiel.bauspezi.de/",
+    "is_real": 1
+  },
+  {
+    "title": "Ravensburger Spieleland Jahresgewinnspiel 2026: Familienurlaube & Jahrespässe gewinnen",
+    "cat": "reise",
+    "value_eur": null,
+    "deadline": "2026-11-01",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Ravensburger Spieleland",
+    "description": "Preise im Gesamtwert von über 35.000 € gewinnen – darunter mehrtägige Familienurlaube für 2 Erwachsene und 2 Kinder in ORIGINAL Kinderhotels Europa sowie Jahrespässe für das Spieleland am Bodensee. Kostenlose Teilnahme per Online-Formular, kein Kauf erforderlich.",
+    "url": "https://spieleland.de/events/jahresgewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "Das große Backen × GewinnArena: Weber Gasgrill Spirit oder G3 Ferrari Pizzaofen gewinnen",
+    "cat": "haus",
+    "value_eur": 699,
+    "deadline": "2026-10-04",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "SAT.1 / Das große Backen",
+    "description": "Zur SAT.1-Sendung 'Das große Backen' einen Weber Gasgrill Spirit SP-435 GBS (~699 €) oder einen G3 Ferrari Pizzaofen G10204 gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
+    "url": "https://www.gewinnarena.de/tv/sat1/das-grosse-backen/das-groe-backen-06-26/",
+    "is_real": 1
+  },
+  {
+    "title": "Müller × L'Oréal Gewinnspiel: 1.000 € Reisegutschein nach Italien gewinnen",
+    "cat": "gutschein",
+    "value_eur": 1000,
+    "deadline": "2026-10-11",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Müller Drogeriemarkt / L'Oréal",
+    "description": "Einen 1.000-Euro-Reisegutschein für eine Reise nach Italien gewinnen – exklusiv bei Müller in Kooperation mit L'Oréal Paris. Kostenlose Teilnahme per Online-Formular, kein Kauf erforderlich.",
+    "url": "https://www.mueller.de/aktuelles/gewinnspiele/loreal-gewinnspiel/",
     "is_real": 1
   }
 ]
