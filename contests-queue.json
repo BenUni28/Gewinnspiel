@@ -212,17 +212,6 @@
     "is_real": 1
   },
   {
-    "title": "ENGWE E26 3.0 Pro: 3× vollgefedertes E-Mountainbike gewinnen",
-    "cat": "sport",
-    "value_eur": 2000,
-    "deadline": "2026-08-28",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "ENGWE",
-    "description": "E-Mail eintragen und eines von 3 ENGWE E26 3.0 Pro vollgefederten E-Mountainbikes gewinnen. Kostenlose Teilnahme per Newsletter-Anmeldung, kein Kauf erforderlich.",
-    "url": "https://de.engwe.com/pages/engwe-e26-3-0-pro-giveaway",
-    "is_real": 1
-  },
-  {
     "title": "BORN Feinkost WM-Gewinnspiel: Reise zur FIFA WM 2026 & Produktpakete gewinnen",
     "cat": "lebensmittel",
     "value_eur": 3000,
@@ -627,6 +616,50 @@
     "sponsor": "Müller Drogeriemarkt / L'Oréal",
     "description": "Einen 1.000-Euro-Reisegutschein für eine Reise nach Italien gewinnen – exklusiv bei Müller in Kooperation mit L'Oréal Paris. Kostenlose Teilnahme per Online-Formular, kein Kauf erforderlich.",
     "url": "https://www.mueller.de/aktuelles/gewinnspiele/loreal-gewinnspiel/",
+    "is_real": 1
+  },
+  {
+    "title": "GewinnArena Exklusiv: Apple MacBook Pro 14\" M3 gewinnen",
+    "cat": "handy",
+    "value_eur": 1999,
+    "deadline": "2026-10-04",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "GewinnArena / ProSiebenSat.1",
+    "description": "Kostenloses GewinnArena-Konto anlegen und ein Apple MacBook Pro 14\" mit M3 Chip (ca. 1.999 €) gewinnen. Exklusives GewinnArena-Gewinnspiel, kein Kauf erforderlich.",
+    "url": "https://www.gewinnarena.de/tv/gewinnarena/gewinnarena-exklusiv/macbook-pro-m3/",
+    "is_real": 1
+  },
+  {
+    "title": "Rossmann App-Gewinnspiel: 5× iPad + 50× Gutschein gewinnen",
+    "cat": "handy",
+    "value_eur": 400,
+    "deadline": "2026-09-13",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Rossmann",
+    "description": "Rossmann App herunterladen und 5× Apple iPad, 50 × 50 € Rossmann-Gutscheine oder P&G Produktpakete gewinnen. Kostenlose Teilnahme per App-Registrierung, kein Kauf erforderlich.",
+    "url": "https://www.rossmann.de/de/service-und-hilfe/app-gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "GewinnArena Exklusiv: 200 € September-Geld gewinnen",
+    "cat": "bargeld",
+    "value_eur": 200,
+    "deadline": "2026-09-30",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "GewinnArena / ProSiebenSat.1",
+    "description": "Kostenloses GewinnArena-Konto anlegen und 200 € für unvergessliche Spätsommermomente gewinnen. Exklusives GewinnArena-Gewinnspiel, kein Kauf erforderlich.",
+    "url": "https://www.gewinnarena.de/tv/gewinnarena/gewinnarena-exklusiv/200-euro-september-geld/",
+    "is_real": 1
+  },
+  {
+    "title": "bofrost*: Täglich eine Flasche Wein (1966er Jahrgang, ~200 €) gewinnen",
+    "cat": "lebensmittel",
+    "value_eur": 200,
+    "deadline": "2026-09-05",
+    "draw_date": "täglich",
+    "sponsor": "bofrost* Tiefkühlkost",
+    "description": "Täglich am Gewinnspiel teilnehmen und eine erlesene Flasche Wein des Jahrgangs 1966 (ca. 199,99 €) gewinnen. Zusätzlich monatlich Gutscheine verlosen. Kostenlose Teilnahme per Online-Formular, kein Kauf erforderlich.",
+    "url": "https://www.bofrost.de/gewinnspiel.html",
     "is_real": 1
   }
 ]
