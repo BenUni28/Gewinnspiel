@@ -168,28 +168,6 @@
     "is_real": 1
   },
   {
-    "title": "nimm2 Sommergewinnspiel – Der Sommer lacht: täglich Sofortgewinne",
-    "cat": "lebensmittel",
-    "value_eur": null,
-    "deadline": "2026-08-30",
-    "draw_date": "Sofortgewinn täglich",
-    "sponsor": "Storck / nimm2",
-    "description": "Täglich 2 von 12 Feldern aufdecken und sofort gewinnen: Produktpakete, Koffer, Strandtaschen, Luftmatratzen u.v.m. Kostenlos, ohne Anmeldung.",
-    "url": "https://www.nimm2.de/de/der-sommer-lacht",
-    "is_real": 1
-  },
-  {
-    "title": "REWE × Taste France: Reise nach Paris (2.500 €) gewinnen",
-    "cat": "reise",
-    "value_eur": 2500,
-    "deadline": "2026-08-30",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "REWE",
-    "description": "Reise nach Paris im Wert von 2.500 € gewinnen – anlässlich der REWE Taste France Kampagne. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
-    "url": "https://www.rewe.de/aktionen/gewinnspiele/taste-france/",
-    "is_real": 1
-  },
-  {
     "title": "Sagrotan × ab-in-den-urlaub.de: 3× 3.500 € Reisegutschein gewinnen",
     "cat": "reise",
     "value_eur": 3500,
@@ -267,17 +245,6 @@
     "is_real": 1
   },
   {
-    "title": "AIDA Monatsgewinnspiel August 2026: 1.500 € Reisegutschein gewinnen",
-    "cat": "reise",
-    "value_eur": 1500,
-    "deadline": "2026-08-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "AIDA Cruises",
-    "description": "Jeden Monat verlost AIDA einen Reisegutschein im Wert von 1.500 €. Newsletter abonnieren und am Monatsgewinnspiel teilnehmen. Kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://aida.de/buchung/aktionen/gewinnspiele/monatsgewinnspiel",
-    "is_real": 1
-  },
-  {
     "title": "Steuertipps 50 Jahre: 3.000 € Reisegutschein & Samsung Preise gewinnen",
     "cat": "reise",
     "value_eur": 3000,
@@ -344,17 +311,6 @@
     "is_real": 1
   },
   {
-    "title": "TECWORLD Besserwisser Quiz August 2026: Kabellose Kopfhörer gewinnen",
-    "cat": "handy",
-    "value_eur": 150,
-    "deadline": "2026-08-30",
-    "draw_date": "Anfang September 2026",
-    "sponsor": "TECWORLD",
-    "description": "Am TECWORLD Besserwisser Quiz teilnehmen und kabellose Premium-Kopfhörer gewinnen. Quizfragen beantworten und Formular absenden – kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://www.tecworld.com/gewinnspiel-besserwisser-quiz-august-2026/",
-    "is_real": 1
-  },
-  {
     "title": "Krombacher × Buschbeck: Exklusive Outdoor-Küche 'Brighton' gewinnen",
     "cat": "haus",
     "value_eur": 4999,
@@ -374,17 +330,6 @@
     "sponsor": "AUTO BILD / Motor Presse Stuttgart",
     "description": "Für Sportscars des Jahres 2026 abstimmen und Winterfahrtraining in Schweden (~6.000 €) oder Lamborghini Trofeo World Finals-Reise nach Monza gewinnen. Kostenlose Teilnahme, kein Kauf nötig.",
     "url": "https://www.autobild.de/artikel/sportscars-des-jahres-2026-gewinnspiel-28726581.html",
-    "is_real": 1
-  },
-  {
-    "title": "ARD Sportschau: Tor des Monats Juli 2026 – Reisemobil (45.000 €) gewinnen",
-    "cat": "reise",
-    "value_eur": 45000,
-    "deadline": "2026-08-29",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "ARD Sportschau × caravaning.info",
-    "description": "Abstimmen, wer das Tor des Monats Juli 2026 ist, und dabei ein Reisemobil im Wert von 45.000 € gewinnen. Kostenlose Teilnahme per Abstimmungsformular, kein Kauf erforderlich.",
-    "url": "https://www1.sportschau.de/tdm/tdm",
     "is_real": 1
   },
   {
@@ -473,17 +418,6 @@
     "sponsor": "Mein Grundeinkommen e.V.",
     "description": "Kostenlos anmelden und eines von 25 bedingungslosen Grundeinkommen gewinnen – 1.000 € pro Monat für 12 Monate (12.000 € gesamt), steuerfrei und ohne Bedingungen.",
     "url": "https://www.mein-grundeinkommen.de/verlosung",
-    "is_real": 1
-  },
-  {
-    "title": "ALDI Nord Glückskorb: Wöchentlich DYSON, iPad & mehr gewinnen",
-    "cat": "haus",
-    "value_eur": 450,
-    "deadline": "2026-08-30",
-    "draw_date": "wöchentlich",
-    "sponsor": "ALDI Nord",
-    "description": "Wöchentlich Hauptpreise wie DYSON Kopfhörer, Apple iPad, COSORI Heißluftfritteuse, SONOS Lautsprecher oder DREAME Saugroboter gewinnen. Kostenlose Teilnahme per ALDI Nord App, kein Kauf erforderlich.",
-    "url": "https://www.aldi-glueckskorb.de/",
     "is_real": 1
   },
   {
@@ -660,6 +594,39 @@
     "sponsor": "bofrost* Tiefkühlkost",
     "description": "Täglich am Gewinnspiel teilnehmen und eine erlesene Flasche Wein des Jahrgangs 1966 (ca. 199,99 €) gewinnen. Zusätzlich monatlich Gutscheine verlosen. Kostenlose Teilnahme per Online-Formular, kein Kauf erforderlich.",
     "url": "https://www.bofrost.de/gewinnspiel.html",
+    "is_real": 1
+  },
+  {
+    "title": "SweeTango Apple: 3 Reisegutscheine (bis 2.500 €) gewinnen",
+    "cat": "reise",
+    "value_eur": 2500,
+    "deadline": "2026-10-15",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "SweeTango Apple",
+    "description": "3 Reisegutscheine gewinnen: 1. Platz 2.500 €, 2. Platz 1.500 €, 3. Platz 1.000 €. Gewinnspielfrage beantworten und Formular absenden – kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://sweetango-apple.com/gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "caravaning.info Sommergewinnspiel: 1 Woche Caravanurlaub am Edersee gewinnen",
+    "cat": "reise",
+    "value_eur": 300,
+    "deadline": "2026-09-06",
+    "draw_date": "September 2026",
+    "sponsor": "caravaning.info",
+    "description": "1 Woche Caravanurlaub im Camping & Holiday Park Teichmann direkt am Edersee + 300 € Taschengeld gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
+    "url": "https://www.caravaning.info/das-ist-caravaning/gewinnspiele/caravan-urlaub-gewinnen",
+    "is_real": 1
+  },
+  {
+    "title": "AIDA Monatsgewinnspiel September 2026: 3.000 € Kreuzfahrtgutschein gewinnen",
+    "cat": "reise",
+    "value_eur": 3000,
+    "deadline": "2026-09-30",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "AIDA Cruises",
+    "description": "Monatlich einen 3.000 € AIDA Kreuzfahrtgutschein gewinnen. Newsletter abonnieren und Gewinnspielfrage beantworten – kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.aida.de/kreuzfahrt/monatsgewinnspiel.40935.html",
     "is_real": 1
   }
 ]
