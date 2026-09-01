@@ -12,17 +12,6 @@
     "is_real": 1
   },
   {
-    "title": "Ferrero Newsletter: Monatliche Verlosung bis August 2026",
-    "cat": "haus",
-    "value_eur": 1200,
-    "icon": "☕",
-    "deadline": "2026-08-31",
-    "sponsor": "Ferrero Deutschland",
-    "description": "Ferrero Newsletter abonnieren und monatlich bei Sonderverlosungen mitmachen – z. B. De'Longhi Kaffeevollautomaten. Kostenlose Teilnahme.",
-    "url": "https://gewinnspiel.mein-ferrero.de/loyalty-gewinnspiel",
-    "is_real": 1
-  },
-  {
     "title": "IKEA Family: Jeden Monat 5 × 1.000 € Mietzuschuss gewinnen",
     "cat": "bargeld",
     "value_eur": 1000,
@@ -77,17 +66,6 @@
     "sponsor": "Schwarzwald Tourismus GmbH",
     "description": "Monatlich ein Kurzurlaub für 2 Personen im Schwarzwald gewinnen – 2 Nächte im Hotel Tannhof inkl. Frühstücksbuffet. Memory-Spiel spielen und Formular ausfüllen – kostenlos.",
     "url": "https://www.schwarzwald.de/schwarzwald-urlaub-gewinnspiel",
-    "is_real": 1
-  },
-  {
-    "title": "Belli Cantuccini: FIAT Topolino oder Espressokocher gewinnen",
-    "cat": "auto",
-    "value_eur": 10000,
-    "deadline": "2026-08-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Belli Cantuccini / Gadeschi",
-    "description": "FIAT Topolino (Hauptgewinn, ca. 10.000 €) oder einen von 33 kultige Espressokocher gewinnen. Kostenlose Online-Teilnahme per Formular, kein Kauf erforderlich.",
-    "url": "https://topolino-gewinnspiel.cantuccini.de/",
     "is_real": 1
   },
   {
@@ -179,28 +157,6 @@
     "is_real": 1
   },
   {
-    "title": "LCC Schiff des Jahres 2027: Abstimmen & 1 von 3 Kreuzfahrten gewinnen",
-    "cat": "reise",
-    "value_eur": null,
-    "deadline": "2026-08-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Lufthansa City Center",
-    "description": "Für das Schiff des Jahres 2027 abstimmen und 1 von 3 Kreuzfahrten für 2 Personen gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://lufthansa-city-center.com/de/urlaub/reisearten/schiff-des-jahres/",
-    "is_real": 1
-  },
-  {
-    "title": "BORN Feinkost WM-Gewinnspiel: Reise zur FIFA WM 2026 & Produktpakete gewinnen",
-    "cat": "lebensmittel",
-    "value_eur": 3000,
-    "deadline": "2026-08-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "BORN Feinkost",
-    "description": "Formular ausfüllen und Reise zur FIFA WM 2026 in den USA oder BORN Produktpakete gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://weltmeister.born-feinkost.de/",
-    "is_real": 1
-  },
-  {
     "title": "Spezi Sommergewinnspiel: Vespa Sprint 125 oder Spezi Fanpakete gewinnen",
     "cat": "auto",
     "value_eur": 4000,
@@ -220,17 +176,6 @@
     "sponsor": "Aoste",
     "description": "Newsletter abonnieren und eine Vespa Elettrica (ca. 5.000 €) oder Grill-Event-Pakete gewinnen. Kostenlose Teilnahme per E-Mail, kein Kauf erforderlich.",
     "url": "https://www.aoste.de/sommer/",
-    "is_real": 1
-  },
-  {
-    "title": "DJH Jugendherbergen Rheinland Sommer 2026: 250 € Reisegutschein gewinnen",
-    "cat": "reise",
-    "value_eur": 250,
-    "deadline": "2026-08-31",
-    "draw_date": null,
-    "sponsor": "DJH Landesverband Rheinland",
-    "description": "Am Sommer-Gewinnspiel des DJH Rheinland teilnehmen und einen Reisegutschein im Wert von 250 Euro für eine Jugendherberge deiner Wahl gewinnen. Kostenlose Teilnahme per Online-Formular.",
-    "url": "https://www.jugendherberge.de/rheinland/formulare/gewinnspiel-sommer-2026/",
     "is_real": 1
   },
   {
@@ -297,17 +242,6 @@
     "sponsor": "Böklunder",
     "description": "Paris-Trip für 2: Air France-Flüge ab Deutschland + 2 Hotelnächte kostenlos gewinnen. Teilnahme per Formular. Aktion zum Kinostart Oh la la 2.",
     "url": "https://www.boeklunder.de/gewinnspiele/gewinnspiel-oh-la-la-2-neue-tests-neues-chaos",
-    "is_real": 1
-  },
-  {
-    "title": "Wiesehoff: 250 € Bonjour France Gutschein gewinnen",
-    "cat": "gutschein",
-    "value_eur": 250,
-    "deadline": "2026-08-31",
-    "draw_date": null,
-    "sponsor": "Wiesehoff",
-    "description": "250 € Onlineshop-Gutschein bei Bonjour France kostenlos gewinnen. Teilnahme per Formular auf wiesehoff-gewinnspiel.de. Aktion zu Oh la la 2.",
-    "url": "https://www.wiesehoff-gewinnspiel.de/",
     "is_real": 1
   },
   {
@@ -465,28 +399,6 @@
     "is_real": 1
   },
   {
-    "title": "Mein Tophotel Sommer-Gewinnspiel 2026: 4 Hotelaufenthalte gewinnen",
-    "cat": "reise",
-    "value_eur": 500,
-    "deadline": "2026-08-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Mein Tophotel",
-    "description": "Lieblingshotel-Kategorie angeben und einen von 4 Hotelaufenthalten gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich. Auslosung nach Teilnahmeschluss am 31.08.2026.",
-    "url": "https://www.meintophotel.de/sommer-gewinnspiel-2026/",
-    "is_real": 1
-  },
-  {
-    "title": "wirsindanderswo: 2 Nächte im Bio-Thermalhotel Falkenhof Bad Füssing gewinnen",
-    "cat": "reise",
-    "value_eur": 280,
-    "deadline": "2026-08-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "wirsindanderswo",
-    "description": "2 Übernachtungen für 2 Personen im nachhaltigen Bio-Thermalhotel Falkenhof in Bad Füssing (Bayern) gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
-    "url": "https://www.wirsindanderswo.de/gewinnspiel",
-    "is_real": 1
-  },
-  {
     "title": "EDEKA DFB-Länderspiel: 2×2 Tickets für Deutschland (Sep/Okt 2026) gewinnen",
     "cat": "sport",
     "value_eur": 200,
@@ -586,17 +498,6 @@
     "is_real": 1
   },
   {
-    "title": "bofrost*: Täglich eine Flasche Wein (1966er Jahrgang, ~200 €) gewinnen",
-    "cat": "lebensmittel",
-    "value_eur": 200,
-    "deadline": "2026-09-05",
-    "draw_date": "täglich",
-    "sponsor": "bofrost* Tiefkühlkost",
-    "description": "Täglich am Gewinnspiel teilnehmen und eine erlesene Flasche Wein des Jahrgangs 1966 (ca. 199,99 €) gewinnen. Zusätzlich monatlich Gutscheine verlosen. Kostenlose Teilnahme per Online-Formular, kein Kauf erforderlich.",
-    "url": "https://www.bofrost.de/gewinnspiel.html",
-    "is_real": 1
-  },
-  {
     "title": "SweeTango Apple: 3 Reisegutscheine (bis 2.500 €) gewinnen",
     "cat": "reise",
     "value_eur": 2500,
@@ -627,6 +528,61 @@
     "sponsor": "AIDA Cruises",
     "description": "Monatlich einen 3.000 € AIDA Kreuzfahrtgutschein gewinnen. Newsletter abonnieren und Gewinnspielfrage beantworten – kostenlose Teilnahme, kein Kauf erforderlich.",
     "url": "https://www.aida.de/kreuzfahrt/monatsgewinnspiel.40935.html",
+    "is_real": 1
+  },
+  {
+    "title": "STIHL Timbersports WM 2026: 2×2 Tickets für Stuttgart gewinnen",
+    "cat": "sport",
+    "value_eur": null,
+    "deadline": "2026-10-26",
+    "draw_date": "vor der Veranstaltung (November 2026)",
+    "sponsor": "SELBER MACHEN Heimwerkermagazin / STIHL",
+    "description": "2×2 Eintrittskarten für die STIHL Timbersports WM in der Porsche-Arena Stuttgart (3.–4. November 2026) gewinnen. Kostenlose Teilnahme per Online-Formular, kein Kauf erforderlich.",
+    "url": "https://selbermachen.de/gewinnspiel-timbersports-wm2026",
+    "is_real": 1
+  },
+  {
+    "title": "GewinnArena Exklusiv: Sony PlayStation 5 Slim Digital Edition gewinnen",
+    "cat": "handy",
+    "value_eur": 449,
+    "deadline": "2026-10-15",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "GewinnArena / ProSiebenSat.1 × Joyn",
+    "description": "Kostenloses GewinnArena-Konto anlegen und eine Sony PlayStation 5 Slim Digital Edition (ca. 449 €) gewinnen. Exklusives GewinnArena-Gewinnspiel in Kooperation mit Joyn, kein Kauf erforderlich.",
+    "url": "https://www.gewinnarena.de/tv/gewinnarena/gewinnarena-exklusiv/sony-playstation-5-slim-digital-joyn-07-26/",
+    "is_real": 1
+  },
+  {
+    "title": "Judith Williams Newsletter-Gewinnspiel: Wellnessurlaub oder Retinol Science Set gewinnen",
+    "cat": "beauty",
+    "value_eur": null,
+    "deadline": "2026-10-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Judith Williams Cosmetics",
+    "description": "Judith Williams Newsletter abonnieren und einen Wellnessurlaub im 5-Sterne-Hotel ODER 1 von 10 Retinol Science Sets gewinnen. Kostenlose Teilnahme per Newsletter-Anmeldung, kein Kauf erforderlich.",
+    "url": "https://www.judithwilliams.com/pages/newsletter-gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "AIDA Monatsgewinnspiel Oktober 2026: 3.000 € Kreuzfahrtgutschein gewinnen",
+    "cat": "reise",
+    "value_eur": 3000,
+    "deadline": "2026-10-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "AIDA Cruises",
+    "description": "Monatlich einen 3.000 € AIDA Kreuzfahrtgutschein gewinnen. Newsletter abonnieren und Gewinnspielfrage beantworten – kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.aida.de/kreuzfahrt/monatsgewinnspiel.40935.html",
+    "is_real": 1
+  },
+  {
+    "title": "GewinnArena Exklusiv: Sony PS5 DualSense Controller V2 gewinnen",
+    "cat": "handy",
+    "value_eur": 89,
+    "deadline": "2026-10-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "GewinnArena / ProSiebenSat.1",
+    "description": "Kostenloses GewinnArena-Konto anlegen und einen Sony PlayStation 5 DualSense Controller V2 (ca. 89 €) gewinnen. Exklusives GewinnArena-Gewinnspiel, kein Kauf erforderlich.",
+    "url": "https://www.gewinnarena.de/tv/gewinnarena/gewinnarena-exklusiv/sony-playstation-5-ps5-dualsense-controller-v2-07-26/",
     "is_real": 1
   }
 ]
