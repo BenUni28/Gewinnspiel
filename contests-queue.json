@@ -179,17 +179,6 @@
     "is_real": 1
   },
   {
-    "title": "RITTER SPORT Newsletter-Gewinnspiel: Exklusive Schokoladen-Pakete gewinnen",
-    "cat": "lebensmittel",
-    "value_eur": null,
-    "deadline": "2026-09-04",
-    "draw_date": null,
-    "sponsor": "Alfred Ritter GmbH (RITTER SPORT)",
-    "description": "RITTER SPORT Newsletter abonnieren und exklusive Schokoladen-Pakete mit den neuesten Sorten gewinnen. Das monatliche Newsletter-Gewinnspiel ist vollständig kostenlos, kein Kauf erforderlich.",
-    "url": "https://www.ritter-sport.com/de/newsletter-gewinnspiel",
-    "is_real": 1
-  },
-  {
     "title": "Steuertipps 50 Jahre: 3.000 € Reisegutschein & Samsung Preise gewinnen",
     "cat": "reise",
     "value_eur": 3000,
@@ -275,17 +264,6 @@
     "sponsor": "alltours Flugreisen",
     "description": "Kostenlosen alltours Newsletter abonnieren und eine Woche für 2 Personen im 5-Sterne Breathless Punta Cana Resort & Spa (All-inclusive) in der Dominikanischen Republik gewinnen. Kein Kauf erforderlich.",
     "url": "https://www.alltours.de/gewinnspiel",
-    "is_real": 1
-  },
-  {
-    "title": "Zuhause Wohnen: SodaStream Ultimate Multi-Drink (255 €) gewinnen",
-    "cat": "haus",
-    "value_eur": 255,
-    "deadline": "2026-09-03",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Zuhause Wohnen / Gruner+Jahr",
-    "description": "SodaStream Ultimate Multi-Drink inkl. 10 verschiedener Drink Mixes (Gesamtwert ~255 €) gewinnen. Kostenlose Teilnahme per Online-Formular, kein Kauf erforderlich.",
-    "url": "https://zuhausewohnen.de/gewinnspiele/gewinnspiel-sodastream",
     "is_real": 1
   },
   {
@@ -583,6 +561,17 @@
     "sponsor": "GewinnArena / ProSiebenSat.1",
     "description": "Kostenloses GewinnArena-Konto anlegen und einen Sony PlayStation 5 DualSense Controller V2 (ca. 89 €) gewinnen. Exklusives GewinnArena-Gewinnspiel, kein Kauf erforderlich.",
     "url": "https://www.gewinnarena.de/tv/gewinnarena/gewinnarena-exklusiv/sony-playstation-5-ps5-dualsense-controller-v2-07-26/",
+    "is_real": 1
+  },
+  {
+    "title": "Lidl PARKSIDE Mystery Box: 5× Überraschungspaket (je ~1.000 €) gewinnen",
+    "cat": "haus",
+    "value_eur": 1000,
+    "deadline": "2026-09-27",
+    "draw_date": "02.10.2026",
+    "sponsor": "Lidl Deutschland",
+    "description": "5 PARKSIDE Mystery Boxes gewinnen – jede Box enthält PARKSIDE Elektrowerkzeuge im Wert von ca. 500 € und einen 500 € Lidl-Einkaufsgutschein. Kostenlose Teilnahme per Online-Formular, kein Kauf erforderlich.",
+    "url": "https://www.lidl.de/gewinnspiele-parkside-mystery-box",
     "is_real": 1
   }
 ]
