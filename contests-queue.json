@@ -46,18 +46,6 @@
     "is_real": 1
   },
   {
-    "title": "caravaning.info: Hymer Free 540 Wohnmobil (42.000 €) gewinnen",
-    "cat": "reise",
-    "value_eur": 42000,
-    "icon": "🚐",
-    "deadline": "2026-09-06",
-    "draw_date": "September 2026",
-    "sponsor": "caravaning.info",
-    "description": "Hymer Free 540 Wohnmobil im Wert von über 42.000 € gewinnen. Video anschauen, Gewinnspielfrage beantworten und Formular absenden – kostenlose Teilnahme, kein Kauf nötig.",
-    "url": "https://www.caravaning.info/das-ist-caravaning/gewinnspiele/caravaning-gewinnspiel/",
-    "is_real": 1
-  },
-  {
     "title": "Schwarzwald Tourismus: Monatlich 2 Nächte Hotel im Schwarzwald gewinnen",
     "cat": "reise",
     "value_eur": 300,
@@ -66,39 +54,6 @@
     "sponsor": "Schwarzwald Tourismus GmbH",
     "description": "Monatlich ein Kurzurlaub für 2 Personen im Schwarzwald gewinnen – 2 Nächte im Hotel Tannhof inkl. Frühstücksbuffet. Memory-Spiel spielen und Formular ausfüllen – kostenlos.",
     "url": "https://www.schwarzwald.de/schwarzwald-urlaub-gewinnspiel",
-    "is_real": 1
-  },
-  {
-    "title": "Schwarzwald Tourismus GmbH: 3× DORFURLAUB-Gutschein (je 1.100 €) gewinnen",
-    "cat": "reise",
-    "value_eur": 1100,
-    "deadline": "2026-09-30",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Schwarzwald Tourismus GmbH",
-    "description": "Jubiläumsgewinnspiel: 3 DORFURLAUB-Gutscheine im Wert von je 1.100 € für authentischen Schwarzwald-Urlaub gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
-    "url": "https://www.schwarzwald-tourismus.info/schwarzwald/dorfurlaub/gewinnspiel",
-    "is_real": 1
-  },
-  {
-    "title": "GLOBUS Memo: Wöchentlich 5 × 100 € Einkaufsgutschein gewinnen",
-    "cat": "gutschein",
-    "value_eur": 100,
-    "deadline": "2026-12-27",
-    "draw_date": "wöchentlich",
-    "sponsor": "GLOBUS Markthallen",
-    "description": "Wöchentlich das GLOBUS Memory-Spiel lösen und 1 von 5 GLOBUS-Einkaufsgutscheinen à 100 € gewinnen. Kostenlos, einmal pro Woche mitspielen.",
-    "url": "https://www.globus.de/gewinnspiel/memospiel.php",
-    "is_real": 1
-  },
-  {
-    "title": "BMW Motorrad: Traumbike für die Saison 2026 gewinnen",
-    "cat": "sport",
-    "value_eur": 15000,
-    "deadline": "2027-01-07",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "BMW Motorrad",
-    "description": "Ein BMW Motorrad nach Wahl für die komplette Outdoorsaison (April–September 2026) gewinnen. Kostenlose Online-Teilnahme per Formular.",
-    "url": "https://www.gewinnspiele-bmw-motorrad.de/verlosung/gewinnspiel2026/",
     "is_real": 1
   },
   {
@@ -135,50 +90,6 @@
     "is_real": 1
   },
   {
-    "title": "Dr. Oetker Götterspeise: 10× Nintendo Switch 2 gewinnen",
-    "cat": "handy",
-    "value_eur": 450,
-    "deadline": "2026-09-30",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Dr. Oetker",
-    "description": "Kurze Umfrage (5 Fragen) zur Götterspeise ausfüllen und eine von 10 Nintendo Switch 2 Konsolen gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://www.oetker.de/goetterspeise-gewinnspiel",
-    "is_real": 1
-  },
-  {
-    "title": "Sagrotan × ab-in-den-urlaub.de: 3× 3.500 € Reisegutschein gewinnen",
-    "cat": "reise",
-    "value_eur": 3500,
-    "deadline": "2026-09-30",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Sagrotan / ab-in-den-urlaub.de",
-    "description": "3× Reisegutschein im Wert von je 3.500 € und wöchentliche Sagrotan-Produktpakete gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
-    "url": "https://www.sagrotan.de/gewinnspiel/",
-    "is_real": 1
-  },
-  {
-    "title": "Spezi Sommergewinnspiel: Vespa Sprint 125 oder Spezi Fanpakete gewinnen",
-    "cat": "auto",
-    "value_eur": 4000,
-    "deadline": "2026-10-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Spezi (Bergwolf GmbH)",
-    "description": "Gewinnspielfrage beantworten und eine Vespa Sprint 125 (ca. 4.000 €) oder Spezi Fanpakete gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
-    "url": "https://gewinnspiel.spezi.com/",
-    "is_real": 1
-  },
-  {
-    "title": "Aoste Sommer: Vespa Elettrica oder exklusive Grill-Events gewinnen",
-    "cat": "auto",
-    "value_eur": 5000,
-    "deadline": "2026-10-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Aoste",
-    "description": "Newsletter abonnieren und eine Vespa Elettrica (ca. 5.000 €) oder Grill-Event-Pakete gewinnen. Kostenlose Teilnahme per E-Mail, kein Kauf erforderlich.",
-    "url": "https://www.aoste.de/sommer/",
-    "is_real": 1
-  },
-  {
     "title": "Steuertipps 50 Jahre: 3.000 € Reisegutschein & Samsung Preise gewinnen",
     "cat": "reise",
     "value_eur": 3000,
@@ -187,28 +98,6 @@
     "sponsor": "Steuertipps.de / Haufe Group",
     "description": "Zum 50. Jubiläum verlost steuertipps.de einen Reisegutschein im Wert von 3.000 € sowie Samsung Preise. Kostenlose Teilnahme per Online-Formular, kein Kauf erforderlich.",
     "url": "https://www.steuertipps.de/50jahre",
-    "is_real": 1
-  },
-  {
-    "title": "Ich liebe Käse: Tefal Pizza Pronto Electric gewinnen",
-    "cat": "lebensmittel",
-    "value_eur": 499,
-    "deadline": "2026-09-20",
-    "draw_date": null,
-    "sponsor": "Ich liebe Käse (Savencia)",
-    "description": "3× Tefal Pizza Pronto Electric (je ~499 €) kostenlos gewinnen. Täglich per Chatbot teilnehmen – häufigere Teilnahme erhöht die Gewinnchancen.",
-    "url": "https://ich-liebe-kaese.de/aktionen/gewinnspiele/pizza-pronto-electric/",
-    "is_real": 1
-  },
-  {
-    "title": "Imaging World: DJI Osmo 360 Action-Kamera gewinnen",
-    "cat": "handy",
-    "value_eur": 499,
-    "deadline": "2026-09-15",
-    "draw_date": null,
-    "sponsor": "Imaging World",
-    "description": "DJI Osmo 360 Action-Kamera + 10×2 Messe-Tickets + Kalahari-Rucksäcke gewinnen. Kostenlose Teilnahme per Newsletter-Anmeldung bis 15.09.2026.",
-    "url": "https://imagingworld.de/gewinnspiel/",
     "is_real": 1
   },
   {
@@ -245,39 +134,6 @@
     "is_real": 1
   },
   {
-    "title": "AUTO BILD Sportscars des Jahres 2026: Wintertraining oder WM-Erlebnis gewinnen",
-    "cat": "sport",
-    "value_eur": 6000,
-    "deadline": "2026-10-05",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "AUTO BILD / Motor Presse Stuttgart",
-    "description": "Für Sportscars des Jahres 2026 abstimmen und Winterfahrtraining in Schweden (~6.000 €) oder Lamborghini Trofeo World Finals-Reise nach Monza gewinnen. Kostenlose Teilnahme, kein Kauf nötig.",
-    "url": "https://www.autobild.de/artikel/sportscars-des-jahres-2026-gewinnspiel-28726581.html",
-    "is_real": 1
-  },
-  {
-    "title": "alltours: 1 Woche Dominikanische Republik (Breathless Punta Cana) gewinnen",
-    "cat": "reise",
-    "value_eur": 2000,
-    "deadline": "2026-09-30",
-    "draw_date": "Oktober 2026",
-    "sponsor": "alltours Flugreisen",
-    "description": "Kostenlosen alltours Newsletter abonnieren und eine Woche für 2 Personen im 5-Sterne Breathless Punta Cana Resort & Spa (All-inclusive) in der Dominikanischen Republik gewinnen. Kein Kauf erforderlich.",
-    "url": "https://www.alltours.de/gewinnspiel",
-    "is_real": 1
-  },
-  {
-    "title": "Avena Sommergewinnspiel: Bosch Küchenmaschine (470 €) gewinnen",
-    "cat": "haus",
-    "value_eur": 470,
-    "deadline": "2026-09-13",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Avena Naturprodukte",
-    "description": "Persönliches Blechkuchen-Rezept oder Backtrick per E-Mail einsenden und eine Bosch Küchenmaschine (470 €) oder Avena-Gutscheine gewinnen. Kostenlose Teilnahme per E-Mail, kein Kauf erforderlich.",
-    "url": "https://www.avena.de/gewinnspiel",
-    "is_real": 1
-  },
-  {
     "title": "Jägermeister Club: Monatliches Gewinnspiel – exklusive Preise gewinnen",
     "cat": "lebensmittel",
     "value_eur": null,
@@ -286,17 +142,6 @@
     "sponsor": "Mast-Jägermeister SE",
     "description": "Kostenlos im Jägermeister Club registrieren und monatlich an exklusiven Verlosungen teilnehmen – z. B. limitierte Brand-Items, Tickets und Kühllösungen. Eine Teilnahme pro Person pro Monat.",
     "url": "https://de.jagermeister.com/club/monatliches-gewinnspiel",
-    "is_real": 1
-  },
-  {
-    "title": "Qatar Airways × SO/ Maldives: Traumreise auf die Malediven gewinnen",
-    "cat": "reise",
-    "value_eur": 3000,
-    "deadline": "2026-09-30",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Qatar Airways × SO/ Maldives",
-    "description": "Qatar Airways Newsletter abonnieren und 2 Economy-Flüge nach Male sowie 5 Nächte Vollpension im SO/ Maldives Hotel für 2 Personen gewinnen. Kostenlose Teilnahme per Newsletter-Anmeldung, nur Neukunden.",
-    "url": "https://www.qatarairways.com/de-de/offers/subscribe-and-win-somaldives.html",
     "is_real": 1
   },
   {
@@ -355,17 +200,6 @@
     "is_real": 1
   },
   {
-    "title": "Berlin mit Kind × Thule: Kinderwagen Thule Charm 2 in 1 gewinnen",
-    "cat": "haus",
-    "value_eur": 1299,
-    "deadline": "2026-09-06",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Berlin mit Kind / Thule",
-    "description": "Thule Charm 2 in 1 Kinderwagen (Babywanne + Sportwagen) im Wert von ~1.299 € gewinnen. Kostenlose Teilnahme per Online-Formular, kein Kauf erforderlich.",
-    "url": "https://berlinmitkind.de/gewinnspiel/kinderwagen-thule-charm/",
-    "is_real": 1
-  },
-  {
     "title": "onvista Börsenspiel Trader 2026: New-York-Reise Business Class gewinnen",
     "cat": "reise",
     "value_eur": 8529,
@@ -374,39 +208,6 @@
     "sponsor": "onvista / Société Générale",
     "description": "Virtuelles Börsenspiel kostenlos mitmachen und eine Business-Class-Reise für 2 Personen nach New York + 4 Nächte im 4-Sterne-Hotel (ca. 8.529 €) gewinnen. Kein echtes Geld erforderlich.",
     "url": "https://www.onvista.de/info/boersenspiel-gewinnspiel",
-    "is_real": 1
-  },
-  {
-    "title": "EDEKA DFB-Länderspiel: 2×2 Tickets für Deutschland (Sep/Okt 2026) gewinnen",
-    "cat": "sport",
-    "value_eur": 200,
-    "deadline": "2026-09-20",
-    "draw_date": "vor dem Spiel am 27.09.2026",
-    "sponsor": "EDEKA / DFB",
-    "description": "2×2 Tickets für DFB-Länderspiele gewinnen: Deutschland am 27.09.2026 in Augsburg und am 01.10.2026 in München. Kostenlose Teilnahme per EDEKA-App oder Formular auf edeka.de, kein Kauf erforderlich.",
-    "url": "https://www.edeka.de/kampagnen/dfb-gewinnspiel/",
-    "is_real": 1
-  },
-  {
-    "title": "Kochgourmet Sommergewinnspiel 2026: Thermomix TM7 gewinnen",
-    "cat": "haus",
-    "value_eur": 1599,
-    "deadline": "2026-09-30",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Kochgourmet",
-    "description": "Thermomix TM7 (ca. 1.599 €) und Kochbücher gewinnen. Vom 05.08. bis 30.09.2026 kostenlos am Sommergewinnspiel teilnehmen – Formular ausfüllen, kein Kauf erforderlich.",
-    "url": "https://www.kochgourmet.com/gewinnspiele/sommergewinnspiel-2026",
-    "is_real": 1
-  },
-  {
-    "title": "bauSpezi × FISCHER: LED-Beleuchtungs-Sets & Faltschlösser gewinnen",
-    "cat": "sport",
-    "value_eur": 300,
-    "deadline": "2026-09-30",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "bauSpezi / FISCHER",
-    "description": "6 FISCHER LED-Akku-Beleuchtungs-Sets TWIN STOP 110 Lux und 5 FISCHER Faltschlösser PROTEC PLUS+ FN110 gewinnen. Gewinnspielfrage beantworten, Formular absenden – kostenlos, kein Kauf.",
-    "url": "https://gewinnspiel.bauspezi.de/",
     "is_real": 1
   },
   {
@@ -421,17 +222,6 @@
     "is_real": 1
   },
   {
-    "title": "Das große Backen × GewinnArena: Weber Gasgrill Spirit oder G3 Ferrari Pizzaofen gewinnen",
-    "cat": "haus",
-    "value_eur": 699,
-    "deadline": "2026-10-04",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "SAT.1 / Das große Backen",
-    "description": "Zur SAT.1-Sendung 'Das große Backen' einen Weber Gasgrill Spirit SP-435 GBS (~699 €) oder einen G3 Ferrari Pizzaofen G10204 gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
-    "url": "https://www.gewinnarena.de/tv/sat1/das-grosse-backen/das-groe-backen-06-26/",
-    "is_real": 1
-  },
-  {
     "title": "Müller × L'Oréal Gewinnspiel: 1.000 € Reisegutschein nach Italien gewinnen",
     "cat": "gutschein",
     "value_eur": 1000,
@@ -440,72 +230,6 @@
     "sponsor": "Müller Drogeriemarkt / L'Oréal",
     "description": "Einen 1.000-Euro-Reisegutschein für eine Reise nach Italien gewinnen – exklusiv bei Müller in Kooperation mit L'Oréal Paris. Kostenlose Teilnahme per Online-Formular, kein Kauf erforderlich.",
     "url": "https://www.mueller.de/aktuelles/gewinnspiele/loreal-gewinnspiel/",
-    "is_real": 1
-  },
-  {
-    "title": "GewinnArena Exklusiv: Apple MacBook Pro 14\" M3 gewinnen",
-    "cat": "handy",
-    "value_eur": 1999,
-    "deadline": "2026-10-04",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "GewinnArena / ProSiebenSat.1",
-    "description": "Kostenloses GewinnArena-Konto anlegen und ein Apple MacBook Pro 14\" mit M3 Chip (ca. 1.999 €) gewinnen. Exklusives GewinnArena-Gewinnspiel, kein Kauf erforderlich.",
-    "url": "https://www.gewinnarena.de/tv/gewinnarena/gewinnarena-exklusiv/macbook-pro-m3/",
-    "is_real": 1
-  },
-  {
-    "title": "Rossmann App-Gewinnspiel: 5× iPad + 50× Gutschein gewinnen",
-    "cat": "handy",
-    "value_eur": 400,
-    "deadline": "2026-09-13",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Rossmann",
-    "description": "Rossmann App herunterladen und 5× Apple iPad, 50 × 50 € Rossmann-Gutscheine oder P&G Produktpakete gewinnen. Kostenlose Teilnahme per App-Registrierung, kein Kauf erforderlich.",
-    "url": "https://www.rossmann.de/de/service-und-hilfe/app-gewinnspiel",
-    "is_real": 1
-  },
-  {
-    "title": "GewinnArena Exklusiv: 200 € September-Geld gewinnen",
-    "cat": "bargeld",
-    "value_eur": 200,
-    "deadline": "2026-09-30",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "GewinnArena / ProSiebenSat.1",
-    "description": "Kostenloses GewinnArena-Konto anlegen und 200 € für unvergessliche Spätsommermomente gewinnen. Exklusives GewinnArena-Gewinnspiel, kein Kauf erforderlich.",
-    "url": "https://www.gewinnarena.de/tv/gewinnarena/gewinnarena-exklusiv/200-euro-september-geld/",
-    "is_real": 1
-  },
-  {
-    "title": "SweeTango Apple: 3 Reisegutscheine (bis 2.500 €) gewinnen",
-    "cat": "reise",
-    "value_eur": 2500,
-    "deadline": "2026-10-15",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "SweeTango Apple",
-    "description": "3 Reisegutscheine gewinnen: 1. Platz 2.500 €, 2. Platz 1.500 €, 3. Platz 1.000 €. Gewinnspielfrage beantworten und Formular absenden – kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://sweetango-apple.com/gewinnspiel",
-    "is_real": 1
-  },
-  {
-    "title": "caravaning.info Sommergewinnspiel: 1 Woche Caravanurlaub am Edersee gewinnen",
-    "cat": "reise",
-    "value_eur": 300,
-    "deadline": "2026-09-06",
-    "draw_date": "September 2026",
-    "sponsor": "caravaning.info",
-    "description": "1 Woche Caravanurlaub im Camping & Holiday Park Teichmann direkt am Edersee + 300 € Taschengeld gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
-    "url": "https://www.caravaning.info/das-ist-caravaning/gewinnspiele/caravan-urlaub-gewinnen",
-    "is_real": 1
-  },
-  {
-    "title": "AIDA Monatsgewinnspiel September 2026: 3.000 € Kreuzfahrtgutschein gewinnen",
-    "cat": "reise",
-    "value_eur": 3000,
-    "deadline": "2026-09-30",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "AIDA Cruises",
-    "description": "Monatlich einen 3.000 € AIDA Kreuzfahrtgutschein gewinnen. Newsletter abonnieren und Gewinnspielfrage beantworten – kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://www.aida.de/kreuzfahrt/monatsgewinnspiel.40935.html",
     "is_real": 1
   },
   {
@@ -564,14 +288,80 @@
     "is_real": 1
   },
   {
-    "title": "Lidl PARKSIDE Mystery Box: 5× Überraschungspaket (je ~1.000 €) gewinnen",
+    "title": "SweeTango Apple: 3 Reisegutscheine (bis 2.500 €) gewinnen",
+    "cat": "reise",
+    "value_eur": 2500,
+    "deadline": "2026-10-15",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "SweeTango Apple",
+    "description": "3 Reisegutscheine gewinnen: 1. Platz 2.500 €, 2. Platz 1.500 €, 3. Platz 1.000 €. Gewinnspielfrage beantworten und Formular absenden – kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://sweetango-apple.com/gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "Spezi Sommergewinnspiel: Vespa Sprint 125 oder Spezi Fanpakete gewinnen",
+    "cat": "auto",
+    "value_eur": 4000,
+    "deadline": "2026-10-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Spezi (Bergwolf GmbH)",
+    "description": "Gewinnspielfrage beantworten und eine Vespa Sprint 125 (ca. 4.000 €) oder Spezi Fanpakete gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
+    "url": "https://gewinnspiel.spezi.com/",
+    "is_real": 1
+  },
+  {
+    "title": "Aoste Sommer: Vespa Elettrica oder exklusive Grill-Events gewinnen",
+    "cat": "auto",
+    "value_eur": 5000,
+    "deadline": "2026-10-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Aoste",
+    "description": "Newsletter abonnieren und eine Vespa Elettrica (ca. 5.000 €) oder Grill-Event-Pakete gewinnen. Kostenlose Teilnahme per E-Mail, kein Kauf erforderlich.",
+    "url": "https://www.aoste.de/sommer/",
+    "is_real": 1
+  },
+  {
+    "title": "Europa-Park ep-news Gewinnspiel: Hotelübernachtung + Europa-Park & Rulantica Tickets gewinnen",
+    "cat": "reise",
+    "value_eur": 500,
+    "deadline": "2026-11-27",
+    "draw_date": "30.11.2026",
+    "sponsor": "Europa-Park GmbH & Co. Mack KG",
+    "description": "Gewinnspielfrage im ep-news-Formular beantworten und eine Nacht im 4-Sterne Superior Erlebnishotel + Tagestickets für Europa-Park & Rulantica für bis zu 4 Personen gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.europapark.de/de/freizeitpark/ep-news-gewinnspiel-2",
+    "is_real": 1
+  },
+  {
+    "title": "Europa-Park Umfrage: Erlebnisaufenthalt für 4 Personen gewinnen",
+    "cat": "reise",
+    "value_eur": 600,
+    "deadline": "2027-01-19",
+    "draw_date": "20.01.2027",
+    "sponsor": "Europa-Park GmbH & Co. Mack KG",
+    "description": "Kurze Umfrage ausfüllen und einen Erlebnisaufenthalt für 4 Personen gewinnen – 1 Übernachtung im Erlebnishotel inkl. Frühstück und je einem Tagesticket für Europa-Park. Kostenlos, kein Kauf erforderlich.",
+    "url": "https://www.europapark.de/de/freizeitpark/europa-park-umfrage",
+    "is_real": 1
+  },
+  {
+    "title": "dm Glückskind × babylove: Monatlich Familienurlaub in Original Kinderhotels Europa gewinnen",
+    "cat": "reise",
+    "value_eur": 600,
+    "deadline": "2027-06-30",
+    "draw_date": "monatlich",
+    "sponsor": "dm / babylove",
+    "description": "Jeden Monat einen Familienurlaub (2 Nächte) für 2 Erwachsene und 2 Kinder in den Original Kinderhotels Europa gewinnen. Kostenlose Teilnahme im dm Glückskind-Programm, kein Kauf erforderlich.",
+    "url": "https://www.dm.de/glueckskind/gewinnspiele-und-produkttests/glueckskind-gewinnspiel-babylove-1889054",
+    "is_real": 1
+  },
+  {
+    "title": "R+V Versicherung: 10× Ninja Foodi MAX Dual Zone Airfryer gewinnen",
     "cat": "haus",
-    "value_eur": 1000,
-    "deadline": "2026-09-27",
-    "draw_date": "02.10.2026",
-    "sponsor": "Lidl Deutschland",
-    "description": "5 PARKSIDE Mystery Boxes gewinnen – jede Box enthält PARKSIDE Elektrowerkzeuge im Wert von ca. 500 € und einen 500 € Lidl-Einkaufsgutschein. Kostenlose Teilnahme per Online-Formular, kein Kauf erforderlich.",
-    "url": "https://www.lidl.de/gewinnspiele-parkside-mystery-box",
+    "value_eur": 200,
+    "deadline": "2026-10-13",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "R+V Allgemeine Versicherung AG",
+    "description": "E-Mail-Adresse eintragen und 1 von 10 Ninja Foodi MAX Dual Zone Airfryern gewinnen. Kostenlose Teilnahme ohne Kauf, Teilnahme bis 13.10.2026.",
+    "url": "https://www.ruv.de/gewinnspiele/airfryer",
     "is_real": 1
   }
 ]
