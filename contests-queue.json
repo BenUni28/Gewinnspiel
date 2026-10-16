@@ -100,17 +100,6 @@
     "is_real": 1
   },
   {
-    "title": "Krombacher × Buschbeck: Exklusive Outdoor-Küche 'Brighton' gewinnen",
-    "cat": "haus",
-    "value_eur": 4999,
-    "deadline": "2026-10-15",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Krombacher Brauerei × Buschbeck",
-    "description": "Buschbeck Brighton Outdoor-Küche im Wert von ~4.999 € gewinnen – mit Gasgrill, Edelstahlplatte, Seitenkochstelle, Kühlschrank und Spüle. Kostenlose Teilnahme via Krombacher+ und Quizfrage.",
-    "url": "https://plus.krombacher.de/aktionen-gewinnspiele/outdoor-kueche",
-    "is_real": 1
-  },
-  {
     "title": "Jägermeister Club: Monatliches Gewinnspiel – exklusive Preise gewinnen",
     "cat": "lebensmittel",
     "value_eur": null,
@@ -155,17 +144,6 @@
     "is_real": 1
   },
   {
-    "title": "Aktion Mensch Newsletter: 500 € MediaMarkt-Gutschein gewinnen",
-    "cat": "handy",
-    "value_eur": 500,
-    "deadline": "2026-10-15",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Aktion Mensch",
-    "description": "Aktion Mensch Newsletter abonnieren und einen 500 € MediaMarkt-Gutschein gewinnen – für Smartphone, Fernseher oder Gaming-Zubehör. Kostenlose Teilnahme per Newsletter-Anmeldung, kein Kauf erforderlich.",
-    "url": "https://aktion-mensch-newsletter.de/",
-    "is_real": 1
-  },
-  {
     "title": "onvista Börsenspiel Trader 2026: New-York-Reise Business Class gewinnen",
     "cat": "reise",
     "value_eur": 8529,
@@ -185,28 +163,6 @@
     "sponsor": "Ravensburger Spieleland",
     "description": "Preise im Gesamtwert von über 35.000 € gewinnen – darunter mehrtägige Familienurlaube für 2 Erwachsene und 2 Kinder in ORIGINAL Kinderhotels Europa sowie Jahrespässe für das Spieleland am Bodensee. Kostenlose Teilnahme per Online-Formular, kein Kauf erforderlich.",
     "url": "https://spieleland.de/events/jahresgewinnspiel",
-    "is_real": 1
-  },
-  {
-    "title": "STIHL Timbersports WM 2026: 2×2 Tickets für Stuttgart gewinnen",
-    "cat": "sport",
-    "value_eur": null,
-    "deadline": "2026-10-26",
-    "draw_date": "vor der Veranstaltung (November 2026)",
-    "sponsor": "SELBER MACHEN Heimwerkermagazin / STIHL",
-    "description": "2×2 Eintrittskarten für die STIHL Timbersports WM in der Porsche-Arena Stuttgart (3.–4. November 2026) gewinnen. Kostenlose Teilnahme per Online-Formular, kein Kauf erforderlich.",
-    "url": "https://selbermachen.de/gewinnspiel-timbersports-wm2026",
-    "is_real": 1
-  },
-  {
-    "title": "GewinnArena Exklusiv: Sony PlayStation 5 Slim Digital Edition gewinnen",
-    "cat": "handy",
-    "value_eur": 449,
-    "deadline": "2026-10-15",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "GewinnArena / ProSiebenSat.1 × Joyn",
-    "description": "Kostenloses GewinnArena-Konto anlegen und eine Sony PlayStation 5 Slim Digital Edition (ca. 449 €) gewinnen. Exklusives GewinnArena-Gewinnspiel in Kooperation mit Joyn, kein Kauf erforderlich.",
-    "url": "https://www.gewinnarena.de/tv/gewinnarena/gewinnarena-exklusiv/sony-playstation-5-slim-digital-joyn-07-26/",
     "is_real": 1
   },
   {
@@ -240,17 +196,6 @@
     "sponsor": "GewinnArena / ProSiebenSat.1",
     "description": "Kostenloses GewinnArena-Konto anlegen und einen Sony PlayStation 5 DualSense Controller V2 (ca. 89 €) gewinnen. Exklusives GewinnArena-Gewinnspiel, kein Kauf erforderlich.",
     "url": "https://www.gewinnarena.de/tv/gewinnarena/gewinnarena-exklusiv/sony-playstation-5-ps5-dualsense-controller-v2-07-26/",
-    "is_real": 1
-  },
-  {
-    "title": "SweeTango Apple: 3 Reisegutscheine (bis 2.500 €) gewinnen",
-    "cat": "reise",
-    "value_eur": 2500,
-    "deadline": "2026-10-15",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "SweeTango Apple",
-    "description": "3 Reisegutscheine gewinnen: 1. Platz 2.500 €, 2. Platz 1.500 €, 3. Platz 1.000 €. Gewinnspielfrage beantworten und Formular absenden – kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://sweetango-apple.com/gewinnspiel",
     "is_real": 1
   },
   {
@@ -317,6 +262,28 @@
     "sponsor": "PENNY Reisen",
     "description": "4-tägigen Freiaufenthalt für 2 Personen mit All Inclusive im CAREA Harzhotel Allrode im Harz gewinnen. Gewinnspielfrage beantworten und Formular absenden – kostenlose Teilnahme, kein Kauf erforderlich.",
     "url": "https://www.penny-reisen.de/gewinnspiel.html",
+    "is_real": 1
+  },
+  {
+    "title": "Lidl: 15.000 € Budget zum Einrichten gewinnen",
+    "cat": "haus",
+    "value_eur": 15000,
+    "deadline": "2026-11-01",
+    "draw_date": "bis 09.11.2026",
+    "sponsor": "Lidl Dienstleistung GmbH & Co. KG",
+    "description": "15.000 € Lidl-Gutschein-Paket für dein Zuhause gewinnen – freie Auswahl aus dem Sortiment. Kostenlose Teilnahme per Online-Formular, Newsletter-Einwilligung erforderlich.",
+    "url": "https://www.lidl.de/gewinnspiele-upgrade-dein-zuhause",
+    "is_real": 1
+  },
+  {
+    "title": "Europa-Park Rulantica: Aufenthalt im Hotel Krønasår + 10 × 2 Tagestickets gewinnen",
+    "cat": "reise",
+    "value_eur": null,
+    "deadline": "2027-01-10",
+    "draw_date": "11.01.2027",
+    "sponsor": "Europa-Park GmbH & Co. Mack KG",
+    "description": "Gewinnspielfrage zur Rulantica beantworten und einen Aufenthalt für 4 Personen im Hotel Krønasår oder 1 von 10 × 2 Rulantica-Tagestickets gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.europapark.de/de/rulantica/grosses-rulantica-gewinnspiel",
     "is_real": 1
   }
 ]
