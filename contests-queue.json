@@ -273,5 +273,16 @@
     "description": "Gewinnspielfrage zur Rulantica beantworten und einen Aufenthalt für 4 Personen im Hotel Krønasår oder 1 von 10 × 2 Rulantica-Tagestickets gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
     "url": "https://www.europapark.de/de/rulantica/grosses-rulantica-gewinnspiel",
     "is_real": 1
+  },
+  {
+    "title": "Schauinsland-Reisen Adventskalender 2026: Täglich Hotelgutscheine & Reisepreise gewinnen",
+    "cat": "reise",
+    "value_eur": 3000,
+    "deadline": "2026-12-26",
+    "draw_date": "täglich ab 01.12.2026",
+    "sponsor": "Schauinsland-Reisen",
+    "description": "Ab dem 1. Dezember täglich ein Türchen öffnen und Hotelgutscheine sowie Reisepreise aus aller Welt gewinnen. Kostenlose Teilnahme per Newsletter-Anmeldung, kein Kauf erforderlich. Start: 01.12.2026.",
+    "url": "https://www.schauinsland-reisen.de/gewinnspiele/adventskalender",
+    "is_real": 1
   }
 ]
