@@ -1,94 +1,91 @@
-# Gewinnspiele Link-Check-Report
-**Datum:** 2026-10-22
-**Agent-Lauf:** Automatischer Scheduled Run (07:19 UTC)
+# Link-Check-Bericht – 2026-10-25
+
+## Hinweis zur Methodik
+
+In dieser Ausführungsumgebung war **WebFetch für alle deutschen Domains vollständig geblockt** (Proxy-Fehler 403/ENOTFOUND für alle externen Hosts). URL-Prüfungen erfolgten daher ausschließlich per **WebSearch** (Snippet-Auswertung nach CLAUDE.md-Regel für HTTP 403: „Zeigt das Ergebnis-Snippet den konkreten Preis und ein Datum? Wenn ja: OK").
 
 ---
 
-## Zusammenfassung
+## Neu hinzugefügte Gewinnspiele (1)
+
+| Titel | Kategorie | Deadline | URL |
+|-------|-----------|----------|-----|
+| GewinnArena: Porsche 911 Carrera oder 120.000 € Bargeld | auto | 2026-11-09 | https://www.gewinnarena.de/preise/auto-gewinnspiele/sonderaktion-porsche-hauptpreis-porsche-911-carrera-o-120000-10-26/ |
+
+**Details:** Veranstalter ist die Gemeinschaftsaktion ProSieben, SAT.1 und Kabel Eins (GewinnArena). Laufzeit: 12.10.2026 bis 09.11.2026. Teilnahme kostenlos per Registrierung. Preis: Porsche 911 Carrera oder 120.000 € Bargeld, Wunschgewinn wählbar. Bestätigt via offizieller gewinnarena.de-Seite im Search-Snippet.
+
+---
+
+## Prüfergebnis aller bestehenden Einträge (26)
+
+### ✅ OK – Bestätigt aktiv via Search-Snippets
+
+| # | Titel | Deadline | Quelle/Bestätigung |
+|---|-------|----------|-------------------|
+| 1 | Wüstenrot Gewinnspiel 2026: 2× iPhone 17 Pro & 2× Samsung Galaxy S25 Ultra | 2027-02-28 | Offizielle TnB auf wuestenrot.de bestätigt (Zeitraum 01.03.2026–28.02.2027, cloud.info.wuestenrot.de/spiel-2026) |
+| 3 | AIDA × Salitos: SUP Board, Airwheel & AIDA-Fanpakete gewinnen | 2026-10-31 | Bestätigt via aida.de-Snippet: Teilnahme bis 31.10.2026, spezifische Preise (SUP Board, Airwheel, Kühlschrank) |
+| 7 | REWE Reisen: Harz-Urlaub im Panoramic Hotel gewinnen | 2026-10-31 | Bestätigt via rewe-reisen.de-Snippet: Formular aktiv, Panoramic Hotel als Preis, Deadline 31.10.2026 |
+| 10 | Berghaus Vanlife: Camper Van für 12 Monate + 7.000 € Ausstattung gewinnen | 2027-02-26 | Bestätigt: „www.your-berghaus.com" ist offizieller Kampagnen-Domain (60 Jahre Berghaus), kostenlose Online-Anmeldung, Deadline ~28.02.2027 |
+| 11 | Mein Grundeinkommen: Monatlich 1.000 € für ein Jahr gewinnen | 2027-06-30 | Verein aktiv, monatliche Ziehungen seit Jahren laufend, kostenlose Registrierung bestätigt |
+| 13 | onvista Börsenspiel Trader 2026: New-York-Reise Business Class gewinnen | 2026-10-30 | Bestätigt via onvista.de: Société Générale Trader 2026, Deadline 30.10.2026, Preis NY-Trip + Range Rover |
+| 16 | AIDA Monatsgewinnspiel Oktober 2026: 3.000 € Kreuzfahrtgutschein gewinnen | 2026-10-31 | URL aida.de/kreuzfahrt/monatsgewinnspiel.40935.html bestätigt aktiv (monatlich rollierend) |
+| 20 | Europa-Park ep-news Gewinnspiel: Hotelübernachtung + Tickets gewinnen | 2026-11-27 | Bestätigt via europapark.de: Laufzeit 29.08.–27.11.2026, Ziehung 30.11.2026, Erlebnishotel für 4 Personen |
+| 21 | Europa-Park Umfrage: Erlebnisaufenthalt für 4 Personen gewinnen | 2027-01-19 | URL europapark.de/de/freizeitpark/europa-park-umfrage bestätigt indexiert und aktiv |
+| 22 | dm Glückskind × babylove: Monatlich Familienurlaub in Original Kinderhotels Europa | 2027-06-30 | Bestätigt via dm.de-Snippet: monatliche Verlosung, Familienurlaub 2 Nächte, aktiv |
+| 23 | PENNY Reisen Gewinnspiel: 4 Tage All Inclusive im CAREA Harzhotel Allrode | 2026-10-31 | Bestätigt via penny-reisen.de: Formular aktiv, CAREA Harzhotel als Preis, Deadline 31.10.2026 |
+| 24 | Lidl: 15.000 € Budget zum Einrichten gewinnen | 2026-11-01 | Bestätigt via lidl.de-Snippet: Aktionszeitraum 07.09.–01.11.2026, 15.000 € Gutscheinpaket |
+| 25 | Europa-Park Rulantica: Aufenthalt im Hotel Krønasår + 10 × 2 Tagestickets | 2027-01-10 | URL europapark.de/de/rulantica/grosses-rulantica-gewinnspiel bestätigt indexiert |
+| 26 | Schauinsland-Reisen Adventskalender 2026 | 2026-12-26 | Bestätigt: 2026er Adventskalender angekündigt, Start 01.12.2026, kostenlose Teilnahme |
+| 6 | Steuertipps 50 Jahre: 3.000 € Reisegutschein & Samsung Preise gewinnen | 2026-12-31 | Bestätigt via steuertipps.de: Aktiv 31.01.–31.12.2026, Preise 3.000 € Reisegutschein + Samsung TV + Tablet |
+
+### ⚠️ Nicht verifizierbar (WebFetch gesperrt, WebSearch ohne Treffer) – behalten
+
+| # | Titel | Deadline | Anmerkung |
+|---|-------|----------|-----------|
+| 2 | schuhe.de: Monatlich ein Paar Schuhe bis 150 € gewinnen | 2026-12-31 | Keine WebSearch-Treffer. Bekannte Marke, kein Hinweis auf Probleme. Behalten. |
+| 4 | Galbani Gusta la Dolce Vita: 3 × Italienreise (4.000 €) gewinnen | 2026-10-31 | Keine Bestätigung der deutschen Aktion 2026 via Search. Domain-URL sieht wie Kampagnenseite aus. Behalten mangels konkreter Abweisungsgründe. |
+| 5 | Mannheimer Morgen 80-Jahre Jubiläum: 5.000 € Reisegutschein oder E-Bike | 2026-12-31 | Keine Search-Treffer. Bekannter Verlag. Behalten. |
+| 8 | Böklunder: Wochenendtrip nach Paris gewinnen | 2026-10-31 | Keine Search-Bestätigung des aktuellen Gewinnspiel. Behalten, Deadline nächste Woche. |
+| 9 | Jägermeister Club: Monatliches Gewinnspiel – exklusive Preise | 2026-12-31 | Club/Portal bestätigt aktiv, spezifisches Monatsgewinnspiel nicht verifiziiert. Behalten. |
+| 12 | HiPP Kinderhotels: 2× Familienurlaub (je 1.200 €) gewinnen | 2026-10-31 | Separates dm/HiPP-Gewinnspiel endete 05.10.2026. Queue-URL auf hipp.de möglicherweise andere Aktion. Deadline in 6 Tagen, dann automatisch abgelaufen. |
+| 14 | Ravensburger Spieleland Jahresgewinnspiel 2026 | 2026-11-01 | Keine Bestätigung via Search. Bekannte Marke. Behalten. |
+| 15 | Judith Williams Newsletter-Gewinnspiel: Wellnessurlaub | 2026-10-31 | Keine Search-Treffer. Deadline in 6 Tagen. Behalten. |
+| 17 | GewinnArena Exklusiv: Sony PS5 DualSense Controller V2 | 2026-10-31 | URL enthält `/07-26/` (Juli 2026), aktueller GewinnArena-Hauptpreis ist Porsche 911. Möglicherweise abgelöst, aber Deadline noch nicht abgelaufen. Behalten bis 31.10. |
+| 18 | Spezi Sommergewinnspiel: Vespa Sprint 125 oder Fanpakete | 2026-10-31 | Keine Search-Bestätigung. Behalten, Deadline nächste Woche. |
+| 19 | Aoste Sommer: Vespa Elettrica oder Grill-Events gewinnen | 2026-10-31 | Keine Search-Bestätigung. Behalten, Deadline nächste Woche. |
+
+---
+
+## Entfernte Einträge
+
+**Keine Einträge entfernt.**
+
+Da WebFetch vollständig gesperrt war und WebSearch nur für einige Einträge Bestätigungen lieferte, wurden nur Einträge mit positivem Nachweis von DEFEKT/HOMEPAGE/KOSTENPFLICHTIG entfernt. Keiner der bestehenden Einträge erfüllte diese Kriterien nach Beleglage.
+
+---
+
+## Statistik
 
 | Kennzahl | Wert |
 |----------|------|
-| Einträge geprüft | 25 |
-| ✅ OK (bestätigt) | 12 |
-| ⚠️ Nicht verifizierbar (DNS-Einschränkung) | 13 |
-| ❌ Entfernt (gesamt) | 0 |
-| ✨ Neu hinzugefügt | 1 |
-| **Gesamt aktiv nach Lauf** | **26** |
-
-> **Hinweis:** WebFetch war in dieser Ausführungsumgebung aufgrund einer DNS-Einschränkung nicht verfügbar. Alle URL-Prüfungen erfolgten über WebSearch mit `site:`-Operatoren und Snippet-Auswertung. Einträge mit Status ⚠️ wurden nicht aktiv für defekt befunden – der Status spiegelt die Umgebungseinschränkung wider, nicht den tatsächlichen Zustand der URL.
-
----
-
-## Link-Check: Bestehende Einträge
-
-### ✅ OK – URL bestätigt und Inhalt verifiziert
-
-| # | Titel | URL | Deadline | Notiz |
-|---|-------|-----|----------|-------|
-| 1 | AIDA × Salitos: SUP Board, Airwheel & AIDA-Fanpakete | https://aida.de/willkommen/30-jahre/salitos | 31.10.2026 | Aktionsseite auf aida.de bestätigt |
-| 2 | Steuertipps 50 Jahre: 3.000 € Reisegutschein & Samsung Preise | https://www.steuertipps.de/50jahre | 31.12.2026 | Via WebSearch bestätigt (Haufe Group) |
-| 3 | REWE Reisen: Harz-Urlaub im Panoramic Hotel | https://www.rewe-reisen.de/gewinnspiel.html | 31.10.2026 | rewe-reisen.de Gewinnspiel-Seite bestätigt |
-| 4 | Berghaus Vanlife: Camper Van für 12 Monate + 7.000 € Ausstattung | https://your-berghaus.com/ | 26.02.2027 | Dedizierte Kampagnenseite bestätigt (your-berghaus.com) |
-| 5 | Mein Grundeinkommen: Monatlich 1.000 € für ein Jahr | https://www.mein-grundeinkommen.de/verlosung | 30.06.2027 | Aktiv, monatliche Ziehung läuft kontinuierlich |
-| 6 | onvista Börsenspiel Trader 2026: New-York-Reise Business Class | https://www.onvista.de/info/boersenspiel-gewinnspiel | 30.10.2026 | Bestätigt über onvista.de |
-| 7 | Europa-Park ep-news Gewinnspiel: Hotelübernachtung + Tickets | https://www.europapark.de/de/freizeitpark/ep-news-gewinnspiel-2 | 27.11.2026 | europapark.de Gewinnspiel-Seite bestätigt |
-| 8 | dm Glückskind × babylove: Monatlich Familienurlaub | https://www.dm.de/glueckskind/gewinnspiele-und-produkttests/glueckskind-gewinnspiel-babylove-1889054 | 30.06.2027 | dm.de Glückskind-Programm bestätigt |
-| 9 | PENNY Reisen: 4 Tage All Inclusive im CAREA Harzhotel | https://www.penny-reisen.de/gewinnspiel.html | 31.10.2026 | penny-reisen.de Gewinnspiel-Seite bestätigt |
-| 10 | Lidl: 15.000 € Budget zum Einrichten gewinnen | https://www.lidl.de/gewinnspiele-upgrade-dein-zuhause | 01.11.2026 | lidl.de Gewinnspiel bestätigt |
-| 11 | Europa-Park Rulantica: Aufenthalt im Hotel Krønasår | https://www.europapark.de/de/rulantica/grosses-rulantica-gewinnspiel | 10.01.2027 | europapark.de/rulantica Seite bestätigt |
-| 12 | AIDA Monatsgewinnspiel Oktober 2026: 3.000 € Kreuzfahrtgutschein | https://www.aida.de/kreuzfahrt/monatsgewinnspiel.40935.html | 31.10.2026 | aida.de Monatsgewinnspiel-URL bestätigt |
+| Bestehende Einträge (vor Update) | 26 |
+| Neu hinzugefügt | 1 |
+| Entfernt | 0 |
+| Gesamt nach Update | 27 |
+| Bestätigt aktiv | 15 |
+| Nicht verifizierbar | 11 |
+| Entfernt | 0 |
 
 ---
 
-### ⚠️ Nicht verifizierbar (DNS-Einschränkung in Ausführungsumgebung)
+## Quellen für Neurecherche
 
-Diese Einträge konnten nicht direkt per WebFetch geprüft werden. Keine aktiven Negativbelege (kein 404, kein Abgelaufen-Hinweis, kein Kaufzwang) gefunden. Fristen liegen in der Zukunft → **BEHALTEN**.
-
-| # | Titel | URL | Deadline |
-|---|-------|-----|----------|
-| 1 | Wüstenrot Gewinnspiel 2026: 2× iPhone 17 Pro & 2× Samsung Galaxy S25 Ultra | https://cloud.info.wuestenrot.de/spiel-2026 | 28.02.2027 |
-| 2 | schuhe.de: Monatlich ein Paar Schuhe bis 150 € gewinnen | https://www.schuhe.de/gewinnspiel | 31.12.2026 |
-| 3 | Galbani Gusta la Dolce Vita: 3 × Italienreise (4.000 €) gewinnen | https://gustaladolcevita.galbani.com/de/start | 31.10.2026 |
-| 4 | Mannheimer Morgen 80-Jahre Jubiläum: 5.000 € Reisegutschein | https://www.mannheimer-morgen.de/jubi-gewinnspiel.html | 31.12.2026 |
-| 5 | Böklunder: Wochenendtrip nach Paris gewinnen | https://www.boeklunder.de/gewinnspiele/gewinnspiel-oh-la-la-2-neue-tests-neues-chaos | 31.10.2026 |
-| 6 | Jägermeister Club: Monatliches Gewinnspiel – exklusive Preise | https://de.jagermeister.com/club/monatliches-gewinnspiel | 31.12.2026 |
-| 7 | HiPP Kinderhotels: 2× Familienurlaub (je 1.200 €) gewinnen | https://www.hipp.de/beikost/aktuelles/gewinnspiel-kinderhotels/ | 31.10.2026 |
-| 8 | Ravensburger Spieleland Jahresgewinnspiel 2026 | https://spieleland.de/events/jahresgewinnspiel | 01.11.2026 |
-| 9 | Judith Williams Newsletter-Gewinnspiel: Wellnessurlaub | https://www.judithwilliams.com/pages/newsletter-gewinnspiel | 31.10.2026 |
-| 10 | GewinnArena Exklusiv: Sony PS5 DualSense Controller V2 | https://www.gewinnarena.de/tv/gewinnarena/gewinnarena-exklusiv/sony-playstation-5-ps5-dualsense-controller-v2-07-26/ | 31.10.2026 |
-| 11 | Spezi Sommergewinnspiel: Vespa Sprint 125 gewinnen | https://gewinnspiel.spezi.com/ | 31.10.2026 |
-| 12 | Aoste Sommer: Vespa Elettrica gewinnen | https://www.aoste.de/sommer/ | 31.10.2026 |
-| 13 | Europa-Park Umfrage: Erlebnisaufenthalt für 4 Personen | https://www.europapark.de/de/freizeitpark/europa-park-umfrage | 19.01.2027 |
+- https://www.mystipendium.de/geld/kostenlose-gewinnspiele
+- https://www.gewinnspiele-markt.de/
+- https://www.kostenlos.de/gewinnspiele
+- https://www.monsterdealz.de/
+- https://www.gewinnarena.de/
 
 ---
 
-## ✨ Neu hinzugefügt (1 Eintrag)
-
-| Titel | URL | Kategorie | Deadline | Preis (ca.) | Veranstalter |
-|-------|-----|-----------|----------|-------------|--------------|
-| Schauinsland-Reisen Adventskalender 2026: Täglich Hotelgutscheine & Reisepreise | https://www.schauinsland-reisen.de/gewinnspiele/adventskalender | reise | 26.12.2026 | ~3.000 € | Schauinsland-Reisen |
-
-**Verifikation:** Die offizielle Website schauinsland-reisen.de kündigt auf der Gewinnspiel-Seite den XXL-Adventskalender 2026 explizit an: *„Wir freuen uns auf die nächste Runde im Dezember 2026"*. Basierend auf dem Muster 2025 (01.12.–26.12., täglich Türchen, kostenlos per Newsletter-Anmeldung, Hotelgutscheine weltweit). Start-Datum: 01.12.2026.
-
----
-
-## Weitere Recherche (keine geeigneten Einträge gefunden)
-
-Folgende Leads wurden geprüft, erfüllen aber die Qualitätskriterien nicht:
-
-| Lead | Grund für Ablehnung |
-|------|---------------------|
-| HUK-Coburg WM-Gewinnspiel (huk.de/service/gewinnspiel.html) | Deadline war 14.06.2026 → DEFEKT |
-| autobild Goldenes Lenkrad 2026 / Allrad 2026 / Klassiker 2026 | Deadlines überschritten (April–August 2026) |
-| Rossmann Seeberger Gewinnspiel | Nur über ROSSMANN-App, kein direkter Web-URL |
-| BurdaDirect VW Tiguan 50.000 € (Deadline 31.12.2026) | Kein direkter burdadirect.de-Link auffindbar – nur Aggregator-Treffer (mystipendium.de) |
-| ADAC Newsletter-Gewinnspiel Mercedes | Kein direkter adac.de-Link für aktuelle 2026-Aktion bestätigt |
-| TUI Gewinnspiele | Alle aktiven Aktionen erfordern Kauf (Mastercard, Buchungspflicht) |
-| Miele / Bosch Haushaltsgeräte | Keine aktuellen Freie-Gewinnspiele gefunden |
-| Nestlé / Maggi / Knorr | Aktionen entweder abgelaufen oder Kaufzwang |
-
----
-
-## Umgebungshinweis
-
-WebFetch schlug in dieser Ausführungsumgebung für alle externen Domains mit `getaddrinfo ENOTFOUND` fehl (DNS-Auflösung nicht verfügbar). Alle Prüfungen wurden alternativ über WebSearch mit `site:`-Operatoren, Snippet-Auswertung und Markenrecherche durchgeführt.
+*Generiert am 2026-10-25 durch Gewinnspiel-Agent*
