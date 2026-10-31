@@ -22,28 +22,6 @@
     "is_real": 1
   },
   {
-    "title": "AIDA × Salitos: SUP Board, Airwheel & AIDA-Fanpakete gewinnen",
-    "cat": "reise",
-    "value_eur": 800,
-    "deadline": "2026-10-31",
-    "draw_date": "14.11.2026",
-    "sponsor": "AIDA Cruises × Salitos",
-    "description": "Gewinnspielfrage beantworten und SALITOS Kühlschrank, Airwheel, SUP Board oder exklusive AIDA Schiffsbesichtigungs-Tickets gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://aida.de/willkommen/30-jahre/salitos",
-    "is_real": 1
-  },
-  {
-    "title": "Galbani Gusta la Dolce Vita: 3 × Italienreise (4.000 €) gewinnen",
-    "cat": "reise",
-    "value_eur": 4000,
-    "deadline": "2026-10-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Galbani",
-    "description": "Quiz über die Herkunft italienischer Gerichte spielen und 1 von 3 Reisegutscheinen nach Italien (je 4.000 €) gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
-    "url": "https://gustaladolcevita.galbani.com/de/start",
-    "is_real": 1
-  },
-  {
     "title": "Mannheimer Morgen 80-Jahre Jubiläum: 5.000 € Reisegutschein oder E-Bike gewinnen",
     "cat": "reise",
     "value_eur": 5000,
@@ -66,39 +44,6 @@
     "is_real": 1
   },
   {
-    "title": "REWE Reisen: Harz-Urlaub im Panoramic Hotel gewinnen",
-    "cat": "reise",
-    "value_eur": 500,
-    "deadline": "2026-10-31",
-    "draw_date": null,
-    "sponsor": "REWE Reisen",
-    "description": "4-tägiger Aufenthalt im Panoramic Hotel – Aparthotel im Harz gewinnen. Kostenlose Teilnahme per Formular, freie Wahl des Anreisetermins 2026.",
-    "url": "https://www.rewe-reisen.de/gewinnspiel.html",
-    "is_real": 1
-  },
-  {
-    "title": "Böklunder: Wochenendtrip nach Paris gewinnen",
-    "cat": "reise",
-    "value_eur": 800,
-    "deadline": "2026-10-31",
-    "draw_date": null,
-    "sponsor": "Böklunder",
-    "description": "Paris-Trip für 2: Air France-Flüge ab Deutschland + 2 Hotelnächte kostenlos gewinnen. Teilnahme per Formular. Aktion zum Kinostart Oh la la 2.",
-    "url": "https://www.boeklunder.de/gewinnspiele/gewinnspiel-oh-la-la-2-neue-tests-neues-chaos",
-    "is_real": 1
-  },
-  {
-    "title": "Jägermeister Club: Monatliches Gewinnspiel – exklusive Preise gewinnen",
-    "cat": "lebensmittel",
-    "value_eur": null,
-    "deadline": "2026-12-31",
-    "draw_date": "monatlich am Monatsende",
-    "sponsor": "Mast-Jägermeister SE",
-    "description": "Kostenlos im Jägermeister Club registrieren und monatlich an exklusiven Verlosungen teilnehmen – z. B. limitierte Brand-Items, Tickets und Kühllösungen. Eine Teilnahme pro Person pro Monat.",
-    "url": "https://de.jagermeister.com/club/monatliches-gewinnspiel",
-    "is_real": 1
-  },
-  {
     "title": "Berghaus Vanlife: Camper Van für 12 Monate + 7.000 € Ausstattung gewinnen",
     "cat": "reise",
     "value_eur": 16000,
@@ -118,94 +63,6 @@
     "sponsor": "Mein Grundeinkommen e.V.",
     "description": "Kostenlos anmelden und eines von 25 bedingungslosen Grundeinkommen gewinnen – 1.000 € pro Monat für 12 Monate (12.000 € gesamt), steuerfrei und ohne Bedingungen.",
     "url": "https://www.mein-grundeinkommen.de/verlosung",
-    "is_real": 1
-  },
-  {
-    "title": "HiPP Kinderhotels: 2× Familienurlaub (je 1.200 €) gewinnen",
-    "cat": "reise",
-    "value_eur": 1200,
-    "deadline": "2026-10-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "HiPP",
-    "description": "1 von 2 Wochen Familienurlaub im Kinderhotel für 2 Erwachsene und bis zu 2 Kinder (bis 12 Jahre) gewinnen. Kostenlose Teilnahme per Online-Formular, kein Kauf erforderlich.",
-    "url": "https://www.hipp.de/beikost/aktuelles/gewinnspiel-kinderhotels/",
-    "is_real": 1
-  },
-  {
-    "title": "onvista Börsenspiel Trader 2026: New-York-Reise Business Class gewinnen",
-    "cat": "reise",
-    "value_eur": 8529,
-    "deadline": "2026-10-30",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "onvista / Société Générale",
-    "description": "Virtuelles Börsenspiel kostenlos mitmachen und eine Business-Class-Reise für 2 Personen nach New York + 4 Nächte im 4-Sterne-Hotel (ca. 8.529 €) gewinnen. Kein echtes Geld erforderlich.",
-    "url": "https://www.onvista.de/info/boersenspiel-gewinnspiel",
-    "is_real": 1
-  },
-  {
-    "title": "Ravensburger Spieleland Jahresgewinnspiel 2026: Familienurlaube & Jahrespässe gewinnen",
-    "cat": "reise",
-    "value_eur": null,
-    "deadline": "2026-11-01",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Ravensburger Spieleland",
-    "description": "Preise im Gesamtwert von über 35.000 € gewinnen – darunter mehrtägige Familienurlaube für 2 Erwachsene und 2 Kinder in ORIGINAL Kinderhotels Europa sowie Jahrespässe für das Spieleland am Bodensee. Kostenlose Teilnahme per Online-Formular, kein Kauf erforderlich.",
-    "url": "https://spieleland.de/events/jahresgewinnspiel",
-    "is_real": 1
-  },
-  {
-    "title": "Judith Williams Newsletter-Gewinnspiel: Wellnessurlaub oder Retinol Science Set gewinnen",
-    "cat": "beauty",
-    "value_eur": null,
-    "deadline": "2026-10-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Judith Williams Cosmetics",
-    "description": "Judith Williams Newsletter abonnieren und einen Wellnessurlaub im 5-Sterne-Hotel ODER 1 von 10 Retinol Science Sets gewinnen. Kostenlose Teilnahme per Newsletter-Anmeldung, kein Kauf erforderlich.",
-    "url": "https://www.judithwilliams.com/pages/newsletter-gewinnspiel",
-    "is_real": 1
-  },
-  {
-    "title": "AIDA Monatsgewinnspiel Oktober 2026: 3.000 € Kreuzfahrtgutschein gewinnen",
-    "cat": "reise",
-    "value_eur": 3000,
-    "deadline": "2026-10-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "AIDA Cruises",
-    "description": "Monatlich einen 3.000 € AIDA Kreuzfahrtgutschein gewinnen. Newsletter abonnieren und Gewinnspielfrage beantworten – kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://www.aida.de/kreuzfahrt/monatsgewinnspiel.40935.html",
-    "is_real": 1
-  },
-  {
-    "title": "GewinnArena Exklusiv: Sony PS5 DualSense Controller V2 gewinnen",
-    "cat": "handy",
-    "value_eur": 89,
-    "deadline": "2026-10-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "GewinnArena / ProSiebenSat.1",
-    "description": "Kostenloses GewinnArena-Konto anlegen und einen Sony PlayStation 5 DualSense Controller V2 (ca. 89 €) gewinnen. Exklusives GewinnArena-Gewinnspiel, kein Kauf erforderlich.",
-    "url": "https://www.gewinnarena.de/tv/gewinnarena/gewinnarena-exklusiv/sony-playstation-5-ps5-dualsense-controller-v2-07-26/",
-    "is_real": 1
-  },
-  {
-    "title": "Spezi Sommergewinnspiel: Vespa Sprint 125 oder Spezi Fanpakete gewinnen",
-    "cat": "auto",
-    "value_eur": 4000,
-    "deadline": "2026-10-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Spezi (Bergwolf GmbH)",
-    "description": "Gewinnspielfrage beantworten und eine Vespa Sprint 125 (ca. 4.000 €) oder Spezi Fanpakete gewinnen. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
-    "url": "https://gewinnspiel.spezi.com/",
-    "is_real": 1
-  },
-  {
-    "title": "Aoste Sommer: Vespa Elettrica oder exklusive Grill-Events gewinnen",
-    "cat": "auto",
-    "value_eur": 5000,
-    "deadline": "2026-10-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Aoste",
-    "description": "Newsletter abonnieren und eine Vespa Elettrica (ca. 5.000 €) oder Grill-Event-Pakete gewinnen. Kostenlose Teilnahme per E-Mail, kein Kauf erforderlich.",
-    "url": "https://www.aoste.de/sommer/",
     "is_real": 1
   },
   {
@@ -239,17 +96,6 @@
     "sponsor": "dm / babylove",
     "description": "Jeden Monat einen Familienurlaub (2 Nächte) für 2 Erwachsene und 2 Kinder in den Original Kinderhotels Europa gewinnen. Kostenlose Teilnahme im dm Glückskind-Programm, kein Kauf erforderlich.",
     "url": "https://www.dm.de/glueckskind/gewinnspiele-und-produkttests/glueckskind-gewinnspiel-babylove-1889054",
-    "is_real": 1
-  },
-  {
-    "title": "PENNY Reisen Gewinnspiel: 4 Tage All Inclusive im CAREA Harzhotel Allrode gewinnen",
-    "cat": "reise",
-    "value_eur": 500,
-    "deadline": "2026-10-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "PENNY Reisen",
-    "description": "4-tägigen Freiaufenthalt für 2 Personen mit All Inclusive im CAREA Harzhotel Allrode im Harz gewinnen. Gewinnspielfrage beantworten und Formular absenden – kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://www.penny-reisen.de/gewinnspiel.html",
     "is_real": 1
   },
   {
@@ -305,6 +151,61 @@
     "sponsor": "Vodafone GmbH",
     "description": "Kostenlos zum Newsletter anmelden und 1 von 3 Paketen aus PlayStation 5 Pro + GTA 6 (Digital) gewinnen. Keine Vodafone-Kundschaft erforderlich. Teilnahme ab 18 Jahren.",
     "url": "https://www.vodafone.de/vos-gewinnspiel-playstation.html",
+    "is_real": 1
+  },
+  {
+    "title": "Jägermeister Club: Monatliches Gewinnspiel – exklusive Preise gewinnen",
+    "cat": "lebensmittel",
+    "value_eur": null,
+    "deadline": "2026-12-31",
+    "draw_date": "monatlich am Monatsende",
+    "sponsor": "Mast-Jägermeister SE",
+    "description": "Kostenlos im Jägermeister Club registrieren und monatlich an exklusiven Verlosungen teilnehmen – z. B. limitierte Brand-Items, Tickets und Kühllösungen. Eine Teilnahme pro Person pro Monat.",
+    "url": "https://de.jagermeister.com/club/monatliches-gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "Hurtigruten: 11-tägige Seereise für 2 von Tromsø nach Kopenhagen gewinnen",
+    "cat": "reise",
+    "value_eur": 3500,
+    "deadline": "2026-11-15",
+    "draw_date": "16.11.2026",
+    "sponsor": "Hurtigruten Expeditions",
+    "description": "Newsletter abonnieren und eine 11-tägige Seereise für 2 Personen mit der Arktis-Linie von Tromsø nach Kopenhagen gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich. Reisezeitraum Jan–Apr 2028.",
+    "url": "https://www.hurtigruten.com/de-de/kampagnen/seereise-gewinnen",
+    "is_real": 1
+  },
+  {
+    "title": "AIDA Monatsgewinnspiel November 2026: AIDA Kreuzfahrtgutschein gewinnen",
+    "cat": "reise",
+    "value_eur": 1500,
+    "deadline": "2026-11-30",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "AIDA Cruises",
+    "description": "Monatlich einen AIDA Kreuzfahrtgutschein gewinnen. Newsletter abonnieren und Gewinnspielfrage beantworten – kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.aida.de/kreuzfahrt/monatsgewinnspiel.40935.html",
+    "is_real": 1
+  },
+  {
+    "title": "trendtours Monatsgewinnspiel November 2026: Reise nach Südengland für 2 gewinnen",
+    "cat": "reise",
+    "value_eur": 1500,
+    "deadline": "2026-12-09",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "trendtours Touristik GmbH",
+    "description": "Newsletter anmelden und Formular ausfüllen – monatlich eine Reise für 2 Personen gewinnen. Aktueller Preis (Nov. 2026): Premium-Bahnreise nach Südengland. Kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.trendtours.de/gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "urlaubspiraten: Winterreise nach Wahl für 2 Personen (4.000 €) gewinnen",
+    "cat": "reise",
+    "value_eur": 4000,
+    "deadline": "2027-03-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "urlaubspiraten.de (HolidayPirates GmbH)",
+    "description": "Kostenlos teilnehmen und eine Winterreise nach Wahl für 2 Personen im Wert von 4.000 € inkl. Flug und Hotel gewinnen. Buchung bis 23.09.2027, Reiseantritt bis 31.03.2028.",
+    "url": "https://www.urlaubspiraten.de/pauschalreisen/gewinne-deine-winter-traumreise",
     "is_real": 1
   }
 ]
