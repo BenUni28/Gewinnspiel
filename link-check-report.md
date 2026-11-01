@@ -1,105 +1,78 @@
-# Gewinnspiele Link-Check-Report
-
-**Datum:** 31.10.2026  
-**Lauf-ID:** 2026-10-31  
-**Modell:** claude-sonnet-4-6
-
----
+# Gewinnspiel-Agentenbericht – 01.11.2026
 
 ## Zusammenfassung
 
-| Kategorie | Anzahl |
-|-----------|--------|
-| Geprüfte Einträge | 28 |
-| Behalten (✅ OK / ⚠️) | 15 |
-| Entfernt | 13 |
-| Neu hinzugefügt | 4 |
-| **Gesamt aktive Einträge** | **19** |
+- **Neu hinzugefügt:** 1
+- **Entfernt:** 1
+- **Aktualisiert:** 1 (draw_date korrigiert)
+- **Gesamteinträge nach Lauf:** 19
+- **Hinweis:** WebFetch war in dieser Sitzung für alle deutschen Domains gesperrt (DNS-Fehler `ENOTFOUND`). Alle URL-Prüfungen und Neurecherchen wurden ausschließlich per WebSearch-Snippet durchgeführt.
 
 ---
 
-## Neu hinzugefügte Einträge (4)
+## Neu hinzugefügte Gewinnspiele
 
-| # | Titel | Kategorie | Wert | Deadline | URL |
-|---|-------|-----------|------|----------|-----|
-| 1 | Hurtigruten: 11-tägige Seereise für 2 von Tromsø nach Kopenhagen gewinnen | reise | 3.500 € | 2026-11-15 | https://www.hurtigruten.com/de-de/kampagnen/seereise-gewinnen |
-| 2 | AIDA Monatsgewinnspiel November 2026: AIDA Kreuzfahrtgutschein gewinnen | reise | 1.500 € | 2026-11-30 | https://www.aida.de/kreuzfahrt/monatsgewinnspiel.40935.html |
-| 3 | trendtours Monatsgewinnspiel November 2026: Reise nach Südengland für 2 gewinnen | reise | 1.500 € | 2026-12-09 | https://www.trendtours.de/gewinnspiel |
-| 4 | urlaubspiraten: Winterreise nach Wahl für 2 Personen (4.000 €) gewinnen | reise | 4.000 € | 2027-03-31 | https://www.urlaubspiraten.de/pauschalreisen/gewinne-deine-winter-traumreise |
+| # | Titel | Kategorie | URL |
+|---|-------|-----------|-----|
+| 1 | AUTO BILD Connected Car Award 2026: go-e Wallbox-Set gewinnen | auto | https://www.autobild.de/artikel/connected-car-award-2026-gewinnspiel-28808543.html |
 
-### Details zu neuen Einträgen
-
-**Hurtigruten Seereise:**  
-WebSearch bestätigt aktive Kampagne. Teilnahme per Newsletter-Anmeldung bis 15.11.2026, Auslosung 16.11.2026. 11-tägige Seereise (Arktis-Linie) für 2 Personen von Tromsø nach Kopenhagen, Reisezeitraum Jan–Apr 2028. Dedizierte Kampagnenseite auf hurtigruten.com. ✅
-
-**AIDA Monatsgewinnspiel November 2026:**  
-Permanente URL für das monatlich wechselnde AIDA-Gewinnspiel. Vorgänger (Oktober 2026) abgelaufen und entfernt – neuer Eintrag für November-Lauf. AIDA Cruises ist ein etablierter Veranstalter. ✅
-
-**trendtours Monatsgewinnspiel:**  
-Etabliertes Reiseveranstalter-Gewinnspiel, monatlich wechselnde Preise. November-Preis: Premium-Bahnreise nach Südengland für 2 Personen. Teilnahme per Newsletter + Formular. Nächste Auslosung: ~09.12.2026. ✅
-
-**urlaubspiraten Winterreise:**  
-WebSearch bestätigt aktive Kampagne. Winterreise nach Wahl (4.000 € inkl. Flug + Hotel) für 2 Personen, kostenlose Teilnahme. Buchungsfenster bis 23.09.2027, Reiseantritt bis 31.03.2028. urlaubspiraten.de ist ein bekanntes deutsches Reise-Portal. ✅
+**Details:** Leserwahl zum Connected Car Award 2026 – Abstimmen und 1 von 2 go-e Wallbox-Sets (~1.200 € Wert) gewinnen. Veranstalter: Auto Bild Verlag + go-e. Frist: ~30.11.2026 (geschätzt; dies ist der neueste autobild.de-Gewinnspielartikel dieser Saison, Vorgänger-Aktionen hatten Fristen zwischen Aug–Okt). Kostenlose Teilnahme per Abstimmungsformular. Quelle: WebSearch-Snippet bestätigt aktive Seite mit Gewinnspielformular.
 
 ---
 
-## Link-Check-Ergebnisse (bestehende Einträge)
+## URL-Prüfung aller bestehenden Einträge
 
-> **Hinweis:** Direktes WebFetch war in dieser Sitzung durch Netzwerk-Policy (DNS-Block für deutsche Domains) nicht möglich. Prüfung erfolgte per WebSearch-Snippets und deadline-basierter Analyse gemäß CLAUDE.md-Regeln.
+> ⚠️ Hinweis: WebFetch ist in dieser Sitzung für externe Domains nicht verfügbar. Prüfung erfolgte per WebSearch-Snippet und bekannter Markenreputation.
 
-### ✅ Behalten (15 Einträge)
-
-| # | Titel | Status | Deadline | Begründung |
-|---|-------|--------|----------|------------|
-| 1 | Wüstenrot Gewinnspiel 2026 | ✅ OK | 2027-02-28 | Deadline weit in der Zukunft; wuestenrot.de etablierter Veranstalter |
-| 2 | schuhe.de Monatliche Schuhe | ✅ OK | 2026-12-31 | Aktiv, monatliches Gewinnspiel, bekannte Marke |
-| 3 | Mannheimer Morgen 80-Jahre Jubiläum | ✅ OK | 2026-12-31 | Aktives Jubiläumsgewinnspiel, Deadline Jahresende |
-| 4 | Steuertipps 50 Jahre | ✅ OK | 2026-12-31 | Aktives Jubiläumsgewinnspiel, Deadline Jahresende |
-| 5 | Berghaus Vanlife | ⚠️ Nicht verifizierbar | 2027-02-26 | Kampagne per WebSearch bestätigt (bergsteigen.com-Quelle). URL your-berghaus.com konnte nicht direkt fetched werden; Kampagne real, aber primär Event-basiert |
-| 6 | Mein Grundeinkommen | ✅ OK | 2027-06-30 | Bekannter gemeinnütziger Verein, laufende Verlosungen |
-| 7 | Europa-Park ep-news Gewinnspiel | ✅ OK | 2026-11-27 | Aktiv, Deadline 27.11.2026 |
-| 8 | Europa-Park Umfrage | ✅ OK | 2027-01-19 | Aktiv, Deadline Januar 2027 |
-| 9 | dm Glückskind × babylove | ✅ OK | 2027-06-30 | Laufendes monatliches Familiengewinnspiel auf dm.de |
-| 10 | Lidl: 15.000 € Budget | ✅ OK | 2026-11-01 | Aktiv bis morgen; konkrete Produktseite bestätigt |
-| 11 | Europa-Park Rulantica | ✅ OK | 2027-01-10 | Aktiv, Deadline Januar 2027 |
-| 12 | Schauinsland-Reisen Adventskalender 2026 | ✅ OK | 2026-12-26 | Seite kündigt 2026-Adventskalender an; Start 01.12.2026 |
-| 13 | GewinnArena Porsche 911 Carrera | ✅ OK | 2026-11-09 | WebSearch bestätigt spezifische Sonderaktion bis 09.11.2026 |
-| 14 | Vodafone Newsletter PS5 Pro | ✅ OK | 2026-11-19 | Aktiv, WebSearch bestätigt PS5-Gewinnspiel auf vodafone.de |
-| 15 | Jägermeister Club | ✅ OK | 2026-12-31 | Laufendes monatliches Club-Gewinnspiel |
-
----
-
-### ❌ Entfernt (13 Einträge)
-
-| # | Titel | Status | Deadline | Entfernungsgrund |
-|---|-------|--------|----------|-----------------|
-| 1 | onvista Börsenspiel | ❌ DEFEKT | 2026-10-30 | Deadline gestern abgelaufen (30.10.2026) |
-| 2 | AIDA × Salitos | ❌ DEFEKT | 2026-10-31 | Deadline heute (31.10.2026) – Sommerkampagne beendet |
-| 3 | Galbani Gusta la Dolce Vita | ❌ DEFEKT | 2026-10-31 | Deadline heute (31.10.2026) – Aktionszeitraum abgelaufen |
-| 4 | REWE Reisen | ❌ DEFEKT | 2026-10-31 | Deadline heute (31.10.2026) |
-| 5 | Böklunder Paris „Oh la la" | ❌ DEFEKT | 2026-10-31 | Deadline heute (31.10.2026) – Produktkampagne beendet |
-| 6 | HiPP Kinderhotels | ❌ DEFEKT | 2026-10-31 | Deadline heute (31.10.2026) |
-| 7 | AIDA Monatsgewinnspiel Oktober 2026 | ❌ DEFEKT | 2026-10-31 | Deadline heute – Oktober-Runde beendet; ersetzt durch November-Eintrag |
-| 8 | GewinnArena PS5 DualSense Controller | ❌ DEFEKT | 2026-10-31 | Deadline heute (31.10.2026) – Aktionszeitraum 07-26 beendet |
-| 9 | Spezi Sommergewinnspiel | ❌ DEFEKT | 2026-10-31 | Deadline heute (31.10.2026) – Sommergewinnspiel beendet |
-| 10 | Aoste Sommer | ❌ DEFEKT | 2026-10-31 | Deadline heute (31.10.2026) – Sommerkampagne beendet |
-| 11 | PENNY Reisen | ❌ DEFEKT | 2026-10-31 | Deadline heute (31.10.2026) |
-| 12 | Judith Williams Newsletter | ❌ DEFEKT | 2026-10-31 | Deadline heute (31.10.2026) |
-| 13 | Ravensburger Spieleland | ❌ DEFEKT | 2026-11-01 | Deadline morgen (01.11.2026); Saison-Gewinnspiel – Spieleland-Saison endet Oktober 2026 |
+| Status | Titel | URL | Begründung |
+|--------|-------|-----|------------|
+| ✅ OK | Wüstenrot: 2× iPhone 17 Pro & 2× Samsung Galaxy S25 Ultra | https://cloud.info.wuestenrot.de/spiel-2026 | Bekannte Bausparkasse, Deadline 28.02.2027, per WebSearch als aktiv bestätigt |
+| ⚠️ Nicht verifizierbar | schuhe.de: Monatlich ein Paar Schuhe bis 150 € | https://www.schuhe.de/gewinnspiel | Bekannter Onlinehändler, Deadline 31.12.2026, WebFetch gesperrt |
+| ⚠️ Nicht verifizierbar | Mannheimer Morgen 80 Jahre: 5.000 € Reisegutschein | https://www.mannheimer-morgen.de/jubi-gewinnspiel.html | Bekannte Regionalzeitung, Deadline 31.12.2026, WebFetch gesperrt |
+| ⚠️ Nicht verifizierbar | Steuertipps 50 Jahre: 3.000 € Reisegutschein & Samsung | https://www.steuertipps.de/50jahre | Bekanntes Steuerportal (Haufe Group), Deadline 31.12.2026, WebFetch gesperrt |
+| ⚠️ Nicht verifizierbar | Berghaus Vanlife: Camper Van + 7.000 € Ausstattung | https://your-berghaus.com/ | Dedizierte Kampagnen-Domain (nicht Unternehmens-Homepage), Deadline 26.02.2027. Mehrere Aggregator-Quellen bestätigen das Gewinnspiel als echt. Online-Teilnahmeformular laut Beschreibung vorhanden. WebFetch gesperrt. |
+| ✅ OK | Mein Grundeinkommen: 1.000 € monatlich für 1 Jahr | https://www.mein-grundeinkommen.de/verlosung | Seriöser gemeinnütziger Verein, kostenlos bestätigt, Deadline 30.06.2027. draw_date aktualisiert (veraltetes Einzeldatum 16.09.2026 entfernt → nur „monatlich"). |
+| ⚠️ Nicht verifizierbar | Europa-Park ep-news: Hotel + Tickets | https://www.europapark.de/de/freizeitpark/ep-news-gewinnspiel-2 | Bekannter Veranstalter, Deadline 27.11.2026, WebFetch gesperrt |
+| ⚠️ Nicht verifizierbar | Europa-Park Umfrage: Erlebnisaufenthalt für 4 | https://www.europapark.de/de/freizeitpark/europa-park-umfrage | Bekannter Veranstalter, Deadline 19.01.2027, WebFetch gesperrt |
+| ⚠️ Nicht verifizierbar | dm Glückskind × babylove: Familienurlaub | https://www.dm.de/glueckskind/gewinnspiele-und-produkttests/glueckskind-gewinnspiel-babylove-1889054 | Bekannte Drogeriekette, Deadline 30.06.2027, WebFetch gesperrt |
+| ⚠️ Nicht verifizierbar | Europa-Park Rulantica: Hotel Krønasår + Tickets | https://www.europapark.de/de/rulantica/grosses-rulantica-gewinnspiel | Bekannter Veranstalter, Deadline 10.01.2027, WebFetch gesperrt |
+| ⚠️ Nicht verifizierbar | Schauinsland Adventskalender 2026 | https://www.schauinsland-reisen.de/gewinnspiele/adventskalender | WebSearch bestätigt: „nächste Runde im Dezember 2026" – Aktion geplant, startet 01.12.2026. WebFetch gesperrt. |
+| ✅ OK | GewinnArena: Porsche 911 oder 120.000 € Bargeld | https://www.gewinnarena.de/preise/auto-gewinnspiele/sonderaktion-porsche-hauptpreis-porsche-911-carrera-o-120000-10-26/ | Per WebSearch bestätigt: aktiv, Deadline 09.11.2026, kostenlose Registrierung (ProSieben/SAT.1/Kabel Eins) |
+| ✅ OK | Vodafone Newsletter: PS5 Pro + GTA 6 | https://www.vodafone.de/vos-gewinnspiel-playstation.html | Per WebSearch bestätigt: aktiv, Deadline 19.11.2026 |
+| ⚠️ Nicht verifizierbar | Jägermeister Club: Monatliches Gewinnspiel | https://de.jagermeister.com/club/monatliches-gewinnspiel | Bekannte Marke, Deadline 31.12.2026, WebFetch gesperrt |
+| ✅ OK | Hurtigruten: 11-tägige Seereise Tromsø–Kopenhagen | https://www.hurtigruten.com/de-de/kampagnen/seereise-gewinnen | Per WebSearch bestätigt: aktiv, Deadline 15.11.2026, Newsletter kostenlos |
+| ⚠️ Nicht verifizierbar | AIDA Monatsgewinnspiel November 2026 | https://www.aida.de/kreuzfahrt/monatsgewinnspiel.40935.html | Bekannte Kreuzfahrtreederei, Deadline 30.11.2026, WebFetch gesperrt |
+| ⚠️ Nicht verifizierbar | trendtours Monatsgewinnspiel November 2026 | https://www.trendtours.de/gewinnspiel | Bekannter Reiseveranstalter, Deadline 09.12.2026, WebFetch gesperrt |
+| ⚠️ Nicht verifizierbar | urlaubspiraten: Winterreise 4.000 € für 2 | https://www.urlaubspiraten.de/pauschalreisen/gewinne-deine-winter-traumreise | Bekanntes Reiseportal, Deadline 31.03.2027, WebFetch gesperrt |
+| ✅ NEU | AUTO BILD Connected Car Award 2026: Wallbox | https://www.autobild.de/artikel/connected-car-award-2026-gewinnspiel-28808543.html | Neu hinzugefügt, WebSearch-Snippet bestätigt aktive Gewinnspielseite |
 
 ---
 
-## Qualitätsprüfung neue Einträge
+## Entfernte Einträge
 
-Alle neuen Einträge wurden nach CLAUDE.md-Kriterien geprüft:
-
-- ✅ Kostenlos – keine Kaufpflicht
-- ✅ Newsletter-Anmeldung OK – nur E-Mail-Angabe erforderlich
-- ✅ Aktiv – Deadline in der Zukunft
-- ✅ Direkte Veranstalter-URL (keine Aggregatoren)
-- ✅ Seriöse Veranstalter (Hurtigruten, AIDA, trendtours, urlaubspiraten)
-- ✅ Spezifische Gewinnspielseite – nicht Homepage oder generische Übersicht
+| Titel | URL | Status | Begründung |
+|-------|-----|--------|------------|
+| Lidl: 15.000 € Budget zum Einrichten gewinnen | https://www.lidl.de/gewinnspiele-upgrade-dein-zuhause | ❌ DEFEKT | Deadline war 01.11.2026 (heute) – Gewinnspiel abgelaufen. WebSearch bestätigt Endtermin. |
 
 ---
 
-*Bericht erstellt am 31.10.2026 um 07:00 UTC durch Gewinnspiel-Agent (claude-sonnet-4-6)*
+## Recherche: Nicht aufgenommene Kandidaten
+
+Folgende Gewinnspiele wurden recherchiert, aber **nicht** aufgenommen:
+
+| Titel | Ablehnungsgrund |
+|-------|-----------------|
+| Milka Monopoly 2026 | Kaufzwang (Aktionsprodukt erforderlich), Aktion bereits beendet (Juli 2026) |
+| Ferrero „100 Kinderwünsche" | Kaufzwang (Aktionsprodukt + Kassenbon erforderlich) |
+| AUTO BILD Allradautos des Jahres 2026 | Deadline abgelaufen (12.04.2026) |
+| AUTO BILD Sportscars des Jahres 2026 | Deadline abgelaufen (05.10.2026) |
+| AUTO BILD Firmenwagen Award 2026 | Deadline abgelaufen (20.09.2026) |
+| AUTO BILD Goldenes Lenkrad 2026 | Deadline abgelaufen (02.08.2026) |
+| FC Bayern BVB-Ticket-Gewinnspiel | Bayern–BVB-Spiel 30.10.–01.11.2026 → Gewinnspiel vermutlich abgelaufen |
+| ADAC Newsletter Mercedes E-Auto | Keine offizielle adac.de-URL gefunden, nur Aggregator-Listing |
+| TUI Winter-Gewinnspiel | Aktuelle Aktion (Kreuzfahrt Mein Schiff Flow) hatte Frist 31.10.2026 → abgelaufen |
+| Kaufland Adventskalender 2026 | Für 2026 noch nicht angekündigt/bestätigt (startet erst 01.12.2026) |
+
+---
+
+*Bericht erstellt: 01.11.2026 | Nächste planmäßige Prüfung: ca. 04.11.2026*

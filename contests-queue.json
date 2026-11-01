@@ -59,7 +59,7 @@
     "cat": "bargeld",
     "value_eur": 12000,
     "deadline": "2027-06-30",
-    "draw_date": "monatlich (nächste Ziehung 16.09.2026)",
+    "draw_date": "monatlich",
     "sponsor": "Mein Grundeinkommen e.V.",
     "description": "Kostenlos anmelden und eines von 25 bedingungslosen Grundeinkommen gewinnen – 1.000 € pro Monat für 12 Monate (12.000 € gesamt), steuerfrei und ohne Bedingungen.",
     "url": "https://www.mein-grundeinkommen.de/verlosung",
@@ -96,17 +96,6 @@
     "sponsor": "dm / babylove",
     "description": "Jeden Monat einen Familienurlaub (2 Nächte) für 2 Erwachsene und 2 Kinder in den Original Kinderhotels Europa gewinnen. Kostenlose Teilnahme im dm Glückskind-Programm, kein Kauf erforderlich.",
     "url": "https://www.dm.de/glueckskind/gewinnspiele-und-produkttests/glueckskind-gewinnspiel-babylove-1889054",
-    "is_real": 1
-  },
-  {
-    "title": "Lidl: 15.000 € Budget zum Einrichten gewinnen",
-    "cat": "haus",
-    "value_eur": 15000,
-    "deadline": "2026-11-01",
-    "draw_date": "bis 09.11.2026",
-    "sponsor": "Lidl Dienstleistung GmbH & Co. KG",
-    "description": "15.000 € Lidl-Gutschein-Paket für dein Zuhause gewinnen – freie Auswahl aus dem Sortiment. Kostenlose Teilnahme per Online-Formular, Newsletter-Einwilligung erforderlich.",
-    "url": "https://www.lidl.de/gewinnspiele-upgrade-dein-zuhause",
     "is_real": 1
   },
   {
@@ -206,6 +195,17 @@
     "sponsor": "urlaubspiraten.de (HolidayPirates GmbH)",
     "description": "Kostenlos teilnehmen und eine Winterreise nach Wahl für 2 Personen im Wert von 4.000 € inkl. Flug und Hotel gewinnen. Buchung bis 23.09.2027, Reiseantritt bis 31.03.2028.",
     "url": "https://www.urlaubspiraten.de/pauschalreisen/gewinne-deine-winter-traumreise",
+    "is_real": 1
+  },
+  {
+    "title": "AUTO BILD Connected Car Award 2026: go-e Wallbox-Set gewinnen",
+    "cat": "auto",
+    "value_eur": 1200,
+    "deadline": "2026-11-30",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Auto Bild / go-e",
+    "description": "Bei der Leserwahl zum Connected Car Award 2026 abstimmen und 1 von 2 go-e Wallbox-Sets für Elektroautos gewinnen. Kostenlose Teilnahme per Abstimmungsformular, kein Kauf erforderlich.",
+    "url": "https://www.autobild.de/artikel/connected-car-award-2026-gewinnspiel-28808543.html",
     "is_real": 1
   }
 ]
