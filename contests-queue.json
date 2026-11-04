@@ -44,17 +44,6 @@
     "is_real": 1
   },
   {
-    "title": "Jägermeister Club: Monatliches Gewinnspiel – exklusive Preise gewinnen",
-    "cat": "lebensmittel",
-    "value_eur": null,
-    "deadline": "2026-12-31",
-    "draw_date": "monatlich am Monatsende",
-    "sponsor": "Mast-Jägermeister SE",
-    "description": "Kostenlos im Jägermeister Club registrieren und monatlich an exklusiven Verlosungen teilnehmen – z. B. limitierte Brand-Items, Tickets und Kühllösungen. Eine Teilnahme pro Person pro Monat.",
-    "url": "https://de.jagermeister.com/club/monatliches-gewinnspiel",
-    "is_real": 1
-  },
-  {
     "title": "Mein Grundeinkommen: Monatlich 1.000 € für ein Jahr gewinnen",
     "cat": "bargeld",
     "value_eur": 12000,
@@ -63,83 +52,6 @@
     "sponsor": "Mein Grundeinkommen e.V.",
     "description": "Kostenlos anmelden und eines von 25 bedingungslosen Grundeinkommen gewinnen – 1.000 € pro Monat für 12 Monate (12.000 € gesamt), steuerfrei und ohne Bedingungen.",
     "url": "https://www.mein-grundeinkommen.de/verlosung",
-    "is_real": 1
-  },
-  {
-    "title": "GewinnArena: Porsche 911 Carrera oder 120.000 € Bargeld gewinnen",
-    "cat": "auto",
-    "value_eur": 120000,
-    "deadline": "2026-11-09",
-    "draw_date": "09.11.2026",
-    "sponsor": "GewinnArena (ProSieben, SAT.1, Kabel Eins)",
-    "description": "Porsche 911 Carrera oder 120.000 € Bargeld gewinnen – Wunschgewinn frei wählbar. Kostenlose Registrierung bei GewinnArena, eine Gratis-Teilnahme pro Person. Ab 14 Jahren.",
-    "url": "https://www.gewinnarena.de/preise/auto-gewinnspiele/sonderaktion-porsche-hauptpreis-porsche-911-carrera-o-120000-10-26/",
-    "is_real": 1
-  },
-  {
-    "title": "Vodafone Newsletter: PlayStation 5 Pro + GTA 6 gewinnen",
-    "cat": "handy",
-    "value_eur": 820,
-    "deadline": "2026-11-19",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Vodafone GmbH",
-    "description": "Kostenlos zum Newsletter anmelden und 1 von 3 Paketen aus PlayStation 5 Pro + GTA 6 (Digital) gewinnen. Keine Vodafone-Kundschaft erforderlich. Teilnahme ab 18 Jahren.",
-    "url": "https://www.vodafone.de/vos-gewinnspiel-playstation.html",
-    "is_real": 1
-  },
-  {
-    "title": "Hurtigruten: 11-tägige Seereise für 2 von Tromsø nach Kopenhagen gewinnen",
-    "cat": "reise",
-    "value_eur": 3500,
-    "deadline": "2026-11-15",
-    "draw_date": "16.11.2026",
-    "sponsor": "Hurtigruten Expeditions",
-    "description": "Newsletter abonnieren und eine 11-tägige Seereise für 2 Personen mit der Arktis-Linie von Tromsø nach Kopenhagen gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich. Reisezeitraum Jan–Apr 2028.",
-    "url": "https://www.hurtigruten.com/de-de/kampagnen/seereise-gewinnen",
-    "is_real": 1
-  },
-  {
-    "title": "AIDA Monatsgewinnspiel November 2026: AIDA Kreuzfahrtgutschein gewinnen",
-    "cat": "reise",
-    "value_eur": 1500,
-    "deadline": "2026-11-30",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "AIDA Cruises",
-    "description": "Monatlich einen AIDA Kreuzfahrtgutschein gewinnen. Newsletter abonnieren und Gewinnspielfrage beantworten – kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://www.aida.de/kreuzfahrt/monatsgewinnspiel.40935.html",
-    "is_real": 1
-  },
-  {
-    "title": "AUTO BILD Connected Car Award 2026: go-e Wallbox-Set gewinnen",
-    "cat": "auto",
-    "value_eur": 1200,
-    "deadline": "2026-11-30",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Auto Bild / go-e",
-    "description": "Bei der Leserwahl zum Connected Car Award 2026 abstimmen und 1 von 2 go-e Wallbox-Sets für Elektroautos gewinnen. Kostenlose Teilnahme per Abstimmungsformular, kein Kauf erforderlich.",
-    "url": "https://www.autobild.de/artikel/connected-car-award-2026-gewinnspiel-28808543.html",
-    "is_real": 1
-  },
-  {
-    "title": "trendtours Monatsgewinnspiel November 2026: Reise nach Südengland für 2 gewinnen",
-    "cat": "reise",
-    "value_eur": 1500,
-    "deadline": "2026-12-09",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "trendtours Touristik GmbH",
-    "description": "Newsletter anmelden und Formular ausfüllen – monatlich eine Reise für 2 Personen gewinnen. Aktueller Preis (Nov. 2026): Premium-Bahnreise nach Südengland. Kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://www.trendtours.de/gewinnspiel",
-    "is_real": 1
-  },
-  {
-    "title": "urlaubspiraten: Winterreise nach Wahl für 2 Personen (4.000 €) gewinnen",
-    "cat": "reise",
-    "value_eur": 4000,
-    "deadline": "2027-03-31",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "urlaubspiraten.de (HolidayPirates GmbH)",
-    "description": "Kostenlos teilnehmen und eine Winterreise nach Wahl für 2 Personen im Wert von 4.000 € inkl. Flug und Hotel gewinnen. Buchung bis 23.09.2027, Reiseantritt bis 31.03.2028.",
-    "url": "https://www.urlaubspiraten.de/pauschalreisen/gewinne-deine-winter-traumreise",
     "is_real": 1
   },
   {
@@ -195,6 +107,94 @@
     "sponsor": "Schauinsland-Reisen",
     "description": "Ab dem 1. Dezember täglich ein Türchen öffnen und Hotelgutscheine sowie Reisepreise aus aller Welt gewinnen. Kostenlose Teilnahme per Newsletter-Anmeldung, kein Kauf erforderlich. Start: 01.12.2026.",
     "url": "https://www.schauinsland-reisen.de/gewinnspiele/adventskalender",
+    "is_real": 1
+  },
+  {
+    "title": "GewinnArena: Porsche 911 Carrera oder 120.000 € Bargeld gewinnen",
+    "cat": "auto",
+    "value_eur": 120000,
+    "deadline": "2026-11-09",
+    "draw_date": "09.11.2026",
+    "sponsor": "GewinnArena (ProSieben, SAT.1, Kabel Eins)",
+    "description": "Porsche 911 Carrera oder 120.000 € Bargeld gewinnen – Wunschgewinn frei wählbar. Kostenlose Registrierung bei GewinnArena, eine Gratis-Teilnahme pro Person. Ab 14 Jahren.",
+    "url": "https://www.gewinnarena.de/preise/auto-gewinnspiele/sonderaktion-porsche-hauptpreis-porsche-911-carrera-o-120000-10-26/",
+    "is_real": 1
+  },
+  {
+    "title": "Vodafone Newsletter: PlayStation 5 Pro + GTA 6 gewinnen",
+    "cat": "handy",
+    "value_eur": 820,
+    "deadline": "2026-11-19",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Vodafone GmbH",
+    "description": "Kostenlos zum Newsletter anmelden und 1 von 3 Paketen aus PlayStation 5 Pro + GTA 6 (Digital) gewinnen. Keine Vodafone-Kundschaft erforderlich. Teilnahme ab 18 Jahren.",
+    "url": "https://www.vodafone.de/vos-gewinnspiel-playstation.html",
+    "is_real": 1
+  },
+  {
+    "title": "Jägermeister Club: Monatliches Gewinnspiel – exklusive Preise gewinnen",
+    "cat": "lebensmittel",
+    "value_eur": null,
+    "deadline": "2026-12-31",
+    "draw_date": "monatlich am Monatsende",
+    "sponsor": "Mast-Jägermeister SE",
+    "description": "Kostenlos im Jägermeister Club registrieren und monatlich an exklusiven Verlosungen teilnehmen – z. B. limitierte Brand-Items, Tickets und Kühllösungen. Eine Teilnahme pro Person pro Monat.",
+    "url": "https://de.jagermeister.com/club/monatliches-gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "Hurtigruten: 11-tägige Seereise für 2 von Tromsø nach Kopenhagen gewinnen",
+    "cat": "reise",
+    "value_eur": 3500,
+    "deadline": "2026-11-15",
+    "draw_date": "16.11.2026",
+    "sponsor": "Hurtigruten Expeditions",
+    "description": "Newsletter abonnieren und eine 11-tägige Seereise für 2 Personen mit der Arktis-Linie von Tromsø nach Kopenhagen gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich. Reisezeitraum Jan–Apr 2028.",
+    "url": "https://www.hurtigruten.com/de-de/kampagnen/seereise-gewinnen",
+    "is_real": 1
+  },
+  {
+    "title": "AIDA Monatsgewinnspiel November 2026: AIDA Kreuzfahrtgutschein gewinnen",
+    "cat": "reise",
+    "value_eur": 1500,
+    "deadline": "2026-11-30",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "AIDA Cruises",
+    "description": "Monatlich einen AIDA Kreuzfahrtgutschein gewinnen. Newsletter abonnieren und Gewinnspielfrage beantworten – kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.aida.de/kreuzfahrt/monatsgewinnspiel.40935.html",
+    "is_real": 1
+  },
+  {
+    "title": "trendtours Monatsgewinnspiel November 2026: Reise nach Südengland für 2 gewinnen",
+    "cat": "reise",
+    "value_eur": 1500,
+    "deadline": "2026-12-09",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "trendtours Touristik GmbH",
+    "description": "Newsletter anmelden und Formular ausfüllen – monatlich eine Reise für 2 Personen gewinnen. Aktueller Preis (Nov. 2026): Premium-Bahnreise nach Südengland. Kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.trendtours.de/gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "urlaubspiraten: Winterreise nach Wahl für 2 Personen (4.000 €) gewinnen",
+    "cat": "reise",
+    "value_eur": 4000,
+    "deadline": "2027-03-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "urlaubspiraten.de (HolidayPirates GmbH)",
+    "description": "Kostenlos teilnehmen und eine Winterreise nach Wahl für 2 Personen im Wert von 4.000 € inkl. Flug und Hotel gewinnen. Buchung bis 23.09.2027, Reiseantritt bis 31.03.2028.",
+    "url": "https://www.urlaubspiraten.de/pauschalreisen/gewinne-deine-winter-traumreise",
+    "is_real": 1
+  },
+  {
+    "title": "AUTO BILD Connected Car Award 2026: go-e Wallbox-Set gewinnen",
+    "cat": "auto",
+    "value_eur": 1200,
+    "deadline": "2026-11-30",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Auto Bild / go-e",
+    "description": "Bei der Leserwahl zum Connected Car Award 2026 abstimmen und 1 von 2 go-e Wallbox-Sets für Elektroautos gewinnen. Kostenlose Teilnahme per Abstimmungsformular, kein Kauf erforderlich.",
+    "url": "https://www.autobild.de/artikel/connected-car-award-2026-gewinnspiel-28808543.html",
     "is_real": 1
   },
   {
