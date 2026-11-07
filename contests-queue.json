@@ -229,5 +229,60 @@
     "description": "Täglich ab dem 1. Dezember ein Türchen öffnen und Tech-Preise, Gadgets und Software gewinnen. Kostenlose Teilnahme auf t3n.de, kein Abonnement erforderlich.",
     "url": "https://t3n.de/adventskalender/",
     "is_real": 1
+  },
+  {
+    "title": "outdoor magazin Adventskalender 2026: Täglich Outdoor-Ausrüstung gewinnen",
+    "cat": "sport",
+    "value_eur": 4500,
+    "deadline": "2026-12-24",
+    "draw_date": "täglich ab 01.12.2026",
+    "sponsor": "outdoor magazin (Motor Presse Stuttgart)",
+    "description": "Ab 1. Dezember täglich ein Türchen öffnen und Outdoor-Ausrüstung im Gesamtwert von ca. 4.500 € gewinnen – Rucksäcke, Kleidung, Lichter, Ferngläser. Kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.outdoor-magazin.com/adventskalender",
+    "is_real": 1
+  },
+  {
+    "title": "DealDoktor Black Week Gewinnspiel: PlayStation 5 Pro + GTA 6 gewinnen",
+    "cat": "handy",
+    "value_eur": 700,
+    "deadline": "2026-11-13",
+    "draw_date": "nach Teilnahmeschluss (13.11.2026)",
+    "sponsor": "DealDoktor.de",
+    "description": "Newsletter abonnieren oder Kommentar hinterlassen und 1× PlayStation 5 Pro + GTA 6 gewinnen. Bekanntes Deals-Portal (ZDF, RTL, Sat1 referenziert). Kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.dealdoktor.de/magazin/black-friday-gewinnspiel-ps5-pro-gta-6/",
+    "is_real": 1
+  },
+  {
+    "title": "ALDIventskalender 2026 (ALDI Nord): Täglich Sofortgewinne im Adventskalender",
+    "cat": "gutschein",
+    "value_eur": null,
+    "deadline": "2026-12-24",
+    "draw_date": "täglich ab 01.12.2026",
+    "sponsor": "ALDI Nord",
+    "description": "Ab dem 1. Dezember täglich ein Türchen öffnen und an der kostenlosen Tagesverlosung teilnehmen – Sofortgewinne wie z. B. 30 € ALDI-Reisen-Gutschein. Teilnahme ohne Kaufzwang, 18+, über Webseite oder App.",
+    "url": "https://www.aldiventskalender.de/nord",
+    "is_real": 1
+  },
+  {
+    "title": "urlaubsguru Adventskalender 2026: Täglich eine Reise für 2 gewinnen",
+    "cat": "reise",
+    "value_eur": null,
+    "deadline": "2026-12-24",
+    "draw_date": "täglich ab 01.12.2026",
+    "sponsor": "urlaubsguru (HolidayPirates GmbH)",
+    "description": "Ab dem 1. Dezember täglich ein Türchen öffnen und eine Reise für 2 Personen gewinnen. Kostenlose Teilnahme per E-Mail-Anmeldung, kein Kauf erforderlich. Jedes Türchen gilt nur am jeweiligen Tag.",
+    "url": "https://www.urlaubsguru.de/adventskalender",
+    "is_real": 1
+  },
+  {
+    "title": "Europa-Park Front Row Gewinnspiel Folge 7: 4× Rulantica Tageskarten + Snorri Fanpaket",
+    "cat": "reise",
+    "value_eur": 200,
+    "deadline": "2026-11-30",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Europa-Park GmbH & Co. Mack KG",
+    "description": "Gewinnspielfrage in der Rubrik „Front Row" beantworten und 4 Rulantica Tageskarten (Saison 2026/2027) sowie ein Snorri Fanpaket gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.europapark.de/de/freizeitpark/front-row-gewinnspiel-folge-7",
+    "is_real": 1
   }
 ]
