@@ -110,17 +110,6 @@
     "is_real": 1
   },
   {
-    "title": "GewinnArena: Porsche 911 Carrera oder 120.000 € Bargeld gewinnen",
-    "cat": "auto",
-    "value_eur": 120000,
-    "deadline": "2026-11-09",
-    "draw_date": "09.11.2026",
-    "sponsor": "GewinnArena (ProSieben, SAT.1, Kabel Eins)",
-    "description": "Porsche 911 Carrera oder 120.000 € Bargeld gewinnen – Wunschgewinn frei wählbar. Kostenlose Registrierung bei GewinnArena, eine Gratis-Teilnahme pro Person. Ab 14 Jahren.",
-    "url": "https://www.gewinnarena.de/preise/auto-gewinnspiele/sonderaktion-porsche-hauptpreis-porsche-911-carrera-o-120000-10-26/",
-    "is_real": 1
-  },
-  {
     "title": "Vodafone Newsletter: PlayStation 5 Pro + GTA 6 gewinnen",
     "cat": "handy",
     "value_eur": 820,
@@ -283,6 +272,39 @@
     "sponsor": "Europa-Park GmbH & Co. Mack KG",
     "description": "Gewinnspielfrage in der Rubrik „Front Row" beantworten und 4 Rulantica Tageskarten (Saison 2026/2027) sowie ein Snorri Fanpaket gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
     "url": "https://www.europapark.de/de/freizeitpark/front-row-gewinnspiel-folge-7",
+    "is_real": 1
+  },
+  {
+    "title": "AIDA Online-Adventskalender 2026: Täglich AIDA-Gutscheine gewinnen",
+    "cat": "reise",
+    "value_eur": 3000,
+    "deadline": "2026-12-24",
+    "draw_date": "täglich ab 01.12.2026",
+    "sponsor": "AIDA Cruises",
+    "description": "Täglich ab dem 1. Dezember ein Türchen öffnen und AIDA-Gutscheine im Wert von bis zu 3.000 € gewinnen. Kostenlose Teilnahme per Newsletter-Anmeldung, kein Kauf erforderlich.",
+    "url": "https://www.aida.de/adventskalender",
+    "is_real": 1
+  },
+  {
+    "title": "auto motor und sport Adventskalender 2026: Täglich Auto-Preise gewinnen",
+    "cat": "auto",
+    "value_eur": 10000,
+    "deadline": "2026-12-24",
+    "draw_date": "täglich ab 01.12.2026",
+    "sponsor": "auto motor und sport (Motor Presse Stuttgart)",
+    "description": "Täglich ab dem 1. Dezember ein Türchen öffnen und Auto-Preise und Gadgets im Gesamtwert von über 10.000 € gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.auto-motor-und-sport.de/adventskalender-teaser/",
+    "is_real": 1
+  },
+  {
+    "title": "Rossmann Online-Adventskalender 2026: Täglich Beauty-Preise gewinnen",
+    "cat": "beauty",
+    "value_eur": null,
+    "deadline": "2026-12-24",
+    "draw_date": "täglich ab 01.12.2026",
+    "sponsor": "ROSSMANN GmbH",
+    "description": "Täglich ab dem 1. Dezember in der kostenlosen Rossmann-App ein Türchen öffnen und Beauty-Produkte, Sachpreise und Gutscheine gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.rossmann.de/de/online-adventskalender",
     "is_real": 1
   }
 ]
