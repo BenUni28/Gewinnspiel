@@ -231,17 +231,6 @@
     "is_real": 1
   },
   {
-    "title": "DealDoktor Black Week Gewinnspiel: PlayStation 5 Pro + GTA 6 gewinnen",
-    "cat": "handy",
-    "value_eur": 700,
-    "deadline": "2026-11-13",
-    "draw_date": "nach Teilnahmeschluss (13.11.2026)",
-    "sponsor": "DealDoktor.de",
-    "description": "Newsletter abonnieren oder Kommentar hinterlassen und 1× PlayStation 5 Pro + GTA 6 gewinnen. Bekanntes Deals-Portal (ZDF, RTL, Sat1 referenziert). Kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://www.dealdoktor.de/magazin/black-friday-gewinnspiel-ps5-pro-gta-6/",
-    "is_real": 1
-  },
-  {
     "title": "ALDIventskalender 2026 (ALDI Nord): Täglich Sofortgewinne im Adventskalender",
     "cat": "gutschein",
     "value_eur": null,
@@ -305,6 +294,50 @@
     "sponsor": "ROSSMANN GmbH",
     "description": "Täglich ab dem 1. Dezember in der kostenlosen Rossmann-App ein Türchen öffnen und Beauty-Produkte, Sachpreise und Gutscheine gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
     "url": "https://www.rossmann.de/de/online-adventskalender",
+    "is_real": 1
+  },
+  {
+    "title": "Barmer Gewinnspiel: 5× Smart Ring im Wert von je 340 € gewinnen",
+    "cat": "handy",
+    "value_eur": 340,
+    "deadline": "2026-11-19",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Barmer Krankenkasse",
+    "description": "5× Smart Ring (je ca. 340 €, Größe & Design nach Wahl) gewinnen. Kein Kassenmitglied erforderlich, kostenlose Teilnahme, ab 18 Jahre, Wohnsitz Deutschland.",
+    "url": "https://www.barmer.de/formClient/barmer-de/1520304/gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "Lidl Weihnachtsgewinnspiel 2026: BMW X3 20 xDrive (50.000 €) gewinnen",
+    "cat": "auto",
+    "value_eur": 50000,
+    "deadline": "2026-12-26",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Lidl Stiftung & Co. KG",
+    "description": "E-Mail eintragen und BMW X3 20 xDrive (ca. 50.000 €) gewinnen. Kein Kaufzwang, keine Lidl-Kundschaft nötig. Aktionszeitraum 02.11.–26.12.2026.",
+    "url": "https://www.lidl.de/weihnachtsgewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "Rossmann Centaur Rätsel November 2026: 7 Nächte Weissenhäuser Strand gewinnen",
+    "cat": "reise",
+    "value_eur": null,
+    "deadline": "2026-11-30",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "ROSSMANN GmbH / Centaur Kundenmagazin",
+    "description": "Rätsel im gratis Centaur Magazin lösen und 7 Nächte im Weissenhäuser Strand (Ostsee) für bis zu 5 Personen inkl. Frühstück und Badeparadies gewinnen.",
+    "url": "https://www.rossmann.de/cms/gewinnspiele/centaur-raetsel-202611.html",
+    "is_real": 1
+  },
+  {
+    "title": "Lecker.de Adventsgewinnspiel: Räder Lichthaus-Set & 6 Flaschen Freixenet gewinnen",
+    "cat": "lebensmittel",
+    "value_eur": 135,
+    "deadline": "2026-11-30",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Lecker Redaktion / Freixenet",
+    "description": "Formular ausfüllen und 2× Räder Lichthaus-Set + 6 Flaschen Freixenet Carta Medium Dry gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.lecker.de/gewinnspiele/genussvoll-prickelnder-advent-mit-freixenet",
     "is_real": 1
   }
 ]
