@@ -132,17 +132,6 @@
     "is_real": 1
   },
   {
-    "title": "Hurtigruten: 11-tägige Seereise für 2 von Tromsø nach Kopenhagen gewinnen",
-    "cat": "reise",
-    "value_eur": 3500,
-    "deadline": "2026-11-15",
-    "draw_date": "16.11.2026",
-    "sponsor": "Hurtigruten Expeditions",
-    "description": "Newsletter abonnieren und eine 11-tägige Seereise für 2 Personen mit der Arktis-Linie von Tromsø nach Kopenhagen gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich. Reisezeitraum Jan–Apr 2028.",
-    "url": "https://www.hurtigruten.com/de-de/kampagnen/seereise-gewinnen",
-    "is_real": 1
-  },
-  {
     "title": "AIDA Monatsgewinnspiel November 2026: AIDA Kreuzfahrtgutschein gewinnen",
     "cat": "reise",
     "value_eur": 1500,
@@ -259,7 +248,7 @@
     "deadline": "2026-11-30",
     "draw_date": "nach Teilnahmeschluss",
     "sponsor": "Europa-Park GmbH & Co. Mack KG",
-    "description": "Gewinnspielfrage in der Rubrik „Front Row" beantworten und 4 Rulantica Tageskarten (Saison 2026/2027) sowie ein Snorri Fanpaket gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
+    "description": "Gewinnspielfrage in der Rubrik 'Front Row' beantworten und 4 Rulantica Tageskarten (Saison 2026/2027) sowie ein Snorri Fanpaket gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
     "url": "https://www.europapark.de/de/freizeitpark/front-row-gewinnspiel-folge-7",
     "is_real": 1
   },
@@ -338,6 +327,50 @@
     "sponsor": "Lecker Redaktion / Freixenet",
     "description": "Formular ausfüllen und 2× Räder Lichthaus-Set + 6 Flaschen Freixenet Carta Medium Dry gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
     "url": "https://www.lecker.de/gewinnspiele/genussvoll-prickelnder-advent-mit-freixenet",
+    "is_real": 1
+  },
+  {
+    "title": "DERTOUR Fernreisen-Gewinnspiel: Reisegutschein gewinnen",
+    "cat": "reise",
+    "value_eur": 1000,
+    "deadline": "2026-11-22",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "DERTOUR GmbH & Co. KG",
+    "description": "DERTOUR WhatsApp-Kanal abonnieren und an der Verlosung von Fernreise-Gutscheinen teilnehmen. Kostenlose Teilnahme, kein Kauf erforderlich. Teilnahme über Social Media / WhatsApp. Ab 18 Jahren, Wohnsitz Deutschland.",
+    "url": "https://www.dertour.de/fernreisen-gewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "nextpit Adventskalender 2026: Täglich Tech-Preise über 14.000 € Gesamtwert gewinnen",
+    "cat": "handy",
+    "value_eur": 14000,
+    "deadline": "2027-01-03",
+    "draw_date": "täglich ab 01.12.2026",
+    "sponsor": "nextpit / inside digital (Motor Presse Stuttgart)",
+    "description": "Ab 1. Dezember täglich ein Türchen öffnen und Tech-Preise gewinnen – Smartphones, Tablets, Gadgets. Kostenlose Newsletter-Anmeldung genügt zur Teilnahme. Gesamtwert der Preise über 14.000 €.",
+    "url": "https://www.nextpit.de/adventskalender",
+    "is_real": 1
+  },
+  {
+    "title": "connect.de Online Adventskalender 2026: Täglich Tech-Preise + 10-tägige TUI Kreuzfahrt",
+    "cat": "reise",
+    "value_eur": null,
+    "deadline": "2026-12-24",
+    "draw_date": "täglich ab 01.12.2026, Hauptpreis nach Aktionsende",
+    "sponsor": "connect.de / TUI Cruises (Motor Presse Stuttgart)",
+    "description": "Ab 1. Dezember täglich ein Türchen öffnen und Tech-Tagespreise von Nintendo, Razer, Segway u.v.m. gewinnen. Hauptgewinn: 10-tägige Kreuzfahrt für 2 Personen auf der TUI Mein Schiff Flow. Kostenlose Teilnahme.",
+    "url": "https://spiele.connect.de/adventskalender/",
+    "is_real": 1
+  },
+  {
+    "title": "REWE Newsletter Adventskalender 2026: Täglich Preise + Hauptgewinn am 24.12. gewinnen",
+    "cat": "gutschein",
+    "value_eur": null,
+    "deadline": "2026-12-24",
+    "draw_date": "täglich ab 01.12.2026",
+    "sponsor": "REWE Group",
+    "description": "REWE-Newsletter abonnieren und täglich ab 1. Dezember ein Türchen öffnen. Hinter jedem Türchen ein Tagespreis, hinter dem letzten Türchen am 24. Dezember ein besonderer Hauptgewinn. Kostenlose Teilnahme.",
+    "url": "https://www.rewe.de/aktionen/gewinnspiele/nl-adventskalender",
     "is_real": 1
   }
 ]
