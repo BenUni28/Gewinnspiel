@@ -110,17 +110,6 @@
     "is_real": 1
   },
   {
-    "title": "Vodafone Newsletter: PlayStation 5 Pro + GTA 6 gewinnen",
-    "cat": "handy",
-    "value_eur": 820,
-    "deadline": "2026-11-19",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Vodafone GmbH",
-    "description": "Kostenlos zum Newsletter anmelden und 1 von 3 Paketen aus PlayStation 5 Pro + GTA 6 (Digital) gewinnen. Keine Vodafone-Kundschaft erforderlich. Teilnahme ab 18 Jahren.",
-    "url": "https://www.vodafone.de/vos-gewinnspiel-playstation.html",
-    "is_real": 1
-  },
-  {
     "title": "Jägermeister Club: Monatliches Gewinnspiel – exklusive Preise gewinnen",
     "cat": "lebensmittel",
     "value_eur": null,
@@ -286,17 +275,6 @@
     "is_real": 1
   },
   {
-    "title": "Barmer Gewinnspiel: 5× Smart Ring im Wert von je 340 € gewinnen",
-    "cat": "handy",
-    "value_eur": 340,
-    "deadline": "2026-11-19",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Barmer Krankenkasse",
-    "description": "5× Smart Ring (je ca. 340 €, Größe & Design nach Wahl) gewinnen. Kein Kassenmitglied erforderlich, kostenlose Teilnahme, ab 18 Jahre, Wohnsitz Deutschland.",
-    "url": "https://www.barmer.de/formClient/barmer-de/1520304/gewinnspiel",
-    "is_real": 1
-  },
-  {
     "title": "Lidl Weihnachtsgewinnspiel 2026: BMW X3 20 xDrive (50.000 €) gewinnen",
     "cat": "auto",
     "value_eur": 50000,
@@ -371,6 +349,50 @@
     "sponsor": "REWE Group",
     "description": "REWE-Newsletter abonnieren und täglich ab 1. Dezember ein Türchen öffnen. Hinter jedem Türchen ein Tagespreis, hinter dem letzten Türchen am 24. Dezember ein besonderer Hauptgewinn. Kostenlose Teilnahme.",
     "url": "https://www.rewe.de/aktionen/gewinnspiele/nl-adventskalender",
+    "is_real": 1
+  },
+  {
+    "title": "BMW M Special 2026: Exklusive BMW M Fahrerlebnisse gewinnen",
+    "cat": "auto",
+    "value_eur": null,
+    "deadline": "2026-12-10",
+    "draw_date": "spätestens Januar 2027 (4 Wochen nach Teilnahmeschluss)",
+    "sponsor": "Bayerische Motoren Werke AG (BMW)",
+    "description": "Jetzt am offiziellen BMW Gewinnspiel 'M SPECIAL 2026' teilnehmen und exklusive BMW M Fahrerlebnisse gewinnen. Kostenlose Teilnahme per Online-Formular, kein Kauf erforderlich. Ab 18 Jahren, Führerschein Klasse B.",
+    "url": "https://www.bmw.de/de/mehr-bmw/landingpage/bmw-M-Special-2026.html",
+    "is_real": 1
+  },
+  {
+    "title": "BIGbalance Health: Smartwatch der 12. Gen. + 10× BLACKROLL-Kurs gewinnen",
+    "cat": "handy",
+    "value_eur": 400,
+    "deadline": "2026-12-23",
+    "draw_date": "bis 10.01.2027",
+    "sponsor": "BIG direkt gesund (Betriebskrankenkasse)",
+    "description": "Kostenlos bei BIGbalance Health anmelden und 1× Smartwatch (12. Generation) sowie 10× BLACKROLL Online-Präventionskurs 'Nacken' inkl. Zubehör gewinnen. Teilnahme vom 15.11.–23.12.2026, keine Versicherungspflicht.",
+    "url": "https://bigbalance.health/gewinnspiel-november-2026",
+    "is_real": 1
+  },
+  {
+    "title": "AIDA Monatsgewinnspiel Dezember 2026: AIDA Kreuzfahrtgutschein gewinnen",
+    "cat": "reise",
+    "value_eur": 1500,
+    "deadline": "2026-12-31",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "AIDA Cruises",
+    "description": "Monatlich einen AIDA Kreuzfahrtgutschein gewinnen. Newsletter abonnieren und Gewinnspielfrage beantworten – kostenlose Teilnahme, kein Kauf erforderlich. Dezember-Gewinnspiel ab 01.12.2026.",
+    "url": "https://aida.de/buchung/aktionen/gewinnspiele/monatsgewinnspiel",
+    "is_real": 1
+  },
+  {
+    "title": "selbst.de Großer Adventskalender 2026: 28 Preise im Gesamtwert von 7.000 € gewinnen",
+    "cat": "haus",
+    "value_eur": 7000,
+    "deadline": "2026-12-31",
+    "draw_date": "täglich ab 01.12.2026",
+    "sponsor": "BAUER XCEL MEDIA DEUTSCHLAND KG (selbst.de)",
+    "description": "Täglich ab dem 1. Dezember ein Türchen öffnen und 28 Preise im Gesamtwert von über 7.000 € gewinnen – Werkzeug, Heimwerkerbedarf, Einrichtung. Kostenlose Teilnahme per Formular, kein Kauf erforderlich.",
+    "url": "https://www.selbst.de/adventskalender",
     "is_real": 1
   }
 ]
