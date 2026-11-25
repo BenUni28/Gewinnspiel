@@ -220,17 +220,6 @@
     "is_real": 1
   },
   {
-    "title": "Europa-Park Front Row Gewinnspiel Folge 7: 4× Rulantica Tageskarten + Snorri Fanpaket",
-    "cat": "reise",
-    "value_eur": 200,
-    "deadline": "2026-11-30",
-    "draw_date": "nach Teilnahmeschluss",
-    "sponsor": "Europa-Park GmbH & Co. Mack KG",
-    "description": "Gewinnspielfrage in der Rubrik 'Front Row' beantworten und 4 Rulantica Tageskarten (Saison 2026/2027) sowie ein Snorri Fanpaket gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://www.europapark.de/de/freizeitpark/front-row-gewinnspiel-folge-7",
-    "is_real": 1
-  },
-  {
     "title": "AIDA Online-Adventskalender 2026: Täglich AIDA-Gutscheine gewinnen",
     "cat": "reise",
     "value_eur": 3000,
@@ -330,17 +319,6 @@
     "is_real": 1
   },
   {
-    "title": "BMW M Special 2026: Exklusive BMW M Fahrerlebnisse gewinnen",
-    "cat": "auto",
-    "value_eur": null,
-    "deadline": "2026-12-10",
-    "draw_date": "spätestens Januar 2027 (4 Wochen nach Teilnahmeschluss)",
-    "sponsor": "Bayerische Motoren Werke AG (BMW)",
-    "description": "Jetzt am offiziellen BMW Gewinnspiel 'M SPECIAL 2026' teilnehmen und exklusive BMW M Fahrerlebnisse gewinnen. Kostenlose Teilnahme per Online-Formular, kein Kauf erforderlich. Ab 18 Jahren, Führerschein Klasse B.",
-    "url": "https://www.bmw.de/de/mehr-bmw/landingpage/bmw-M-Special-2026.html",
-    "is_real": 1
-  },
-  {
     "title": "BIGbalance Health: Smartwatch der 12. Gen. + 10× BLACKROLL-Kurs gewinnen",
     "cat": "handy",
     "value_eur": 400,
@@ -393,6 +371,39 @@
     "sponsor": "PC-WELT / ZOTAC",
     "description": "Beim PC-WELT Black-Friday-Gewinnspiel eine limitierte ZOTAC Gaming GeForce RTX 5080 (weltweit nur 2.000 Stück, Wert ca. 2.500 €) gewinnen. Kostenlose Teilnahme per Online-Formular, Teilnahmeschluss 30.11.2026.",
     "url": "https://www.pcwelt.de/?p=3281698",
+    "is_real": 1
+  },
+  {
+    "title": "inside-digital Online Adventskalender 2026: Täglich Tech-Preise gewinnen",
+    "cat": "handy",
+    "value_eur": null,
+    "deadline": "2026-12-27",
+    "draw_date": "täglich ab 01.12.2026, Treue-Preis am 27.12.2026",
+    "sponsor": "inside digital GmbH (Motor Presse Stuttgart)",
+    "description": "Täglich ab 1. Dezember ein Türchen öffnen und Tech-Preise gewinnen. Am 27. Dezember gibt es zusätzlich einen Treue-Preis für alle Teilnehmer. Kostenlose Teilnahme per E-Mail-Anmeldung, jederzeit wieder abbestellbar.",
+    "url": "https://www.inside-digital.de/adventskalender",
+    "is_real": 1
+  },
+  {
+    "title": "hessnatur Adventskalender 2026: Täglich Kleidung & Bio-Hotel-Gutscheine gewinnen",
+    "cat": "mode",
+    "value_eur": null,
+    "deadline": "2026-12-24",
+    "draw_date": "täglich ab 01.12.2026",
+    "sponsor": "hessnatur Textil GmbH",
+    "description": "Täglich ab 1. Dezember ein Türchen öffnen und nachhaltige Kleidung, Heimtextilien und Gutscheine für Bio-Hotels gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://adventskalender.hessnatur.com",
+    "is_real": 1
+  },
+  {
+    "title": "Handwerksblatt Online-Adventskalender 2026: 24 Türchen mit Überraschungsgewinnen",
+    "cat": "haus",
+    "value_eur": null,
+    "deadline": "2026-12-24",
+    "draw_date": "täglich ab 01.12.2026",
+    "sponsor": "Handwerksblatt (Holtzbrink Business Media GmbH)",
+    "description": "Täglich ab 1. Dezember ein Türchen öffnen und 24 Überraschungsgewinne für Handwerker und Heimwerker gewinnen. Kostenlose Teilnahme, optionaler Newsletter.",
+    "url": "https://www.handwerksblatt.de/panorama/gesellschaft/handwerksblatt-online-adventskalender-2026",
     "is_real": 1
   }
 ]
