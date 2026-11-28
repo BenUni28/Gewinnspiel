@@ -55,17 +55,6 @@
     "is_real": 1
   },
   {
-    "title": "Europa-Park ep-news Gewinnspiel: Hotelübernachtung + Europa-Park & Rulantica Tickets gewinnen",
-    "cat": "reise",
-    "value_eur": 500,
-    "deadline": "2026-11-27",
-    "draw_date": "30.11.2026",
-    "sponsor": "Europa-Park GmbH & Co. Mack KG",
-    "description": "Gewinnspielfrage im ep-news-Formular beantworten und eine Nacht im 4-Sterne Superior Erlebnishotel + Tagestickets für Europa-Park & Rulantica für bis zu 4 Personen gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
-    "url": "https://www.europapark.de/de/freizeitpark/ep-news-gewinnspiel-2",
-    "is_real": 1
-  },
-  {
     "title": "Europa-Park Umfrage: Erlebnisaufenthalt für 4 Personen gewinnen",
     "cat": "reise",
     "value_eur": 600,
@@ -172,7 +161,7 @@
     "draw_date": "täglich ab 01.12.2026",
     "sponsor": "t-online (Telekom Deutschland GmbH)",
     "description": "Ab dem 1. Dezember täglich ein Türchen öffnen und Preise gewinnen. Kostenlose Teilnahme auf t-online.de, kein Kauf oder Telekom-Vertrag erforderlich.",
-    "url": "https://www.t-online.de/spiele/online-adventskalender/",
+    "url": "https://www.t-online.de/adventskalender/",
     "is_real": 1
   },
   {
@@ -404,6 +393,28 @@
     "sponsor": "Handwerksblatt (Holtzbrink Business Media GmbH)",
     "description": "Täglich ab 1. Dezember ein Türchen öffnen und 24 Überraschungsgewinne für Handwerker und Heimwerker gewinnen. Kostenlose Teilnahme, optionaler Newsletter.",
     "url": "https://www.handwerksblatt.de/panorama/gesellschaft/handwerksblatt-online-adventskalender-2026",
+    "is_real": 1
+  },
+  {
+    "title": "DAV Weihnachtsrätsel 2026: 15 Outdoor-Preise inkl. Kletterhelm gewinnen",
+    "cat": "sport",
+    "value_eur": null,
+    "deadline": "2026-12-13",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Deutscher Alpenverein (DAV)",
+    "description": "Lösungswort des Weihnachtsrätsels eintragen und unter 15 Outdoor-Gewinnen ausgelost werden – von Kletterhelmen bis Outdoor-Ausrüstung. Kostenlose Teilnahme per E-Mail-Formular, kein Kauf oder DAV-Mitgliedschaft erforderlich.",
+    "url": "https://www.alpenverein.de/artikel/weihnachtsraetsel_79317623-df81-48ca-beec-eec2d700874d",
+    "is_real": 1
+  },
+  {
+    "title": "Bergzeit Glückspilz: 2× La Sportiva Lumina 200 Daunenjacke gewinnen",
+    "cat": "sport",
+    "value_eur": 1000,
+    "deadline": "2026-12-14",
+    "draw_date": "nach Teilnahmeschluss",
+    "sponsor": "Bergzeit GmbH",
+    "description": "Formular ausfüllen und 1 von 2 La Sportiva Lumina 200 Daunenjacken (Wert je ~500 €) gewinnen. Kostenlose Teilnahme, kein Kauf erforderlich.",
+    "url": "https://www.bergzeit.de/magazin/la-sportiva-lumina-jacke-bergzeit-glueckspilz/",
     "is_real": 1
   }
 ]

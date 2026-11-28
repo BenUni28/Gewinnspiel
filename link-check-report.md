@@ -1,93 +1,115 @@
-# Link-Check-Bericht – 2026-11-25
+# Gewinnspiele Link-Check-Bericht – 2026-11-28
+
+**Lauf:** 2026-11-28 | **Neu:** 2 | **Entfernt:** 1 | **URL-Updates:** 1 | **Gesamt aktiv:** 38
+
+---
 
 ## Zusammenfassung
 
-| Kategorie | Anzahl |
-|-----------|--------|
-| Einträge geprüft (vorher) | 36 |
-| Neu hinzugefügt | 3 |
-| Entfernt | 2 |
-| Einträge nach Lauf | 37 |
+| Aktion | Anzahl |
+|--------|--------|
+| Geprüfte bestehende Einträge | 37 |
+| ✅ OK / ⚠️ Nicht verifizierbar (403) | 36 |
+| ❌ Entfernt (abgelaufen) | 1 |
+| 🔗 URL aktualisiert | 1 |
+| ➕ Neu hinzugefügt | 2 |
+| **Gesamt in Queue** | **38** |
 
-**Hinweis zur Methodik:** WebFetch ist in dieser Cloud-Umgebung durch die Netzwerk-Policy vollständig gesperrt (ENOTFOUND für alle externen Domains). Alle URL-Prüfungen wurden daher ausschließlich per WebSearch-Snippets und Suchergebnis-Belegen durchgeführt. Dies entspricht der HTTP-403-Fallback-Regel (WebSearch-Snippet-Prüfung). Die Verifikationsqualität ist dadurch eingeschränkt – direkte Seitenprüfung war nicht möglich.
-
----
-
-## Neu hinzugefügte Einträge (3)
-
-### ✅ inside-digital Online Adventskalender 2026
-- **URL:** https://www.inside-digital.de/adventskalender
-- **Kategorie:** handy
-- **Deadline:** 2026-12-27
-- **Bestätigung:** Teilnahmebedingungen-Seite (inside-digital.de/adventskalender-bedingungen) und individuelle Türchen-Seiten (1-dezember-2026, 24-dezember-2026) in Suchergebnissen gefunden. Kostenlose Newsletter-Anmeldung bestätigt. Treue-Preis am 27.12. bestätigt.
-
-### ✅ hessnatur Adventskalender 2026
-- **URL:** https://adventskalender.hessnatur.com
-- **Kategorie:** mode
-- **Deadline:** 2026-12-24
-- **Bestätigung:** Dedizierte Subdomain adventskalender.hessnatur.com von utopia.de als jährliche Tradition bestätigt. Kostenlose Teilnahme, Preise: nachhaltige Kleidung, Heimtextilien, Bio-Hotel-Gutscheine.
-
-### ✅ Handwerksblatt Online-Adventskalender 2026
-- **URL:** https://www.handwerksblatt.de/panorama/gesellschaft/handwerksblatt-online-adventskalender-2026
-- **Kategorie:** haus
-- **Deadline:** 2026-12-24
-- **Bestätigung:** Seite direkt in Suchergebnissen gefunden mit „24 großartige Überraschungen", Start ab 01.12., optionaler Newsletter. Kostenlose Teilnahme.
+> **Hinweis zur Netzwerkumgebung:** In dieser Cloud-Ausführungsumgebung sind direkte WebFetch-Zugriffe auf deutsche Verbraucher-Domains (.de) blockiert (ENOTFOUND). Alle URL-Prüfungen wurden daher via WebSearch (Snippet-Bestätigung) durchgeführt – gemäß der 403-Fallback-Regel aus CLAUDE.md.
 
 ---
 
-## Entfernte Einträge (2)
+## Entfernte Einträge
 
-### ❌ BMW M Special 2026 – DEFEKT
-- **URL:** https://www.bmw.de/de/mehr-bmw/landingpage/bmw-M-Special-2026.html
-- **Grund:** Mehrere WebSearch-Ergebnisse zeigen „Website momentan nicht verfügbar" für diese Landing Page. Die Seite ist nicht mehr erreichbar, kein aktives Gewinnspiel mehr bestätigbar.
-
-### ❌ Europa-Park Front Row Gewinnspiel Folge 7 – ABGELAUFEN
-- **URL:** https://www.europapark.de/de/freizeitpark/front-row-gewinnspiel-folge-7
-- **Grund:** Tatsächlicher Teilnahmezeitraum: 29.10.2026 bis 25.11.2026 um 23:59 Uhr (heute). In der Queue war fälschlicherweise 30.11.2026 als Deadline eingetragen. Das Gewinnspiel läuft heute (25.11.2026) ab und ist damit nicht mehr für neue Nutzer relevant.
+| Titel | Grund | URL |
+|-------|-------|-----|
+| Europa-Park ep-news Gewinnspiel: Hotelübernachtung + Europa-Park & Rulantica Tickets gewinnen | ❌ DEFEKT – Deadline 2026-11-27 abgelaufen (gestern) | https://www.europapark.de/de/freizeitpark/ep-news-gewinnspiel-2 |
 
 ---
 
-## Geprüfte Einträge – Status
+## URL-Aktualisierungen
 
-| Titel | Status | Deadline | Bemerkung |
-|-------|--------|----------|-----------|
-| Wüstenrot iPhone 17 Pro & Galaxy S25 | ✅ OK | 2027-02-28 | Aktiv bestätigt |
-| schuhe.de monatlich Paar Schuhe | ✅ OK | 2026-12-31 | Spezifische Gewinnspiel-Seite |
-| Mannheimer Morgen 80 Jahre: 5.000€ Reise | ✅ OK | 2026-12-31 | Jubiläums-URL bestätigt |
-| Steuertipps 50 Jahre: 3.000€ Reise | ✅ OK | 2026-12-31 | Jubiläums-URL aktiv |
-| Mein Grundeinkommen: 1.000€/Monat | ✅ OK | 2027-06-30 | Dauerverlosung aktiv |
-| Europa-Park ep-news: Hotelübernachtung | ✅ OK | 2026-11-27 | Noch 2 Tage aktiv |
-| Europa-Park Umfrage: Erlebnisaufenthalt | ✅ OK | 2027-01-19 | URL bestätigt |
-| dm Glückskind × babylove: Familienurlaub | ✅ OK | 2027-06-30 | Spezifische Produktseite |
-| Europa-Park Rulantica: Hotel Krønasår | ✅ OK | 2027-01-10 | URL bestätigt |
-| Schauinsland-Reisen Adventskalender | ✅ OK | 2026-12-26 | Für Dez. bestätigt |
-| Jägermeister Club: monatliches Gewinnspiel | ✅ OK | 2026-12-31 | Spezifische Club-Seite |
-| AIDA Monatsgewinnspiel November 2026 | ✅ OK | 2026-11-30 | Noch 5 Tage aktiv |
-| trendtours Monatsgewinnspiel November | ✅ OK | 2026-12-09 | URL bestätigt |
-| urlaubspiraten: Winterreise 4.000€ | ✅ OK | 2027-03-31 | URL bestätigt aktiv |
-| dm Online Adventskalender 2026 | ✅ OK | 2026-12-24 | Spezifische Kalender-Seite |
-| t-online Adventskalender 2026 | ✅ OK | 2026-12-24 | Malediven Hauptpreis 10.000€ bestätigt |
-| t3n Adventskalender 2026 | ✅ OK | 2026-12-24 | Teilnahmebedingungen bestätigt |
-| outdoor magazin Adventskalender 2026 | ✅ OK | 2026-12-24 | Aktiv (Tag 12 in Suchergebnissen) |
-| ALDIventskalender 2026 (ALDI Nord) | ✅ OK | 2026-12-24 | Ab 01.12. bestätigt |
-| urlaubsguru Adventskalender 2026 | ✅ OK | 2026-12-24 | URL bestätigt |
-| AIDA Online-Adventskalender 2026 | ✅ OK | 2026-12-24 | URL bestätigt aktiv |
-| auto motor und sport Adventskalender | ✅ OK | 2026-12-24 | URL bestätigt |
-| Rossmann Online-Adventskalender 2026 | ✅ OK | 2026-12-24 | URL bestätigt |
-| Lidl Weihnachtsgewinnspiel BMW X3 | ✅ OK | 2026-12-26 | URL bestätigt (02.11.–26.12.2026) |
-| Rossmann Centaur Rätsel November 2026 | ✅ OK | 2026-11-30 | Noch 5 Tage aktiv |
-| Lecker.de Freixenet Advent | ✅ OK | 2026-11-30 | URL in Suchergebnissen bestätigt |
-| nextpit Adventskalender 2026 | ✅ OK | 2027-01-03 | URL bestätigt |
-| connect.de Adventskalender 2026 | ✅ OK | 2026-12-24 | URL bestätigt |
-| REWE Newsletter Adventskalender 2026 | ✅ OK | 2026-12-24 | URL bestätigt |
-| BIGbalance Health Smartwatch-Gewinnspiel | ✅ OK | 2026-12-23 | Spezifische URL aktiv |
-| AIDA Monatsgewinnspiel Dezember 2026 | ✅ OK | 2026-12-31 | URL bestätigt |
-| selbst.de Großer Adventskalender 2026 | ✅ OK | 2026-12-31 | Teilnahmebedingungen bestätigt |
-| Klettern-Magazin Adventskalender 2026 | ✅ OK | 2026-12-24 | Tag 24 in Suchergebnissen bestätigt |
-| PC-WELT RTX 5080 Black Friday 2026 | ✅ OK | 2026-11-30 | URL bestätigt, noch 5 Tage aktiv |
+| Titel | Alte URL | Neue URL | Grund |
+|-------|----------|----------|-------|
+| t-online Online-Adventskalender 2026 | https://www.t-online.de/spiele/online-adventskalender/ | https://www.t-online.de/adventskalender/ | WebSearch bestätigt aktuelle 2026-URL als /adventskalender/ |
 
 ---
 
-## Recherche-Hinweis
+## Neu hinzugefügte Einträge
 
-Für diesen Lauf wurden 30+ WebSearch-Abfragen über zahlreiche Marken und Kategorien durchgeführt (MediaMarkt, TUI, Kaufland, Penny, Hornbach, OBI, Intersport, FC Bayern, Netto, EDEKA, lecker.de, Brigitte, BILD, chip.de, heise.de, motorradonline.de u.v.m.). Da WebFetch vollständig gesperrt ist, konnten nur Einträge hinzugefügt werden, die durch WebSearch-Snippets direkt belegt sind. Viele potenzielle 2026-Adventskalender sind aktuell noch nicht im Suchindex (Start 01.12.2026) oder zeigten nur abgelaufene Inhalte.
+### 1. DAV Weihnachtsrätsel 2026
+- **Sponsor:** Deutscher Alpenverein (DAV)
+- **Kategorie:** sport
+- **URL:** https://www.alpenverein.de/artikel/weihnachtsraetsel_79317623-df81-48ca-beec-eec2d700874d
+- **Deadline:** 13.12.2026
+- **Auslosung:** nach Teilnahmeschluss
+- **Preis:** 15 Outdoor-Preise (Petzl METEOR Kletterhelm als 15. Preis; höherwertige Outdoor-Ausrüstung davor)
+- **Teilnahme:** Lösungswort per E-Mail-Formular einsenden – kostenlos, kein Kauf, keine Mitgliedschaft erforderlich
+- **Prüfung:** ✅ Teilnahmebedingungen (alpenverein.de/verband/teilnahmebedingungen-weihnachten_2026, Datum: 02.11.2026) bestätigen kostenloses, kaufunabhängiges Gewinnspiel ohne Mitgliedschaftspflicht
+
+### 2. Bergzeit Glückspilz: La Sportiva Lumina 200 Daunenjacke
+- **Sponsor:** Bergzeit GmbH
+- **Kategorie:** sport
+- **URL:** https://www.bergzeit.de/magazin/la-sportiva-lumina-jacke-bergzeit-glueckspilz/
+- **Deadline:** 14.12.2026
+- **Auslosung:** nach Teilnahmeschluss
+- **Preis:** 2× La Sportiva Lumina 200 Daunenjacke (~500 € je Stück, ~1.000 € Gesamtwert)
+- **Teilnahme:** Formular ausfüllen – kostenlos, kein Kauf erforderlich
+- **Prüfung:** ✅ WebSearch bestätigt spezifisches Gewinnspiel mit konkretem Preis, direkter URL des Veranstalters (bergzeit.de), Deadline und kostenlosem Teilnahmeweg
+
+---
+
+## Bestandsprüfung – alle verbleibenden 36 Einträge
+
+| Status | Titel | Deadline | Bemerkung |
+|--------|-------|----------|-----------|
+| ✅ OK | Wüstenrot Gewinnspiel 2026: 2× iPhone 17 Pro & 2× Samsung Galaxy S25 Ultra | 2027-02-28 | Aktiv |
+| ✅ OK | schuhe.de: Monatlich ein Paar Schuhe bis 150 € gewinnen | 2026-12-31 | Aktiv |
+| ✅ OK | Mannheimer Morgen 80-Jahre Jubiläum: 5.000 € Reisegutschein oder E-Bike gewinnen | 2026-12-31 | Aktiv |
+| ✅ OK | Steuertipps 50 Jahre: 3.000 € Reisegutschein & Samsung Preise gewinnen | 2026-12-31 | Aktiv |
+| ✅ OK | Mein Grundeinkommen: Monatlich 1.000 € für ein Jahr gewinnen | 2027-06-30 | Aktiv |
+| ✅ OK | Europa-Park Umfrage: Erlebnisaufenthalt für 4 Personen gewinnen | 2027-01-19 | Aktiv |
+| ✅ OK | dm Glückskind × babylove: Monatlich Familienurlaub gewinnen | 2027-06-30 | Aktiv |
+| ✅ OK | Europa-Park Rulantica: Aufenthalt im Hotel Krønasår gewinnen | 2027-01-10 | Aktiv |
+| ✅ OK | Schauinsland-Reisen Adventskalender 2026 | 2026-12-26 | Start 01.12. |
+| ✅ OK | Jägermeister Club: Monatliches Gewinnspiel | 2026-12-31 | Aktiv |
+| ⚠️ Nicht verifizierbar (403) | AIDA Monatsgewinnspiel November 2026 | 2026-11-30 | 2 Tage verbleibend |
+| ✅ OK | trendtours Monatsgewinnspiel November 2026 | 2026-12-09 | Aktiv |
+| ✅ OK | urlaubspiraten: Winterreise nach Wahl für 2 Personen gewinnen | 2027-03-31 | Aktiv |
+| ✅ OK | dm Online Adventskalender 2026 | 2026-12-24 | Start 01.12. |
+| 🔗 URL-Update | t-online Online-Adventskalender 2026 | 2026-12-24 | URL auf /adventskalender/ korrigiert |
+| ✅ OK | t3n Adventskalender 2026 | 2026-12-24 | Start 01.12. |
+| ✅ OK | outdoor magazin Adventskalender 2026 | 2026-12-24 | Start 01.12. |
+| ✅ OK | ALDIventskalender 2026 (ALDI Nord) | 2026-12-24 | Start 01.12. |
+| ✅ OK | urlaubsguru Adventskalender 2026 | 2026-12-24 | Start 01.12. |
+| ✅ OK | AIDA Online-Adventskalender 2026 | 2026-12-24 | Start 01.12. |
+| ✅ OK | auto motor und sport Adventskalender 2026 | 2026-12-24 | Start 01.12. |
+| ✅ OK | Rossmann Online-Adventskalender 2026 | 2026-12-24 | Start 01.12. |
+| ✅ OK | Lidl Weihnachtsgewinnspiel 2026: BMW X3 gewinnen | 2026-12-26 | Aktiv |
+| ⚠️ Nicht verifizierbar (403) | Rossmann Centaur Rätsel November 2026 | 2026-11-30 | 2 Tage verbleibend |
+| ⚠️ Nicht verifizierbar (403) | Lecker.de Adventsgewinnspiel | 2026-11-30 | 2 Tage verbleibend |
+| ✅ OK | nextpit Adventskalender 2026 | 2027-01-03 | Start 01.12. |
+| ✅ OK | connect.de Online Adventskalender 2026 | 2026-12-24 | Start 01.12. |
+| ✅ OK | REWE Newsletter Adventskalender 2026 | 2026-12-24 | Start 01.12. |
+| ✅ OK | BIGbalance Health: Smartwatch der 12. Gen. gewinnen | 2026-12-23 | Aktiv |
+| ✅ OK | AIDA Monatsgewinnspiel Dezember 2026 | 2026-12-31 | Start 01.12. |
+| ✅ OK | selbst.de Großer Adventskalender 2026 | 2026-12-31 | Start 01.12. |
+| ✅ OK | Klettern-Magazin Adventskalender 2026 | 2026-12-24 | Start 01.12. |
+| ⚠️ Nicht verifizierbar (403) | PC-WELT Black Friday 2026: RTX 5080 gewinnen | 2026-11-30 | 2 Tage verbleibend |
+| ✅ OK | inside-digital Online Adventskalender 2026 | 2026-12-27 | Start 01.12. |
+| ✅ OK | hessnatur Adventskalender 2026 | 2026-12-24 | Start 01.12. |
+| ✅ OK | Handwerksblatt Online-Adventskalender 2026 | 2026-12-24 | Start 01.12. |
+
+---
+
+## Recherchierte, aber nicht aufgenommene Quellen
+
+| Quelle | Grund |
+|--------|-------|
+| More Nutrition ADK Gewinnspiel | Kostenlose Variante lief bis 01.10.2026 – abgelaufen; Black-Week-Variante erfordert Produktkauf |
+| AVM FRITZ! Adventskalender 2026 | Deadline war 23.11.2026 – abgelaufen |
+| teltarif.de Adventskalender 2026 | Nur 2025-Edition verifizierbar; 2026-Edition noch nicht bestätigt |
+| MediaMarkt/Saturn Adventskalender 2026 | Kein Gewinnspiel-Pendant gefunden (nur Produktverkauf) |
+| Allianz "ONCE IN A LIFETIME" Gewinnspiel | Meine Allianz-Registrierung unklar ob frei zugänglich für Nichtkunden |
+| SWM Adventsgewinnspiel 2026 | 2026-Edition noch nicht veröffentlicht |
+| chip.de Adventskalender 2026 | Nur Software-Downloads (kein Gewinnspiel) |
